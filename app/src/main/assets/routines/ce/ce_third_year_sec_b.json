@@ -1,0 +1,171 @@
+{
+  "department": "CE",
+  "year": "3rd Year",
+  "section": "B",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "CE-3105",
+        "courseName": "Environmental Engineering I",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3101",
+        "courseName": "Structural Analysis I",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3301",
+        "courseName": "Geotechnical Engineering I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3103",
+        "courseName": "Design of Concrete Structures I",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3106",
+        "courseName": "Computer Aided Building Design Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11003"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "CE-3101",
+        "courseName": "Structural Analysis I",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "Math-3101",
+        "courseName": "Numerical Methods",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3105",
+        "courseName": "Environmental Engineering I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3103",
+        "courseName": "Design of Concrete Structures I",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3301",
+        "courseName": "Geotechnical Engineering I",
+        "type": "Theory",
+        "time": "12:20 PM - 01:10 PM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3002",
+        "courseName": "Structural Details Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11004"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "CE-3101",
+        "courseName": "Structural Analysis I",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "Math-3101",
+        "courseName": "Numerical Methods",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3301",
+        "courseName": "Geotechnical Engineering I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3103",
+        "courseName": "Design of Concrete Structures I",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3302",
+        "courseName": "Geotechnical Engineering Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "Geo Lab"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "Math-3101",
+        "courseName": "Numerical Methods",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11008"
+      }
+    ],
+    "Thursday": [
+      {
+        "courseCode": "Math-3101",
+        "courseName": "Numerical Methods",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3105",
+        "courseName": "Environmental Engineering I",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3301",
+        "courseName": "Geotechnical Engineering I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3101",
+        "courseName": "Structural Analysis I",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11008"
+      },
+      {
+        "courseCode": "CE-3103",
+        "courseName": "Design of Concrete Structures I",
+        "type": "Theory",
+        "time": "12:20 PM - 01:10 PM",
+        "room": "11008"
+      }
+    ]
+  }
+}

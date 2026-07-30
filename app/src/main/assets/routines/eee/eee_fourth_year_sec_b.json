@@ -1,0 +1,157 @@
+{
+  "department": "EEE",
+  "year": "4th Year",
+  "section": "B",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "EEE 4701",
+        "courseName": "Control Systems",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4203",
+        "courseName": "Power Electronics",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4201",
+        "courseName": "Power System I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4204",
+        "courseName": "Power Electronics Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "419"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "EEE 4903",
+        "courseName": "Semiconductor Devices",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4501",
+        "courseName": "Digital Signal Processing",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4502",
+        "courseName": "Digital Signal Processing Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11001"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "EEE 4201",
+        "courseName": "Power System I",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4701",
+        "courseName": "Control Systems",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4501",
+        "courseName": "Digital Signal Processing",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4202",
+        "courseName": "Power System I Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "419"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "EEE 4203",
+        "courseName": "Power Electronics",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4701",
+        "courseName": "Control Systems",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4903",
+        "courseName": "Semiconductor Devices",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4501",
+        "courseName": "Digital Signal Processing",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4702",
+        "courseName": "Control Systems Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "233"
+      }
+    ],
+    "Thursday": [
+      {
+        "courseCode": "EEE 4203",
+        "courseName": "Power Electronics",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4201",
+        "courseName": "Power System I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4903",
+        "courseName": "Semiconductor Devices",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "9005"
+      },
+      {
+        "courseCode": "EEE 4000",
+        "courseName": "Project and Thesis",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "9005"
+      }
+    ]
+  }
+}

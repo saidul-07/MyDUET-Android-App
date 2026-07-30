@@ -1,0 +1,164 @@
+{
+  "department": "CE",
+  "year": "2nd Year",
+  "section": "B",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "CE-2005",
+        "courseName": "Surveying",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2001",
+        "courseName": "Mechanics of Solids I",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "Math-2101",
+        "courseName": "Linear Algebra",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2003",
+        "courseName": "Engineering Geology",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "HSS-2102",
+        "courseName": "Sociology and Ethics Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "8026"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "Math-2101",
+        "courseName": "Linear Algebra",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2001",
+        "courseName": "Mechanics of Solids I",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2005",
+        "courseName": "Surveying",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2003",
+        "courseName": "Engineering Geology",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2006",
+        "courseName": "Surveying Practical",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "Fluid / Surveying Lab"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "Phy-2101",
+        "courseName": "Physics",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2003",
+        "courseName": "Engineering Geology",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2002",
+        "courseName": "Mechanics of Solids Sessional",
+        "type": "Lab",
+        "time": "10:40 AM - 01:10 PM",
+        "room": "Concrete Lab"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "Phy-2101",
+        "courseName": "Physics",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "Math-2101",
+        "courseName": "Linear Algebra",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "Phy-2102",
+        "courseName": "Physics Sessional",
+        "type": "Lab",
+        "time": "10:40 AM - 01:10 PM",
+        "room": "Physics Lab"
+      }
+    ],
+    "Thursday": [
+      {
+        "courseCode": "Math-2101",
+        "courseName": "Linear Algebra",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2001",
+        "courseName": "Mechanics of Solids I",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "Phy-2101",
+        "courseName": "Physics",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "CE-2005",
+        "courseName": "Surveying",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "8026"
+      },
+      {
+        "courseCode": "HSS-2102",
+        "courseName": "Sociology and Ethics Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11003"
+      }
+    ]
+  }
+}

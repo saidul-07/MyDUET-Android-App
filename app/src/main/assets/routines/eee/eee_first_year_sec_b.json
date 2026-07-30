@@ -1,0 +1,150 @@
+{
+  "department": "EEE",
+  "year": "1st Year",
+  "section": "B",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "Phy 1201",
+        "courseName": "Physics",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "CSE 1113",
+        "courseName": "Computer Fundamentals and Programming",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "EEE 1101",
+        "courseName": "Electrical Circuit I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "HSS 1201",
+        "courseName": "Technical English",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11005"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "CSE 1113",
+        "courseName": "Computer Fundamentals and Programming",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "HSS 1201",
+        "courseName": "Technical English",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "EEE 1101",
+        "courseName": "Electrical Circuit I",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "CSE 1114",
+        "courseName": "Computer Fundamentals and Programming Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11001"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "Math 1201",
+        "courseName": "Differential and Integral Calculus",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "Phy 1201",
+        "courseName": "Physics",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "EEE 1101",
+        "courseName": "Electrical Circuit I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "HSS 1201",
+        "courseName": "Technical English",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "Math 1201",
+        "courseName": "Differential and Integral Calculus",
+        "type": "Theory",
+        "time": "02:00 PM - 02:50 PM",
+        "room": "11005"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "EEE 1102",
+        "courseName": "Electrical Circuit I Sessional",
+        "type": "Lab",
+        "time": "08:00 AM - 10:30 AM",
+        "room": "231 & 233"
+      },
+      {
+        "courseCode": "CSE 1113",
+        "courseName": "Computer Fundamentals and Programming",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "Phy 1202",
+        "courseName": "Physics Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "Physics Lab"
+      }
+    ],
+    "Thursday": [
+      {
+        "courseCode": "Math 1201",
+        "courseName": "Differential and Integral Calculus",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "Phy 1201",
+        "courseName": "Physics",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11005"
+      },
+      {
+        "courseCode": "EEE 1101",
+        "courseName": "Electrical Circuit I",
+        "type": "Theory",
+        "time": "12:20 PM - 01:10 PM",
+        "room": "11005"
+      }
+    ]
+  }
+}

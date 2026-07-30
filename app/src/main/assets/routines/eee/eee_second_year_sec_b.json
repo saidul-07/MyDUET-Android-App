@@ -1,0 +1,164 @@
+{
+  "department": "EEE",
+  "year": "2nd Year",
+  "section": "B",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "Ph 2201",
+        "courseName": "Physics II",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "Ch 2201",
+        "courseName": "Chemistry",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "EEE 2901",
+        "courseName": "Electronics I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "Math 2201",
+        "courseName": "Differential Equations",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "EEE 2301",
+        "courseName": "Electrical Machines I",
+        "type": "Theory",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "9018"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "Ch 2201",
+        "courseName": "Chemistry",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "Math 2201",
+        "courseName": "Differential Equations",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "EEE 2901",
+        "courseName": "Electronics I",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "HSS 2202",
+        "courseName": "Economics and Sociology Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11005"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "Ph 2201",
+        "courseName": "Physics II",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "Math 2201",
+        "courseName": "Differential Equations",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "EEE 2301",
+        "courseName": "Electrical Machines I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "EEE 2901",
+        "courseName": "Electronics I",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "Ph 2202 / Ch 2202",
+        "courseName": "Physics II / Chemistry Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "Physics/Chemistry Lab"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "Ch 2201",
+        "courseName": "Chemistry",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "Ph 2201",
+        "courseName": "Physics II",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "EEE 2302",
+        "courseName": "Electrical Machines I Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "111"
+      }
+    ],
+    "Thursday": [
+      {
+        "courseCode": "Ch 2201",
+        "courseName": "Chemistry",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "Ph 2201",
+        "courseName": "Physics II",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "EEE 2301",
+        "courseName": "Electrical Machines I",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "9018"
+      },
+      {
+        "courseCode": "Math 2201",
+        "courseName": "Differential Equations",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "9018"
+      }
+    ]
+  }
+}

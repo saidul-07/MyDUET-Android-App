@@ -1,0 +1,150 @@
+{
+  "department": "CE",
+  "year": "1st Year",
+  "section": "B",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "CE-1001",
+        "courseName": "Engineering Mechanics",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "Math-1101",
+        "courseName": "Differential and Integral Calculus",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "Ch-1101",
+        "courseName": "Chemistry",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "Math-1101",
+        "courseName": "Differential and Integral Calculus",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "Ch-1102 / Phy-1102",
+        "courseName": "Chemistry Sessional / Physics Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "Ch-Lab/Phy Lab"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "HSS-1101",
+        "courseName": "Technical English",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "Ch-1101",
+        "courseName": "Chemistry",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "Phy-1101",
+        "courseName": "Physics",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "Math-1101",
+        "courseName": "Differential and Integral Calculus",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "CE-1002",
+        "courseName": "Civil Engineering Drawing Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "6017/11004"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "Phy-1101",
+        "courseName": "Physics",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "HSS-1101",
+        "courseName": "Technical English",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "CE-1001",
+        "courseName": "Engineering Mechanics",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "Ch-1101",
+        "courseName": "Chemistry",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "8010"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "Math-1101",
+        "courseName": "Differential and Integral Calculus",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "Phy-1101",
+        "courseName": "Physics",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "CE-1001",
+        "courseName": "Engineering Mechanics",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "8010"
+      },
+      {
+        "courseCode": "HSS-1101",
+        "courseName": "Technical English",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "8010"
+      }
+    ],
+    "Thursday": [
+      {
+        "courseCode": "Ch-1101",
+        "courseName": "Chemistry",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "8010"
+      }
+    ]
+  }
+}

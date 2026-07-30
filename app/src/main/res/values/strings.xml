@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">MyDUET</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="student_name">Sayedul Islam</string>
+    <string name="student_dept">Computer Science &amp; Engineering</string>
+    <string name="student_batch">2020 Batch</string>
+    <string name="student_id">194000</string>
+    <string name="search_hint">Search services, notices...</string>
+    <string name="quick_services">Quick Services</string>
+
+    <!-- Service Names -->
+    <string name="service_notices">Notices</string>
+    <string name="service_library">Library</string>
+    <string name="service_medical">Medical</string>
+    <string name="service_clubs">Clubs</string>
+    <string name="service_ugr">UGR Info</string>
+    <string name="service_pgr">PGR Info</string>
+    <string name="service_routine">Routine</string>
+    <string name="service_emergency">Emergency</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_notices">Notices</string>
+    <string name="nav_services">Services</string>
+    <string name="nav_profile">Profile</string>
+    <string name="desc_notifications">Notifications</string>
+    <string name="desc_profile">Profile</string>
+
+    <string name="login">Login</string>
+    <string name="username_hint">Student ID / Email</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_title">DUET Student Portal</string>
+    <string name="login_subtitle">Enter your credentials to continue</string>
+
+    <!-- Notice Module -->
+    <string name="notice_title">Latest Notices</string>
+    <string name="notice_search_hint">Search notices...</string>
+    <string name="notice_read_full">Read Full Notice</string>
+    <string name="notice_retry">Retry</string>
+    <string name="notice_no_internet">No Internet Connection</string>
+    <string name="notice_empty">No notices available</string>
+
+    <!-- Official DUET Categories -->
+    <string name="category_all">All Notices</string>
+    <string name="category_academic">Academic Notices</string>
+    <string name="category_admission">Admission Notices</string>
+    <string name="category_career">Career Notices</string>
+    <string name="category_noc_go">NOC/GO Notices</string>
+    <string name="category_tender">Tender Notices</string>
+    <string name="category_others">Others</string>
+    <!-- Emergency Module -->
+    <string name="emergency_title">Emergency Contacts</string>
+    <string name="emergency_medical">Medical Services</string>
+    <string name="emergency_security">Security Office</string>
+    <string name="emergency_proctor">Proctor Office</string>
+    <string name="emergency_transport">Transport Office</string>
+    <string name="emergency_halls">Hall Offices</string>
+    <string name="emergency_ict">ICT Cell</string>
+
+    <string name="desc_medical">Ambulance and Medical Center</string>
+    <string name="desc_security">Campus security and patrol</string>
+    <string name="desc_proctor">Disciplinary and proctorial body</string>
+    <string name="desc_transport">Bus schedules and support</string>
+    <string name="desc_halls">Provost and hall administration</string>
+    <string name="desc_ict">Email, network and account help</string>
+
+    <string name="call_us">Call</string>
+    <string name="email_us">Email</string>
+    <string name="view_location">View Location</string>
+
+    <!-- Notice Placeholders -->
+    <string name="notice_placeholder_category">📢 Academic Notices</string>
+    <string name="notice_placeholder_title">Final Examination Routine</string>
+    <string name="notice_placeholder_description">The Level-3 Term-I examination routine has been published for all departments of DUET.</string>
+    <string name="notice_placeholder_date">24 July 2026</string>
+
+    <!-- Routine Module -->
+    <string name="routine_header_info">%1$s • %2$s</string>
+    <string name="routine_title_today">Today\'s Routine</string>
+    <string name="routine_title_day">%1$s\'s Routine</string>
+    <string name="routine_no_classes">No Classes</string>
+    <string name="routine_class_count">%1$d Classes</string>
+    <string name="routine_next_countdown_h_m">Starts in %1$dh %2$dm</string>
+    <string name="routine_next_countdown_m">Starts in %1$dm</string>
+</resources>

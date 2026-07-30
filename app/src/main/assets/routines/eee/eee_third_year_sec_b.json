@@ -1,0 +1,143 @@
+{
+  "department": "EEE",
+  "year": "3rd Year",
+  "section": "B",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "EEE 3501",
+        "courseName": "Continuous Signals and Systems",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "405"
+      },
+      {
+        "courseCode": "Math 3201",
+        "courseName": "Numerical Methods and Statistics",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "405"
+      },
+      {
+        "courseCode": "EEE 3601",
+        "courseName": "Communication Theory",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "405"
+      },
+      {
+        "courseCode": "HSS 3201",
+        "courseName": "Technical Writing",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "405"
+      },
+      {
+        "courseCode": "EEE 3502",
+        "courseName": "Continuous Signals and Systems Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "231"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "EEE 3601",
+        "courseName": "Communication Theory",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "405"
+      },
+      {
+        "courseCode": "EEE 3801",
+        "courseName": "Microprocessor and Embedded Systems",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "405"
+      },
+      {
+        "courseCode": "EEE 3802",
+        "courseName": "Microprocessor and Embedded Systems Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "405"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "EEE 3801",
+        "courseName": "Microprocessor and Embedded Systems",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "405"
+      },
+      {
+        "courseCode": "EEE 3501",
+        "courseName": "Continuous Signals and Systems",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "405"
+      },
+      {
+        "courseCode": "EEE 3801",
+        "courseName": "Microprocessor and Embedded Systems",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "405"
+      },
+      {
+        "courseCode": "EEE 3601",
+        "courseName": "Communication Theory",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "405"
+      },
+      {
+        "courseCode": "Math 3201",
+        "courseName": "Numerical Methods and Statistics",
+        "type": "Theory",
+        "time": "02:00 PM - 02:50 PM",
+        "room": "405"
+      },
+      {
+        "courseCode": "HSS 3201",
+        "courseName": "Technical Writing",
+        "type": "Theory",
+        "time": "02:50 PM - 03:40 PM",
+        "room": "405"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "EEE 3602",
+        "courseName": "Communication Theory Sessional",
+        "type": "Lab",
+        "time": "08:00 AM - 10:30 AM",
+        "room": "229"
+      },
+      {
+        "courseCode": "EEE 3501",
+        "courseName": "Continuous Signals and Systems",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "405"
+      },
+      {
+        "courseCode": "Math 3201",
+        "courseName": "Numerical Methods and Statistics",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "405"
+      }
+    ],
+    "Thursday": [
+      {
+        "courseCode": "EEE 3002",
+        "courseName": "Electrical Workshop / CAD Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "9005"
+      }
+    ]
+  }
+}

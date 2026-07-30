@@ -1,0 +1,169 @@
+{
+  "department": "CE",
+  "year": "4th Year",
+  "section": "A",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "CE-4401",
+        "courseName": "Transportation Engineering II",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4501",
+        "courseName": "Water Resources Engineering II",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "HSS-4101",
+        "courseName": "Economics and Sociology",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4201",
+        "courseName": "Environmental Engineering II",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4003",
+        "courseName": "Professional Ethics and Project Management",
+        "type": "Theory",
+        "time": "12:20 PM - 01:10 PM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4502",
+        "courseName": "Water Resources Engineering Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "Hydraulics Lab"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "CE-4401",
+        "courseName": "Transportation Engineering II",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4501",
+        "courseName": "Water Resources Engineering II",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "HSS-4101",
+        "courseName": "Economics and Sociology",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4201",
+        "courseName": "Environmental Engineering II",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4003",
+        "courseName": "Professional Ethics and Project Management",
+        "type": "Theory",
+        "time": "12:20 PM - 01:10 PM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4402",
+        "courseName": "Transportation Engineering Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "Envt. Lab"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "CE-4201",
+        "courseName": "Environmental Engineering II",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4501",
+        "courseName": "Water Resources Engineering II",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4102",
+        "courseName": "Structural Analysis and Design Sessional",
+        "type": "Lab",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "318"
+      },
+      {
+        "courseCode": "CE-4002",
+        "courseName": "Capstone Project",
+        "type": "Lab",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4002",
+        "courseName": "Capstone Project",
+        "type": "Lab",
+        "time": "12:20 PM - 01:10 PM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4000",
+        "courseName": "Project & Thesis",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "314"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "CE-4401",
+        "courseName": "Transportation Engineering II",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4501",
+        "courseName": "Water Resources Engineering II",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "HSS-4101",
+        "courseName": "Economics and Sociology",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "314"
+      },
+      {
+        "courseCode": "CE-4003",
+        "courseName": "Professional Ethics and Project Management",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "314"
+      }
+    ]
+  }
+}

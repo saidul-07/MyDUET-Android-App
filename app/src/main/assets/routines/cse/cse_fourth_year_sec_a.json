@@ -1,0 +1,164 @@
+{
+  "department": "CSE",
+  "year": "4th Year",
+  "section": "A",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "CSE-4721",
+        "courseName": "Machine Learning",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4523",
+        "courseName": "Distributed Systems",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4827",
+        "courseName": "Cyber Security",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4827",
+        "courseName": "Cyber Security",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4000",
+        "courseName": "Project & Thesis",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11009"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "CSE-4721",
+        "courseName": "Machine Learning",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4523",
+        "courseName": "Distributed Systems",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "HSS-4427",
+        "courseName": "Engineering Economics and Management",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4621",
+        "courseName": "Computer Graphics",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4722 / CSE-4004",
+        "courseName": "Machine Learning Sessional / Capstone Project",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "7010 / 11010"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "CSE-4721",
+        "courseName": "Machine Learning",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4621",
+        "courseName": "Computer Graphics",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4621",
+        "courseName": "Computer Graphics",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "HSS-4427",
+        "courseName": "Engineering Economics and Management",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4622 / CSE-4824",
+        "courseName": "Computer Graphics Sessional / VLSI Design Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "7020 / 11010"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "HSS-4427",
+        "courseName": "Engineering Economics and Management",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4827",
+        "courseName": "Cyber Security",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4000",
+        "courseName": "Project & Thesis",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11009"
+      }
+    ],
+    "Thursday": [
+      {
+        "courseCode": "HSS-4427",
+        "courseName": "Engineering Economics and Management",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4523",
+        "courseName": "Distributed Systems",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "11009"
+      },
+      {
+        "courseCode": "CSE-4000",
+        "courseName": "Project & Thesis",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11009"
+      }
+    ]
+  }
+}

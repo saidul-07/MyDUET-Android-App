@@ -1,0 +1,157 @@
+{
+  "department": "CSE",
+  "year": "3rd Year",
+  "section": "A",
+  "days": {
+    "Sunday": [
+      {
+        "courseCode": "HSS-3427",
+        "courseName": "Professional English",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3721",
+        "courseName": "Information System Analysis and Design",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3421",
+        "courseName": "Computer Networks",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3621",
+        "courseName": "Artificial Intelligence",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "TWB - 517"
+      }
+    ],
+    "Monday": [
+      {
+        "courseCode": "CSE-3221",
+        "courseName": "Operating System",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3421",
+        "courseName": "Computer Networks",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3621",
+        "courseName": "Artificial Intelligence",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3422",
+        "courseName": "Computer Networks Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "7020"
+      }
+    ],
+    "Tuesday": [
+      {
+        "courseCode": "CSE-3221",
+        "courseName": "Operating System",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "HSS-3427",
+        "courseName": "Professional English",
+        "type": "Theory",
+        "time": "09:20 AM - 10:10 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3721",
+        "courseName": "Information System Analysis and Design",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3621",
+        "courseName": "Artificial Intelligence",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3722",
+        "courseName": "Information System Analysis and Design Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11010"
+      }
+    ],
+    "Wednesday": [
+      {
+        "courseCode": "CSE-3222",
+        "courseName": "Operating System Sessional",
+        "type": "Lab",
+        "time": "08:00 AM - 10:30 AM",
+        "room": "7020"
+      },
+      {
+        "courseCode": "CSE-3721",
+        "courseName": "Information System Analysis and Design",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3421",
+        "courseName": "Computer Networks",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "CSE-3622",
+        "courseName": "Artificial Intelligence Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "7020"
+      }
+    ],
+    "Thursday": [
+      {
+        "courseCode": "CSE-3120",
+        "courseName": "Mobile Application Development Project",
+        "type": "Lab",
+        "time": "08:00 AM - 10:30 AM",
+        "room": "7010"
+      },
+      {
+        "courseCode": "CSE-3221",
+        "courseName": "Operating System",
+        "type": "Theory",
+        "time": "10:40 AM - 11:30 AM",
+        "room": "TWB - 517"
+      },
+      {
+        "courseCode": "HSS-3427",
+        "courseName": "Professional English",
+        "type": "Theory",
+        "time": "11:30 AM - 12:20 PM",
+        "room": "TWB - 517"
+      }
+    ]
+  }
+}
