@@ -15,7 +15,7 @@ An unofficial Android application for **Dhaka University of Engineering & Techno
 
 ## Tech Stack
 
-- Kotlin
+- Java+Kotlin
 - Android Studio
 - Material Design 3
 - MVVM Architecture
