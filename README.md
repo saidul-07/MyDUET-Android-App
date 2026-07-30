@@ -1,6 +1,6 @@
 # MyDUET Android App
 
-An unofficial Android application for **Dhaka University of Engineering & Technology (DUET)** students, built with **Kotlin** and **Material Design 3**. The app provides quick access to academic information and campus services through a clean and modern user interface.
+An unofficial Android application for **Dhaka University of Engineering & Technology (DUET)** students, built with **Java+Kotlin** and **Material Design 3**. The app provides quick access to academic information and campus services through a clean and modern user interface.
 
 ## Features
 
