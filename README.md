@@ -44,7 +44,7 @@ This is an **unofficial** application and is **not affiliated with or endorsed b
 ## Developer
 
 **Md Sayedul Islam**  
-Department of Computer Science and Engineering (CSE)  
-Dhaka University of Engineering & Technology (DUET)
+Department of Computer Science and Engineering   
+Dhaka University of Engineering & Technology, Gazipur
 
 ⭐ If you find this project useful, please consider giving it a star on GitHub.
