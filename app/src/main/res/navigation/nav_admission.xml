@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_admission"
+    app:startDestination="@id/admissionFragment">
+
+    <fragment
+        android:id="@+id/admissionFragment"
+        android:name="com.example.myduet.AdmissionFragment"
+        android:label="Admission"
+        tools:layout="@layout/fragment_admission">
+        <action
+            android:id="@+id/action_admissionFragment_to_seatPlanFragment"
+            app:destination="@id/seatPlanFragment" />
+        <action
+            android:id="@+id/action_admissionFragment_to_admissionResultFragment"
+            app:destination="@id/admissionResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/seatPlanFragment"
+        android:name="com.example.myduet.SeatPlanFragment"
+        android:label="Seat Plan"
+        tools:layout="@layout/fragment_seat_plan" />
+
+    <fragment
+        android:id="@+id/admissionResultFragment"
+        android:name="com.example.myduet.AdmissionResultFragment"
+        android:label="Admission Result"
+        tools:layout="@layout/fragment_admission_result" />
+</navigation>

@@ -1,0 +1,6606 @@
+[
+  {
+    "roll": 10011,
+    "name": "MD. ARIFUR RAHMAN",
+    "fatherName": "MD. SHAHJAHAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10015,
+    "name": "MD. ARMAN HOSSAIN",
+    "fatherName": "MD. SHAHEB ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10019,
+    "name": "MD. RAJKUR ISLAM",
+    "fatherName": "MD. MOKBUL HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10020,
+    "name": "MOMIN HOSSAIN",
+    "fatherName": "ROHIDUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10021,
+    "name": "MD. FIROJ HOSSAIN",
+    "fatherName": "MD. NUR SALAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10036,
+    "name": "MD. MONIRUL ISLAM",
+    "fatherName": "MD. ISMAIL HOSSEN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10039,
+    "name": "MD. PARVEJ HASAN TAHABUR",
+    "fatherName": "MD. TAJUL MIAH",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10051,
+    "name": "GOBINDO KUMAR",
+    "fatherName": "NIRANJON SARKER",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10061,
+    "name": "BISHAL CHAKMA",
+    "fatherName": "BIBHU CHAKMA",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10063,
+    "name": "MD. RAHAT HOWLADER",
+    "fatherName": "MD. HARUN HOWLADER",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10072,
+    "name": "MD. SHAKIL KHAN",
+    "fatherName": "MD. UNUCH ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10074,
+    "name": "MD. MINHAJUL FERDOUS TUSHAR",
+    "fatherName": "MD. JAIDUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10078,
+    "name": "MD. SHAHIDUZZAMAN SHUVO",
+    "fatherName": "MD. NURUZZAMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10098,
+    "name": "KIRON KARMOKAR",
+    "fatherName": "NEPAL KARMOKAR",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10103,
+    "name": "MD. ABUL HASAN",
+    "fatherName": "MD. AMAN SHEKE",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10106,
+    "name": "MD. ARAFAT",
+    "fatherName": "ALI AKBAR HOWLADER",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10109,
+    "name": "MD. TAUFIK HASAN",
+    "fatherName": "MD. TUHIN MONDAL",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10115,
+    "name": "MD. NAIME HASAN",
+    "fatherName": "MD. LIAKUT ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10148,
+    "name": "RUMA AKTER",
+    "fatherName": "MD. ROFIQUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10153,
+    "name": "MD. KAUSAR MAHAMUD",
+    "fatherName": "MD. MASUDAR RAHMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10155,
+    "name": "JUBAYER HOSSEN",
+    "fatherName": "MD.ANWAR HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10189,
+    "name": "MD SHAKIB SARDER",
+    "fatherName": "MD RASHID SARDER",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10216,
+    "name": "BULBUL AHAMMED",
+    "fatherName": "MD. ANARUL HAQUE",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10230,
+    "name": "MD. LIMON",
+    "fatherName": "MD. MOTALEB TALUKDAR",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10234,
+    "name": "MD. RASEL ISLAM",
+    "fatherName": "MD. MAZIBAR RAHAMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10256,
+    "name": "PRODIPTA DEB",
+    "fatherName": "PROBIN CHANDRA DEV",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10261,
+    "name": "MD. YAMIN ALAM",
+    "fatherName": "MD. ASHRAFUL ALAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10265,
+    "name": "MD. AKINUR ISLAM",
+    "fatherName": "MD. KORBAN ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10270,
+    "name": "MD. MAHFUZAR RAHMAN NOYON",
+    "fatherName": "MD. ABDUL HALIM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10275,
+    "name": "MD. MUSTAFIJUR RAHMAN",
+    "fatherName": "MD. MUKLESUR RAHMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10279,
+    "name": "MOHAMMAD NURUL ISLAM",
+    "fatherName": "MIRAZUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10285,
+    "name": "JANNATUN NISA JANNATI",
+    "fatherName": "MD. MOHIUDDIN KHAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10301,
+    "name": "MD. ROBIN UDDIN",
+    "fatherName": "MD. HAIDAR ALI BISWAS",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10319,
+    "name": "MD. SAJJADUL ISLAM SAIKAT",
+    "fatherName": "MD. MIZANUR RAHMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10368,
+    "name": "HIMEL RANA",
+    "fatherName": "MORTOZ ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10373,
+    "name": "MD. MORSHED BISWAS",
+    "fatherName": "MD. SHAJUDDIN BISWAS",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10375,
+    "name": "MD. RIFAT ALI",
+    "fatherName": "MD. AHASAN HABIB",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10384,
+    "name": "MD. AHADUZZAMAN AHAD",
+    "fatherName": "MD. SOFIKUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10388,
+    "name": "MD. RAFI AL FAROQUEE",
+    "fatherName": "SHAH MD. NURUZZAMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10393,
+    "name": "MD. IMRUL HASIB",
+    "fatherName": "MD. DUCAL HUSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10418,
+    "name": "KOUSIK HALDER",
+    "fatherName": "SUSIL CHANDRA HALDER",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10452,
+    "name": "SUMAYA AKTER SADIA",
+    "fatherName": "SHOFIUL ALAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10461,
+    "name": "PULOCK CHANDRA ROY",
+    "fatherName": "BILLOZIT ROY",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10464,
+    "name": "OMRITO KUMAR SUTRADHAR",
+    "fatherName": "MRENAL KUMAR SUTRADHAR",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10466,
+    "name": "MD. RUBEL KUMAR HOSSAIN",
+    "fatherName": "MD. SHAFIQUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10485,
+    "name": "RIHAT ISLAM",
+    "fatherName": "LAL MIA SARKER",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10503,
+    "name": "LAMIYA AKTHER",
+    "fatherName": "MAMUNUR RASHED",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10513,
+    "name": "MD. REFAT HOSSEN",
+    "fatherName": "MD. MIZANUR RAHMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10517,
+    "name": "BADHAN CHANDRA SHILL",
+    "fatherName": "JUGOL CHANDRA SHILL",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10525,
+    "name": "MD. SAJU RANA",
+    "fatherName": "MD. MOKSED",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10533,
+    "name": "FOZLE RABBI",
+    "fatherName": "ALAL UDDIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10555,
+    "name": "MD. FORHAD ALAM",
+    "fatherName": "MD. JAMIRUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10574,
+    "name": "MD. MUHTASIM RAHMAN",
+    "fatherName": "MD. MAMUNUR RAHMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10587,
+    "name": "DURJOY KUMAR",
+    "fatherName": "PINTU KUMAR",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10614,
+    "name": "SHOHAG MISTRY",
+    "fatherName": "SANJIB MISTRY",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10620,
+    "name": "MD. SOURAV HOSSAIN",
+    "fatherName": "MD. MOKSADUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10640,
+    "name": "REDWAN AHMED",
+    "fatherName": "MD. NASIR UDDIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10641,
+    "name": "MD. POYGAM ALI",
+    "fatherName": "MD. HAIDAR ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10645,
+    "name": "MD.BIJOY ISLAM",
+    "fatherName": "MD.HAMIDUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10647,
+    "name": "MD. JUBAYER HOSEN",
+    "fatherName": "MD. MOYAN UDDIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10669,
+    "name": "OLID HASAN OVI",
+    "fatherName": "ANWAR HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10676,
+    "name": "BAYOZID MIA",
+    "fatherName": "REZAUL KORIM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10684,
+    "name": "MD SOHAG",
+    "fatherName": "EMAN ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10695,
+    "name": "MD. SHAHJALAL",
+    "fatherName": "MD. SANOWAR HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10734,
+    "name": "MD. JOBAER ISLAM TOHA",
+    "fatherName": "SHOHIDUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10745,
+    "name": "MD. MUBAROK MIAH",
+    "fatherName": "MD. SAYED ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10746,
+    "name": "MD. ASHRAFUL ALAM",
+    "fatherName": "MD. ZAKIR HOSSIAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10760,
+    "name": "MD.LEMON MRIDHA",
+    "fatherName": "MD.BABUL MRIDHA",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10770,
+    "name": "ABDUL KADER",
+    "fatherName": "MD. BABUL HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10772,
+    "name": "MD. FAHIM HOSSAIN",
+    "fatherName": "FARUQUE HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10788,
+    "name": "MD. RAFIUL ISLAM",
+    "fatherName": "MD. AZIZAR RAHMAN a",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10801,
+    "name": "CHOTON CHANDRA BISWAS",
+    "fatherName": "DINESH CHANDRA BISWAS",
+    "department": "CE",
+    "status": "Waiting",
+    "waitingMerit": 2
+  },
+  {
+    "roll": 10805,
+    "name": "ATANU MALLICK",
+    "fatherName": "AMAL MALLICK",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10813,
+    "name": "MD. SHAHAJAMAL MIA",
+    "fatherName": "MD. ASHRAF ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10826,
+    "name": "MD. MAHFUJ HOSSAIN",
+    "fatherName": "MD. JALAL HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10829,
+    "name": "MD. SHAHIDUZZAMAN SHOVON",
+    "fatherName": "MD. ABDUR RAWF",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10836,
+    "name": "MD. RAFIUL ISLAM",
+    "fatherName": "MD. NURUL ISLAM PRAMANIK",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10856,
+    "name": "MD. TOUFIQ HASAN",
+    "fatherName": "MD. ALTAB ALI PK.",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10857,
+    "name": "MUSHFIQUR RAHMAN",
+    "fatherName": "FAZLUR RAHMAN MAJHI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10887,
+    "name": "MD. SAKIB HASAN",
+    "fatherName": "MD. YEASIN ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10890,
+    "name": "MD.MOMINUL ISLAM",
+    "fatherName": "MD.NAZRUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10925,
+    "name": "MD. MOHIBBULLAH AL MUKIT",
+    "fatherName": "MD. MOSHIAR RAHMAN",
+    "department": "CE",
+    "status": "Waiting",
+    "waitingMerit": 4
+  },
+  {
+    "roll": 10946,
+    "name": "SUMAYA AKTER ANNY",
+    "fatherName": "MOHAMMAD ABUL HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10949,
+    "name": "MD. ALIF AL EMRAN",
+    "fatherName": "MD. ABDUL HALIM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10954,
+    "name": "MD. MOKTAR HOSSAIN",
+    "fatherName": "MD. MAMUNUR RASHID",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10955,
+    "name": "MD. ABU HOSSAIN",
+    "fatherName": "ABDUR RASHID BISWAS",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10956,
+    "name": "MD. HASIBUL ISLAM",
+    "fatherName": "MD. ABU SHAYEM (SHAHIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10958,
+    "name": "MD. MOJAMMEL HAQUE",
+    "fatherName": "MD. HAZRAT ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10959,
+    "name": "HASINUR RAHMAN",
+    "fatherName": "MOSHFIQUR RAHMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10965,
+    "name": "RONY",
+    "fatherName": "MOSLEM UDDIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10976,
+    "name": "ABIR MAHMUD",
+    "fatherName": "JAHANGIR ALAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10977,
+    "name": "RASEL MIAH",
+    "fatherName": "MD. AKTER HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10978,
+    "name": "OMAR IBNE RAHAT",
+    "fatherName": "MD. RAHMOT ULLAH",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 10982,
+    "name": "RAIHAN RAFI",
+    "fatherName": "MD. ABDUL QUDDUS",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11009,
+    "name": "MD ABDULLAH AL SHAWON",
+    "fatherName": "MD SHAHJAHAN MONTU",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11027,
+    "name": "SAIFUL ISLAM",
+    "fatherName": "MD. MOKTAR AHMAD",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11028,
+    "name": "MD. NADIM MOSTOFA",
+    "fatherName": "MD. AZAHER ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11031,
+    "name": "MD. SAMIUR JAHAN",
+    "fatherName": "MD. FAJLUL HAQUE",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11032,
+    "name": "MD. OMEDUL ISLAM",
+    "fatherName": "MD. NOBIUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11040,
+    "name": "OMAR FARUK",
+    "fatherName": "NABI HOSSEN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11046,
+    "name": "MD.SAKIB",
+    "fatherName": "JALAL BHUYA",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11059,
+    "name": "MD. MOTALEB HOSEN",
+    "fatherName": "MD. SOLIM UDDIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11097,
+    "name": "MD. MASUM PARVEZ",
+    "fatherName": "MD. ZAHANGIR",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11108,
+    "name": "MD. LAIBUR RAHMAN",
+    "fatherName": "MD. HASAN ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11149,
+    "name": "MD. TOPU ISLAM",
+    "fatherName": "AKRAM HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11153,
+    "name": "MD. SUMON ALI",
+    "fatherName": "MD. RAZBUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11163,
+    "name": "SAYEED BIN RASHID",
+    "fatherName": "MD. HARUN-OR-RASHID",
+    "department": "CE",
+    "status": "Waiting",
+    "waitingMerit": 5
+  },
+  {
+    "roll": 11188,
+    "name": "NAJMUL HASAN NAHID",
+    "fatherName": "MD. MOTAHAR HOSEN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11195,
+    "name": "MD. RAKIBUL HASSAN RAKIB",
+    "fatherName": "MD. UMAR ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11196,
+    "name": "MD. MAHATAB PATOARY",
+    "fatherName": "MD. ALI NEWAZ PATOARY",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11197,
+    "name": "KHAIRUL ISLAM",
+    "fatherName": "MD. RAFIQUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11247,
+    "name": "MD. ASIF UDDIN",
+    "fatherName": "MD. AZIZUL HAQUE",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11254,
+    "name": "MEHEDI HASAN ZIHAD",
+    "fatherName": "ASRAFUL ALOM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11282,
+    "name": "AYESHA SIDDIKA",
+    "fatherName": "ALAUDDIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11288,
+    "name": "NUSRAT JAHAN",
+    "fatherName": "SAHED ALI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11337,
+    "name": "MD. MAHFUZ AHMMED",
+    "fatherName": "MD. JASIBAR RAHMAN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11344,
+    "name": "MUCDHO RAJ FERDOUS",
+    "fatherName": "ABUL HASHEM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11358,
+    "name": "MD. JUEL FOUZDER",
+    "fatherName": "MD. ZAMIRUL ISLAM",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11366,
+    "name": "POBITRO RAY",
+    "fatherName": "JOTISH CHANDRA RAY",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11379,
+    "name": "MD. FAZLE RABBI",
+    "fatherName": "ABU NASIR BEPERY",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11382,
+    "name": "MD. MAHIUDDIN",
+    "fatherName": "MD. ELIAS MIA",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11386,
+    "name": "MOHIBULLAH",
+    "fatherName": "MOTALAB HOSSAIN",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11400,
+    "name": "MD. MOURSALIN",
+    "fatherName": "FARDOUS ALAM",
+    "department": "CE",
+    "status": "Waiting",
+    "waitingMerit": 1
+  },
+  {
+    "roll": 11427,
+    "name": "SHAMPA YASMIN MOYNA",
+    "fatherName": "MD. JAHURUL GAZI",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11429,
+    "name": "MD. NUR SALIM ISLAM",
+    "fatherName": "MD. MOFAZZOL HOSSAIN",
+    "department": "CE",
+    "status": "Waiting",
+    "waitingMerit": 3
+  },
+  {
+    "roll": 11470,
+    "name": "JARIN SARKER JUI",
+    "fatherName": "MD. JASHIM UDDIN SARKER",
+    "department": "CE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11482,
+    "name": "AOYN DEBNATH",
+    "fatherName": "NARAYAN DEBNATH",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11498,
+    "name": "MD. ARIF BILLAH",
+    "fatherName": "MD. AMINUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11502,
+    "name": "ABU TAHER MD. MOFAKKHIRUL ISLAM",
+    "fatherName": "MD. GAWSULAZAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11516,
+    "name": "FARJANA AKTHER",
+    "fatherName": "MOHAMMAD IDRIS",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11525,
+    "name": "MD. ASAD ISLAM",
+    "fatherName": "MD. MORTOZA ALI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11560,
+    "name": "MD. ZAYAD IBNA SAYED SIZAN",
+    "fatherName": "MD. NAZRUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11571,
+    "name": "MD. RAJIB HOSSEN",
+    "fatherName": "MD. MONIRUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11574,
+    "name": "MAINUL ISLAM",
+    "fatherName": "MOFIZUL HOQUE",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11596,
+    "name": "MD. SHAHIN ALOM",
+    "fatherName": "MD. TORIKUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11601,
+    "name": "MD. TOUFIK HASAN TUHIN",
+    "fatherName": "MD. ABUL HOSSAIN PRAMANIK",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11611,
+    "name": "MD. ASADUZZMAN",
+    "fatherName": "MOHAMMAD ALI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11627,
+    "name": "MD: LEYAKATH HOSSAIN",
+    "fatherName": "MD: AZIZUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11635,
+    "name": "MD. ANAMUL HAQUE",
+    "fatherName": "MD. LAL MIA SHE-KH",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11650,
+    "name": "GOLAM RABBANI JISHAN",
+    "fatherName": "JAYNAL ABEDIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11658,
+    "name": "S. M. NAMUR RAHMAN",
+    "fatherName": "S. M. SAMSUL ALOM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11661,
+    "name": "MD. SAIDUZZAMAN",
+    "fatherName": "MD RAMIZ MIAH",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11677,
+    "name": "MD. SHAFIUL ISLAM",
+    "fatherName": "MD. ANOWARUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11684,
+    "name": "MD. SAKIB HOSSAIN SHUPTO",
+    "fatherName": "MD. ABDUL BARI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11695,
+    "name": "MD. TANBIR ISLAM",
+    "fatherName": "MD. ROFIKUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11698,
+    "name": "MD. RUKAN UDDIN",
+    "fatherName": "MD. CHAN MIAH",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11708,
+    "name": "MD. NAIM",
+    "fatherName": "MD. BABUL HOSSIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11713,
+    "name": "MD. NIHAR AHAMMED CHOWDORY",
+    "fatherName": "MD. HARISUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11715,
+    "name": "RIPON KUMAR",
+    "fatherName": "RAJEN SARKER",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11718,
+    "name": "MD. MUNNA HOSSEN SOJIB",
+    "fatherName": "MD. ROFIKUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11794,
+    "name": "MD. MAHFUJUR RAHMAN TUSHAR",
+    "fatherName": "MD. HABIBUR RAHMAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11809,
+    "name": "ATOSH CHAKMA",
+    "fatherName": "LITON CHAKMA",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11850,
+    "name": "MD. RASEL AHMED",
+    "fatherName": "MD.MUKTER HOSSAIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11859,
+    "name": "MD. ANIKUL ISLAM",
+    "fatherName": "MD. AZIZUL HAQUE",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11860,
+    "name": "MD. OMUR SULTAN EMON",
+    "fatherName": "MD. HAFIZUR RAHMAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11866,
+    "name": "MD. ABDUL KUDDUS",
+    "fatherName": "MD. SHARIF-UL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11870,
+    "name": "NASIR SIKDER",
+    "fatherName": "MOJNU SIKDER",
+    "department": "EEE",
+    "status": "Waiting",
+    "waitingMerit": 4
+  },
+  {
+    "roll": 11907,
+    "name": "MD. JUBAYER ISLAM NESAT",
+    "fatherName": "NAZIRUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11920,
+    "name": "MIRZA EMAMUL HASAN",
+    "fatherName": "MIRZA ABDUR RAHIM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11928,
+    "name": "APPLE MIAH",
+    "fatherName": "ABDUR RAZZAK",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11942,
+    "name": "MD. RIFAT HOSSAIN",
+    "fatherName": "MD. NAZMUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11946,
+    "name": "NUSAIBA BINTE ARIF",
+    "fatherName": "MD. ARIF UR RAHMAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11948,
+    "name": "MD. ARMAN AHAMED",
+    "fatherName": "MD. ABDUR ROUF",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11955,
+    "name": "ISTIYAK AHAMMED SAJAL",
+    "fatherName": "MD. BELAL UDDIN SARDAR",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11959,
+    "name": "MD. MOMINUL ISLAM",
+    "fatherName": "MD. MONOWAR HOSSAIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11970,
+    "name": "RATCJL RAYHAN",
+    "fatherName": "SHIRAJUL HAQUE",
+    "department": "EEE",
+    "status": "Waiting",
+    "waitingMerit": 2
+  },
+  {
+    "roll": 11975,
+    "name": "MANAN CHOWDHURY",
+    "fatherName": "PRANABANANDA CHOWDHURY",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11979,
+    "name": "MD. JAKARIA HOSSAIN",
+    "fatherName": "HALAL UDDIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11981,
+    "name": "MD. MAHAMUDUL HASAN",
+    "fatherName": "MD. ROFIKUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11989,
+    "name": "MD. RABBI HOSSAIN",
+    "fatherName": "MD. ABDUL KHOLIL",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11992,
+    "name": "MD. ASHIQURE RAHMAN",
+    "fatherName": "MD. WALIUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 11997,
+    "name": "TANZID ALAM TANIM",
+    "fatherName": "MD. JAHANGIR ALAM",
+    "department": "EEE",
+    "status": "Waiting",
+    "waitingMerit": 5
+  },
+  {
+    "roll": 11999,
+    "name": "MD. ABU TALHA",
+    "fatherName": "MANJURUL HAQUE",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12007,
+    "name": "FOYSAL AHAMAD RABBI",
+    "fatherName": "MAJHARUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12044,
+    "name": "MD. AHSANUL HAQUE SHAMIM",
+    "fatherName": "MD. ABUL HASHEM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12053,
+    "name": "MD. TANIQUR MOKTAR HOSSAIN",
+    "fatherName": "MD. MANIK",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12064,
+    "name": "MD. TANIQUR RAHMAN",
+    "fatherName": "MD. ATIQUR RAHMAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12079,
+    "name": "MD. OMAR FARUQ",
+    "fatherName": "MD. ABUL BASAR",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12096,
+    "name": "MOST.HABIBA JANNAT NIJIJMM",
+    "fatherName": "MD. HABIBUR RAHMAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12136,
+    "name": "MD. TARIQUL ISLAM",
+    "fatherName": "MD. TOFAZZAL HOSSAIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12157,
+    "name": "KOMOL KUMER ROY",
+    "fatherName": "SHAMAL CHANDRA ROY",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12175,
+    "name": "MD. NAYEM HOSEN",
+    "fatherName": "MD. JAHER MIAH",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12188,
+    "name": "HAMIDUR RAHMAN",
+    "fatherName": "AZOM ALI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12195,
+    "name": "MD. MUJAHID ISLAM",
+    "fatherName": "MD. ABDUS SATTER",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12203,
+    "name": "MD. KUDDUS SHANTO",
+    "fatherName": "MD. SALIM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12213,
+    "name": "SIAM HASAN",
+    "fatherName": "MD. DELOWAR HOSSAIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12221,
+    "name": "MD. ME-HEDI HASAN RABBI",
+    "fatherName": "MD. MOJAMMEL HAQUE",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12224,
+    "name": "MD SABBIR HOSEN",
+    "fatherName": "MD BILLAL HOSEN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12232,
+    "name": "MD. JUNAED ISLAM",
+    "fatherName": "MD. MOZIBAR RAHMAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12233,
+    "name": "ASHRAFUL ISLAM",
+    "fatherName": "MD. ANWAR HOSSAIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12248,
+    "name": "ASHRAFULALAM",
+    "fatherName": "HELAL UDDIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12264,
+    "name": "ZOBAYED RAHMAN",
+    "fatherName": "PALASH MIA",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12302,
+    "name": "IBRAHIM KHOLIL",
+    "fatherName": "MD JAHANGIR ALOM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12330,
+    "name": "MD. AL-MAHMUD ASHIK",
+    "fatherName": "MD. ABDUL AZIZ MOLLA",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12340,
+    "name": "MD. ABU JAFOR JAKARIA",
+    "fatherName": "MD. JOHURUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12350,
+    "name": "MD. MUNNAF HOSSAIN",
+    "fatherName": "MD. SANAULLAH",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12361,
+    "name": "MST SUMAIYA KHATUN",
+    "fatherName": "MD ABDUL KADER",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12364,
+    "name": "MD. MASHRUF HOSSAIN RATUL",
+    "fatherName": "MD. MOSHARROF HOSSAIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12368,
+    "name": "MD. RAFY AHMED",
+    "fatherName": "MD. RAZU AHMED oglneerh",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12381,
+    "name": "MD. RUMAN PRODHAN",
+    "fatherName": "MD. ABDUL MANNAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12407,
+    "name": "MINHAJUL ISLAM BADHON",
+    "fatherName": "SUMSUZZAMAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12440,
+    "name": "MD. JAKARIYA HOSSAIN",
+    "fatherName": "MD. ASRAF ALI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12443,
+    "name": "MD TAMIM",
+    "fatherName": "MD DASTAGIR BHUYAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12451,
+    "name": "NADIM HASAN",
+    "fatherName": "ABUL BASHAR VUYAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12475,
+    "name": "MD. ALIUL ISLAM",
+    "fatherName": "MD. ALFAJ UDDIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12507,
+    "name": "KHALILUR RAHMAN",
+    "fatherName": "ISMAIL HSEN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12517,
+    "name": "MD. NABIL ISLAM",
+    "fatherName": "MD. ZAHIRUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12537,
+    "name": "ABU TALEB NAIM",
+    "fatherName": "MD. NURUNNOBI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12546,
+    "name": "MD. SOLAIMAN",
+    "fatherName": "MD. ABDUL KHALEK",
+    "department": "EEE",
+    "status": "Waiting",
+    "waitingMerit": 3
+  },
+  {
+    "roll": 12547,
+    "name": "ABDUR RAHMAN JOY",
+    "fatherName": "MOHIUDDIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12565,
+    "name": "FARHAN ABDULLAH",
+    "fatherName": "MD. OMOR FARUQ",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12573,
+    "name": "MD. JAKER HOSSAIN",
+    "fatherName": "MD. GOLAM HOSSAIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12599,
+    "name": "MD. ABDUL KUDDUS MIA",
+    "fatherName": "MD. ATAUR RAHMAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12611,
+    "name": "MD. TUHIN ALI",
+    "fatherName": "MD. NAZRUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12634,
+    "name": "MD. SHAHADAT HOSSAIN",
+    "fatherName": "MD. SHAHABUDDIN GAZI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12646,
+    "name": "MD. NAEEM",
+    "fatherName": "MD. SABUJ HOWLADER",
+    "department": "EEE",
+    "status": "Waiting",
+    "waitingMerit": 1
+  },
+  {
+    "roll": 12657,
+    "name": "ASHRAFUL ISLAM ALIF",
+    "fatherName": "NURUL ABSAR",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12662,
+    "name": "ZUCKER NAYEEM",
+    "fatherName": "ABUL KASHEM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12674,
+    "name": "MST. KAMONA AKTER",
+    "fatherName": "MD. ABUL KALAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12684,
+    "name": "PRANTO SARKAR",
+    "fatherName": "ATUL SARKAR",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12691,
+    "name": "MAMUN ROSHID",
+    "fatherName": "ABIR ALI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12695,
+    "name": "YAKUB ALI",
+    "fatherName": "SHEIKH MD MUSA DAUAD",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12709,
+    "name": "MD. SHOHAN HOSSEN",
+    "fatherName": "MD. ABUL KALAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12717,
+    "name": "UMMEY HABIBA",
+    "fatherName": "SHAH ALAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12743,
+    "name": "MD. SAZZAD HOSEN SEYAD",
+    "fatherName": "MD. BABLU MIA",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12762,
+    "name": "UMON CHANDRA ROY",
+    "fatherName": "NOKUL CHANDRA ROY",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12799,
+    "name": "MD. SABBIR HOSEN",
+    "fatherName": "MD. ACHAHAQUE ALI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12815,
+    "name": "MD. MEHEDI HASSAN",
+    "fatherName": "MD. NURUL AMIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12864,
+    "name": "MD. TAMIM",
+    "fatherName": "MOHSIN ALI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12923,
+    "name": "MD. SHAMIM AHASAN",
+    "fatherName": "MD. JAJ MIA",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12939,
+    "name": "MD JAMIL AHMED",
+    "fatherName": "MD SAYADUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12955,
+    "name": "MD. IKBOL HOSSAIN",
+    "fatherName": "MD. SHAH NEWAS HOSSAIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12966,
+    "name": "MD. MEHEDI HASAN",
+    "fatherName": "MD. HAMIDUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12977,
+    "name": "MD. ATIKUR RAHMAN",
+    "fatherName": "MD. MONGUR HOSAIN ALO",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12978,
+    "name": "TASLIM UDDIN RONI",
+    "fatherName": "SHAPAN KHANDKAR",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12982,
+    "name": "MD. RAJUAN HOSSAIN ALPHA",
+    "fatherName": "MD. ROFIQUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 12991,
+    "name": "REDHUWAN AHMED",
+    "fatherName": "FARID AHMED",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13000,
+    "name": "ARIF HOSSEN",
+    "fatherName": "NUR AHMED",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13018,
+    "name": "MD. HABIBUR RAHMAN",
+    "fatherName": "MD. ABUL KALAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13051,
+    "name": "MD. FAHAT BADSAH",
+    "fatherName": "MD. ANAWARUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13055,
+    "name": "SUMON ALI",
+    "fatherName": "RAMZAN ALI",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13065,
+    "name": "FAHIMA KHATUN BORSHA",
+    "fatherName": "MD. ANOWAR HOSSAIN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13103,
+    "name": "SUJAN SHEIKH",
+    "fatherName": "ROKA SHEIKH",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13116,
+    "name": "RASSEL MAHAMUD",
+    "fatherName": "NOOR ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13134,
+    "name": "ANOJIT TARAFDER",
+    "fatherName": "SHAWPON TARAFDER",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13168,
+    "name": "KAUNGKAN DEY",
+    "fatherName": "BIDHAN CHANDRA DEY",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13172,
+    "name": "SHEKH MUSTAKIM BILLA",
+    "fatherName": "MD. ABDUL HAMID",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13175,
+    "name": "ISTIAQ AHAMED SHUVO",
+    "fatherName": "SOHEL RANA",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13188,
+    "name": "MD. NAIM HOSSAIN",
+    "fatherName": "MD. NURUL ISLAM",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13196,
+    "name": "SHAHNEOAJ AHMED",
+    "fatherName": "MD. SHAHJAHAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13198,
+    "name": "MD. SAZZAD HOSSAIN",
+    "fatherName": "MD. AMIR HOSSEN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13205,
+    "name": "MD. ATIQUR RAHMAN TANVIR",
+    "fatherName": "MD. TABIBUR RAHMAN",
+    "department": "EEE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13235,
+    "name": "MD. JUSIM MIA",
+    "fatherName": "MD. RAFIQUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13239,
+    "name": "MD. SHAWON SHEIKH",
+    "fatherName": "MD. SOLAMAN ALI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13241,
+    "name": "MD. RIDOY AHAMMED MD.",
+    "fatherName": "ISAHAQ ALI",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13252,
+    "name": "MD. SAYED HASAN MD.",
+    "fatherName": "JAHAGIR ALOM",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13253,
+    "name": "MD. YAHIA AL BAHIZ",
+    "fatherName": "MD. NAZRUL KABIR",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13254,
+    "name": "SABBIR HOSSEN",
+    "fatherName": "ABU TAHER BABUL",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13256,
+    "name": "MD. SOLAIMAN MD.",
+    "fatherName": "SALAUDDIN",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13259,
+    "name": "MD. EMRANUL HOQUE MARI-JF",
+    "fatherName": "NURUL ABSAR",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13266,
+    "name": "MD. NAYON MIAH",
+    "fatherName": "MD. FAJAL MIAH",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13268,
+    "name": "MD. SOJIB",
+    "fatherName": "MD. HARUNUR RASHID",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13271,
+    "name": "ARJYARAJ ADITYA",
+    "fatherName": "ASHUTOSH MOHAJON",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 22
+  },
+  {
+    "roll": 13272,
+    "name": "MD. SOHAG ALI",
+    "fatherName": "MD. ABDUL HAKIM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13276,
+    "name": "MD. RABBIR HOSSAIN",
+    "fatherName": "MD. MINTU MIAH",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 23
+  },
+  {
+    "roll": 13280,
+    "name": "ASADUL CHAWDURY MD.",
+    "fatherName": "ABDUL MALEK CHAWDURY",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13285,
+    "name": "BIPLOB MOLLIK",
+    "fatherName": "SREE OMRES MOLLIK",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13288,
+    "name": "MD. SABBIR HOSAN MD.",
+    "fatherName": "FULBABU",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13292,
+    "name": "MD. SAMI HOSSAN",
+    "fatherName": "MD. SANOWAR HOSSAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13293,
+    "name": "MD. SHAJID HOSSEN MD.",
+    "fatherName": "BADSHA SARDER",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13301,
+    "name": "MD. TANVIR HASAN ABIR MD.",
+    "fatherName": "ADAM ALI SHAIK",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13302,
+    "name": "MD. TAREK RAHMAN",
+    "fatherName": "MD. NAZRUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13303,
+    "name": "MD. SABBIR HOSSAIN MD.",
+    "fatherName": "ABDUL WOHAB",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13305,
+    "name": "MD. MAHADI HASSAN",
+    "fatherName": "NASIR UDDIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13322,
+    "name": "RIFAT HASSAN MD.",
+    "fatherName": "KHOKON HOSSAIN",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13336,
+    "name": "MONIR HOSEN. JOYEN",
+    "fatherName": "JOYEN UDDIN.",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13341,
+    "name": "MD. RUI-IUL AMIN",
+    "fatherName": "MD. HANNAN ALI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13349,
+    "name": "MD. RAJIKUL ISLAM",
+    "fatherName": "MD. ABDUR RAHMAN",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 4
+  },
+  {
+    "roll": 13363,
+    "name": "RAYHAN JAMIL",
+    "fatherName": "MD. GOLAM MOWLA",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 11
+  },
+  {
+    "roll": 13368,
+    "name": "MD. RAZIM HOSSAIN",
+    "fatherName": "MD. SHAHIDUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13378,
+    "name": "MD ABDUS SALAM",
+    "fatherName": "MD ABDUL HAKIM GAZI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13388,
+    "name": "A.K FAZLUL HAQ MD.",
+    "fatherName": "NURUZZAMAN",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13390,
+    "name": "MOHAMMAD ALI MONDAL",
+    "fatherName": "MD. IBRAHIM MONDOL",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13391,
+    "name": "MD. SULAIMAN KARIM SHEUM A.",
+    "fatherName": "M SAZEDUL KARIM",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13394,
+    "name": "MD.JAHID MIA",
+    "fatherName": "MD.SHAHIN MIA",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13398,
+    "name": "MD. MASUD RANA",
+    "fatherName": "MD. JAMAL UDDIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13407,
+    "name": "MD. NUR NABI ALAM",
+    "fatherName": "MD. TOZAMMAL HOSSAIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13415,
+    "name": "SHAKIL KHAN MD.",
+    "fatherName": "SAROYAR",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13418,
+    "name": "MD. SIAM AHMED",
+    "fatherName": "MD. NURUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13428,
+    "name": "MD. MONOWAR HOSSAIN MD.",
+    "fatherName": "THANTU KHAN",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13433,
+    "name": "MD. RAFIN",
+    "fatherName": "MD. KHAIRUJJAMAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13435,
+    "name": "SHAKHAWAT HOSSAIN",
+    "fatherName": "KAMAL UDDIN",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 5
+  },
+  {
+    "roll": 13436,
+    "name": "JIBON CHANDRO SARKAR JOGODISH",
+    "fatherName": "JOGODISH CHANDRO",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13443,
+    "name": "MD. IMRAN HOSEN MILON",
+    "fatherName": "MD. AFJAL HOSEN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13453,
+    "name": "MD. ISMAIL HASAN",
+    "fatherName": "MD. MOZER SARDER",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13456,
+    "name": "MD. EMON MIA",
+    "fatherName": "SUBED ALI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13460,
+    "name": "MD. METHUN KAZI",
+    "fatherName": "MD. MILON KAZI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13461,
+    "name": "NAHID ALAM",
+    "fatherName": "MD. NURE ALAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13465,
+    "name": "MEHEDI HASAN",
+    "fatherName": "MD. KAMAL HOSSAIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13466,
+    "name": "MD. ABU MIHSAN TALUKDER MD.",
+    "fatherName": "KHAIRUL ALAM",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13468,
+    "name": "MD. NAZIM UDDIN MD.",
+    "fatherName": "MD. HAFEZ",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13479,
+    "name": "TIRTHOPROSHAD PAUL NARAYON",
+    "fatherName": "CHANDRO PAUL",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13481,
+    "name": "MD. SAIDUL HOSSAIN",
+    "fatherName": "MD. AL AMIN PRA.",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13482,
+    "name": "MD. RABBI AHMED",
+    "fatherName": "MD. ROBIUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13488,
+    "name": "MD. KOBIR",
+    "fatherName": "MD. SAIDER ALI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13490,
+    "name": "ONTOR DAS",
+    "fatherName": "JOHORLAL ROBI DAS",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13496,
+    "name": "MD. KHAYRUL BASHAR",
+    "fatherName": "MD. HAWN-OR-RASHID",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13497,
+    "name": "MITU AKTER",
+    "fatherName": "MD HASAN BISWAS",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 20
+  },
+  {
+    "roll": 13504,
+    "name": "MD. HIRU MIA LATE.",
+    "fatherName": "KHALEK ZAYDAR",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13506,
+    "name": "MD. SHAMIM MIA",
+    "fatherName": "MD. HABIBUR RAHMAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13526,
+    "name": "MD.SIAM AL RAFI",
+    "fatherName": "MD.AZIZUL HAQUE",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13530,
+    "name": "MD. ROBIUL ISLAM MD.",
+    "fatherName": "ROFIQUL ISLAM",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13532,
+    "name": "AL SHARIEAR LABIB",
+    "fatherName": "AMANOTH ALI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13535,
+    "name": "MD. ARMAN HOSSEN",
+    "fatherName": "ALFAZ HOSSEN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13537,
+    "name": "MD. ABU RAIHAN",
+    "fatherName": "MD. ABDUR RAHIM",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 6
+  },
+  {
+    "roll": 13544,
+    "name": "ARSHAD ALI",
+    "fatherName": "MD. MOJIBAR RAHMAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13563,
+    "name": "FAHIM SHAHRIAR",
+    "fatherName": "MD. KAMRUZZAMAN",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 25
+  },
+  {
+    "roll": 13566,
+    "name": "MD. MENHAJUL FAKIR",
+    "fatherName": "MD. MEZANUR RAHMAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13571,
+    "name": "MD. ASHADUJJAMAN",
+    "fatherName": "MD. SOBAHAN BAPARI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13572,
+    "name": "MD. YEAKUB ALI",
+    "fatherName": "MD. NURUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13574,
+    "name": "MD. RAZAUL HOSSAN MD.",
+    "fatherName": "SHAIFUL ISLAM",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13576,
+    "name": "RIAN MOLLIK",
+    "fatherName": "ANIS MOLLIK",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13578,
+    "name": "MD. IMRAN ISLAM",
+    "fatherName": "MD. GOBED ALI",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 2
+  },
+  {
+    "roll": 13579,
+    "name": "MD. NAZMUL HAQUE MD.",
+    "fatherName": "TITU MIAH",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13582,
+    "name": "MD. LEMON SHEIKH",
+    "fatherName": "MD. ISMAIL SHEIKH",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 16
+  },
+  {
+    "roll": 13586,
+    "name": "MD. HABIBUR RAHMAN ABDUR",
+    "fatherName": "RASHID SARKER",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13598,
+    "name": "MUMIN HOSSEN MAMUN",
+    "fatherName": "MAMUN HOSSEN",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13600,
+    "name": "MD. HASSAN SHARIAR RAKIB",
+    "fatherName": "MD. DULAL MIA",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13601,
+    "name": "MD. IBNUL KAYES",
+    "fatherName": "MD. IKBAL HOSSAIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13605,
+    "name": "MD. MASUD RANA MD.",
+    "fatherName": "SAMAD SARKAR",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13606,
+    "name": "FARHAN AHAMED",
+    "fatherName": "FIROZ UDDIN AHAMED",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 1
+  },
+  {
+    "roll": 13611,
+    "name": "MD. ABU HURIRA BISWAS MD.",
+    "fatherName": "TOFFAZZEL BISWAS",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13613,
+    "name": "NAFIS SHAHRIYAR NILOY",
+    "fatherName": "MD. FOZLUR RAHMAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13614,
+    "name": "ASADUZZAMAN ASIB ANGUR",
+    "fatherName": "ANGUR ALI",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13618,
+    "name": "MD. MASUM RANA MIM",
+    "fatherName": "MD. HAMIDUR RAHMAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13622,
+    "name": "RANJIT ROY",
+    "fatherName": "PRODIP CHANDRO ROY",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 10
+  },
+  {
+    "roll": 13623,
+    "name": "MD. REZWAN KABIR MOON",
+    "fatherName": "MD. SUMON KABIR",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 15
+  },
+  {
+    "roll": 13624,
+    "name": "MD. ARIFUL ISLAM",
+    "fatherName": "MD. AKRAMUL HAQUE",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13626,
+    "name": "MD. NASIR UDDIN",
+    "fatherName": "MD. AJHARUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13639,
+    "name": "SOHRAB HOSSAIN",
+    "fatherName": "MD. ABDUL MANNAN",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 13
+  },
+  {
+    "roll": 13645,
+    "name": "NOYON KUMAR",
+    "fatherName": "NIRMONI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13648,
+    "name": "MD. ZAKARIA",
+    "fatherName": "MD. ABUL KASHEM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13653,
+    "name": "MD. SAMIIJL HOSSEN",
+    "fatherName": "MD. JYNAL HOSSAIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13658,
+    "name": "MD. HRIDOY BABU MD.",
+    "fatherName": "HAFIZUR RAHMAN",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13664,
+    "name": "MD. FARUKUZZAMAN",
+    "fatherName": "MD. ZIAUL HOQUE",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13673,
+    "name": "MD. AMIRUL ISLAM",
+    "fatherName": "MD. NABIR UDDIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13674,
+    "name": "MD. ASIF KHAN",
+    "fatherName": "MD. ABDUL QUDDUS KHAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13676,
+    "name": "MD. SOHEL RANA",
+    "fatherName": "MD. KHADEMUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13683,
+    "name": "MD. IMRAN HOSEN",
+    "fatherName": "MD. GOLAM MOSTOFA",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13703,
+    "name": "RAHAT UDDIN SHAKIL MD.",
+    "fatherName": "KIRON SIKDER",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13709,
+    "name": "MD MAHFUJUR RAHMAN",
+    "fatherName": "MD ABUL KALAM AZAD",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13711,
+    "name": "MD. RAKIB",
+    "fatherName": "MD. KALAM SIKDER",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13717,
+    "name": "MD. RASEL ALI MD.",
+    "fatherName": "RATAN ALI",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13721,
+    "name": "ARJUN KUMAR",
+    "fatherName": "DHEREN CHANDRO",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13724,
+    "name": "MD. JULFIKAR ISLAM",
+    "fatherName": "MD. RASEDUL ISLAM",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 21
+  },
+  {
+    "roll": 13729,
+    "name": "JOYONTO RAY",
+    "fatherName": "KARTICK CHANDRO RAY",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 20
+  },
+  {
+    "roll": 13730,
+    "name": "JAHEDUL ISLAM",
+    "fatherName": "MONZUR AHAMED",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13731,
+    "name": "FAHIM SHAKIL",
+    "fatherName": "MD. ABUL KALAM AZAD",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13735,
+    "name": "MD. NAYEM AHAMMED MD.",
+    "fatherName": "SEKENDAR ALI MONDOL",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13741,
+    "name": "JAHIDUL ISLAM",
+    "fatherName": "ROFIQUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13743,
+    "name": "MOHAMMAD SHAH JALAL RANA",
+    "fatherName": "MD. BAHAR UDDIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13750,
+    "name": "MD. SHAREAR NAZIM JOY",
+    "fatherName": "MD. SHAKHAWAT HOSSAIN",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 17
+  },
+  {
+    "roll": 13754,
+    "name": "MD. JAHIDUL ISLAM MD.",
+    "fatherName": "NURUL ISLAM",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13764,
+    "name": "MD. MEHEDI HASAN",
+    "fatherName": "MD. YUSUF KHAN",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 19
+  },
+  {
+    "roll": 13768,
+    "name": "AJOY DAS",
+    "fatherName": "APURBA DAS",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13779,
+    "name": "MD. AZIZUR RAHMAN",
+    "fatherName": "MD. ABU BAKKAR SIDDEK",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13785,
+    "name": "MOHAMMAD MEHARAJ HOSEN",
+    "fatherName": "MOHAMMAD SOLAIMAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13787,
+    "name": "SK. ABUBAKER SIDDIK",
+    "fatherName": "SK. FARID UDDIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13793,
+    "name": "RINA KHATUN",
+    "fatherName": "MD. BABUL HOSSAIN MINA",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 18
+  },
+  {
+    "roll": 13803,
+    "name": "TAFRIK MAHMUD",
+    "fatherName": "MUHAMMED NASIR UDDIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13815,
+    "name": "MD. MASUD PARVEJ SHOBUJ",
+    "fatherName": "MD. NIZAM UDDIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13818,
+    "name": "SHAHIN ISLAM MD.",
+    "fatherName": "AJIAR ISLAM",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13830,
+    "name": "MOST. AFSANA AKTER",
+    "fatherName": "MD. ARIF",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13831,
+    "name": "FERDUS GAZI",
+    "fatherName": "HANIF GAZI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13842,
+    "name": "MD. MEHEDI HASAN",
+    "fatherName": "MD. ABDUL MALEK",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13843,
+    "name": "F.RAHAMAN TANIL",
+    "fatherName": "MD.AYUB ALI",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 22
+  },
+  {
+    "roll": 13850,
+    "name": "MD. ROHAN HOSSAIN",
+    "fatherName": "MD. AMZAD HOSSAIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13854,
+    "name": "MD. SAJIB HOSSAIN",
+    "fatherName": "MOHAMMAD ALI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13856,
+    "name": "MD.SABIT ZAMAN MD.",
+    "fatherName": "BODIUZZMAN",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13858,
+    "name": "MD.IMTIYAZ UDDIN PRANTO",
+    "fatherName": "MD.JASHIM UDDIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13862,
+    "name": "MD. MISTAR",
+    "fatherName": "MD. AMIR SHEIKH",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13864,
+    "name": "BAPPI BONK",
+    "fatherName": "BIBEKANONDA BONK",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13870,
+    "name": "RAJEN CHANDRA SINGHA",
+    "fatherName": "OBINASH CHANDRA SINGHA",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 12
+  },
+  {
+    "roll": 13880,
+    "name": "MD. HABIBULLAH SHAFI",
+    "fatherName": "MD. ZAMIR UDDIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13884,
+    "name": "MOHAMMAD IQBAL",
+    "fatherName": "NURUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13888,
+    "name": "ABDUL MOHAIMIN BASHIR",
+    "fatherName": "BASHIR AHMED",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13901,
+    "name": "MD. AL-MURAD",
+    "fatherName": "MD. OBYDUR RAHMAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13902,
+    "name": "SHIHAB SHARAR SHIMUL",
+    "fatherName": "KAZI ABDUL MANNAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13903,
+    "name": "MD. SHAHADAT HOSSAN",
+    "fatherName": "MD. ZURAN KHAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13906,
+    "name": "MD. FOYJUN SALEHIN SAYDUL",
+    "fatherName": "ISLAM SARKER",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13910,
+    "name": "MD. RAIHAN ALI",
+    "fatherName": "MD. RAFIQUL SHEIKH",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13912,
+    "name": "KOPIL DEB ROY ROTON",
+    "fatherName": "CHANDRA ROY",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13919,
+    "name": "RABBIJ ISLAM",
+    "fatherName": "MD. ROBIUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13926,
+    "name": "MD. NAWAB CHOWDHURY NAYAN",
+    "fatherName": "MD. MONOWAR HOSSAIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13931,
+    "name": "MD. MOMINUR ISLAM",
+    "fatherName": "MD. AZIZUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13937,
+    "name": "MD. SUFOL TALUKDAR MD.",
+    "fatherName": "SIDDIQUE",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 13954,
+    "name": "MD. RUBAL HASAN",
+    "fatherName": "MD. BACHCHU MIA",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13956,
+    "name": "MD. ASRAFUL ISLAM",
+    "fatherName": "ABDUL AWAL",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13957,
+    "name": "MD. SAYFUL ISLAM BHUIYN",
+    "fatherName": "KHAYRUL ALOM",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13972,
+    "name": "MD. ABUE NAIM MONDOL MD.",
+    "fatherName": "BABLU MONDOL",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13975,
+    "name": "SUNIL BIKASH CHAKMA",
+    "fatherName": "PANJALA CHAKMA",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13977,
+    "name": "MD. MASUD SARDAR BORHAN",
+    "fatherName": "BORHAN SARDAR",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13983,
+    "name": "KAWSAR AHMED KHAN",
+    "fatherName": "MD. RAZAUL KARIM KHAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13995,
+    "name": "MD. EMON BABU",
+    "fatherName": "MD. AKTER HOSSAIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 13997,
+    "name": "MD.ASLAM MIAH",
+    "fatherName": "MD.LAL MIAH",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14006,
+    "name": "MD. JAHURUL",
+    "fatherName": "MD. NAZRUL",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 24
+  },
+  {
+    "roll": 14011,
+    "name": "MD. ASIF PRANG",
+    "fatherName": "MD. AHASAN HABIB",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14015,
+    "name": "RIYAD",
+    "fatherName": "NUR ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14020,
+    "name": "RAKIBUL ISLAM LIMON",
+    "fatherName": "MD. FARUK HOSSAIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14021,
+    "name": "MD.EMON MIA",
+    "fatherName": "MD.KHOKON MIA",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14023,
+    "name": "MAHZABIN ISLAM",
+    "fatherName": "MD. MINHAZUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14024,
+    "name": "M. RAYHAN MAHMUD NOOR",
+    "fatherName": "MOHAMMAD",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14026,
+    "name": "MD. ABDUL HALIM",
+    "fatherName": "ABUL HASHEM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14032,
+    "name": "MD ABDUL OAJAD",
+    "fatherName": "ABDUR RAHIM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14035,
+    "name": "TAWHID BIN ISLAM",
+    "fatherName": "NAZRUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14042,
+    "name": "MD. HASAN MAHMUD",
+    "fatherName": "MD. MANIK MIA",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14045,
+    "name": "MD. SHAFIQUL ISLAM",
+    "fatherName": "MD. MOFIJUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14048,
+    "name": "MD. AREFIN RAHMAN MD.",
+    "fatherName": "MATIUR RAHMAN",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14050,
+    "name": "SHAKAWAT HOSSAIN MAJUMDER",
+    "fatherName": "MD. BELAL HOSSAIN MOJUMDER",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14058,
+    "name": "MD. TANIM IBNE BASIR MD.",
+    "fatherName": "BOSIR AHMED",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14059,
+    "name": "ARIF MIAH",
+    "fatherName": "MD. WAHED ALI",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 9
+  },
+  {
+    "roll": 14061,
+    "name": "MD.SABBIR AHMED",
+    "fatherName": "MD.NURUL AMIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14066,
+    "name": "SWAJAL ROY",
+    "fatherName": "SURESH CHONDRO",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14069,
+    "name": "MD. NAJMUL ISLAM MD.",
+    "fatherName": "RIYAZUL ISLAM",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14076,
+    "name": "ANANTO KUMAR SHIL",
+    "fatherName": "DUCAL CHONDRO SHIL",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 21
+  },
+  {
+    "roll": 14081,
+    "name": "TRISHAN KUMAR PAUL",
+    "fatherName": "DHANA RANJAN PAUL",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14102,
+    "name": "MD. ROBE-UL ISLAM",
+    "fatherName": "MD. YEASIN ALI",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 7
+  },
+  {
+    "roll": 14113,
+    "name": "MD. MINTU MIA",
+    "fatherName": "MOSTUFA",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14123,
+    "name": "AL- EMRAN",
+    "fatherName": "ZOHURUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14131,
+    "name": "MD. SAJIB ALI MD.",
+    "fatherName": "HASEM ALI",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14136,
+    "name": "PALLOB KUMAR SARKER",
+    "fatherName": "BABLU CHANDRA SARKER",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14139,
+    "name": "MD. KAWCHAR RAHMAN",
+    "fatherName": "MD. ICHHMAIL HOSEN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14146,
+    "name": "MD. MINHAZ HOSSAIN",
+    "fatherName": "MD. MOHASIN HOSSAIN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14154,
+    "name": "SHAHARIA TANIM BABU",
+    "fatherName": "JASHIM UDDIN",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 14
+  },
+  {
+    "roll": 14159,
+    "name": "TANJIR HOSSEN",
+    "fatherName": "MD. ZAKIR HOSSAIN",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 19
+  },
+  {
+    "roll": 14177,
+    "name": "ANOPUM HOSSEN NAYEM MD.",
+    "fatherName": "SAIKUL ISLAM",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14179,
+    "name": "MD. RAKIBUL ISLAM",
+    "fatherName": "MD. ABDUL KUDDUS",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14196,
+    "name": "SOIKAT HOSEN LITON",
+    "fatherName": "LITON KOBIRAJ",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14205,
+    "name": "MD. RAFAT HASSAN",
+    "fatherName": "MD. NURUL HUDA",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14212,
+    "name": "MITHUN RAY MILON",
+    "fatherName": "CHANDRA ROY",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14217,
+    "name": "MD. AJIJUL ISLAM",
+    "fatherName": "MD. MOGIBOR RAHAMAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14220,
+    "name": "MD. ROBIUL ISLAM MD.",
+    "fatherName": "SHEKUL PK.",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14223,
+    "name": "ADEL MAHMUD MD.",
+    "fatherName": "SHAHID ULLAH FAROQUEE",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14225,
+    "name": "MD. MAHAMUDUL HASAN MD.",
+    "fatherName": "MONIR UDDIN",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14233,
+    "name": "MITHUN PAUL",
+    "fatherName": "MAHANONDA PAUL",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14245,
+    "name": "MD.KAYES HOSAIN MD",
+    "fatherName": "ASKENDER SHEIKH",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14252,
+    "name": "RAJU SARKER",
+    "fatherName": "MD. SUKUR ALI SARKER",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14258,
+    "name": "MD. JOWEL HOSSEN",
+    "fatherName": "NURUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14260,
+    "name": "MD. HUMAYIN KABIR",
+    "fatherName": "MD. MAMIDUL ISLAM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14261,
+    "name": "MD. EMON MD.",
+    "fatherName": "BELAL HOSSAIN",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14262,
+    "name": "SHAH ALAUL HOSSAIN",
+    "fatherName": "MUGHAL AZAM SHAH",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14265,
+    "name": "MD. NAIM HOSSAIN MD.",
+    "fatherName": "MANNAN AKANDA",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14277,
+    "name": "MD. NEWAZ SHARIF SOIKAT CHOWDHURY",
+    "fatherName": "MD. NAZRUL KHADER CHOWDHURY",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14278,
+    "name": "MD. SIPON ISLAM",
+    "fatherName": "MD. MOHAJJAM ALI",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14282,
+    "name": "SUMIT DAS",
+    "fatherName": "SHUSANTA DAS",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14284,
+    "name": "MD. SHEPON HOSHAN PRAMANIK",
+    "fatherName": "MD. MONIRUJJAMAN RONTU",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 3
+  },
+  {
+    "roll": 14288,
+    "name": "MARUF BILLAH",
+    "fatherName": "MD.SOFIKUL ISLAM",
+    "department": "MME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14293,
+    "name": "MD. RAKIB ISLAM",
+    "fatherName": "MD. KHADEMUL ISLAM",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 23
+  },
+  {
+    "roll": 14304,
+    "name": "MOHAMMAD RAYHAN",
+    "fatherName": "MOTI MIAH",
+    "department": "IPE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14310,
+    "name": "DIPU CHANDRA ROY",
+    "fatherName": "DINESH CHANDRA ROY",
+    "department": "ME",
+    "status": "Waiting",
+    "waitingMerit": 8
+  },
+  {
+    "roll": 14319,
+    "name": "MD. RAHAD MIA",
+    "fatherName": "MD. REZAUL KARIM",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14331,
+    "name": "MD. AHSAN HABIB",
+    "fatherName": "MD. AFATULLAH SHE-KH",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14334,
+    "name": "MD. SABBIR HOSSAIN",
+    "fatherName": "MD. ISMAIL HOSAN",
+    "department": "ME",
+    "status": "Selected"
+  },
+  {
+    "roll": 14376,
+    "name": "SUMAIYA AKTER",
+    "fatherName": "MD. NABAB ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14401,
+    "name": "TAMNNA NIGAR ANY",
+    "fatherName": "MOHAMMAD ABDUS SALAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14410,
+    "name": "MST. SHAMIMA AKTER SUMONA",
+    "fatherName": "MD. SORIFUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14414,
+    "name": "AUSRU KUMAR",
+    "fatherName": "BIMOL CHANDRA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14417,
+    "name": "POLLOB SAHA",
+    "fatherName": "SUSANTO SAHA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14429,
+    "name": "RITU SAHA",
+    "fatherName": "RAJKUMAR SAHA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14431,
+    "name": "MD. SAIDEE HOSSEN",
+    "fatherName": "MD. SAIFUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14456,
+    "name": "MD. JAHEDUL ISLAM",
+    "fatherName": "MD. IMRAN HOSSEN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14464,
+    "name": "ABDUR RAZZAK",
+    "fatherName": "MD. ABDUL BASITH",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14471,
+    "name": "DIP KUMAR CHANDA",
+    "fatherName": "DILIP CHANDA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14474,
+    "name": "MD. LIMON HOWLADER",
+    "fatherName": "MD. MONIR HOWLADER",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14480,
+    "name": "MD. ABDUL HALIM",
+    "fatherName": "MD. JAMAL UDDIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14484,
+    "name": "JANNATUN NAIEM",
+    "fatherName": "MD. JAMSHED ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14491,
+    "name": "MAIESHA BENTHA MASBHA",
+    "fatherName": "AL-HAJ MD. MASBA UDDIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14492,
+    "name": "MD. ABDUL KADER",
+    "fatherName": "MD. ABUL KASHEM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14493,
+    "name": "MD. JIAUL HOQUE",
+    "fatherName": "MD. SIAMUL HOQUE",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14496,
+    "name": "MD. JANY AHAMMED",
+    "fatherName": "MD. KAMAL HOSSAIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14503,
+    "name": "TANIA AKTER",
+    "fatherName": "ABDUL AOWAL",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14523,
+    "name": "MD. ABDUL MOTALEB",
+    "fatherName": "MD. JAKIR HASAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14533,
+    "name": "MD. ZUNNUN AL AREFIN",
+    "fatherName": "MD. RAFIQE SARKAR",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14538,
+    "name": "MOHAMMAD NAJMUS SAKIB TUAHA",
+    "fatherName": "MD. ABDUR RAHIM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14542,
+    "name": "MD.RAKIB HOSSAIN",
+    "fatherName": "MD.MOTHER RAHMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14544,
+    "name": "NARAYAN CHANDRA PAL",
+    "fatherName": "DINESH CHANDRA PAL",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14549,
+    "name": "MD. RAKIBUL HASAN",
+    "fatherName": "LAL MIA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14556,
+    "name": "SABUJ SARKER",
+    "fatherName": "BIREN CHONDRO",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14558,
+    "name": "MD. RAYHAN HOSSEN",
+    "fatherName": "MD. NIZAM UDDIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14561,
+    "name": "PRASHANTA DAS",
+    "fatherName": "ONIL DAS",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14562,
+    "name": "MD. RAHUL ISLAM RANA",
+    "fatherName": "MD. SHAHIDUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14572,
+    "name": "MD. MITHCJN ALI",
+    "fatherName": "MD.GOLAP ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14588,
+    "name": "SAGOR CHANDRA BARMON",
+    "fatherName": "BIMAL CHANDRA BARMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14597,
+    "name": "MD.SHARIF HOSSAIN",
+    "fatherName": "MD.BAZLU SARDAR",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14601,
+    "name": "MST. HIRA MONY KHATUN",
+    "fatherName": "MD. HATEM ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14605,
+    "name": "JANNAT HOSSAIN",
+    "fatherName": "MD. DELOWAR HOSSAIN BOYATI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14613,
+    "name": "SUMITRA MAZUMDER",
+    "fatherName": "NIROB CHANDRA MAZUMDER",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14614,
+    "name": "MD. ZANIN HOSSAIN",
+    "fatherName": "MD. ALOMGIR HOSSAIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14615,
+    "name": "JESMIN AKTER",
+    "fatherName": "ABDUL MANNAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14616,
+    "name": "MD. AJAJ MAHMMOD KANON",
+    "fatherName": "MD. TUTUL MALITHA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14624,
+    "name": "MD. MAHMUDUL ISLAM",
+    "fatherName": "KAZI MOHAMMED NURUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14626,
+    "name": "MD. AL AMIN",
+    "fatherName": "MD. MOZIBOR RAHMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14638,
+    "name": "KEFAYET ULLAH",
+    "fatherName": "MOHAMMAD YEASIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14641,
+    "name": "MD. MOTIAR RAHMAN MOTI",
+    "fatherName": "MD. ABDUL AZIZ",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14643,
+    "name": "MST. RAZIA SULTANA RAKHI",
+    "fatherName": "MD. REJAUL KARIM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14649,
+    "name": "MD. KOBIRUL ISLAM",
+    "fatherName": "MD. HASIBUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14655,
+    "name": "MD. ABDULLAH ZOBAYER",
+    "fatherName": "MD. MOTIUR RAHMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14657,
+    "name": "MD NUR HOSSEN ROME",
+    "fatherName": "MD. YEASIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14659,
+    "name": "MD. HADAIT ULLAH EMON",
+    "fatherName": "MOHAMMED WALI ULLAH",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14668,
+    "name": "IRFAT JAHAN",
+    "fatherName": "MD ABU YOUSUF",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14676,
+    "name": "MD. MONIRUL ISLAM",
+    "fatherName": "MD. SHIRAJUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14683,
+    "name": "MST. FATEMA KHATUN",
+    "fatherName": "MD. FAJLU MOLLA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14692,
+    "name": "SONCHOY CHOWHAN",
+    "fatherName": "GOYANATH CHOWHAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14694,
+    "name": "HRIDAY MANDAL",
+    "fatherName": "RAJKUMAR MONDAL",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14705,
+    "name": "AIREN SULTANA ANY",
+    "fatherName": "MD. MOKSED ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14717,
+    "name": "MD. RUBAID HASAN",
+    "fatherName": "MD. SIRAZUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14719,
+    "name": "MD. HASANUL HAQUE HASIB",
+    "fatherName": "MD. AKTARUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14736,
+    "name": "MD. OMAR FARUK",
+    "fatherName": "MD ABDUR RAHIM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14739,
+    "name": "MD. ZAHIDUL ISLAM",
+    "fatherName": "MD. SHAHZALAL MONDAL",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14743,
+    "name": "MD. MEHEDEE HASAN",
+    "fatherName": "MD. NAWSHER ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14744,
+    "name": "HRIDOY KUMAR NATH",
+    "fatherName": "MRIDUL KANTI NATH",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14745,
+    "name": "MD. JAYE-DUL ISLAM JAYED",
+    "fatherName": "MD. ELIYAS HOSSAIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14747,
+    "name": "MD. SOMON AHMED",
+    "fatherName": "MD. JOYNAL ABEDIN",
+    "department": "CSE",
+    "status": "Waiting",
+    "waitingMerit": 3
+  },
+  {
+    "roll": 14752,
+    "name": "FATEMA JANNAT",
+    "fatherName": "FAKHRUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14763,
+    "name": "MD. SHAHIDUZZAMAN HRIDOY",
+    "fatherName": "MD. NURUZZAMAN HOSSAIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14766,
+    "name": "A RANNA BARUA",
+    "fatherName": "TAPASH KANTI BARUA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14776,
+    "name": "ABDULLAH",
+    "fatherName": "MD. ABDUL KADER",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14777,
+    "name": "MD. SHAKIB AL HASAN",
+    "fatherName": "MD. NURUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14782,
+    "name": "MD. ME-HEDI HASSAN",
+    "fatherName": "MD. KHALILUR RAHMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14786,
+    "name": "MD. ISTIAK AHMED PRINCE",
+    "fatherName": "ABU HENA MD. KAMRUZZAMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14796,
+    "name": "MD.AMINUL ISLAM",
+    "fatherName": "MD.ABUL KALAM",
+    "department": "CSE",
+    "status": "Waiting",
+    "waitingMerit": 5
+  },
+  {
+    "roll": 14805,
+    "name": "MD. IKBAL HOSSAN",
+    "fatherName": "MD. AMIR HOSSAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14811,
+    "name": "TUSTY DATTA",
+    "fatherName": "KIRON DATTA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14814,
+    "name": "MD. MAHEDI HASAN",
+    "fatherName": "MD. MOHASIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14819,
+    "name": "MD. FAHIM SHARIA",
+    "fatherName": "MD. HAREJ",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14820,
+    "name": "KHADIZA AKTER",
+    "fatherName": "TOFAZZAL",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14822,
+    "name": "NOURIN NAHAR RUBI",
+    "fatherName": "MD.NAZIM UDDIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14825,
+    "name": "JANNATUL FERDAUS NAHID",
+    "fatherName": "ABU OSMAN KHAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14826,
+    "name": "MD. RAKIBUL ISLAM ROKI",
+    "fatherName": "RIAZ MONDAL",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14828,
+    "name": "MD. SHANTO ISLAM",
+    "fatherName": "MD. SHAHINUR RAHMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14829,
+    "name": "SHAPLA AKTER",
+    "fatherName": "MD. ABDUL HAMID",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14834,
+    "name": "MD. MAMNUR RASHID",
+    "fatherName": "MD. NUR ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14843,
+    "name": "MD. RONY",
+    "fatherName": "MD. HAWN-OR-ROSID",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14847,
+    "name": "MD. ROKON MAHMUD",
+    "fatherName": "MD. MOTIN HOSSAIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14852,
+    "name": "MD. SHARAFAT HOSSEN",
+    "fatherName": "MD. ASHRAF ALI FAKIR",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14856,
+    "name": "MD. HARUNAR RASHID",
+    "fatherName": "MD. RUHUL AMIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14860,
+    "name": "MAMUN OR-RASHID",
+    "fatherName": "ALAM HOSSAIN",
+    "department": "CSE",
+    "status": "Waiting",
+    "waitingMerit": 2
+  },
+  {
+    "roll": 14863,
+    "name": "MD. NAHID HASAN",
+    "fatherName": "MD. GELAJUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14868,
+    "name": "AL-AMIN",
+    "fatherName": "ANOWAR HOSSAIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14869,
+    "name": "SAIDA SULTANA MITU",
+    "fatherName": "MD. SHOPON MIA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14870,
+    "name": "MD. YEAKUB ALI",
+    "fatherName": "MD. YASIN KHA",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14890,
+    "name": "MD. HASANUR RAHMAN",
+    "fatherName": "MD. ALTAB HOSSAIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14892,
+    "name": "MD. RATON MIA",
+    "fatherName": "MD. ATAUR RAHMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14894,
+    "name": "MD. MONOARUL ISLAM",
+    "fatherName": "MD. TORIKUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14907,
+    "name": "MD. NAHID MIA",
+    "fatherName": "MD. FARIDUL ISLAM FARID",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14925,
+    "name": "S H AJAHAN M IA",
+    "fatherName": "MD. ARSHAD ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14927,
+    "name": "MD.MAINUL ISLAM PRINCE",
+    "fatherName": "MD.MANNAN HOWLADER",
+    "department": "CSE",
+    "status": "Waiting",
+    "waitingMerit": 1
+  },
+  {
+    "roll": 14929,
+    "name": "NURJAHAN NURI",
+    "fatherName": "MD. ABDUL KIUM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14937,
+    "name": "RIFAT JAHAN",
+    "fatherName": "ROBIUL HOQUE",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14938,
+    "name": "MOST. NAHDA AKTAR",
+    "fatherName": "MD. NASIRUL KARIM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14952,
+    "name": "DURJOY BASAK",
+    "fatherName": "DUCAL BASAK",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14953,
+    "name": "RAJ MAMUN MIA",
+    "fatherName": "MD. OAHAB ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14955,
+    "name": "MD. MARUF HASAN REJON",
+    "fatherName": "MD. ABDUS SALEK PRODHAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14961,
+    "name": "PROMA RANI SARKER",
+    "fatherName": "PARMAL CHANDRA SARKER",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14965,
+    "name": "MD. RIPON KHANDOKAR",
+    "fatherName": "MD. ABDUL AZIZ",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14973,
+    "name": "MD. MAHABUL ISLAM",
+    "fatherName": "MD. MAFIZ UDDIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14977,
+    "name": "MD. JAHIDUR RAHMAN SHOBUJ",
+    "fatherName": "MD. SHAHAJAHAN SARKER",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14987,
+    "name": "MEHEDI HASAN MABEN",
+    "fatherName": "MD. YUNUS ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14992,
+    "name": "MD. MINHAJUL ISLAM",
+    "fatherName": "MD. YEASIN ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14993,
+    "name": "MD. ASADULLAH ALL GALIB",
+    "fatherName": "MD. ALI AHSAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 14996,
+    "name": "OVI HOSSAIN ABIR",
+    "fatherName": "MD. SHOFIUDDIN PK",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15009,
+    "name": "MD. MIRAZUL ISLAM",
+    "fatherName": "MD. MAZIBAR RAHMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15010,
+    "name": "AL SHAHRIAR FAHIM",
+    "fatherName": "MD. ALAMGIR ALAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15022,
+    "name": "SANJIDULALOM",
+    "fatherName": "SHAH ALOM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15030,
+    "name": "MD. TANZIDUL ISLAM",
+    "fatherName": "MD. SAHABUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15036,
+    "name": "MD. MURSALIN ISLAM MUBIN",
+    "fatherName": "MD. OYAJED ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15037,
+    "name": "MD. JAHID HASAN",
+    "fatherName": "MD. KAMAL HOSSAIN €Oneeti",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15044,
+    "name": "APURBA CHANDRA DAS",
+    "fatherName": "ANIL CHANDRA DAS",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15046,
+    "name": "MST AFROZA AKTER ASHA",
+    "fatherName": "MD ASADUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15053,
+    "name": "MD. MEHEDI HASAN",
+    "fatherName": "MD. MIJANUR RAHMAN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15057,
+    "name": "MD. SHAMIM HOSSAIN",
+    "fatherName": "MD. NUR ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15075,
+    "name": "MEHERBAN",
+    "fatherName": "JABED ALI",
+    "department": "CSE",
+    "status": "Waiting",
+    "waitingMerit": 4
+  },
+  {
+    "roll": 15087,
+    "name": "MOST. NOURIN ASHRAFI",
+    "fatherName": "MD. MOKARROM HOSSAIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15091,
+    "name": "MD. ZAHIRUL ISLAM ZIHAD",
+    "fatherName": "MD. KABIR HOSSAIN",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15098,
+    "name": "MD. RAKIB SHEKH",
+    "fatherName": "MD. HASMAT ALI",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15102,
+    "name": "TANI AKTER",
+    "fatherName": "MD. TAIJUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15107,
+    "name": "MD. IMRAN HOSSAIN",
+    "fatherName": "MD. NURUL ISLAM",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15110,
+    "name": "RASHEDUL ISLAM",
+    "fatherName": "AKKAS ALI PK",
+    "department": "CSE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15115,
+    "name": "MD. TAHMID BIN FEROZ",
+    "fatherName": "MD. FEROZ-AL-MAMUN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15120,
+    "name": "MD. ASIB HASAN OVI",
+    "fatherName": "MD. EMDADUL HAQUE",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15122,
+    "name": "MD. RIFAT HASAN",
+    "fatherName": "MD. SAZZAD HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15129,
+    "name": "ARNAB BARUA CHAYON",
+    "fatherName": "TIPU BARUA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15133,
+    "name": "ASIB HOSSAIN",
+    "fatherName": "MD. ABU MUSA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15134,
+    "name": "MD. JAHANGIR ALAM",
+    "fatherName": "MD. SOFOR ALI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15135,
+    "name": "RASEL HOSAIN",
+    "fatherName": "MD. KHALIL HAWLADAR",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15137,
+    "name": "KRISHNA CHANDRA",
+    "fatherName": "MONTU DAS",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15141,
+    "name": "MD. SANOWARUL ISLAM",
+    "fatherName": "MD. ANAMUL HAQUE",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15145,
+    "name": "RESHITA SAHA",
+    "fatherName": "AMAL ENDU SAHA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15146,
+    "name": "MD. SAFI AL MAHDI SHIHAB",
+    "fatherName": "MD. REZAUL HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15149,
+    "name": "MD.RIMON",
+    "fatherName": "REJAUL HOWLADER",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15152,
+    "name": "ROKIBUR RAHMAN MITHUN",
+    "fatherName": "SHADAT HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15154,
+    "name": "MD. ASADULLAH AL GALIB",
+    "fatherName": "MD. ANWAR HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15155,
+    "name": "MD. FAYSAL MOLLA",
+    "fatherName": "MD. MAHBUB MOLLA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15156,
+    "name": "MD. TAMJID HOSSEN",
+    "fatherName": "MD. ALOM SARKER",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15158,
+    "name": "SAKIBUR RAHMAN",
+    "fatherName": "SAIFUL SARDER",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15165,
+    "name": "ANOWAR HOSEN",
+    "fatherName": "MOHAMMOD ALI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15167,
+    "name": "GOLAM SHAFKAT",
+    "fatherName": "GOLAM FARUQUE",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15169,
+    "name": "MD. MAHEDI HASAN",
+    "fatherName": "MD. ABDUR RAHAMAN KHOKON",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15170,
+    "name": "MD.TONMOY HOSSEN",
+    "fatherName": "MD.TAZUDDIN AHAMED",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15171,
+    "name": "MD. SIAM",
+    "fatherName": "MD. ABDUL BATEN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15172,
+    "name": "KHOKON CHANDRO RABIDAS",
+    "fatherName": "LALCHAN RAM RABIDAS",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15174,
+    "name": "S. M. MAHATHIR HASAN",
+    "fatherName": "SHAIKE MONIRUL HASAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15178,
+    "name": "MD. MARUF HOSEN",
+    "fatherName": "MD. ZAKIR HOSEN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15179,
+    "name": "FARID AHMED",
+    "fatherName": "ABDUL LATIF",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15180,
+    "name": "MD. FAYSAL MIA",
+    "fatherName": "AL AMIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15183,
+    "name": "MD. AHSAN HABIB JITU",
+    "fatherName": "MD. ABDUR RASHID",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15184,
+    "name": "ANUP CHANDRA ROY",
+    "fatherName": "NIRONJAN ROY",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15185,
+    "name": "MD. MEHEDI HASAN SHANTO",
+    "fatherName": "MD. ABDUL BUDDUS PK",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15186,
+    "name": "ULLASH GUHA",
+    "fatherName": "AJIT GUHA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15187,
+    "name": "MD. MONIR HASAN",
+    "fatherName": "MD. MOINUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15188,
+    "name": "BARNA BISWAS",
+    "fatherName": "MRIDUL BISWAS",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15189,
+    "name": "EAKUB ALI",
+    "fatherName": "SHAFIQUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15190,
+    "name": "PANKAJ",
+    "fatherName": "ANIL CHANDRA MISTRY",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15197,
+    "name": "REBEKA ISLAM",
+    "fatherName": "MD RAFIQUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15203,
+    "name": "HAKIMI-JL ISLAM NAEM",
+    "fatherName": "ZULFIKAR ALI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15204,
+    "name": "MD. MIRAJUL ISLAM JEION",
+    "fatherName": "MD. BADSHA MIAH",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15208,
+    "name": "SHUVO DAS",
+    "fatherName": "PRODIP DAS",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15209,
+    "name": "MD. SAZZAD HOSSAIN SIFAT",
+    "fatherName": "MD. SAKHAWAT SARDER",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15214,
+    "name": "MD. MD. ATIFUR RAHMAN",
+    "fatherName": "MD. MOKHLESUR RAHMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15215,
+    "name": "MD. ARIFUZZAMAN",
+    "fatherName": "MD. FOYJUR RAHMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15217,
+    "name": "HASAN",
+    "fatherName": "MD. NAZRUL",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15221,
+    "name": "MST. SANJIDA AKTAR SWEETY",
+    "fatherName": "MD. SADEKUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15224,
+    "name": "MD. HABIBUR RAHMAN",
+    "fatherName": "MD. AL-AMIN MIA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15227,
+    "name": "MD. RAHAT GAZI",
+    "fatherName": "MD. ANOWAR GAZI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15228,
+    "name": "FATAMATUJJAHURA",
+    "fatherName": "MD. BADSA MIA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15230,
+    "name": "SAUD BIN JAMAN",
+    "fatherName": "MASUDUZZAMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15233,
+    "name": "MOST. RIFHA ZAKIA ANTA",
+    "fatherName": "MD. ASADUZZAMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15242,
+    "name": "AMRITO CHANDRA ROY",
+    "fatherName": "KALIPODO CHANDRA ROY",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15243,
+    "name": "FARIA AK TAR",
+    "fatherName": "MD. FASI UDDIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15252,
+    "name": "RAJU AHMED",
+    "fatherName": "MD. MOSHARAF HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15257,
+    "name": "MD. RAJU NURUZZAMAN AHMED HOSSAIN",
+    "fatherName": "MD. MOFAZZAL HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15259,
+    "name": "MD. NADIMUL HAQUE JUNAYED",
+    "fatherName": "MD. ABU MUSA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15261,
+    "name": "ABIDUZZAMAN LEON",
+    "fatherName": "MD. ASADUJJAMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15265,
+    "name": "MD EMON SHEIKH",
+    "fatherName": "MD. MOMIN SHEIKH",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15267,
+    "name": "MD. AMIRCJL ISLAM",
+    "fatherName": "MD. AKRAMUL HAQUE",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15271,
+    "name": "SOURAV CHANDRA SARKAR",
+    "fatherName": "SAGAR CHANDRA SARKAR",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15272,
+    "name": "MD. RAFIK BIN SHUVO",
+    "fatherName": "MD. MAHBOBUR RAHMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15274,
+    "name": "MD. RAZIBUL ISLAM",
+    "fatherName": "MD. AMZAD HOSSAIN FOKIR",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15276,
+    "name": "MD. AROB ALI",
+    "fatherName": "MD. MOMIN MONDOL",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15277,
+    "name": "MOST. FATEMA KHATUN",
+    "fatherName": "MD. SHAH ALAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15279,
+    "name": "MD. SHARIAR RAJIN",
+    "fatherName": "MD. SHAHIN MIA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15281,
+    "name": "MD. SUJAT ALI",
+    "fatherName": "MD. ABDUL JOLIL",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15282,
+    "name": "MD. MAHMUD HASAN MASUM",
+    "fatherName": "MD. SHAH-JAHAN ALI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15284,
+    "name": "MD. ADOM ALI",
+    "fatherName": "MD. YOUNUS ALI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15287,
+    "name": "MD.SAJIB MIAH",
+    "fatherName": "ANWAR HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15289,
+    "name": "NAWSHIN",
+    "fatherName": "ABDUL WOHAB",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15290,
+    "name": "MD. AL-AMIN ISLAM",
+    "fatherName": "MD. ANARUDDIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15291,
+    "name": "MD. ARAF SARDAR",
+    "fatherName": "MD. MEER CHAND SARDAR",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15294,
+    "name": "KAZI RAUFUL",
+    "fatherName": "KAZI KHAIRUJJAMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15296,
+    "name": "MD. SHAFIKUL ISLAM",
+    "fatherName": "MD. JAKIR HOSEN MOLLA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15297,
+    "name": "SHOPON KUMAR",
+    "fatherName": "RONJIT CHANDRA BARMON",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15299,
+    "name": "MD. TOBIUL HUDA",
+    "fatherName": "MD. MOYEJUDDIN MONDOL",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15300,
+    "name": "MD.SHAWON MIA",
+    "fatherName": "MD. MATIUR RAHMAN SARDAR",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15303,
+    "name": "MD. TANZIL HOSSEN",
+    "fatherName": "MD. NURUL HUDA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15304,
+    "name": "MD. MONIRUZZAMAN SIHAB",
+    "fatherName": "MD. ROSTAM ALI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15305,
+    "name": "MD. RABBI HASAN",
+    "fatherName": "MD. ANAMUL HAQUE",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15308,
+    "name": "EYASIN ARAFAT JOY",
+    "fatherName": "MD.ASAD MIHA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15312,
+    "name": "MOST. HUMAIRA OSMAN ORIN",
+    "fatherName": "MD. WAYESKURUNI MONDOL",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15314,
+    "name": "MD. JOBAYER MIA",
+    "fatherName": "MD. MIZANUR RAHMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15317,
+    "name": "MD. MOTIUR RAHMAN",
+    "fatherName": "MD. MELION ALI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15318,
+    "name": "ANIK DAS",
+    "fatherName": "RATAN DAS",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15320,
+    "name": "MD. KAMRUZZAMAN KOMOL",
+    "fatherName": "MD. NURUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15321,
+    "name": "MD. EMAM GAJJALI",
+    "fatherName": "MD. ALI HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15328,
+    "name": "SAAD",
+    "fatherName": "MD. SHAMIM AL MAMUN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15329,
+    "name": "MD. RAKIBUL ISLAM",
+    "fatherName": "MD. JAHANGIR MIA",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15332,
+    "name": "MUSSAMMED NUSRAT JAHAN SRITY",
+    "fatherName": "MD AYUBUL ISLAM CHY",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15333,
+    "name": "JAHIRUL ISLAM",
+    "fatherName": "SHARIF UDDIN SARKER",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15335,
+    "name": "ALFI TANVI SHANTO",
+    "fatherName": "MD. FARUK AHMED",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15336,
+    "name": "MD. ARIF SHAHRYAR",
+    "fatherName": "MD. SAMSUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15337,
+    "name": "LINTA AKTAR LIZA",
+    "fatherName": "MD. NUR ALAM SIDDIQUE",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15340,
+    "name": "MD. ARAFAT RAHMAN HASSAN",
+    "fatherName": "MD. BABLU SARKER",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15341,
+    "name": "MD. MAHADY HASSAN",
+    "fatherName": "ABRAUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15349,
+    "name": "MD. MD. SOHANUR MAHADY ISLAM SOHAN",
+    "fatherName": "MD. MIJANUR RAHAMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15353,
+    "name": "MST. BIZLI AKTAR",
+    "fatherName": "MD. ISMAIL HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15354,
+    "name": "MAHADI HASAN",
+    "fatherName": "NOUR ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15355,
+    "name": "MD. MUMINUL ISLAM MUKTADER",
+    "fatherName": "ABDUL MONNAF",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15357,
+    "name": "SHUVONGKER KARMAKAR SHUVO",
+    "fatherName": "SUSHANTA KARMAKAR",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15359,
+    "name": "SAJID SHAHRIAR",
+    "fatherName": "MD.SAFIQUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15360,
+    "name": "MD. GAZIUL HAQUE GAZI",
+    "fatherName": "MD. HAYDAR ALI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15362,
+    "name": "MD. MASRUR RAHMAN",
+    "fatherName": "MD. DABLU MOSTAFIJUR RAHMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15363,
+    "name": "MD. MESBAUL ISLAM SHAKIL",
+    "fatherName": "MD. ABDUS SALAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15365,
+    "name": "DIDAR ALI",
+    "fatherName": "FAYZUR RAHMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15366,
+    "name": "MD. FARHAN AMIN MUNIF",
+    "fatherName": "MD. ANISUR RAHMAN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15375,
+    "name": "AHSANUL ISLAM TANVER",
+    "fatherName": "MD. TAJUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15379,
+    "name": "MD. BAHARUL ISLAM",
+    "fatherName": "MD. ANOARUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15387,
+    "name": "MINTU RAY",
+    "fatherName": "SUBAS RAY",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15388,
+    "name": "MD. MEHEDI HASAN",
+    "fatherName": "MD. NASIR UDDIN DUET",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15396,
+    "name": "MST. JUI KHATUN",
+    "fatherName": "MD. ZIARUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15401,
+    "name": "SAYED MOHAMMED MINHAZUL ABEDIN",
+    "fatherName": "MD. EDRIS",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15404,
+    "name": "KONOK CHANDRO ROY",
+    "fatherName": "KANTESHOR ROY",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15408,
+    "name": "MD. AJIMUL ISLAM AKASH",
+    "fatherName": "MD. JOMIR UDDIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15409,
+    "name": "SAKIBUL ALOM SADI",
+    "fatherName": "SORIFUL ALOM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15411,
+    "name": "MD. NAZMUL HAQUE",
+    "fatherName": "MD. MOMINUL ISLAM",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15413,
+    "name": "MD. NIAJ MAHMUD FUAD",
+    "fatherName": "KHANDAKER ANWAR HOSSAIN",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15422,
+    "name": "MD. JIBON BABU",
+    "fatherName": "MD. YOUSOP ALI",
+    "department": "TE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15425,
+    "name": "TAPON CHANDRA ROY",
+    "fatherName": "GITENDRA NATH ROY",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15428,
+    "name": "MD. AL AMIN",
+    "fatherName": "MD. MOZAFFAR HOSSAIN",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15429,
+    "name": "ROBIUL ISLAM",
+    "fatherName": "NURUGGAMAN SRKER",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15430,
+    "name": "MD. SAIFUL ISLAM",
+    "fatherName": "TAJOL ISLAM KHAN",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15433,
+    "name": "MD. RAKIBUL ISLAM",
+    "fatherName": "MD. ASRAIL HAQUE",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15436,
+    "name": "MD. EMON HOSSEN",
+    "fatherName": "MD. ABDUL KHALEK",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15438,
+    "name": "SYEDA ABIDA AHMED MAHIA",
+    "fatherName": "S. M. MAHFUZUR RAHMAN",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15456,
+    "name": "JAKARIA HOSSAIN",
+    "fatherName": "ANOWAR HOSSAIN",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15457,
+    "name": "ABDUL ALIM",
+    "fatherName": "MD. HAET ALI",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15458,
+    "name": "MILON CHANDRO SEN",
+    "fatherName": "KAYLASH CHANDRO SEEN",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15459,
+    "name": "ANIKA TAHSIN HRIDITA",
+    "fatherName": "MD.MASUD KARIM",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15461,
+    "name": "ZUBAIR AHSAN",
+    "fatherName": "MD. HABIBUR RAHMAN",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15463,
+    "name": "TOWHIDA AFRIN MIM",
+    "fatherName": "MD. FARUK HOSSAIN",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15466,
+    "name": "HABIBUNNAHAR PURNA",
+    "fatherName": "MD. HARIS MOLLAH",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15468,
+    "name": "ABU HASNAT",
+    "fatherName": "MD. ZULFIKER ALI",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15472,
+    "name": "SYED GUAM MUGNI",
+    "fatherName": "SYED GULAM MUHIT",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15483,
+    "name": "MD. ARFAN MIA",
+    "fatherName": "A. K. M. SAIDUL ALAM",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15486,
+    "name": "MD. MIJANUR RAHMAN MIJAN",
+    "fatherName": "MD. SAJADUL ISLAM",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15493,
+    "name": "MD. ABDULLAH AL MAHMUD",
+    "fatherName": "MD. ABUL KALAM",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15498,
+    "name": "CHOWDHURY AL TARIF ULLAS",
+    "fatherName": "MD. TORIKUL ISLAM",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15506,
+    "name": "MD. HASIBUL HASAN SANTO",
+    "fatherName": "MD. SELIM AKHTAR",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15513,
+    "name": "METHELA FARZANA",
+    "fatherName": "MD. MOHIUDDIN MIA",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15518,
+    "name": "MD. JAHID HASSAN JIBON",
+    "fatherName": "MD. SAIFUL ISLAM",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15523,
+    "name": "MINHAZUL HOQUE",
+    "fatherName": "MOMINUL HAQUE",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15525,
+    "name": "MD. RUHUL AMIN",
+    "fatherName": "MD. ABDUS SAMAD",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15529,
+    "name": "LATIFA AKTHER",
+    "fatherName": "MD. DIDAR",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15530,
+    "name": "SHAGOR MIA",
+    "fatherName": "DULAL MIA",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15534,
+    "name": "MD. HAFIJUR RAHMAN",
+    "fatherName": "MD. ABDUL KAFI SARKER",
+    "department": "ARCH",
+    "status": "Selected"
+  },
+  {
+    "roll": 15544,
+    "name": "MD. ASRAFUL ISLAM",
+    "fatherName": "ABDUL AWAL",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15546,
+    "name": "MD. KAWCHAR RAHMAN",
+    "fatherName": "MD. ICHHMAIL HOSEN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15552,
+    "name": "MD. SAYED HASAN",
+    "fatherName": "MD. JAHAGIR ALOM",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15559,
+    "name": "RAKESH KUMAR SHAHA",
+    "fatherName": "RATAN KUMAR SHAHA",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 116
+  },
+  {
+    "roll": 15560,
+    "name": "MD. ASIF KHAN",
+    "fatherName": "MD. ABDUL QUDDUS KHAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 3
+  },
+  {
+    "roll": 15564,
+    "name": "MINDAL HOWLADER",
+    "fatherName": "ABDUL HYE HOWLADER",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 72
+  },
+  {
+    "roll": 15565,
+    "name": "MD. IMRAN ISLAM",
+    "fatherName": "MD. GOBED ALI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 76
+  },
+  {
+    "roll": 15567,
+    "name": "MITHUN PAUL",
+    "fatherName": "MAHANONDA PAUL DUET",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 92
+  },
+  {
+    "roll": 15568,
+    "name": "SWAIF MAHAMUD SADI",
+    "fatherName": "MOHAMMAD KUDDUS MOLLA",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 94
+  },
+  {
+    "roll": 15573,
+    "name": "FARHAN AHAMED",
+    "fatherName": "FIROZ UDDIN AHAMED",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 68
+  },
+  {
+    "roll": 15584,
+    "name": "ADEL MAHMUD",
+    "fatherName": "MD. SHAHID ULLAH FAROQUEE",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 11
+  },
+  {
+    "roll": 15587,
+    "name": "MD. HABIBUR RAHMAN",
+    "fatherName": "ABDUR RASHID SARKER",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 64
+  },
+  {
+    "roll": 15605,
+    "name": "MOHAMMAD IQBAL",
+    "fatherName": "NURUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 28
+  },
+  {
+    "roll": 15606,
+    "name": "MD. RAZIM HOSSAIN",
+    "fatherName": "MD. SHAHIDUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 21
+  },
+  {
+    "roll": 15608,
+    "name": "MD. YAHIA AL BAHIZ",
+    "fatherName": "MD. NAZRUL KABIR",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 22
+  },
+  {
+    "roll": 15616,
+    "name": "MD. NAIM HOSSAIN",
+    "fatherName": "MD. MANNAN AKANDA",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 70
+  },
+  {
+    "roll": 15619,
+    "name": "RAHAT UDDIN SHAKIL",
+    "fatherName": "MD. KIRON SIKDER",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 1
+  },
+  {
+    "roll": 15621,
+    "name": "MD. SAMIUL HOSSEN",
+    "fatherName": "MD. JYNAL HOSSAIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 35
+  },
+  {
+    "roll": 15622,
+    "name": "MD. MENHAJUL FAKIR",
+    "fatherName": "MD. MEZANUR RAHMAN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15632,
+    "name": "MD. SAYFUL ISLAM",
+    "fatherName": "BHUIYN KHAYRUL ALOM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 66
+  },
+  {
+    "roll": 15639,
+    "name": "MD. NAZMUL HAQUE",
+    "fatherName": "MD. TITU MIAH",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 97
+  },
+  {
+    "roll": 15649,
+    "name": "MD. ABU RAIHAN",
+    "fatherName": "MD. ABDUR RAHIM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 72
+  },
+  {
+    "roll": 15658,
+    "name": "MD. HAFIZUR RAHMAN",
+    "fatherName": "MOKBUL HOSSAIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 6
+  },
+  {
+    "roll": 15662,
+    "name": "MD. JUSIM MIA",
+    "fatherName": "MD. RAFIQUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 16
+  },
+  {
+    "roll": 15664,
+    "name": "MD. SAKIB HASAN MUNNA",
+    "fatherName": "MD. ABDUL MANNAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 76
+  },
+  {
+    "roll": 15673,
+    "name": "SK. ABUBAKER SIDDIK",
+    "fatherName": "SK. FARID UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 23
+  },
+  {
+    "roll": 15691,
+    "name": "MD. RAIHAN",
+    "fatherName": "MD. BELAL PK.",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 71
+  },
+  {
+    "roll": 15704,
+    "name": "RABBU ISLAM",
+    "fatherName": "MD. ROBIUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 38
+  },
+  {
+    "roll": 15722,
+    "name": "MD. MAHEDI HASAN",
+    "fatherName": "MD. TUFAZZAL HOSSEN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 49
+  },
+  {
+    "roll": 15723,
+    "name": "MD. METHUN KAZI",
+    "fatherName": "MD. MILON KAZI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 59
+  },
+  {
+    "roll": 15726,
+    "name": "MD. AL-MURAD",
+    "fatherName": "MD. OBYDUR RAHMAN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15733,
+    "name": "SHIHAB SHARAR SHIMUL",
+    "fatherName": "KAZI ABDUL MANNAN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15749,
+    "name": "MD. SOHEL RANA",
+    "fatherName": "MD. KHADEMUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 12
+  },
+  {
+    "roll": 15755,
+    "name": "MD. ZAKARIA",
+    "fatherName": "MD. ABUL KASHEM",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15762,
+    "name": "MD. MASUD SARDAR",
+    "fatherName": "BORHAN SARDAR",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 120
+  },
+  {
+    "roll": 15776,
+    "name": "MD. SIAM AHMED",
+    "fatherName": "MD. NURUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 88
+  },
+  {
+    "roll": 15778,
+    "name": "MD. RUBAIL HASAN",
+    "fatherName": "MD. BACHCHU MIA",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 65
+  },
+  {
+    "roll": 15787,
+    "name": "MD. ISMAIL HASAN",
+    "fatherName": "MD. MOZER SARDER",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 9
+  },
+  {
+    "roll": 15789,
+    "name": "MD. SOJIB",
+    "fatherName": "MD. HARUNUR RASHID",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15792,
+    "name": "MD. NAZIM UDDIN",
+    "fatherName": "MD. HAFEZ",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 118
+  },
+  {
+    "roll": 15798,
+    "name": "MD. NASIR UDDIN",
+    "fatherName": "MD. AJHARUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 54
+  },
+  {
+    "roll": 15799,
+    "name": "MD. MEHEDI HASAN",
+    "fatherName": "MD. ABDUL MALEK",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15804,
+    "name": "MOHAMMAD SHAH JALAL RANA",
+    "fatherName": "MD. BAHAR UDDIN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15811,
+    "name": "KAWSAR AHMED KHAN",
+    "fatherName": "MD. RAZAUL KARIM KHAN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15812,
+    "name": "MD. NUR NABI ALAM",
+    "fatherName": "MD. TOZAMMAL HOSSAIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 78
+  },
+  {
+    "roll": 15813,
+    "name": "NAFIS SHAHRIYAR NILOY",
+    "fatherName": "MD. FOZLUR RAHMAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 45
+  },
+  {
+    "roll": 15817,
+    "name": "RIAN MOLLIK",
+    "fatherName": "ANIS MOLLIK",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 43
+  },
+  {
+    "roll": 15822,
+    "name": "MD. MAHEDI KAYES",
+    "fatherName": "MD. KAMRUZZAMAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 83
+  },
+  {
+    "roll": 15827,
+    "name": "MEHEDI HASAN",
+    "fatherName": "MD. KAMAL HOSSAIN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15842,
+    "name": "MD. RAKIB",
+    "fatherName": "MD. KALAM SIKDER",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 34
+  },
+  {
+    "roll": 15843,
+    "name": "MD. SHOHAG BISWASH",
+    "fatherName": "MD. TOFAJJEL BISWASH",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 99
+  },
+  {
+    "roll": 15844,
+    "name": "MD. ROBE-UL ISLAM",
+    "fatherName": "MD. YEASIN ALI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 47
+  },
+  {
+    "roll": 15845,
+    "name": "MD. ROBIUL ISLAM",
+    "fatherName": "MD. ABDUL KORIM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 77
+  },
+  {
+    "roll": 15850,
+    "name": "MD. MAHAMUDUL HASAN",
+    "fatherName": "MD. MONIR UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 114
+  },
+  {
+    "roll": 15864,
+    "name": "MD. SHAWON SHEIKH",
+    "fatherName": "MD. SOLAMAN ALI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 8
+  },
+  {
+    "roll": 15867,
+    "name": "MD. AJIJUL ISLAM",
+    "fatherName": "MD. MOGIBOR RAHAMAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 5
+  },
+  {
+    "roll": 15883,
+    "name": "MD. NAWAB CHOWDHURY NAYAN",
+    "fatherName": "MD. MONOWAR HOSSAIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 35
+  },
+  {
+    "roll": 15889,
+    "name": "MD. MOMINUR ISLAM",
+    "fatherName": "MD. AZIZUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 4
+  },
+  {
+    "roll": 15890,
+    "name": "SHAMIM HOSSEN",
+    "fatherName": "ABDUL BATEN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 90
+  },
+  {
+    "roll": 15891,
+    "name": "RAKIBUL ISLAM LIMON",
+    "fatherName": "MD. FARUK HOSSAIN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15896,
+    "name": "MD. SOHAG ALI",
+    "fatherName": "MD. ABDUL HAKIM",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15902,
+    "name": "TAFRIK MAHMUD",
+    "fatherName": "MUHAMMED NASIR UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 19
+  },
+  {
+    "roll": 15904,
+    "name": "MD. ABU MIHSAN TALUKDER",
+    "fatherName": "MD. KHAIRUL ALAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 98
+  },
+  {
+    "roll": 15906,
+    "name": "ONTOR DAS",
+    "fatherName": "JOHORLAL ROBI DAS",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 93
+  },
+  {
+    "roll": 15913,
+    "name": "SHAKHAWAT HOSSAIN",
+    "fatherName": "KAMAL UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 81
+  },
+  {
+    "roll": 15916,
+    "name": "ANOPCJM HOSSEN NAYEM",
+    "fatherName": "MD. SAIKUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 82
+  },
+  {
+    "roll": 15917,
+    "name": "MD. KHAYRUL BASHAR",
+    "fatherName": "MD. HAWN-OR-RASHID",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 18
+  },
+  {
+    "roll": 15920,
+    "name": "MST. SHAHAMINA KHATUN",
+    "fatherName": "MD. JAMAL UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 31
+  },
+  {
+    "roll": 15937,
+    "name": "MD. SAMI HOSSAN",
+    "fatherName": "MD. SANOWAR HOSSAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 89
+  },
+  {
+    "roll": 15939,
+    "name": "MD. MINTU MIA",
+    "fatherName": "MOSTUFA",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 73
+  },
+  {
+    "roll": 15941,
+    "name": "MD. ROHAN HOSSAIN",
+    "fatherName": "MD. AMZAD HOSSAIN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15951,
+    "name": "MD. EMON",
+    "fatherName": "MD. BELAL HOSSAIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 31
+  },
+  {
+    "roll": 15952,
+    "name": "MD. SABBIR HOSAN",
+    "fatherName": "MD. FULBABU",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 115
+  },
+  {
+    "roll": 15957,
+    "name": "MITHUN KUMAR DAS",
+    "fatherName": "NIRA PADA DAS",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 48
+  },
+  {
+    "roll": 15958,
+    "name": "MD. AMIRUL ISLAM",
+    "fatherName": "MD. NABIR UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 15
+  },
+  {
+    "roll": 15960,
+    "name": "NOYON KUMAR",
+    "fatherName": "NIRMONI",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15963,
+    "name": "MD. SAJIB HOSSAIN",
+    "fatherName": "MOHAMMAD ALI",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15965,
+    "name": "FERDUS GAZI",
+    "fatherName": "HANIF GAZI",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15970,
+    "name": "NAHID ALAM",
+    "fatherName": "MD. NURE ALAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 36
+  },
+  {
+    "roll": 15973,
+    "name": "MAHMUDUR RAHMAN",
+    "fatherName": "MD. MOHI UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 91
+  },
+  {
+    "roll": 15976,
+    "name": "MD. MISTAR",
+    "fatherName": "MD. AMIR SHEIKH",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 52
+  },
+  {
+    "roll": 15977,
+    "name": "JAHIDUL ISLAM",
+    "fatherName": "ROFIQUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 33
+  },
+  {
+    "roll": 15981,
+    "name": "MD. RAFIN",
+    "fatherName": "MD. KHAIRUJJAMAN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 15982,
+    "name": "MD. MEHEDI HASAN",
+    "fatherName": "MD. YUSUF KHAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 85
+  },
+  {
+    "roll": 15996,
+    "name": "TIRTHOPROSHAD PAUL",
+    "fatherName": "NARAYON CHANDRO PAUL",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 38
+  },
+  {
+    "roll": 15999,
+    "name": "MD. SHAJID HOSSEN",
+    "fatherName": "MD. BADSHA SARDER",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 40
+  },
+  {
+    "roll": 16008,
+    "name": "MD. HABIBULLAH SHAFI",
+    "fatherName": "MD. ZAMIR UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 44
+  },
+  {
+    "roll": 16010,
+    "name": "BIPLOB MOLLIK",
+    "fatherName": "SREE OMRES MOLLIK",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 10
+  },
+  {
+    "roll": 16018,
+    "name": "SHAH ALAUL HOSSAIN",
+    "fatherName": "MUGHAL AZAM SHAH",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 36
+  },
+  {
+    "roll": 16021,
+    "name": "MD. EMON MIA",
+    "fatherName": "SUBED ALI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 20
+  },
+  {
+    "roll": 16022,
+    "name": "NOUSIN TASNIM MEHEK",
+    "fatherName": "MD. MORSALIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 69
+  },
+  {
+    "roll": 16026,
+    "name": "MAHZABIN ISLAM",
+    "fatherName": "MD. MINHAZUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 80
+  },
+  {
+    "roll": 16031,
+    "name": "MD. SHE-PON HOSHAN PRAMANIK",
+    "fatherName": "MD. MONIRUJJAMAN RONTU",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 73
+  },
+  {
+    "roll": 16034,
+    "name": "MD.IMTIYAZ UDDIN PRANTO",
+    "fatherName": "MD.JASHIM UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 25
+  },
+  {
+    "roll": 16038,
+    "name": "SHAKAWAT HOSSAIN MAJUMDER",
+    "fatherName": "MD. BELAL HOSSAIN MOJUMDER",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16042,
+    "name": "BORHAN UDDIN",
+    "fatherName": "NOOR AHMAD",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16052,
+    "name": "MD.EMON MIA",
+    "fatherName": "MD.KHOKON MIA",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 57
+  },
+  {
+    "roll": 16055,
+    "name": "MD. RAIHAN ALI",
+    "fatherName": "MD. RAFIQUL SHEIKH",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 17
+  },
+  {
+    "roll": 16063,
+    "name": "OMOR FARUK",
+    "fatherName": "SARDER REZAUL KARIM",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16073,
+    "name": "MOHAMMAD ALI MONDAL",
+    "fatherName": "MD. IBRAHIM MONDOL",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16084,
+    "name": "MOHAMMAD RAYHAN",
+    "fatherName": "MOTI MIAH",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 14
+  },
+  {
+    "roll": 16086,
+    "name": "MD. RAHAD MIA",
+    "fatherName": "MD. REZAUL KARIM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 113
+  },
+  {
+    "roll": 16088,
+    "name": "MD. EMRANUL HOQUE MARIJF",
+    "fatherName": "NURUL ABSAR",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16090,
+    "name": "TASNIM FATEMA JOUTI",
+    "fatherName": "MD. JAMAL UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 29
+  },
+  {
+    "roll": 16104,
+    "name": "TAWHID BIN ISLAM",
+    "fatherName": "NAZRUL ISLAM",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16108,
+    "name": "MD. SULAIMAN KARIM SHEUM",
+    "fatherName": "A. T. M SAZEDUL KARIM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 32
+  },
+  {
+    "roll": 16112,
+    "name": "MD. SHAFIQUL ISLAM",
+    "fatherName": "MD. MOFIJUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 60
+  },
+  {
+    "roll": 16129,
+    "name": "ABDULLAH-AL EMRAN",
+    "fatherName": "MD. ABDUL HAMID",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 96
+  },
+  {
+    "roll": 16130,
+    "name": "MONIR HOSEN.",
+    "fatherName": "JOYEN UDDIN.",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 33
+  },
+  {
+    "roll": 16131,
+    "name": "MD. ABDUL HALIM",
+    "fatherName": "ABUL HASHEM",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16132,
+    "name": "ABDULLAH AL NIJMAN",
+    "fatherName": "HAFAJ ABDUL LATIF",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 87
+  },
+  {
+    "roll": 16143,
+    "name": "BAPPI BONIK",
+    "fatherName": "BIBEKANONDA BONIK",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 67
+  },
+  {
+    "roll": 16147,
+    "name": "MD.SIAM AL RAFI",
+    "fatherName": "MD.AZIZUL HAQUE",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 13
+  },
+  {
+    "roll": 16154,
+    "name": "AZIMUL HOQUE BHUIYAN",
+    "fatherName": "KARIMUL HOQUE BHUIYAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 63
+  },
+  {
+    "roll": 16155,
+    "name": "MUMIN HOSSEN",
+    "fatherName": "MAMUN HOSSEN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 79
+  },
+  {
+    "roll": 16156,
+    "name": "MD. JEHADUL ISLAM",
+    "fatherName": "MD. RABIUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 61
+  },
+  {
+    "roll": 16163,
+    "name": "MD. MOKLESUR RAHMAN",
+    "fatherName": "MD. ABDUL MOTALEB AKONDO",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 78
+  },
+  {
+    "roll": 16164,
+    "name": "MD. ASHIKUR RAHMAN",
+    "fatherName": "MD. ROFIQUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 55
+  },
+  {
+    "roll": 16179,
+    "name": "AL SHARIEAR LABIB",
+    "fatherName": "AMANOTH ALI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 74
+  },
+  {
+    "roll": 16184,
+    "name": "MD. SAIDUL HOSSAIN",
+    "fatherName": "MD. AL AMIN PRA.",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 41
+  },
+  {
+    "roll": 16186,
+    "name": "SHIMUN REZA",
+    "fatherName": "ABDUL COEUR",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 119
+  },
+  {
+    "roll": 16195,
+    "name": "MD. YUSUF SANY",
+    "fatherName": "MD. ABDUL HANNAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 50
+  },
+  {
+    "roll": 16196,
+    "name": "TARVIR RAHMAN ONIM",
+    "fatherName": "ABDUL HANNAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 86
+  },
+  {
+    "roll": 16200,
+    "name": "MD. AZIZUR RAHMAN",
+    "fatherName": "MD. ABU BAKKAR SIDDEK",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 84
+  },
+  {
+    "roll": 16201,
+    "name": "MD. RUHULAMIN",
+    "fatherName": "MD. HANNAN ALI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 51
+  },
+  {
+    "roll": 16220,
+    "name": "MD. NEWAZ SHARIF SOIKAT CHOWDHURY",
+    "fatherName": "MD. NAZRUL KHADER CHOWDHURY",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16227,
+    "name": "MD. S. K. KIBRIA HASAN",
+    "fatherName": "MD. SURU ALI AKONDO",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 117
+  },
+  {
+    "roll": 16228,
+    "name": "MD. ABU HURIRA BISWAS",
+    "fatherName": "MD. TOFFAZZEL BISWAS",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 77
+  },
+  {
+    "roll": 16234,
+    "name": "MD. ASHIKUR RAHOMAN",
+    "fatherName": "MD. AFTAR RAWOMAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 46
+  },
+  {
+    "roll": 16236,
+    "name": "MD.ASLAM MIAH",
+    "fatherName": "MD.LAL MIAH",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16241,
+    "name": "RIYAD",
+    "fatherName": "NUR ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 30
+  },
+  {
+    "roll": 16245,
+    "name": "ASHIK HUSSAIN",
+    "fatherName": "LET FORHAD MOLLAH",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 75
+  },
+  {
+    "roll": 16249,
+    "name": "MD. SABBIR HOSSAIN",
+    "fatherName": "MD. ISMAIL HOSAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 32
+  },
+  {
+    "roll": 16252,
+    "name": "PALLOB KUMAR SARKER",
+    "fatherName": "BABLU CHANDRA SARKER",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 80
+  },
+  {
+    "roll": 16255,
+    "name": "MD HASIBUR RHOMAN",
+    "fatherName": "MD AMIRUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 74
+  },
+  {
+    "roll": 16259,
+    "name": "MD. SHAMIM MIA",
+    "fatherName": "MD. HABIBUR RAHMAN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 24
+  },
+  {
+    "roll": 16260,
+    "name": "MD. HUMAYIN KABIR",
+    "fatherName": "MD. MAMIDUL ISLAM",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16261,
+    "name": "MD. SHAHADAT HOSSEN",
+    "fatherName": "MOHIN UDDIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 95
+  },
+  {
+    "roll": 16264,
+    "name": "MD. ASHADUJJAMAN",
+    "fatherName": "MD. SOBAHAN BAPARI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 121
+  },
+  {
+    "roll": 16266,
+    "name": "MD. JOBAYER MAHMUD",
+    "fatherName": "MD. TAZUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 39
+  },
+  {
+    "roll": 16267,
+    "name": "MD. MINHAZ HOSSAIN",
+    "fatherName": "MD. MOHASIN HOSSAIN",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 75
+  },
+  {
+    "roll": 16271,
+    "name": "HASAN AHAMED SHARIF",
+    "fatherName": "MD.GOLAM MUSTOFA",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 2
+  },
+  {
+    "roll": 16278,
+    "name": "MD. ARIFUL ISLAM",
+    "fatherName": "MD. AKRAMUL HAQUE",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 37
+  },
+  {
+    "roll": 16287,
+    "name": "MD. ASIF PRANG",
+    "fatherName": "MD. AHASAN HABIB",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 37
+  },
+  {
+    "roll": 16291,
+    "name": "MD.ALIF CHOWDHURY",
+    "fatherName": "BASHIR AHMED CHOWDHURY",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 39
+  },
+  {
+    "roll": 16292,
+    "name": "JOYONTO RAJBONGSHI",
+    "fatherName": "PARITOS RAJBONGSHI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 62
+  },
+  {
+    "roll": 16297,
+    "name": "MD. TAREK RAHMAN",
+    "fatherName": "MD. NAZRUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 7
+  },
+  {
+    "roll": 16304,
+    "name": "MD. ROBIUL ISLAM",
+    "fatherName": "MD. SHE-KUL PK.",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 26
+  },
+  {
+    "roll": 16313,
+    "name": "MD.SABBIR AHMED",
+    "fatherName": "MD.NURUL AMIN",
+    "department": "ChE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16316,
+    "name": "MD. IMRAN HOSEN",
+    "fatherName": "MD. GOLAM MOSTOFA",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 79
+  },
+  {
+    "roll": 16318,
+    "name": "MD. KOBIR",
+    "fatherName": "MD. SAIDER ALI",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 42
+  },
+  {
+    "roll": 16320,
+    "name": "MD. RAKIBUL ISLAM",
+    "fatherName": "MD. ABDUL KUDDUS",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 27
+  },
+  {
+    "roll": 16325,
+    "name": "ANURON ROY SHUVRA",
+    "fatherName": "KAJAL CHANDRA ROY",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 56
+  },
+  {
+    "roll": 16328,
+    "name": "NUR ALAM",
+    "fatherName": "BACHU MIA",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 53
+  },
+  {
+    "roll": 16331,
+    "name": "MD. TALE-MUL ISLAM SHAWON",
+    "fatherName": "MD. MOMINUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 58
+  },
+  {
+    "roll": 16332,
+    "name": "MD. JAHIDUL ISLAM",
+    "fatherName": "MD. NURUL ISLAM",
+    "department": "ChE",
+    "status": "Waiting",
+    "waitingMerit": 34
+  },
+  {
+    "roll": 16336,
+    "name": "RENATUSH PAURIA SHUVO",
+    "fatherName": "SALVATOR PAURIA",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16342,
+    "name": "JOY BARUA",
+    "fatherName": "DAYAL BARUA",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16344,
+    "name": "MD. RAIHEN",
+    "fatherName": "MD. ABBAS ALI",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16351,
+    "name": "RUHUL AMIN",
+    "fatherName": "RAFIQUL ISLAM",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16354,
+    "name": "MD. WASIM ALI",
+    "fatherName": "MD. ABDUL HALIM",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16355,
+    "name": "MD. FARID MIA",
+    "fatherName": "MD. NURUNNABI",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16360,
+    "name": "ABIR MAHMUD",
+    "fatherName": "MD. MAKBUL HOSSAN",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16361,
+    "name": "MD. FOYSAL",
+    "fatherName": "MD. NURAL ISLAM",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16365,
+    "name": "PROTTOY CHANDRO ROY",
+    "fatherName": "MANMATHO ROY",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16366,
+    "name": "MASUD RANA",
+    "fatherName": "AHENUR ISLAM",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16369,
+    "name": "SHATU KHATUN",
+    "fatherName": "MD. ZAFOR SHEIKH",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16371,
+    "name": "MD. SHE-MUL RAHMAN",
+    "fatherName": "MD. SAIFUL ISLAM",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16375,
+    "name": "MONERA AKTHER",
+    "fatherName": "MD. ASRAFUL SHEHAB",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16379,
+    "name": "MD. NADIM MOSTAFA",
+    "fatherName": "MD. SHOFIKUL ISLAM",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16380,
+    "name": "MST. SHIMU AKTER HERA",
+    "fatherName": "MD. ABDUL MALEK",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16382,
+    "name": "MITHUN CHANDRA BARMAN",
+    "fatherName": "CHHABILAL BARMAN",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16383,
+    "name": "UJJOL DEB SHORMA",
+    "fatherName": "NORUTAM CHANDRA SARKER",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16391,
+    "name": "SUBORNA RANI SARKER",
+    "fatherName": "CHITTARANJAN SARKER",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16398,
+    "name": "MD. SHAKIB ISLAM",
+    "fatherName": "MD. NAZRUL ISLAM",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16399,
+    "name": "MD. MD. AL-AMIN MASUDUR RAHMAN",
+    "fatherName": "MD. MIZANUR RAHMAN",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16402,
+    "name": "MD. AL-AMIN",
+    "fatherName": "MD. AMDADUL BARI",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16406,
+    "name": "MD. LOVELU HOSSAIN MURAD",
+    "fatherName": "MD. ROFIKUL ISLAM",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16408,
+    "name": "MD. SIHAB UDDIN",
+    "fatherName": "MD. YOUNUS ALI",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16409,
+    "name": "MD. HABEBUR RAHMAN SAJEED",
+    "fatherName": "MD. MILON MIA",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16410,
+    "name": "ROWSHAD ALL MAHADI",
+    "fatherName": "MD. ABDUL BASED",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16412,
+    "name": "MD. KAWSAR AHMED",
+    "fatherName": "ENABALI",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16415,
+    "name": "JAKARIA",
+    "fatherName": "SAMSUL HAQUE",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16419,
+    "name": "SANJON ROY",
+    "fatherName": "ATUL ROY",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16421,
+    "name": "KRISNO CHANDRA",
+    "fatherName": "MOHADEB MONDOL",
+    "department": "FE",
+    "status": "Selected"
+  },
+  {
+    "roll": 16422,
+    "name": "OYSHI KHATUN",
+    "fatherName": "MD. ASLAM HOSSAIN",
+    "department": "FE",
+    "status": "Selected"
+  }
+]

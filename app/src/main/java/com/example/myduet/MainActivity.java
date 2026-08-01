@@ -34,5 +34,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, RoutineHomeActivity.class);
             startActivity(intent);
         });
+
+        findViewById(R.id.cardAdmission).setOnClickListener(v -> {
+            Intent intent = new Intent(this, AdmissionActivity.class);
+            startActivity(intent);
+        });
     }
 }

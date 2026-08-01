@@ -5,6 +5,7 @@
     <string name="student_dept">Computer Science &amp; Engineering</string>
     <string name="student_batch">2020 Batch</string>
     <string name="student_id">194000</string>
+    <string name="student_id_prefix">ID • </string>
     <string name="search_hint">Search services, notices...</string>
     <string name="quick_services">Quick Services</string>
 
@@ -17,6 +18,35 @@
     <string name="service_pgr">PGR Info</string>
     <string name="service_routine">Routine</string>
     <string name="service_emergency">Emergency</string>
+    <string name="service_admission">Admission</string>
+
+    <!-- Admission Module -->
+    <string name="admission_title">Admission</string>
+    <string name="seat_plan_title">Seat Plan</string>
+    <string name="seat_plan_desc">Find your exam center, building, room and seat.</string>
+    <string name="admission_result_title">Admission Result</string>
+    <string name="admission_result_desc">Check your merit position and admission status.</string>
+    <string name="action_search_now">Search Now →</string>
+    <string name="action_view_result">View Result →</string>
+    <string name="chip_search_roll">Search by Roll Number</string>
+    <string name="chip_view_result">View Result</string>
+    <string name="enter_roll_hint">Enter Admission Roll Number</string>
+    <string name="search">Search</string>
+    <string name="exam_center">Exam Center</string>
+    <string name="building">Building</string>
+    <string name="room">Room</string>
+    <string name="seat_number">Seat Number</string>
+    <string name="exam_time">Exam Time</string>
+    <string name="merit_position">Merit Position</string>
+    <string name="status">Status</string>
+    <string name="department">Department</string>
+    <string name="status_selected">Selected</string>
+    <string name="status_waiting">Waiting</string>
+    <string name="status_not_selected">Not Selected</string>
+    <string name="error_invalid_roll">Invalid roll number</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_server">Server error occurred</string>
+    <string name="error_empty">No data found</string>
 
     <!-- Navigation -->
     <string name="nav_home">Home</string>

@@ -1,0 +1,1397 @@
+[
+  {
+    "startRoll": 10000,
+    "endRoll": 10074,
+    "building": "Old Academic Building",
+    "room": "311",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10075,
+    "endRoll": 10134,
+    "building": "Old Academic Building",
+    "room": "314",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10135,
+    "endRoll": 10194,
+    "building": "Old Academic Building",
+    "room": "315",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10195,
+    "endRoll": 10254,
+    "building": "Old Academic Building",
+    "room": "318",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10255,
+    "endRoll": 10299,
+    "building": "Old Academic Building",
+    "room": "401",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10300,
+    "endRoll": 10329,
+    "building": "Old Academic Building",
+    "room": "402",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10330,
+    "endRoll": 10389,
+    "building": "Old Academic Building",
+    "room": "405",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10390,
+    "endRoll": 10419,
+    "building": "Old Academic Building",
+    "room": "409-A",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10420,
+    "endRoll": 10449,
+    "building": "Old Academic Building",
+    "room": "409-B",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10450,
+    "endRoll": 10509,
+    "building": "Old Academic Building",
+    "room": "412",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10510,
+    "endRoll": 10569,
+    "building": "Old Academic Building",
+    "room": "413",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10570,
+    "endRoll": 10629,
+    "building": "Old Academic Building",
+    "room": "418",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10630,
+    "endRoll": 10674,
+    "building": "SSNIAB",
+    "room": "2002",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10675,
+    "endRoll": 10704,
+    "building": "SSNIAB",
+    "room": "2006",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10705,
+    "endRoll": 10734,
+    "building": "SSNIAB",
+    "room": "2008",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10735,
+    "endRoll": 10764,
+    "building": "SSNIAB",
+    "room": "2010",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10765,
+    "endRoll": 10809,
+    "building": "SSNIAB",
+    "room": "2012",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10810,
+    "endRoll": 10854,
+    "building": "SSNIAB",
+    "room": "2029",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10855,
+    "endRoll": 10884,
+    "building": "SSNIAB",
+    "room": "3006",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10885,
+    "endRoll": 10914,
+    "building": "SSNIAB",
+    "room": "3010",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10915,
+    "endRoll": 10959,
+    "building": "SSNIAB",
+    "room": "3012",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 10960,
+    "endRoll": 11004,
+    "building": "SSNIAB",
+    "room": "3031",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11005,
+    "endRoll": 11049,
+    "building": "SSNIAB",
+    "room": "6004-A",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11050,
+    "endRoll": 11079,
+    "building": "SSNIAB",
+    "room": "6005",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11080,
+    "endRoll": 11109,
+    "building": "SSNIAB",
+    "room": "6006-B",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11110,
+    "endRoll": 11169,
+    "building": "SSNIAB",
+    "room": "6017",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11170,
+    "endRoll": 11199,
+    "building": "SSNIAB",
+    "room": "7019-A",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11200,
+    "endRoll": 11229,
+    "building": "SSNIAB",
+    "room": "7019-B",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11230,
+    "endRoll": 11274,
+    "building": "SSNIAB",
+    "room": "7026",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11275,
+    "endRoll": 11319,
+    "building": "SSNIAB",
+    "room": "8009",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11320,
+    "endRoll": 11394,
+    "building": "SSNIAB",
+    "room": "8010",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11395,
+    "endRoll": 11439,
+    "building": "SSNIAB",
+    "room": "8020",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11440,
+    "endRoll": 11484,
+    "building": "SSNIAB",
+    "room": "8026",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11485,
+    "endRoll": 11529,
+    "building": "SSNIAB",
+    "room": "9005",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11530,
+    "endRoll": 11598,
+    "building": "SSNIAB",
+    "room": "9011",
+    "department": "CE",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 11599,
+    "endRoll": 11673,
+    "building": "Old Academic Building",
+    "room": "311",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 11674,
+    "endRoll": 11733,
+    "building": "Old Academic Building",
+    "room": "314",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 11734,
+    "endRoll": 11793,
+    "building": "Old Academic Building",
+    "room": "315",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 11794,
+    "endRoll": 11853,
+    "building": "Old Academic Building",
+    "room": "318",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 11854,
+    "endRoll": 11898,
+    "building": "Old Academic Building",
+    "room": "401",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 11899,
+    "endRoll": 11928,
+    "building": "Old Academic Building",
+    "room": "402",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 11929,
+    "endRoll": 11988,
+    "building": "Old Academic Building",
+    "room": "405",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 11989,
+    "endRoll": 12018,
+    "building": "Old Academic Building",
+    "room": "409-A",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12019,
+    "endRoll": 12048,
+    "building": "Old Academic Building",
+    "room": "409-B",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12049,
+    "endRoll": 12108,
+    "building": "Old Academic Building",
+    "room": "412",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12109,
+    "endRoll": 12168,
+    "building": "Old Academic Building",
+    "room": "413",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12169,
+    "endRoll": 12228,
+    "building": "Old Academic Building",
+    "room": "418",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12229,
+    "endRoll": 12273,
+    "building": "SSNIAB",
+    "room": "2002",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12274,
+    "endRoll": 12303,
+    "building": "SSNIAB",
+    "room": "2006",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12304,
+    "endRoll": 12333,
+    "building": "SSNIAB",
+    "room": "2008",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12334,
+    "endRoll": 12363,
+    "building": "SSNIAB",
+    "room": "2010",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12364,
+    "endRoll": 12408,
+    "building": "SSNIAB",
+    "room": "2012",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12409,
+    "endRoll": 12453,
+    "building": "SSNIAB",
+    "room": "2029",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12454,
+    "endRoll": 12483,
+    "building": "SSNIAB",
+    "room": "1st FOS",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12484,
+    "endRoll": 12513,
+    "building": "SSNIAB",
+    "room": "3006",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12514,
+    "endRoll": 12543,
+    "building": "SSNIAB",
+    "room": "3010",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12544,
+    "endRoll": 12588,
+    "building": "SSNIAB",
+    "room": "3012",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12589,
+    "endRoll": 12633,
+    "building": "SSNIAB",
+    "room": "3031",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12634,
+    "endRoll": 12678,
+    "building": "SSNIAB",
+    "room": "6004-A",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12679,
+    "endRoll": 12708,
+    "building": "SSNIAB",
+    "room": "6005",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12709,
+    "endRoll": 12738,
+    "building": "SSNIAB",
+    "room": "6006-B",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12739,
+    "endRoll": 12798,
+    "building": "SSNIAB",
+    "room": "6017",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12799,
+    "endRoll": 12828,
+    "building": "SSNIAB",
+    "room": "7019-A",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12829,
+    "endRoll": 12858,
+    "building": "SSNIAB",
+    "room": "7019-B",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12859,
+    "endRoll": 12903,
+    "building": "SSNIAB",
+    "room": "7026",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12904,
+    "endRoll": 12933,
+    "building": "SSNIAB",
+    "room": "IICT Lab-1",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12934,
+    "endRoll": 12963,
+    "building": "SSNIAB",
+    "room": "6th FOS",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 12964,
+    "endRoll": 13008,
+    "building": "SSNIAB",
+    "room": "8009",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13009,
+    "endRoll": 13083,
+    "building": "SSNIAB",
+    "room": "8010",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13084,
+    "endRoll": 13128,
+    "building": "SSNIAB",
+    "room": "8020",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13129,
+    "endRoll": 13173,
+    "building": "SSNIAB",
+    "room": "8026",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13174,
+    "endRoll": 13203,
+    "building": "SSNIAB",
+    "room": "7th FOS",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13204,
+    "endRoll": 13248,
+    "building": "SSNIAB",
+    "room": "9005",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13249,
+    "endRoll": 13323,
+    "building": "SSNIAB",
+    "room": "9011",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13324,
+    "endRoll": 13353,
+    "building": "SSNIAB",
+    "room": "9016-A",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13354,
+    "endRoll": 13383,
+    "building": "SSNIAB",
+    "room": "9016-B",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13384,
+    "endRoll": 13428,
+    "building": "SSNIAB",
+    "room": "9017",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13429,
+    "endRoll": 13473,
+    "building": "SSNIAB",
+    "room": "9018",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13474,
+    "endRoll": 13503,
+    "building": "SSNIAB",
+    "room": "8th FOS",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13504,
+    "endRoll": 13548,
+    "building": "Textile Workshop Building",
+    "room": "Yarn Engg. Lab",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13549,
+    "endRoll": 13593,
+    "building": "Textile Workshop Building",
+    "room": "201",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13594,
+    "endRoll": 13638,
+    "building": "Textile Workshop Building",
+    "room": "218",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13639,
+    "endRoll": 13683,
+    "building": "Textile Workshop Building",
+    "room": "313",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13684,
+    "endRoll": 13707,
+    "building": "Textile Workshop Building",
+    "room": "315",
+    "department": "EEE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 13708,
+    "endRoll": 13752,
+    "building": "SSNIAB",
+    "room": "2002",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 13753,
+    "endRoll": 13782,
+    "building": "SSNIAB",
+    "room": "2006",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 13783,
+    "endRoll": 13812,
+    "building": "SSNIAB",
+    "room": "2008",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 13813,
+    "endRoll": 13842,
+    "building": "SSNIAB",
+    "room": "2010",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 13843,
+    "endRoll": 13887,
+    "building": "SSNIAB",
+    "room": "2012",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 13888,
+    "endRoll": 13932,
+    "building": "SSNIAB",
+    "room": "2029",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 13933,
+    "endRoll": 13962,
+    "building": "SSNIAB",
+    "room": "1st FOS",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 13963,
+    "endRoll": 13992,
+    "building": "SSNIAB",
+    "room": "3006",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 13993,
+    "endRoll": 14022,
+    "building": "SSNIAB",
+    "room": "3010",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14023,
+    "endRoll": 14067,
+    "building": "SSNIAB",
+    "room": "3012",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14068,
+    "endRoll": 14112,
+    "building": "SSNIAB",
+    "room": "3031",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14113,
+    "endRoll": 14157,
+    "building": "SSNIAB",
+    "room": "6004-A",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14158,
+    "endRoll": 14187,
+    "building": "SSNIAB",
+    "room": "6005",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14188,
+    "endRoll": 14217,
+    "building": "SSNIAB",
+    "room": "6006-B",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14218,
+    "endRoll": 14277,
+    "building": "SSNIAB",
+    "room": "6017",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14278,
+    "endRoll": 14307,
+    "building": "SSNIAB",
+    "room": "7019-A",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14308,
+    "endRoll": 14337,
+    "building": "SSNIAB",
+    "room": "7019-B",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14338,
+    "endRoll": 14382,
+    "building": "SSNIAB",
+    "room": "7026",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14383,
+    "endRoll": 14412,
+    "building": "SSNIAB",
+    "room": "IICT Lab-1",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14413,
+    "endRoll": 14442,
+    "building": "SSNIAB",
+    "room": "6th FOS",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14443,
+    "endRoll": 14487,
+    "building": "SSNIAB",
+    "room": "8009",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14488,
+    "endRoll": 14562,
+    "building": "SSNIAB",
+    "room": "8010",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14563,
+    "endRoll": 14607,
+    "building": "SSNIAB",
+    "room": "8020",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14608,
+    "endRoll": 14652,
+    "building": "SSNIAB",
+    "room": "8026",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14653,
+    "endRoll": 14682,
+    "building": "SSNIAB",
+    "room": "7th FOS",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14683,
+    "endRoll": 14727,
+    "building": "SSNIAB",
+    "room": "9005",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14728,
+    "endRoll": 14802,
+    "building": "SSNIAB",
+    "room": "9011",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14803,
+    "endRoll": 14832,
+    "building": "SSNIAB",
+    "room": "9016-A",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14833,
+    "endRoll": 14862,
+    "building": "SSNIAB",
+    "room": "9016-B",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14863,
+    "endRoll": 14907,
+    "building": "SSNIAB",
+    "room": "9017",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14908,
+    "endRoll": 14921,
+    "building": "SSNIAB",
+    "room": "9018",
+    "department": "ME",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 14922,
+    "endRoll": 14966,
+    "building": "SSNIAB",
+    "room": "2002",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 14967,
+    "endRoll": 14996,
+    "building": "SSNIAB",
+    "room": "2006",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 14997,
+    "endRoll": 15026,
+    "building": "SSNIAB",
+    "room": "2008",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15027,
+    "endRoll": 15056,
+    "building": "SSNIAB",
+    "room": "2010",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15057,
+    "endRoll": 15101,
+    "building": "SSNIAB",
+    "room": "2012",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15102,
+    "endRoll": 15146,
+    "building": "SSNIAB",
+    "room": "2029",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15147,
+    "endRoll": 15176,
+    "building": "SSNIAB",
+    "room": "3006",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15177,
+    "endRoll": 15206,
+    "building": "SSNIAB",
+    "room": "3010",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15207,
+    "endRoll": 15251,
+    "building": "SSNIAB",
+    "room": "3012",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15252,
+    "endRoll": 15296,
+    "building": "SSNIAB",
+    "room": "3031",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15297,
+    "endRoll": 15341,
+    "building": "SSNIAB",
+    "room": "6004-A",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15342,
+    "endRoll": 15371,
+    "building": "SSNIAB",
+    "room": "6005",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15372,
+    "endRoll": 15401,
+    "building": "SSNIAB",
+    "room": "6006-B",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15402,
+    "endRoll": 15461,
+    "building": "SSNIAB",
+    "room": "6017",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15462,
+    "endRoll": 15491,
+    "building": "SSNIAB",
+    "room": "7019-A",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15492,
+    "endRoll": 15521,
+    "building": "SSNIAB",
+    "room": "7019-B",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15522,
+    "endRoll": 15566,
+    "building": "SSNIAB",
+    "room": "7026",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15567,
+    "endRoll": 15596,
+    "building": "SSNIAB",
+    "room": "IICT Lab-1",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15597,
+    "endRoll": 15626,
+    "building": "SSNIAB",
+    "room": "6th FOS",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15627,
+    "endRoll": 15671,
+    "building": "SSNIAB",
+    "room": "8009",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15672,
+    "endRoll": 15746,
+    "building": "SSNIAB",
+    "room": "8010",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15747,
+    "endRoll": 15770,
+    "building": "SSNIAB",
+    "room": "8020",
+    "department": "CSE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15771,
+    "endRoll": 15783,
+    "building": "SSNIAB",
+    "room": "8020",
+    "department": "TE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15784,
+    "endRoll": 15828,
+    "building": "SSNIAB",
+    "room": "8026",
+    "department": "TE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15829,
+    "endRoll": 15858,
+    "building": "SSNIAB",
+    "room": "7th FOS",
+    "department": "TE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15859,
+    "endRoll": 15903,
+    "building": "SSNIAB",
+    "room": "9005",
+    "department": "TE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15904,
+    "endRoll": 15978,
+    "building": "SSNIAB",
+    "room": "9011",
+    "department": "TE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 15979,
+    "endRoll": 16008,
+    "building": "SSNIAB",
+    "room": "9016-A",
+    "department": "TE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 16009,
+    "endRoll": 16038,
+    "building": "SSNIAB",
+    "room": "9016-B",
+    "department": "TE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 16039,
+    "endRoll": 16068,
+    "building": "SSNIAB",
+    "room": "9017",
+    "department": "TE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 16069,
+    "endRoll": 16102,
+    "building": "SSNIAB",
+    "room": "9018",
+    "department": "TE",
+    "examDate": "2024-11-18",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 16103,
+    "endRoll": 16132,
+    "building": "SSNIAB",
+    "room": "9016-A",
+    "department": "ARCH",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 16133,
+    "endRoll": 16162,
+    "building": "SSNIAB",
+    "room": "9016-B",
+    "department": "ARCH",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 16163,
+    "endRoll": 16207,
+    "building": "SSNIAB",
+    "room": "9017",
+    "department": "ARCH",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 16208,
+    "endRoll": 16237,
+    "building": "SSNIAB",
+    "room": "9018",
+    "department": "ARCH",
+    "examDate": "2024-11-17",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 16238,
+    "endRoll": 16266,
+    "building": "SSNIAB",
+    "room": "9018",
+    "department": "ChE",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 16267,
+    "endRoll": 16296,
+    "building": "SSNIAB",
+    "room": "8th FOS",
+    "department": "ChE",
+    "examDate": "2024-11-18",
+    "shift": "10:00 AM - 12:05 PM"
+  },
+  {
+    "startRoll": 16297,
+    "endRoll": 16305,
+    "building": "Textile Workshop Building",
+    "room": "315",
+    "department": "FE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 16306,
+    "endRoll": 16350,
+    "building": "Textile Workshop Building",
+    "room": "317",
+    "department": "FE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  },
+  {
+    "startRoll": 16351,
+    "endRoll": 16395,
+    "building": "Textile Workshop Building",
+    "room": "318",
+    "department": "FE",
+    "examDate": "2024-11-17",
+    "shift": "2:00 PM - 4:05 PM"
+  }
+]
