@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Dr. Abu Talib Md. Kaosar Jamil",
+    "designation": "Professor",
+    "email": "atmkjamil@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/atmkjamil",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-abu-talib-md-kaosar-jamil-1667114395241-175.jpg",
+    "officeRoom": "Room 401, SASAB",
+    "phone": "+88-01552-376586",
+    "researchInterests": "Magnetism"
+  },
+  {
+    "name": "Dr. Syed Jamal Ahmed",
+    "designation": "Professor",
+    "email": "jasyed111@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/jasyed111",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-syed-jamal-ahmed-1667114326232-675.jpg",
+    "officeRoom": "Room 404, SASAB",
+    "phone": "Cell: +8801552424670",
+    "researchInterests": "Nano-Structured Materials, Photovoltaic, Magnetic, Polymer"
+  },
+  {
+    "name": "Dr. Md. Kamal-Al-Hassan",
+    "designation": "Professor",
+    "email": "kamalalhassan@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/kamalalhassan",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-kamal-al-hassan-1663042992237-696.jpg",
+    "officeRoom": "Room 403, SASAB",
+    "phone": "+88 01552370572",
+    "researchInterests": "Plasma Science"
+  },
+  {
+    "name": "Dr. Md. Sahab Uddin",
+    "designation": "Professor",
+    "email": "sahabuddin@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/sahabuddin",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-sahab-uddin-1667114429244-304.jpg",
+    "officeRoom": "Room 411, SASAB",
+    "phone": "01710059612",
+    "researchInterests": "Thin Film Fabrication Application"
+  },
+  {
+    "name": "Dr. Farah Deeba",
+    "designation": "Professor",
+    "email": "f.deeba@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/f.deeba",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-farah-deeba-1667121392261-962.jpg",
+    "officeRoom": "Room 402, SASAB",
+    "phone": "IP (L): 7305, IP (D): 09666-327954",
+    "researchInterests": "Computational Neuroscience, Brain Dynamics"
+  },
+  {
+    "name": "Mr. Md. Rezaul Karim",
+    "designation": "Associate Professor",
+    "email": "mrkarim@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/mrkarim",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-rezaul-karim-1663043687251-403.jpg",
+    "officeRoom": "Room 405, SASAB",
+    "phone": "+8801777572178",
+    "researchInterests": "Nanotechnology"
+  },
+  {
+    "name": "Mst. Afsana Azam",
+    "designation": "Assistant Professor",
+    "email": "afsanaazam41@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/afsanaazam41",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mst-afsana-azam-1667121518275-669.jpg",
+    "officeRoom": "Room 410, SASAB",
+    "phone": "IP (L): 7307, IP (D): 09666-327956",
+    "researchInterests": "Physics Research"
+  },
+  {
+    "name": "Mr. Md. Mamun-Or-Rashid",
+    "designation": "Assistant Professor",
+    "email": "mamun92@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/mamun92",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-mamun-or-rashid-1670908899278-852.jpg",
+    "officeRoom": "Room 412, SASAB",
+    "phone": "+880-1830502020/+81-070-2292-3722/+81-070-8998-2736",
+    "researchInterests": "Intermediate Band Solar Cell, Ibsc"
+  },
+  {
+    "name": "Mr. Abdulla Al Noman",
+    "designation": "Assistant Professor",
+    "email": "noman2015@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/noman2015",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-abdulla-al-noman-1667121455281-347.jpg",
+    "officeRoom": "Room 408, SASAB",
+    "phone": "+8801917899858",
+    "researchInterests": "Solid State Physics"
+  },
+  {
+    "name": "Susmita Bhattacharjee",
+    "designation": "Assistant Professor",
+    "email": "susmita29@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/susmita29",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/susmita-bhattacharjee-1667122011288-161.jpg",
+    "officeRoom": "Room 406, SASAB",
+    "phone": "IP (L): 7310, IP (D): 09666-327959",
+    "researchInterests": "Materials Science"
+  },
+  {
+    "name": "Prianka Mondol",
+    "designation": "Lecturer",
+    "email": "prianka.mondal@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/prianka.mondal",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/prianka-mondol-1702537757491-553.jpg",
+    "officeRoom": "Room 407, SASAB",
+    "phone": "01775011345",
+    "researchInterests": "Computational Condensed Matter Physics"
+  },
+  {
+    "name": "Mr. Md. Saidur Rahman",
+    "designation": "Lecturer",
+    "email": "saidur5@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/saidur5",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-saidur-rahman-1751360911534-630.jpg",
+    "officeRoom": "Room 409, SASAB",
+    "phone": "01854070335",
+    "researchInterests": "Condense Matter Physics Solid"
+  }
+]

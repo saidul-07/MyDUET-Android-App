@@ -16,9 +16,9 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="@color/primary"
+            app:navigationIconTint="?attr/colorPrimary"
             app:title="@string/notice_title"
-            app:titleTextColor="@color/md_theme_light_onSurface"
+            app:titleTextColor="?attr/colorOnSurface"
             android:fontFamily="sans-serif-medium">
 
             <LinearLayout
@@ -34,7 +34,7 @@
                     android:layout_height="24dp"
                     android:layout_marginEnd="16dp"
                     android:src="@drawable/ic_refresh"
-                    app:tint="@color/primary"
+                    app:tint="?attr/colorPrimary"
                     android:contentDescription="@null" />
             </LinearLayout>
 
@@ -177,7 +177,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:text="@string/notice_empty"
-                        android:textColor="@color/md_theme_light_secondary"
+                        android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="16sp"
                         android:fontFamily="sans-serif-medium" />
                 </LinearLayout>
@@ -196,7 +196,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/notice_no_internet"
-                        android:textColor="@color/md_theme_light_secondary"
+                        android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="16sp"
                         android:textAlignment="center" />
 

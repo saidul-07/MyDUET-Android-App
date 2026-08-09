@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Dr. Momotaz Begum",
+    "designation": "Professor",
+    "email": "drmomotaz@duet.ac.bd",
+    "phone": "01907621451",
+    "officeRoom": "Room 509, SSNIAB",
+    "researchInterests": "Reliability, Deep Learning, Data Mining",
+    "profile": "https://profile.duet.ac.bd/u/drmomotaz",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-momotaz-begum-1747031458396-528.jpg"
+  },
+  {
+    "name": "Dr. Mohammod Abul Kashem",
+    "designation": "Professor",
+    "email": "drkashemll@duet.ac.bd",
+    "phone": "008801727875380",
+    "officeRoom": "Room 503, SSNIAB",
+    "researchInterests": "Distribute Business Environment Blockchain",
+    "profile": "https://profile.duet.ac.bd/u/drkashemll",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammod-abul-kashem-16625427376-585.jpg"
+  },
+  {
+    "name": "Dr. Md. Nasim Akhtar",
+    "designation": "Professor",
+    "email": "drnasim@duet.ac.bd",
+    "phone": "+8801711395537",
+    "officeRoom": "Room 504, SSNIAB",
+    "researchInterests": "Algorithm, Database, Distributed Database",
+    "profile": "https://profile.duet.ac.bd/u/drnasim",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-nasim-akhtar-174703130410-788.jpg"
+  },
+  {
+    "name": "Dr. Mohammad Abdur Rouf",
+    "designation": "Professor",
+    "email": "marouf.cse@duet.ac.bd",
+    "phone": "88-01711780541",
+    "officeRoom": "Room 505, SSNIAB",
+    "researchInterests": "Disease Prediction Assistive Healthcare",
+    "profile": "https://profile.duet.ac.bd/u/marouf.cse",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammad-abdur-rouf-166702321113-221.jpg"
+  },
+  {
+    "name": "Dr. Fazlul Hasan Siddiqui",
+    "designation": "Professor",
+    "email": "siddiqui@duet.ac.bd",
+    "phone": "01957964549",
+    "officeRoom": "Room 506, SSNIAB",
+    "researchInterests": "Automated Planning Scheduling, Machine Learning",
+    "profile": "https://profile.duet.ac.bd/u/siddiqui",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-fazlul-hasan-siddiqui-177454045814-693.jpg"
+  },
+  {
+    "name": "Dr. Md. Obaidur Rahman",
+    "designation": "Professor",
+    "email": "orahman@duet.ac.bd",
+    "phone": "+8801930706863",
+    "officeRoom": "Room 507, SSNIAB",
+    "researchInterests": "Information & Communication Technology, Agriculture",
+    "profile": "https://profile.duet.ac.bd/u/orahman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-obaidur-rahman-166254438215-422.jpg"
+  },
+  {
+    "name": "Dr. Rafiqul Islam",
+    "designation": "Professor",
+    "email": "rafiqul.islam@duet.ac.bd",
+    "phone": "01911350163",
+    "officeRoom": "Room 508, SSNIAB",
+    "researchInterests": "Biomedical Signal Imaging, Super Resolution",
+    "profile": "https://profile.duet.ac.bd/u/rafiqul.islam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-rafiqul-islam-166254468716-772.jpg"
+  },
+  {
+    "name": "Dr. Md. Shafiqul Islam",
+    "designation": "Professor",
+    "email": "shafiqul@duet.ac.bd",
+    "phone": "+8801556305772",
+    "officeRoom": "Room 509, SSNIAB",
+    "researchInterests": "Biomedical Imaging, Image Processing",
+    "profile": "https://profile.duet.ac.bd/u/shafiqul",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-shafiqul-islam-166702382918-603.jpg"
+  },
+  {
+    "name": "Dr. Amran Hossain",
+    "designation": "Professor",
+    "email": "amran.cse@duet.ac.bd",
+    "phone": "+8801716158271",
+    "officeRoom": "Room 510, SSNIAB",
+    "researchInterests": "Microwave Brain Imaging, Deep Learning",
+    "profile": "https://profile.duet.ac.bd/u/amran.cse",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-amran-hossain-1716269317403-713.jpg"
+  },
+  {
+    "name": "Dr. Md. Jakirul Islam",
+    "designation": "Professor",
+    "email": "jakirduet@duet.ac.bd",
+    "phone": "+8801789324969",
+    "officeRoom": "Room 511, SSNIAB",
+    "researchInterests": "Optimization, Multimodal Optimization, Discrete Optimization",
+    "profile": "https://profile.duet.ac.bd/u/jakirduet",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-jakirul-islam-166254600219-835.jpg"
+  },
+  {
+    "name": "Dr. Md. Shohidul Islam",
+    "designation": "Professor",
+    "email": "shohidul.islam@duet.ac.bd",
+    "phone": "01334-741404",
+    "officeRoom": "Room 512, SSNIAB",
+    "researchInterests": "Cyber, Trustworthy Artificial Intelligence",
+    "profile": "https://profile.duet.ac.bd/u/shohidul.islam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-shohidul-islam-1782713231399-492.jpg"
+  },
+  {
+    "name": "Dr. Sabah Binte Noor",
+    "designation": "Associate Professor",
+    "email": "sabah@duet.ac.bd",
+    "phone": "IP (L): 3219, IP (D): 09666-327768",
+    "officeRoom": "Room 513, SSNIAB",
+    "researchInterests": "Artificial Intelligence, Ai Planning Heuristics",
+    "profile": "https://profile.duet.ac.bd/u/sabah",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mss-sabah-binte-noor-166254689321-411.jpg"
+  },
+  {
+    "name": "Sumaya Kazary",
+    "designation": "Assistant Professor",
+    "email": "sumaya@duet.ac.bd",
+    "phone": "+8801712272961",
+    "officeRoom": "Room 514, SSNIAB",
+    "researchInterests": "Wireless Sensor Networks, Point-To-Point Networks",
+    "profile": "https://profile.duet.ac.bd/u/sumaya",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/sumaya-kazary-166702394220-198.jpg"
+  },
+  {
+    "name": "Mr. Abu Sayed Chowdhury",
+    "designation": "Assistant Professor",
+    "email": "3214@duet.ac.bd",
+    "phone": "IP (L): XXXX, IP (D): 09666-XXXXXX",
+    "officeRoom": "Room 515, SSNIAB",
+    "researchInterests": "Computer Science, Software Engineering",
+    "profile": "https://profile.duet.ac.bd/u/3214",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-abu-sayed-chowdhury-1664106845400-578.jpg"
+  },
+  {
+    "name": "Mr. Md. Mahbub Alam",
+    "designation": "Assistant Professor",
+    "email": "mmalam@duet.ac.bd",
+    "phone": "+8801728444777",
+    "officeRoom": "Room 516, SSNIAB",
+    "researchInterests": "Spatio-Temporal Predictive Analytics, Geoai",
+    "profile": "https://profile.duet.ac.bd/u/mmalam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-mahbub-alam-1664106912401-761.jpg"
+  },
+  {
+    "name": "Mr. Md. Niaz Morshed",
+    "designation": "Assistant Professor",
+    "email": "niaz_cse@duet.ac.bd",
+    "phone": "7866608612",
+    "officeRoom": "Room 517, SSNIAB",
+    "researchInterests": "Machine Learning, Software Engineering",
+    "profile": "https://profile.duet.ac.bd/u/niaz_cse",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-niaz-morshed-1664107236404-231.jpg"
+  },
+  {
+    "name": "Mr. Md. Mahbub Hasan",
+    "designation": "Assistant Professor",
+    "email": "mahbubhasan@duet.ac.bd",
+    "phone": "xxxxxxxxxxx",
+    "officeRoom": "Room 518, SSNIAB",
+    "researchInterests": "Database, Discrete Optimization",
+    "profile": "https://profile.duet.ac.bd/u/mahbubhasan",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-mahbub-hasan-1667024268405-591.jpg"
+  },
+  {
+    "name": "Mr. Md. Zakir Hossain",
+    "designation": "Assistant Professor",
+    "email": "zakircse@duet.ac.bd",
+    "phone": "01722658580",
+    "officeRoom": "Room 519, SSNIAB",
+    "researchInterests": "Data Mining, Machine Learning, Clustering",
+    "profile": "https://profile.duet.ac.bd/u/zakircse",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-zakir-hossain-166254731222-214.jpg"
+  },
+  {
+    "name": "Mr. Omar Faruque",
+    "designation": "Assistant Professor",
+    "email": "faruque@duet.ac.bd",
+    "phone": "01815142588",
+    "officeRoom": "Room 520, SSNIAB",
+    "researchInterests": "Artificial Intelligence, Deep Learning",
+    "profile": "https://profile.duet.ac.bd/u/faruque",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-omar-faruque-166254771023-679.jpg"
+  },
+  {
+    "name": "Khaleda Akther Papry",
+    "designation": "Assistant Professor",
+    "email": "papry.khaleda@duet.ac.bd",
+    "phone": "01676057819",
+    "officeRoom": "Room 521, SSNIAB",
+    "researchInterests": "Wireless Sensor Networking, Data Mining",
+    "profile": "https://profile.duet.ac.bd/u/papry.khaleda",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/khaleda-akther-papry-1667024316406-386.jpg"
+  },
+  {
+    "name": "Mr. Khawja Imran Masud",
+    "designation": "Assistant Professor",
+    "email": "kimasud.cse@duet.ac.bd",
+    "phone": "01673662719",
+    "officeRoom": "Room 522, SSNIAB",
+    "researchInterests": "Deep Learning, Earth Informatics",
+    "profile": "https://profile.duet.ac.bd/u/kimasud.cse",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-khawja-imran-masud-174807034852-596.jpg"
+  },
+  {
+    "name": "Dr. Umme Fawzia Rahim",
+    "designation": "Assistant Professor",
+    "email": "fawzia.rahim@duet.ac.bd",
+    "phone": "+8801748107030",
+    "officeRoom": "Room 523, SSNIAB",
+    "researchInterests": "Deep Learning, Computer Vision",
+    "profile": "https://profile.duet.ac.bd/u/fawzia.rahim",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-umme-fawzia-rahim-1732519561407-754.jpg"
+  },
+  {
+    "name": "Mr. Md. Abu Bakkar Siddique",
+    "designation": "Assistant Professor",
+    "email": "absiddique@duet.ac.bd",
+    "phone": "+8801944275646",
+    "officeRoom": "Room 524, SSNIAB",
+    "researchInterests": "Machine Learning, Optimization, Deep Learning",
+    "profile": "https://profile.duet.ac.bd/u/absiddique",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-abu-bakkar-siddique-166254877626-114.jpg"
+  },
+  {
+    "name": "Mst. Sumaya Khatun",
+    "designation": "Assistant Professor",
+    "email": "sumaya.khatun@duet.ac.bd",
+    "phone": "+8801636018778",
+    "officeRoom": "Room 525, SSNIAB",
+    "researchInterests": "Computer Science, Software Engineering",
+    "profile": "https://profile.duet.ac.bd/u/sumaya.khatun",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mst-sumaya-khatun-166702445625-880.jpg"
+  },
+  {
+    "name": "Mr. Litan Islam",
+    "designation": "Assistant Professor",
+    "email": "litan_cse@duet.ac.bd",
+    "phone": "+8801733170905 , +8801516777408",
+    "officeRoom": "Room 526, SSNIAB",
+    "researchInterests": "Computer Science, Software Engineering",
+    "profile": "https://profile.duet.ac.bd/u/litan_cse",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-litan-islam-1667024523409-290.jpg"
+  },
+  {
+    "name": "Mr. Md. Rajibul Islam",
+    "designation": "Assistant Professor",
+    "email": "rajibul@duet.ac.bd",
+    "phone": "01773140239",
+    "officeRoom": "Room 527, SSNIAB",
+    "researchInterests": "Applied Machine Learning, Bangla Nlp",
+    "profile": "https://profile.duet.ac.bd/u/rajibul",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-rajibul-islam-1667024542410-358.jpg"
+  },
+  {
+    "name": "Mr. Md. Monzurul Amin Ifath",
+    "designation": "Lecturer",
+    "email": "monzurul_cse10@duet.ac.bd",
+    "phone": "(+1) 902-7891852",
+    "officeRoom": "Room 528, SSNIAB",
+    "researchInterests": "Distributed Systems, Computer Networks",
+    "profile": "https://profile.duet.ac.bd/u/monzurul_cse10",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-monzurul-amin-ifath-1664107685408-813.jpg"
+  },
+  {
+    "name": "Mr. Antu Saha",
+    "designation": "Lecturer",
+    "email": "antu@duet.ac.bd",
+    "phone": "+8801681871703",
+    "officeRoom": "Room 529, SSNIAB",
+    "researchInterests": "Software Engineering: Software Maintenance Evolution",
+    "profile": "https://profile.duet.ac.bd/u/antu",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-antu-saha-166702439324-984.jpg"
+  }
+]

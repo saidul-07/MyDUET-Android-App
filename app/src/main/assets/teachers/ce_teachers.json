@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Dr. Md. Abu Taiyab",
+    "designation": "Professor",
+    "email": "mataiyab@duet.ac.bd",
+    "phone": "+8801941454944",
+    "officeRoom": "Room 211, TWB",
+    "researchInterests": "Numerical Simulation, Earthquake Engineering, Geosynthetics",
+    "profile": "https://profile.duet.ac.bd/u/mataiyab",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-abu-taiyab-177454054632-780.jpg"
+  },
+  {
+    "name": "Dr. Mohammad Abdur Rashid",
+    "designation": "Professor",
+    "email": "marashid@duet.ac.bd",
+    "phone": "88-01720471178",
+    "officeRoom": "Room 202, TWB",
+    "researchInterests": "Concrete High Strength Concrete",
+    "profile": "https://profile.duet.ac.bd/u/marashid",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammad-abdur-rashid-16669916042-412.jpg"
+  },
+  {
+    "name": "Dr. Md. Nazrul Islam",
+    "designation": "Professor",
+    "email": "nazrul2100@duet.ac.bd",
+    "phone": "+8801716539548",
+    "officeRoom": "Room 203, TWB",
+    "researchInterests": "Concrete Technology, High-Performance Concrete",
+    "profile": "https://profile.duet.ac.bd/u/nazrul2100",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-nazrul-islam-16669916703-526.jpg"
+  },
+  {
+    "name": "Dr. Ganesh Chandra Saha",
+    "designation": "Professor",
+    "email": "ganesh@duet.ac.bd",
+    "phone": "01971538024",
+    "officeRoom": "Room 204, TWB",
+    "researchInterests": "Environmental Engineering",
+    "profile": "https://profile.duet.ac.bd/u/ganesh",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-ganesh-chandra-saha-16669917625-601.jpg"
+  },
+  {
+    "name": "Dr. Md. Khasro Miah",
+    "designation": "Professor",
+    "email": "mkhasro@duet.ac.bd",
+    "phone": "+880 1718435481",
+    "officeRoom": "Room 205, TWB",
+    "researchInterests": "Composite Element, Behavior Composite Structures",
+    "profile": "https://profile.duet.ac.bd/u/mkhasro",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-khasro-miah-16625430778-180.jpg"
+  },
+  {
+    "name": "Dr. Md. Mokhlesur Rahman",
+    "designation": "Professor",
+    "email": "prof.dr.mokhles@duet.ac.bd",
+    "phone": "+8801711591858",
+    "officeRoom": "Room 206, TWB",
+    "researchInterests": "Structural Engineering, Concrete Tech",
+    "profile": "https://profile.duet.ac.bd/u/prof.dr.mokhles",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-mokhlesur-rahman-166255372427-338.jpg"
+  },
+  {
+    "name": "Dr. Md. Kamal Hossain",
+    "designation": "Professor",
+    "email": "drkamal@duet.ac.bd",
+    "phone": "+8801811455061",
+    "officeRoom": "Room 207, TWB",
+    "researchInterests": "Geotechnical Engineering",
+    "profile": "https://profile.duet.ac.bd/u/drkamal",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-kamal-hossain-166255386828-503.jpg"
+  },
+  {
+    "name": "Dr. Mohammad Nazim Uddin",
+    "designation": "Professor",
+    "email": "drnazim@duet.ac.bd",
+    "phone": "+8801715507489",
+    "officeRoom": "Room 208, TWB",
+    "researchInterests": "River Morphology",
+    "profile": "https://profile.duet.ac.bd/u/drnazim",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammad-nazim-uddin-175006540529-661.jpg"
+  },
+  {
+    "name": "Dr. Md. Akramul Alam",
+    "designation": "Professor",
+    "email": "akram@duet.ac.bd",
+    "phone": "+8801714338180",
+    "officeRoom": "Room 209, TWB",
+    "researchInterests": "Structural Engineering, Concrete Tech",
+    "profile": "https://profile.duet.ac.bd/u/akram",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-akramul-alam-166256498330-838.jpg"
+  },
+  {
+    "name": "Dr. Mohammed Alauddin",
+    "designation": "Professor",
+    "email": "mauddin@duet.ac.bd",
+    "phone": "IP (L): 1110, IP (D): 09666-327619",
+    "officeRoom": "Room 210, TWB",
+    "researchInterests": "Fluid Mechanics, Applied Hydrology, Fluvial",
+    "profile": "https://profile.duet.ac.bd/u/mauddin",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/professor-dr-mohammed-alauddin-166256495631-171.jpg"
+  },
+  {
+    "name": "Dr. Md. Mozammel Hoque",
+    "designation": "Professor",
+    "email": "mhoque@duet.ac.bd",
+    "phone": "+8801714-098055",
+    "officeRoom": "Room 211, TWB",
+    "researchInterests": "Building: Seismic Assessment Retrofitting",
+    "profile": "https://profile.duet.ac.bd/u/mhoque",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-mozammel-hoque-166256489733-142.jpg"
+  },
+  {
+    "name": "Dr. Md. Abdus Salam",
+    "designation": "Professor",
+    "email": "masalam@duet.ac.bd",
+    "phone": "+8801707072414",
+    "officeRoom": "Room 212, TWB",
+    "researchInterests": "Concrete Materials, Self-Consolidating Concrete",
+    "profile": "https://profile.duet.ac.bd/u/masalam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-abdus-salam-177510738234-848.jpg"
+  },
+  {
+    "name": "Dr. Md. Rezaul Karim",
+    "designation": "Professor",
+    "email": "rezaul@duet.ac.bd",
+    "phone": "+8801711005462",
+    "officeRoom": "Room 213, TWB",
+    "researchInterests": "Cement, Concrete, Non-Cement Binder",
+    "profile": "https://profile.duet.ac.bd/u/rezaul",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/professor-dr-md-rezaul-karim-166256485035-524.jpg"
+  },
+  {
+    "name": "Dr. Mohammad Abdul Kader",
+    "designation": "Professor",
+    "email": "makader@duet.ac.bd",
+    "phone": "+8801716381811",
+    "officeRoom": "Room 214, TWB",
+    "researchInterests": "Structural Engineering",
+    "profile": "https://profile.duet.ac.bd/u/makader",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammad-abdul-kader-166256481536-472.jpg"
+  },
+  {
+    "name": "Dr. Md. Monowar Hossain",
+    "designation": "Professor",
+    "email": "monowar84@duet.ac.bd",
+    "phone": "+8801915644511",
+    "officeRoom": "Room 215, TWB",
+    "researchInterests": "Hydrology Quantitative Water Management",
+    "profile": "https://profile.duet.ac.bd/u/monowar84",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-monowar-hossain-1663049792304-949.jpg"
+  },
+  {
+    "name": "Dr. Md. Shibly Anwar",
+    "designation": "Professor",
+    "email": "shibly@duet.ac.bd",
+    "phone": "+8801924400237",
+    "officeRoom": "Room 216, TWB",
+    "researchInterests": "Civil Engineering",
+    "profile": "https://profile.duet.ac.bd/u/shibly",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-shibly-anwar-166256476838-112.jpg"
+  },
+  {
+    "name": "Dr. Md. Zakir Hasan",
+    "designation": "Professor",
+    "email": "zakirbuet05@duet.ac.bd",
+    "phone": "+8801913950487",
+    "officeRoom": "Room 217, TWB",
+    "researchInterests": "Open Channel Flow, River Engineering",
+    "profile": "https://profile.duet.ac.bd/u/zakirbuet05",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-zakir-hasan-1663050563306-727.jpg"
+  },
+  {
+    "name": "Dr. Md. Kobir Hossain",
+    "designation": "Associate Professor",
+    "email": "kobir.ce@duet.ac.bd",
+    "phone": "+8801406900882",
+    "officeRoom": "Room 218, TWB",
+    "researchInterests": "Seismic Resistant Concrete",
+    "profile": "https://profile.duet.ac.bd/u/kobir.ce",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-kobir-hossain-1663050378305-986.jpg"
+  },
+  {
+    "name": "Dr. Md. Suman Mia",
+    "designation": "Associate Professor",
+    "email": "suman105@duet.ac.bd",
+    "phone": "+8801737727597",
+    "officeRoom": "Room 219, TWB",
+    "researchInterests": "Thermal Energy Storage Buildings",
+    "profile": "https://profile.duet.ac.bd/u/suman105",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-suman-mia-1663050954309-768.jpg"
+  },
+  {
+    "name": "Rokshana Pervin",
+    "designation": "Assistant Professor",
+    "email": "rokshana_51duet@duet.ac.bd",
+    "phone": "01749885171",
+    "officeRoom": "Room 220, TWB",
+    "researchInterests": "Groundwater, Rainfall, Drought Modelling",
+    "profile": "https://profile.duet.ac.bd/u/rokshana_51duet",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/rokshana-pervin-1724133365303-313.jpg"
+  },
+  {
+    "name": "Mr. Md. Rain Man Raja",
+    "designation": "Assistant Professor",
+    "email": "raja_ce@duet.ac.bd",
+    "phone": "+88 019 2261 2238",
+    "officeRoom": "Room 221, TWB",
+    "researchInterests": "Structural Engineering",
+    "profile": "https://profile.duet.ac.bd/u/raja_ce",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-rain-man-raja-1676873521308-728.jpg"
+  },
+  {
+    "name": "Mr. Md. Rakibul Islam",
+    "designation": "Assistant Professor",
+    "email": "rakibul10@duet.ac.bd",
+    "phone": "IP (L): 1125, IP (D): 09666-327635",
+    "officeRoom": "Room 222, TWB",
+    "researchInterests": "Structural Engineering, Concrete Tech",
+    "profile": "https://profile.duet.ac.bd/u/rakibul10",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-rakibul-islam-1663051068310-214.jpg"
+  },
+  {
+    "name": "Mr. Pronab Kumar Biswas",
+    "designation": "Assistant Professor",
+    "email": "pronab_ce@duet.ac.bd",
+    "phone": "IP (L): 1126, IP (D): 09666-327635",
+    "officeRoom": "Room 223, TWB",
+    "researchInterests": "Structural Engineering, Concrete Tech",
+    "profile": "https://profile.duet.ac.bd/u/pronab_ce",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-pronab-kumar-biswas-1663051141311-696.jpg"
+  },
+  {
+    "name": "Dr. Md. Al-Amin Sikder",
+    "designation": "Assistant Professor",
+    "email": "alaminsikder@duet.ac.bd",
+    "phone": "+8801712290838",
+    "officeRoom": "Room 224, TWB",
+    "researchInterests": "Fracture Mechanics, Earthquake Engineering",
+    "profile": "https://profile.duet.ac.bd/u/alaminsikder",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-al-amin-sikder-1752815533312-183.jpg"
+  },
+  {
+    "name": "Mr. Shahab Uddin",
+    "designation": "Assistant Professor",
+    "email": "shahab.civil97@duet.ac.bd",
+    "phone": "+61466971196",
+    "officeRoom": "Room 225, TWB",
+    "researchInterests": "Climate Change, Extreme Weather Events",
+    "profile": "https://profile.duet.ac.bd/u/shahab.civil97",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-shahab-uddin-1663051402313-862.jpg"
+  },
+  {
+    "name": "Mr. Md. Ariful Islam",
+    "designation": "Assistant Professor",
+    "email": "islam111087@duet.ac.bd",
+    "phone": "+8801723899930",
+    "officeRoom": "Room 226, TWB",
+    "researchInterests": "Shear Strength Characteristics Volcanic",
+    "profile": "https://profile.duet.ac.bd/u/islam111087",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-ariful-islam-1707279001314-343.jpg"
+  },
+  {
+    "name": "Mr. M. Afzal Hossain",
+    "designation": "Assistant Professor",
+    "email": "afzal.ce@duet.ac.bd",
+    "phone": "+880 1832 390 764",
+    "officeRoom": "Room 227, TWB",
+    "researchInterests": "Ai/Ml Transportation Safety, Demand Modelling",
+    "profile": "https://profile.duet.ac.bd/u/afzal.ce",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-m-afzal-hossain-1663051642315-619.jpg"
+  },
+  {
+    "name": "Mr. Kazi Abu Manjur",
+    "designation": "Assistant Professor",
+    "email": "kamanjur@duet.ac.bd",
+    "phone": "01794440518",
+    "officeRoom": "Room 228, TWB",
+    "researchInterests": "Structural Engineering",
+    "profile": "https://profile.duet.ac.bd/u/kamanjur",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-kazi-abu-manjur-1663058906334-917.jpg"
+  },
+  {
+    "name": "Mr. Mahadi Hasan",
+    "designation": "Assistant Professor",
+    "email": "mhasan49@duet.ac.bd",
+    "phone": "+88 01746478231",
+    "officeRoom": "Room 229, TWB",
+    "researchInterests": "Structural Engineering",
+    "profile": "https://profile.duet.ac.bd/u/mhasan49",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-mahadi-hasan-1663059184336-448.jpg"
+  },
+  {
+    "name": "Mr. Mahiman Zinnurain",
+    "designation": "Assistant Professor",
+    "email": "mahiman@duet.ac.bd",
+    "phone": "+88 01751619295",
+    "officeRoom": "Room 230, TWB",
+    "researchInterests": "Pavement Materials, Traffic Engineering",
+    "profile": "https://profile.duet.ac.bd/u/mahiman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-mahiman-zinnurain-1715845345339-283.jpg"
+  },
+  {
+    "name": "Mr. Md. Nur Rahman",
+    "designation": "Assistant Professor",
+    "email": "nrahman@duet.ac.bd",
+    "phone": "IP (L): 1136, IP (D): 09666-327645",
+    "officeRoom": "Room 231, TWB",
+    "researchInterests": "Gis- Remote Sensing-Based Hydro-Environmental Analysis",
+    "profile": "https://profile.duet.ac.bd/u/nrahman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-nur-rahman-1663059090335-121.jpg"
+  },
+  {
+    "name": "Ms. Tasnim Nishat Aishee",
+    "designation": "Assistant Professor",
+    "email": "tnaishee@duet.ac.bd",
+    "phone": "+8801956572166",
+    "officeRoom": "Room 232, TWB",
+    "researchInterests": "Sustainable Materials, Seismic Analysis Retrofitting",
+    "profile": "https://profile.duet.ac.bd/u/tnaishee",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/ms-tasnim-nishat-aishee-1757604700337-697.jpg"
+  },
+  {
+    "name": "Mr. Md. Monjurul Hasan",
+    "designation": "Lecturer",
+    "email": "mhasan@duet.ac.bd",
+    "phone": "IP (L): 1134, IP (D): 09666-327643",
+    "officeRoom": "Room 233, TWB",
+    "researchInterests": "Structural Engineering, Concrete Tech",
+    "profile": "https://profile.duet.ac.bd/u/mhasan",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-monjurul-hasan-1663057522325-311.jpg"
+  },
+  {
+    "name": "Mr. Md Tarek Hasan",
+    "designation": "Lecturer",
+    "email": "tarekhasan@duet.ac.bd",
+    "phone": "IP (L): 1135, IP (D): 09666-327644",
+    "officeRoom": "Room 234, TWB",
+    "researchInterests": "Structural Engineering, Concrete Tech",
+    "profile": "https://profile.duet.ac.bd/u/tarekhasan",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-tarek-hasan-1663057553327-586.jpg"
+  },
+  {
+    "name": "Monir Hossain",
+    "designation": "Lecturer",
+    "email": "monirhossain@duet.ac.bd",
+    "phone": "01628009956",
+    "officeRoom": "Room 235, TWB",
+    "researchInterests": "Environmental Sustainability, Environmental Engineering",
+    "profile": "https://profile.duet.ac.bd/u/monirhossain",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/monir-hossain-1764480087536-750.jpg"
+  },
+  {
+    "name": "Mr. Mohammad Kabir Hossain",
+    "designation": "Lecturer",
+    "email": "hossain.kabir@duet.ac.bd",
+    "phone": "01521408906",
+    "officeRoom": "Room 236, TWB",
+    "researchInterests": "Transportation Engineering",
+    "profile": "https://profile.duet.ac.bd/u/hossain.kabir",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mohammad-kabir-hossain-1763618586543-414.jpg"
+  },
+  {
+    "name": "Mr. Md. Jamil Mahmud Abdullah",
+    "designation": "Lecturer",
+    "email": "jamil@duet.ac.bd",
+    "phone": "+8801794448690",
+    "officeRoom": "Room 237, TWB",
+    "researchInterests": "Geotechnical Engineering, Transportation Geotechnics",
+    "profile": "https://profile.duet.ac.bd/u/jamil",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-jamil-mahmud-abdullah-1772336771560-238.jpg"
+  }
+]

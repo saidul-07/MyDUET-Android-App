@@ -22,6 +22,36 @@ public abstract class BaseContactActivity extends AppCompatActivity {
         toolbar.setTitle(getToolbarTitle());
         toolbar.setNavigationOnClickListener(v -> finish());
 
+        String bgColor = "#005FB0";
+        String statusBarColor = "#004F90";
+        String activityName = this.getClass().getSimpleName();
+        if (activityName.contains("Medical")) {
+            bgColor = "#D32F2F";
+            statusBarColor = "#B71C1C";
+        } else if (activityName.contains("Security")) {
+            bgColor = "#1565C0";
+            statusBarColor = "#0D47A1";
+        } else if (activityName.contains("Proctor")) {
+            bgColor = "#7B1FA2";
+            statusBarColor = "#4A148C";
+        } else if (activityName.contains("Transport")) {
+            bgColor = "#2E7D32";
+            statusBarColor = "#1B5E20";
+        } else if (activityName.contains("ICT")) {
+            bgColor = "#00838F";
+            statusBarColor = "#006064";
+        } else if (activityName.contains("Office")) {
+            bgColor = "#1E88E5";
+            statusBarColor = "#1565C0";
+        } else if (activityName.contains("Institute")) {
+            bgColor = "#2E7D32";
+            statusBarColor = "#1B5E20";
+        } else if (activityName.contains("ResearchCenter")) {
+            bgColor = "#7B1FA2";
+            statusBarColor = "#4A148C";
+        }
+        LocaleHelper.styleAppBar(this, toolbar, bgColor, statusBarColor);
+
         RecyclerView rv = findViewById(R.id.rvContacts);
         rv.setLayoutManager(new LinearLayoutManager(this));
 

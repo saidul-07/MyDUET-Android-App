@@ -1,0 +1,983 @@
+[
+  {
+    "startRoll": 11297,
+    "endRoll": 11436,
+    "building": "Shahid Abu Sayed Administrative Building (SASAB)",
+    "room": "11005 (10th Floor)",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70494,
+    "endRoll": 70633,
+    "building": "Shahid Abu Sayed Administrative Building (SASAB)",
+    "room": "11005 (10th Floor)",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 11437,
+    "endRoll": 11542,
+    "building": "Shahid Abu Sayed Administrative Building (SASAB)",
+    "room": "Seminar Room-2 (10th Floor)",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70634,
+    "endRoll": 70739,
+    "building": "Shahid Abu Sayed Administrative Building (SASAB)",
+    "room": "Seminar Room-2 (10th Floor)",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 11543,
+    "endRoll": 11647,
+    "building": "Shahid Abu Sayed Administrative Building (SASAB)",
+    "room": "Seminar (9th Floor)",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70740,
+    "endRoll": 70844,
+    "building": "Shahid Abu Sayed Administrative Building (SASAB)",
+    "room": "Seminar (9th Floor)",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 40001,
+    "endRoll": 40040,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2006",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20001,
+    "endRoll": 20040,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2006",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40041,
+    "endRoll": 40096,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2006",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20041,
+    "endRoll": 20096,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2006",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40097,
+    "endRoll": 40136,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2006",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20097,
+    "endRoll": 20136,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2006",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40137,
+    "endRoll": 40176,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2008",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20137,
+    "endRoll": 20176,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2008",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40177,
+    "endRoll": 40216,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2010",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40217,
+    "endRoll": 40272,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2012",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20217,
+    "endRoll": 20272,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2012",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20273,
+    "endRoll": 20328,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2029",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20329,
+    "endRoll": 20368,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2029",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20369,
+    "endRoll": 20408,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2029",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20409,
+    "endRoll": 20448,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "2029",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30177,
+    "endRoll": 30232,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "4004",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30233,
+    "endRoll": 30288,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "4004",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30289,
+    "endRoll": 30318,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "4004",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30319,
+    "endRoll": 30348,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "4010",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30349,
+    "endRoll": 30383,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "5004",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 80001,
+    "endRoll": 80035,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "5004",
+    "department": "FE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 30384,
+    "endRoll": 30431,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "5005",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 80036,
+    "endRoll": 80083,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "5005",
+    "department": "FE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 30432,
+    "endRoll": 30461,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "5007",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30462,
+    "endRoll": 30517,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "5007",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30518,
+    "endRoll": 30557,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "5007",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30558,
+    "endRoll": 30597,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "5007",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30598,
+    "endRoll": 30657,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7019",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20697,
+    "endRoll": 20756,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7019",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30658,
+    "endRoll": 30697,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7019",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20757,
+    "endRoll": 20796,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7019",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30698,
+    "endRoll": 30775,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7019",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20797,
+    "endRoll": 20874,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7019",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30776,
+    "endRoll": 30837,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7026",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20875,
+    "endRoll": 20936,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7026",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30838,
+    "endRoll": 30877,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7th Floor Open Space",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20937,
+    "endRoll": 20976,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "7th Floor Open Space",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30878,
+    "endRoll": 30937,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "8009",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 20977,
+    "endRoll": 21036,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "8009",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 30938,
+    "endRoll": 31016,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "8010",
+    "department": "ME/IPE/MME",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21037,
+    "endRoll": 21096,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "8010",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40273,
+    "endRoll": 40332,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "8010",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21097,
+    "endRoll": 21156,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "8010",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40333,
+    "endRoll": 40392,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "8010",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21157,
+    "endRoll": 21196,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "8010",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40393,
+    "endRoll": 40432,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "8010",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21197,
+    "endRoll": 21260,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9016-A",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40433,
+    "endRoll": 40496,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9016-A",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40497,
+    "endRoll": 40576,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9016-A",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21261,
+    "endRoll": 21340,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9016-A",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40577,
+    "endRoll": 40620,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9016-A",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21341,
+    "endRoll": 21384,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9016-A",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40621,
+    "endRoll": 40668,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9016-B",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21385,
+    "endRoll": 21432,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9016-B",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 40669,
+    "endRoll": 40729,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9017",
+    "department": "CSE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21433,
+    "endRoll": 21493,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9017",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10001,
+    "endRoll": 10066,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21494,
+    "endRoll": 21559,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 11002,
+    "endRoll": 21560,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10067,
+    "endRoll": 10130,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21624,
+    "endRoll": 21671,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10131,
+    "endRoll": 10178,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21672,
+    "endRoll": 21719,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10179,
+    "endRoll": 10226,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 21720,
+    "endRoll": 21775,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "EEE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10227,
+    "endRoll": 10282,
+    "building": "Shahid Syed Nazrul Islam Academic Building (SSNIAB)",
+    "room": "9018",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10283,
+    "endRoll": 10322,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "Yarn Lab-2 North Side (Ground Floor)",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70001,
+    "endRoll": 70040,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "Yarn Lab-2 North Side (Ground Floor)",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10323,
+    "endRoll": 10412,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "Yarn Lab-2 North Side (Ground Floor)",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70041,
+    "endRoll": 70129,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "Yarn Lab-2 North Side (Ground Floor)",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10413,
+    "endRoll": 10472,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "Yarn Lab-2 North Side (Ground Floor)",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70130,
+    "endRoll": 70188,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "Yarn Lab-2 North Side (Ground Floor)",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10473,
+    "endRoll": 10520,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "201",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70189,
+    "endRoll": 70236,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "201",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10521,
+    "endRoll": 10576,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "216",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70237,
+    "endRoll": 70291,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "216",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10577,
+    "endRoll": 10606,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "414",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10607,
+    "endRoll": 10630,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "416",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10631,
+    "endRoll": 10678,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "416",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 50001,
+    "endRoll": 50048,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "416",
+    "department": "TE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10679,
+    "endRoll": 10726,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "416",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 50049,
+    "endRoll": 50096,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "416",
+    "department": "TE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 50097,
+    "endRoll": 50144,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "416",
+    "department": "TE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10727,
+    "endRoll": 10774,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "416",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10775,
+    "endRoll": 10798,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "416",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70292,
+    "endRoll": 70347,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "516",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10799,
+    "endRoll": 10854,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "516",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 10855,
+    "endRoll": 10910,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "516",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70348,
+    "endRoll": 70403,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "516",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10911,
+    "endRoll": 10958,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "516",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 70404,
+    "endRoll": 70451,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "516",
+    "department": "ChE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 10959,
+    "endRoll": 11018,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "517",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 60001,
+    "endRoll": 60060,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "517",
+    "department": "Arch.",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 11019,
+    "endRoll": 11066,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "518",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 50145,
+    "endRoll": 50192,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "518",
+    "department": "TE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 11067,
+    "endRoll": 11126,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "519",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 50193,
+    "endRoll": 50252,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "519",
+    "department": "TE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 11127,
+    "endRoll": 11174,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "519",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 50253,
+    "endRoll": 50296,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "519",
+    "department": "TE",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 11175,
+    "endRoll": 11230,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "519",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 60061,
+    "endRoll": 60114,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "519",
+    "department": "Arch.",
+    "examDate": "02-08-2026",
+    "shift": "02:00 PM to 04:30 PM"
+  },
+  {
+    "startRoll": 11231,
+    "endRoll": 11254,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "519",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  },
+  {
+    "startRoll": 11255,
+    "endRoll": 11296,
+    "building": "Textile Workshop Building (TWB)",
+    "room": "519",
+    "department": "CE",
+    "examDate": "02-08-2026",
+    "shift": "09:30 AM to 12:00 PM"
+  }
+]

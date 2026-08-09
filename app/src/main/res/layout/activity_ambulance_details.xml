@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8FAFC">
+    android:background="?android:attr/windowBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -16,9 +16,9 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="@color/primary"
+            app:navigationIconTint="?attr/colorPrimary"
             app:title="Ambulance Service"
-            app:titleTextColor="@color/md_theme_light_onSurface"
+            app:titleTextColor="?attr/colorOnSurface"
             android:fontFamily="sans-serif-medium" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -46,14 +46,14 @@
                     android:layout_height="120dp"
                     app:cardCornerRadius="60dp"
                     app:cardElevation="0dp"
-                    app:cardBackgroundColor="#FDECEC"
+                    app:cardBackgroundColor="@color/emergency_bg_tint"
                     app:strokeWidth="0dp">
                     <ImageView
                         android:layout_width="72dp"
                         android:layout_height="72dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_medical"
-                        app:tint="#E53935"
+                        app:tint="@color/emergency_secondary"
                         android:contentDescription="@null" />
                 </com.google.android.material.card.MaterialCardView>
 
@@ -62,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:text="Emergency Ambulance Service"
-                    android:textColor="@color/md_theme_light_onSurface"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     android:gravity="center"
@@ -73,22 +73,21 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="24/7 Emergency Response"
-                    android:textColor="#E53935"
+                    android:textColor="@color/emergency_secondary"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium" />
             </LinearLayout>
 
-            <!-- Emergency Notice Card -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp"
-                app:cardBackgroundColor="#FFF1F1"
+                app:cardBackgroundColor="@color/emergency_card_bg"
                 app:strokeWidth="1dp"
-                app:strokeColor="#FFCDD2">
+                app:strokeColor="@color/emergency_card_stroke">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -105,13 +104,13 @@
                             android:layout_width="24dp"
                             android:layout_height="24dp"
                             android:src="@drawable/ic_emergency"
-                            app:tint="#D32F2F" />
+                            app:tint="@color/emergency_primary" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="12dp"
                             android:text="Emergency Notice"
-                            android:textColor="#D32F2F"
+                            android:textColor="@color/emergency_primary"
                             android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -121,7 +120,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="Call immediately during medical emergencies inside the DUET campus."
-                        android:textColor="#B71C1C"
+                        android:textColor="@color/emergency_accent"
                         android:textSize="14sp" />
 
                     <TextView
@@ -129,7 +128,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="Average response time: 5–10 minutes"
-                        android:textColor="#B71C1C"
+                        android:textColor="@color/emergency_accent"
                         android:textSize="14sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -141,7 +140,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:strokeWidth="0dp">
 
                 <LinearLayout
@@ -154,7 +153,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Emergency Contact Information"
-                        android:textColor="@color/md_theme_light_onSurface"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:fontFamily="sans-serif-medium" />
@@ -188,7 +187,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="+8801711000002"
-                                android:textColor="#D32F2F"
+                                android:textColor="@color/emergency_primary"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -223,7 +222,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="24 Hours • 7 Days"
-                                android:textColor="@color/md_theme_light_onSurface"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
@@ -258,7 +257,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Medical Center Gate"
-                                android:textColor="@color/md_theme_light_onSurface"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
@@ -292,7 +291,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Entire DUET Campus"
-                                android:textColor="@color/md_theme_light_onSurface"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
@@ -301,14 +300,13 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Quick Tips Card -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp"
-                app:cardBackgroundColor="#F1F5F9"
+                app:cardBackgroundColor="@color/emergency_tips_bg"
                 app:strokeWidth="0dp">
 
                 <LinearLayout
@@ -321,7 +319,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Quick Tips"
-                        android:textColor="@color/md_theme_light_onSurface"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -331,7 +329,7 @@
                         android:layout_marginTop="8dp"
                         android:drawablePadding="12dp"
                         android:text="• Describe your emergency."
-                        android:textColor="@color/md_theme_light_onSurfaceVariant"
+                        android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="14sp" />
 
                     <TextView
@@ -339,7 +337,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="• Tell your exact location."
-                        android:textColor="@color/md_theme_light_onSurfaceVariant"
+                        android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="14sp" />
 
                     <TextView
@@ -347,7 +345,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="• Keep your phone active."
-                        android:textColor="@color/md_theme_light_onSurfaceVariant"
+                        android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="14sp" />
 
                     <TextView
@@ -355,7 +353,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="• Wait at the pickup point."
-                        android:textColor="@color/md_theme_light_onSurfaceVariant"
+                        android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="14sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -376,7 +374,7 @@
                     android:textStyle="bold"
                     android:textAllCaps="false"
                     app:cornerRadius="16dp"
-                    app:backgroundTint="#D32F2F" />
+                    app:backgroundTint="@color/emergency_primary" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnLocation"

@@ -16,8 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="@color/primary"
-            app:titleTextColor="@color/md_theme_light_onSurface"
+            app:navigationIconTint="?attr/colorPrimary"
+            app:titleTextColor="?attr/colorOnSurface"
             android:fontFamily="sans-serif-medium" />
     </com.google.android.material.appbar.AppBarLayout>
 

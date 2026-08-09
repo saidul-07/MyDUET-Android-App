@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MyDUET" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Base.Theme.MyDUET" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Main Colors -->
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
@@ -43,25 +43,38 @@
     <!-- Typography Styles -->
     <style name="TextAppearance.MyDUET.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/md_theme_light_onSurface</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
     </style>
 
     <style name="TextAppearance.MyDUET.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/md_theme_light_onSurface</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
     </style>
 
     <style name="TextAppearance.MyDUET.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
-        <item name="android:textColor">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
     </style>
 
     <!-- Premium Card Style -->
     <style name="Widget.MyDUET.PremiumCard" parent="Widget.Material3.CardView.Elevated">
         <item name="cardCornerRadius">24dp</item>
         <item name="cardElevation">0dp</item> <!-- Modern flat design with subtle strokes or shadows -->
-        <item name="cardBackgroundColor">@color/md_theme_light_surface</item>
-        <item name="strokeColor">@color/divider</item>
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="strokeColor">?attr/colorOutline</item>
         <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Widget.MyDUET.QuickServiceIcon" parent="">
+        <item name="cardCornerRadius">18dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+    <style name="Theme.MyDUET.Splash" parent="Theme.MyDUET">
+        <item name="android:windowBackground">@drawable/bg_premium_gradient</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 
 </resources>

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Dr. Nour Md. Mofiz Uddin Khan",
+    "designation": "Professor",
+    "email": "mofizchemdu@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/mofizchemdu",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-nour-md-mofiz-uddin-khan-1772354197279-723.jpg",
+    "officeRoom": "Room 306, SASAB",
+    "phone": "IP (L): 7103, IP (D): 09666-327913",
+    "researchInterests": "Chemistry Research"
+  },
+  {
+    "name": "Dr. Zinia Nasreen",
+    "designation": "Professor",
+    "email": "zinia@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/zinia",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-zinia-nasreen-1663043072235-783.jpg",
+    "officeRoom": "Room 302, SASAB",
+    "phone": "+880 01716498944",
+    "researchInterests": "Polymer Science, Biodegradable Materials"
+  },
+  {
+    "name": "Dr. Ummey Rayhan",
+    "designation": "Professor",
+    "email": "ummeyrayhan@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/ummeyrayhan",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-ummey-rayhan-1663043551245-735.jpg",
+    "officeRoom": "Room 309, SASAB",
+    "phone": "IP (L): 7102, IP (D): 09666-327911",
+    "researchInterests": "Chemistry Research"
+  },
+  {
+    "name": "Dr. Md. Shahabuddin",
+    "designation": "Associate Professor",
+    "email": "shahab2018@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/shahab2018",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-shahabuddin-1667102237298-388.jpg",
+    "officeRoom": "Room 304, SASAB",
+    "phone": "IP (L): 7106, IP (D): 09666-327915",
+    "researchInterests": "Asymmetric Synthesis Organic Molecules, Csps"
+  },
+  {
+    "name": "Mr. Md. Ikram Ul Hoque",
+    "designation": "Assistant Professor",
+    "email": "ikram.chem@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/ikram.chem",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-ikram-ul-hoque-1663046630289-202.jpg",
+    "officeRoom": "Room 301, SASAB",
+    "phone": "IP (L): 7104, IP (D): 09666-327913",
+    "researchInterests": "Chemistry Research"
+  },
+  {
+    "name": "Dr. Md. Sofiul Alom",
+    "designation": "Assistant Professor",
+    "email": "sofiul@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/sofiul",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-sofiul-alom-1705551118293-548.jpg",
+    "officeRoom": "Room 308, SASAB",
+    "phone": "IP (L): 7105, IP (D): 09666-327914",
+    "researchInterests": "Chemistry Research"
+  },
+  {
+    "name": "Romana Nasrin",
+    "designation": "Assistant Professor",
+    "email": "romana_nasrin@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/romana_nasrin",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/romana-nasrin-1667102257299-830.jpg",
+    "officeRoom": "Room 307, SASAB",
+    "phone": "IP (L): 7107, IP (D): 09666-327916",
+    "researchInterests": "Chemistry Research"
+  },
+  {
+    "name": "Mr. Md. Arif Hossain",
+    "designation": "Assistant Professor",
+    "email": "arif2016@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/arif2016",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-arif-hossain-1667102275300-593.jpg",
+    "officeRoom": "Room 303, SASAB",
+    "phone": "+8801925802336",
+    "researchInterests": "Material Science, Food Toxicology"
+  },
+  {
+    "name": "Dr. Bikash Dev Nath",
+    "designation": "Assistant Professor",
+    "email": "bikashchem@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/bikashchem",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-bikash-dev-nath-1667102298301-511.jpg",
+    "officeRoom": "Room 305, SASAB",
+    "phone": "+88-01775428044",
+    "researchInterests": "Organic Chemistry, Organometallic Chemistry, Catalysis"
+  },
+  {
+    "name": "Dr. Md. Rafikul Islam",
+    "designation": "Assistant Professor",
+    "email": "rafikchemduet@duet.ac.bd",
+    "profile": "https://profile.duet.ac.bd/u/rafikchemduet",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-rafikul-islam-1663048791302-987.jpg",
+    "officeRoom": "Room 310, SASAB",
+    "phone": "IP (L): 7110, IP (D): 09666-327919",
+    "researchInterests": "Chemistry Research"
+  }
+]

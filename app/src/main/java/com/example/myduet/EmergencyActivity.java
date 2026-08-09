@@ -19,6 +19,7 @@ public class EmergencyActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
+        LocaleHelper.styleAppBar(this, toolbar, "#D32F2F", "#B71C1C");
 
         RecyclerView rv = findViewById(R.id.rvEmergencyCategories);
         rv.setLayoutManager(new LinearLayoutManager(this));

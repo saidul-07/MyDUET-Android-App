@@ -18,9 +18,9 @@
             android:layout_height="64dp"
             android:paddingHorizontal="16dp"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="@color/white"
+            app:navigationIconTint="@color/white_text"
             app:title="Emergency"
-            app:titleTextColor="@color/white"
+            app:titleTextColor="@color/white_text"
             app:titleCentered="false"
             app:contentInsetStartWithNavigation="0dp" />
     </com.google.android.material.appbar.AppBarLayout>

@@ -63,4 +63,32 @@ public class EmergencyRepository {
         list.add(new EmergencyContact("I2", "Network Support", "Network Engineer", "", "+880 1711 000010", "noc@duet.ac.bd", "Old Academic Building", "9 AM - 8 PM"));
         return list;
     }
+
+    public List<EmergencyContact> getOfficeContacts() {
+        List<EmergencyContact> list = new ArrayList<>();
+        list.add(new EmergencyContact("O1", "Office of the Vice-Chancellor", "Vice-Chancellor", "", "+880 1711 000101", "vc@duet.ac.bd", "Shohid Abu Sayed Administrative Building", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("O2", "Office of the Pro-Vice-Chancellor", "Pro-Vice-Chancellor", "", "+880 1711 000102", "provc@duet.ac.bd", "Shohid Abu Sayed Administrative Building", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("O3", "Registrar Office", "Registrar", "", "+88-02-49274003", "reg_duet@duet.ac.bd", "Shohid Abu Sayed Administrative Building", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("O4", "Students' Welfare Office", "Director, DSW", "", "+880 1711 000104", "dsw@duet.ac.bd", "Student Welfare Center", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("O5", "Engineering Office", "Chief Engineer", "", "+880 1711 000105", "chief_engr@duet.ac.bd", "Shohid Abu Sayed Administrative Building", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("O6", "Computer Center", "System Analyst", "", "+880 1711 000106", "cc@duet.ac.bd", "Old Academic Building", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("O7", "Planning & Development Office", "Director", "", "+880 1711 000107", "planning@duet.ac.bd", "Shohid Abu Sayed Administrative Building", "9 AM - 5 PM"));
+        return list;
+    }
+
+    public List<EmergencyContact> getInstituteContacts() {
+        List<EmergencyContact> list = new ArrayList<>();
+        list.add(new EmergencyContact("IN1", "Institute of Information & Communication Technology", "Director, IICT", "", "+880 1711 000201", "iict@duet.ac.bd", "Old Academic Building, Room 402", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("IN2", "Institute of Water and Environment", "Director, IWE", "", "+880 1711 000202", "iwe@duet.ac.bd", "Civil Engineering Building", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("IN3", "Institute of Energy Engineering", "Director, IEE", "", "+880 1711 000203", "iee@duet.ac.bd", "Mechanical Engineering Building", "9 AM - 5 PM"));
+        return list;
+    }
+
+    public List<EmergencyContact> getResearchCenterContacts() {
+        List<EmergencyContact> list = new ArrayList<>();
+        list.add(new EmergencyContact("R1", "Center for Climate Change & Sustainability Research", "Director, CCCSR", "", "+880 1711 000301", "cccsr@duet.ac.bd", "Old Academic Building", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("R2", "Institutional Quality Assurance Cell", "Director, IQAC", "", "+880 1711 000302", "iqac@duet.ac.bd", "Shohid Abu Sayed Administrative Building", "9 AM - 5 PM"));
+        list.add(new EmergencyContact("R3", "Consultancy Research & Testing Service", "Director, CRTS", "", "+880 1711 000303", "crts@duet.ac.bd", "Respective Department Office", "9 AM - 5 PM"));
+        return list;
+    }
 }

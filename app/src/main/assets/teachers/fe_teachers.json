@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Dr. Mohammad Washim Dewan",
+    "designation": "Faculty Member",
+    "email": "head_fe@duet.ac.bd",
+    "phone": "+8801531261380",
+    "officeRoom": "Room 504, SSNIAB",
+    "researchInterests": "Composite Materials, Ceramic Materials, Welding",
+    "profile": "https://profile.duet.ac.bd/u/washim0179",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammad-washim-dewan-177511321670-362.jpg"
+  },
+  {
+    "name": "Mr. Raju Ahmmed",
+    "designation": "Assistant Professor",
+    "email": "rahmmed@duet.ac.bd",
+    "phone": "+8801722979157",
+    "officeRoom": "Room 505, SSNIAB",
+    "researchInterests": "Food Engineering, Food Chemistry",
+    "profile": "https://profile.duet.ac.bd/u/rahmmed",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-raju-ahmmed-1667054170255-730.jpg"
+  },
+  {
+    "name": "Mr. Md. Junaeid Khan",
+    "designation": "Assistant Professor",
+    "email": "junaeidkhn@duet.ac.bd",
+    "phone": "+880 1723672556",
+    "officeRoom": "Room 506, SSNIAB",
+    "researchInterests": "Food Dehydration, Pulse Processing",
+    "profile": "https://profile.duet.ac.bd/u/junaeidkhn",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-junaeid-khan-1667054227263-485.jpg"
+  },
+  {
+    "name": "Mr. Md. Abir Hossain",
+    "designation": "Assistant Professor",
+    "email": "abir@duet.ac.bd",
+    "phone": "+88 01712529319",
+    "officeRoom": "Room 507, SSNIAB",
+    "researchInterests": "Food Processing Preservation, Halal Management",
+    "profile": "https://profile.duet.ac.bd/u/abir",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-abir-hossain-1667054248267-760.jpg"
+  },
+  {
+    "name": "Mr. Md. Hasan Tarek Mondal",
+    "designation": "Assistant Professor",
+    "email": "hasan.fpe@duet.ac.bd",
+    "phone": "+8801741494184",
+    "officeRoom": "Room 508, SSNIAB",
+    "researchInterests": "Heat Mass Transfer, Bioactive Compounds",
+    "profile": "https://profile.duet.ac.bd/u/hasan.fpe",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-hasan-tarek-mondal-1667054266274-582.jpg"
+  },
+  {
+    "name": "Dr. Md. Shofiul Azam",
+    "designation": "Assistant Professor",
+    "email": "shofiul@duet.ac.bd",
+    "phone": "+8801791267367",
+    "officeRoom": "Room 509, SSNIAB",
+    "researchInterests": "Food Safety, Food Processing",
+    "profile": "https://profile.duet.ac.bd/u/shofiul",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-shofiul-azam-1667746531286-422.jpg"
+  },
+  {
+    "name": "Lopa Aunsary",
+    "designation": "Assistant Professor",
+    "email": "lopaaunsari@duet.ac.bd",
+    "phone": "+880 1783-479028",
+    "officeRoom": "Room 510, SSNIAB",
+    "researchInterests": "Food Packaging Preservation, Food Chemistry",
+    "profile": "https://profile.duet.ac.bd/u/lopaaunsari",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/lopa-aunsary-1690093750292-122.jpg"
+  },
+  {
+    "name": "Mr. K. M. Mahdiuzzaman Sayed",
+    "designation": "Lecturer",
+    "email": "sayed@duet.ac.bd",
+    "phone": "IP (L): XXXX, IP (D): 09666-XXXXXX",
+    "officeRoom": "Room 511, SSNIAB",
+    "researchInterests": "Food Processing Preservation, Food Microbiology",
+    "profile": "https://profile.duet.ac.bd/u/sayed",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-k-m-mahdiuzzaman-sayed-1744878088524-794.jpg"
+  },
+  {
+    "name": "Mr. Md. Zakirul Hasan",
+    "designation": "Lecturer",
+    "email": "zakirul@duet.ac.bd",
+    "phone": "01750313407",
+    "officeRoom": "Room 512, SSNIAB",
+    "researchInterests": "Food Chemistry, Food Process Engineering",
+    "profile": "https://profile.duet.ac.bd/u/zakirul",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-zakirul-hasan-1757607751532-850.jpg"
+  },
+  {
+    "name": "Mr. Md. Arman Ali",
+    "designation": "Lecturer",
+    "email": "arman_fe@duet.ac.bd",
+    "phone": "01774651623",
+    "officeRoom": "Room 513, SSNIAB",
+    "researchInterests": "Food Processing Preservation, Food Safety",
+    "profile": "https://profile.duet.ac.bd/u/arman_fe",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-arman-ali-1751362223533-989.jpg"
+  }
+]

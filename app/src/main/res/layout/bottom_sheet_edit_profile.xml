@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="Change Academic Profile"
-        android:textColor="@color/md_theme_light_onSurface"
+        android:textColor="?attr/colorOnSurface"
         android:textSize="22sp" />
 
     <TextView
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="Update your department and current academic year."
-        android:textColor="@color/md_theme_light_onSurfaceVariant"
+        android:textColor="?attr/colorOnSurfaceVariant"
         android:textSize="14sp" />
 
     <com.google.android.material.textfield.TextInputLayout

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8FAFC">
+    android:background="?android:attr/windowBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -16,9 +16,9 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="@color/primary"
+            app:navigationIconTint="?attr/colorOnSurface"
             app:title="Service Detail"
-            app:titleTextColor="@color/md_theme_light_onSurface"
+            app:titleTextColor="?attr/colorOnSurface"
             android:fontFamily="sans-serif-medium" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -40,7 +40,7 @@
                 app:cardElevation="4dp"
                 app:strokeWidth="1dp"
                 app:strokeColor="#E6EAF2"
-                app:cardBackgroundColor="@color/white">
+                app:cardBackgroundColor="?attr/colorSurface">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Service Name"
-                        android:textColor="@color/md_theme_light_onSurface"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="22sp"
                         android:textStyle="bold" />
 
@@ -63,7 +63,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:text="Content placeholder for this library service. More information will be available soon."
-                        android:textColor="@color/md_theme_light_onSurfaceVariant"
+                        android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="16sp"
                         android:lineSpacingExtra="4dp" />
 

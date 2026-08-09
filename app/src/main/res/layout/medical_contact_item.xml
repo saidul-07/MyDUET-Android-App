@@ -8,7 +8,7 @@
     app:cardCornerRadius="20dp"
     app:cardElevation="4dp"
     app:strokeWidth="0dp"
-    app:cardBackgroundColor="@color/white">
+    app:cardBackgroundColor="?attr/colorSurface">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Medical Center"
-                    android:textColor="@color/md_theme_light_onSurface"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium" />
@@ -72,7 +72,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
                     android:text="Dr. Md. Aminul Islam"
-                    android:textColor="@color/md_theme_light_onSurfaceVariant"
+                    android:textColor="?attr/colorOnSurfaceVariant"
                     android:textSize="14sp" />
             </LinearLayout>
         </LinearLayout>
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
                     android:text="+880 1711 000001"
-                    android:textColor="@color/md_theme_light_onSurface"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="15sp" />
             </LinearLayout>
 
@@ -128,7 +128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
                     android:text="24/7 Service"
-                    android:textColor="@color/md_theme_light_onSurface"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="15sp" />
             </LinearLayout>
 
@@ -150,7 +150,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
                     android:text="Near Central Mosque"
-                    android:textColor="@color/md_theme_light_onSurface"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="15sp" />
             </LinearLayout>
         </LinearLayout>

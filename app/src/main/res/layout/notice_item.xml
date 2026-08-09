@@ -10,7 +10,7 @@
     app:cardElevation="0dp"
     app:strokeWidth="1dp"
     app:strokeColor="#0D000000"
-    app:cardBackgroundColor="@color/white"
+    app:cardBackgroundColor="?attr/colorSurface"
     tools:context=".NoticeActivity">
 
     <LinearLayout
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="8dp"
             app:cardElevation="0dp"
-            app:cardBackgroundColor="@color/md_theme_light_primaryContainer">
+            app:cardBackgroundColor="?attr/colorPrimaryContainer">
             <TextView
                 android:id="@+id/tvCategory"
                 android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
                 android:paddingHorizontal="10dp"
                 android:paddingVertical="4dp"
                 android:text="@string/notice_placeholder_category"
-                android:textColor="@color/md_theme_light_onPrimaryContainer"
+                android:textColor="?attr/colorOnPrimaryContainer"
                 android:textSize="11sp"
                 android:textStyle="bold" />
         </com.google.android.material.card.MaterialCardView>
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:text="@string/notice_placeholder_title"
-            android:textColor="@color/md_theme_light_onSurface"
+            android:textColor="?attr/colorOnSurface"
             android:textSize="17sp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-medium" />
@@ -56,7 +56,7 @@
             android:ellipsize="end"
             android:maxLines="2"
             android:text="@string/notice_placeholder_description"
-            android:textColor="@color/md_theme_light_onSurfaceVariant"
+            android:textColor="?attr/colorOnSurfaceVariant"
             android:textSize="14sp"
             android:lineSpacingExtra="2dp" />
 
@@ -71,7 +71,7 @@
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:src="@drawable/ic_menu"
-                app:tint="@color/md_theme_light_secondary"
+                app:tint="?attr/colorOnSurfaceVariant"
                 android:contentDescription="@null" />
 
             <TextView
@@ -81,7 +81,7 @@
                 android:layout_marginStart="6dp"
                 android:layout_weight="1"
                 android:text="@string/notice_placeholder_date"
-                android:textColor="@color/md_theme_light_secondary"
+                android:textColor="?attr/colorOnSurfaceVariant"
                 android:textSize="12sp" />
 
             <com.google.android.material.button.MaterialButton

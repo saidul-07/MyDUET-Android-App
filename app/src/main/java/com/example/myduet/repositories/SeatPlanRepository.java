@@ -10,7 +10,7 @@ public class SeatPlanRepository {
 
     public SeatPlanRepository(Context context) {
         // Load JSON once and cache it
-        this.cachedSeatPlans = JsonUtils.loadSeatPlanFromAssets(context, "seat_plan/seat_plan_2024.json");
+        this.cachedSeatPlans = JsonUtils.loadSeatPlanFromAssets(context, "seat_plan/seat_plan_2026.json");
     }
 
     public SeatPlan searchSeatPlan(int roll) {

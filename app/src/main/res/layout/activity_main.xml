@@ -11,16 +11,16 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        app:elevation="0dp">
+        android:background="#005FB0"
+        app:elevation="4dp"
+        app:liftOnScroll="false">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:paddingHorizontal="8dp"
-            app:navigationIcon="@drawable/ic_menu"
-            app:navigationIconTint="@color/primary">
+            android:background="#005FB0"
+            android:paddingHorizontal="8dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="12dp"
                     android:text="@string/app_name"
-                    android:textColor="@color/primary"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium" />
@@ -54,22 +54,15 @@
                 android:paddingEnd="16dp">
 
                 <ImageView
+                    android:id="@+id/btnNotification"
                     android:layout_width="26dp"
                     android:layout_height="26dp"
-                    android:layout_marginEnd="16dp"
                     android:src="@drawable/ic_notification"
-                    app:tint="@color/primary"
-                    android:contentDescription="@string/desc_notifications" />
-
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
-                    android:src="@drawable/ic_profile"
-                    android:padding="2dp"
-                    app:strokeWidth="1.5dp"
-                    app:strokeColor="@color/md_theme_light_primaryContainer"
-                    app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
-                    android:contentDescription="@string/desc_profile" />
+                    app:tint="#FFFFFF"
+                    android:contentDescription="@string/desc_notifications"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
             </LinearLayout>
 
         </com.google.android.material.appbar.MaterialToolbar>
@@ -86,98 +79,176 @@
             android:orientation="vertical"
             android:padding="20dp">
 
-            <!-- Premium Welcome Card with Glassmorphism -->
-            <FrameLayout
+            <!-- DUET Photo Carousel -->
+            <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:background="@drawable/bg_hero_glass_refined"
-                android:elevation="4dp">
+                android:layout_height="200dp"
+                android:scrollbars="none"
+                android:clipToPadding="false"
+                android:paddingEnd="20dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                    android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/welcome_back"
-                        android:textColor="#CCFFFFFF"
-                        android:textSize="14sp"
-                        android:fontFamily="sans-serif-medium" />
+                    <!-- Photo Card 1: DUET Main Gate -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="320dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="16dp"
+                        app:cardCornerRadius="24dp"
+                        app:cardElevation="4dp"
+                        app:strokeWidth="0dp">
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp">
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
 
-                        <TextView
-                            android:id="@+id/tvMainStudentName"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_centerVertical="true"
-                            android:text="@string/student_name"
-                            android:textColor="@color/white"
-                            android:textSize="26sp"
-                            android:textStyle="bold"
-                            android:fontFamily="sans-serif-black" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/duet_gate" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="30dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_centerVertical="true"
-                            android:background="@drawable/bg_id_chip_glass"
-                            android:gravity="center"
-                            android:paddingHorizontal="12dp"
-                            android:text="@string/student_id"
-                            android:textColor="@color/white"
-                            android:textSize="14sp"
-                            android:fontFamily="sans-serif-medium" />
-                    </RelativeLayout>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#66000000" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:text="@string/student_dept"
-                        android:textColor="@color/white"
-                        android:textSize="15sp"
-                        android:fontFamily="sans-serif-medium" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:orientation="vertical"
+                                android:padding="16dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="CSE • 22 Batch"
-                        android:textColor="#BFFFFFFF"
-                        android:textSize="14sp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/campus_main_gate"
+                                    android:textColor="@color/white_text"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/campus_location"
+                                    android:textColor="@color/white_text_secondary"
+                                    android:textSize="13sp" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Photo Card 2: Academic Building -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="320dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="16dp"
+                        app:cardCornerRadius="24dp"
+                        app:cardElevation="4dp"
+                        app:strokeWidth="0dp">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/duet_campus" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#66000000" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:orientation="vertical"
+                                android:padding="16dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/campus_academic"
+                                    android:textColor="@color/white_text"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/campus_innovation"
+                                    android:textColor="@color/white_text_secondary"
+                                    android:textSize="13sp" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Photo Card 3: Central Library -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="320dp"
+                        android:layout_height="match_parent"
+                        app:cardCornerRadius="24dp"
+                        app:cardElevation="4dp"
+                        app:strokeWidth="0dp">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/duet_towers" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#66000000" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:orientation="vertical"
+                                android:padding="16dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/campus_library"
+                                    android:textColor="@color/white_text"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/campus_knowledge"
+                                    android:textColor="@color/white_text_secondary"
+                                    android:textSize="13sp" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
-            </FrameLayout>
-
-            <!-- Modern Search Bar -->
-            <com.google.android.material.search.SearchBar
-                android:id="@+id/search_bar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:hint="@string/search_hint"
-                app:backgroundTint="@color/white"
-                app:strokeColor="@color/divider"
-                app:strokeWidth="1dp"
-                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.ExtraLarge" />
+            </HorizontalScrollView>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
                 android:layout_marginStart="4dp"
                 android:text="@string/quick_services"
-                android:textColor="@color/md_theme_light_onSurface"
+                android:textColor="?attr/colorOnSurface"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-medium" />
@@ -205,32 +276,30 @@
                         android:padding="24dp"
                         android:background="?attr/selectableItemBackground">
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="@color/accent_blue">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/icon_accent_blue">
                             <ImageView
                                 android:layout_width="28dp"
                                 android:layout_height="28dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_notices"
-                                app:tint="@color/primary" />
+                                app:tint="?attr/colorPrimary" />
                         </com.google.android.material.card.MaterialCardView>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
                             android:text="@string/service_notices"
-                            android:textColor="@color/md_theme_light_onSurface"
+                            android:textColor="?attr/colorOnSurface"
                             android:textStyle="bold"
                             android:textSize="15sp" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
-                <!-- Library -->
+
+                <!-- Services -->
                 <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/cardLibrary"
+                    android:id="@+id/cardServices"
                     style="@style/Widget.MyDUET.PremiumCard"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -244,176 +313,21 @@
                         android:padding="24dp"
                         android:background="?attr/selectableItemBackground">
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="@color/accent_purple">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/icon_accent_indigo">
                             <ImageView
                                 android:layout_width="28dp"
                                 android:layout_height="28dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/ic_library"
-                                app:tint="#8E24AA" />
+                                android:src="@drawable/ic_services"
+                                app:tint="#3F51B5" />
                         </com.google.android.material.card.MaterialCardView>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="@string/service_library"
-                            android:textColor="@color/md_theme_light_onSurface"
-                            android:textStyle="bold"
-                            android:textSize="15sp" />
-                    </LinearLayout>
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- Medical -->
-                <com.google.android.material.card.MaterialCardView
-                    style="@style/Widget.MyDUET.PremiumCard"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="8dp">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="24dp"
-                        android:background="?attr/selectableItemBackground">
-                        <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="@color/accent_red">
-                            <ImageView
-                                android:layout_width="28dp"
-                                android:layout_height="28dp"
-                                android:layout_gravity="center"
-                                android:src="@drawable/ic_medical"
-                                app:tint="#D32F2F" />
-                        </com.google.android.material.card.MaterialCardView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
-                            android:text="@string/service_medical"
-                            android:textColor="@color/md_theme_light_onSurface"
-                            android:textStyle="bold"
-                            android:textSize="15sp" />
-                    </LinearLayout>
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- Clubs -->
-                <com.google.android.material.card.MaterialCardView
-                    style="@style/Widget.MyDUET.PremiumCard"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="8dp">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="24dp"
-                        android:background="?attr/selectableItemBackground">
-                        <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="@color/accent_green">
-                            <ImageView
-                                android:layout_width="28dp"
-                                android:layout_height="28dp"
-                                android:layout_gravity="center"
-                                android:src="@drawable/ic_profile"
-                                app:tint="#2E7D32" />
-                        </com.google.android.material.card.MaterialCardView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
-                            android:text="@string/service_clubs"
-                            android:textColor="@color/md_theme_light_onSurface"
-                            android:textStyle="bold"
-                            android:textSize="15sp" />
-                    </LinearLayout>
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- UGR -->
-                <com.google.android.material.card.MaterialCardView
-                    style="@style/Widget.MyDUET.PremiumCard"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="8dp">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="24dp"
-                        android:background="?attr/selectableItemBackground">
-                        <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="@color/accent_orange">
-                            <ImageView
-                                android:layout_width="28dp"
-                                android:layout_height="28dp"
-                                android:layout_gravity="center"
-                                android:src="@drawable/ic_school"
-                                app:tint="#EF6C00" />
-                        </com.google.android.material.card.MaterialCardView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
-                            android:text="@string/service_ugr"
-                            android:textColor="@color/md_theme_light_onSurface"
-                            android:textStyle="bold"
-                            android:textSize="15sp" />
-                    </LinearLayout>
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- PGR -->
-                <com.google.android.material.card.MaterialCardView
-                    style="@style/Widget.MyDUET.PremiumCard"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="8dp">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="24dp"
-                        android:background="?attr/selectableItemBackground">
-                        <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="@color/pgr_bg">
-                            <ImageView
-                                android:layout_width="28dp"
-                                android:layout_height="28dp"
-                                android:layout_gravity="center"
-                                android:src="@drawable/ic_school"
-                                app:tint="#558B2F" />
-                        </com.google.android.material.card.MaterialCardView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
-                            android:text="@string/service_pgr"
-                            android:textColor="@color/md_theme_light_onSurface"
+                            android:text="@string/service_services"
+                            android:textColor="?attr/colorOnSurface"
                             android:textStyle="bold"
                             android:textSize="15sp" />
                     </LinearLayout>
@@ -435,11 +349,8 @@
                         android:padding="24dp"
                         android:background="?attr/selectableItemBackground">
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="@color/accent_teal">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/icon_accent_teal">
                             <ImageView
                                 android:layout_width="28dp"
                                 android:layout_height="28dp"
@@ -452,7 +363,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
                             android:text="@string/service_routine"
-                            android:textColor="@color/md_theme_light_onSurface"
+                            android:textColor="?attr/colorOnSurface"
                             android:textStyle="bold"
                             android:textSize="15sp" />
                     </LinearLayout>
@@ -474,11 +385,8 @@
                         android:padding="24dp"
                         android:background="?attr/selectableItemBackground">
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="@color/admission_bg">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/icon_accent_orange">
                             <ImageView
                                 android:layout_width="28dp"
                                 android:layout_height="28dp"
@@ -491,7 +399,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
                             android:text="@string/service_admission"
-                            android:textColor="@color/md_theme_light_onSurface"
+                            android:textColor="?attr/colorOnSurface"
                             android:textStyle="bold"
                             android:textSize="15sp" />
                     </LinearLayout>
@@ -513,11 +421,8 @@
                         android:padding="24dp"
                         android:background="?attr/selectableItemBackground">
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="18dp"
-                            app:cardElevation="0dp"
-                            app:cardBackgroundColor="@color/emergency_bg">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/icon_accent_brown">
                             <ImageView
                                 android:layout_width="28dp"
                                 android:layout_height="28dp"
@@ -530,7 +435,79 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
                             android:text="@string/service_emergency"
-                            android:textColor="@color/md_theme_light_onSurface"
+                            android:textColor="?attr/colorOnSurface"
+                            android:textStyle="bold"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Teachers Directory -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardTeachers"
+                    style="@style/Widget.MyDUET.PremiumCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="24dp"
+                        android:background="?attr/selectableItemBackground">
+                        <com.google.android.material.card.MaterialCardView
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/icon_accent_blue">
+                            <ImageView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_profile"
+                                app:tint="?attr/colorPrimary" />
+                        </com.google.android.material.card.MaterialCardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/service_teachers"
+                            android:textColor="?attr/colorOnSurface"
+                            android:textStyle="bold"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Events -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardEvents"
+                    style="@style/Widget.MyDUET.PremiumCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="24dp"
+                        android:background="?attr/selectableItemBackground">
+                        <com.google.android.material.card.MaterialCardView
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/icon_accent_orange">
+                            <ImageView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_calendar"
+                                app:tint="@color/admission_result_primary" />
+                        </com.google.android.material.card.MaterialCardView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/service_events"
+                            android:textColor="?attr/colorOnSurface"
                             android:textStyle="bold"
                             android:textSize="15sp" />
                     </LinearLayout>
@@ -552,7 +529,7 @@
         android:layout_margin="16dp"
         app:cardCornerRadius="32dp"
         app:cardElevation="8dp"
-        app:cardBackgroundColor="@color/white"
+        app:cardBackgroundColor="?attr/colorSurface"
         app:strokeWidth="0dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -563,9 +540,9 @@
             app:elevation="0dp"
             app:menu="@menu/bottom_nav_menu"
             app:labelVisibilityMode="labeled"
-            app:itemIconTint="@color/primary"
-            app:itemTextColor="@color/primary"
-            app:itemRippleColor="@color/md_theme_light_primaryContainer" />
+            app:itemIconTint="?attr/colorPrimary"
+            app:itemTextColor="?attr/colorPrimary"
+            app:itemRippleColor="?attr/colorPrimaryContainer" />
 
     </com.google.android.material.card.MaterialCardView>
 

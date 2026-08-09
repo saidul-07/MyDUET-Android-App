@@ -21,6 +21,7 @@ public class LibraryHomeActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
+        LocaleHelper.styleAppBar(this, toolbar, "#8E24AA", "#7B1FA2");
 
         RecyclerView rv = findViewById(R.id.rvLibraryMenu);
         rv.setLayoutManager(new LinearLayoutManager(this));

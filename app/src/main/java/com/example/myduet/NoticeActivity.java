@@ -58,6 +58,12 @@ public class NoticeActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> onBackPressed());
+        LocaleHelper.styleAppBar(this, toolbar, "#005FB0", "#004F90");
+
+        android.widget.ImageView btnRefresh = findViewById(R.id.btnRefresh);
+        if (btnRefresh != null) {
+            btnRefresh.setImageTintList(android.content.res.ColorStateList.valueOf(android.graphics.Color.WHITE));
+        }
     }
 
     private void setupRecyclerView() {
@@ -65,7 +71,13 @@ public class NoticeActivity extends AppCompatActivity {
         rvNotices.setLayoutManager(new LinearLayoutManager(this));
         adapter = new NoticeAdapter();
         adapter.setOnNoticeClickListener(notice -> {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(notice.getUrl()));
+            Intent intent = new Intent(this, WebViewActivity.class);
+            String url = notice.getUrl();
+            if (url != null && (url.toLowerCase().endsWith(".pdf") || url.toLowerCase().contains(".pdf"))) {
+                url = "https://docs.google.com/gview?embedded=true&url=" + url;
+            }
+            intent.putExtra("url", url);
+            intent.putExtra("title", notice.getTitle());
             startActivity(intent);
         });
         rvNotices.setAdapter(adapter);

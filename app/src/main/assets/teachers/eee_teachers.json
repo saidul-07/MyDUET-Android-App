@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Dr. Mohammad Jakir Hossain",
+    "designation": "Professor",
+    "email": "jakir@duet.ac.bd",
+    "phone": "+8801711067992",
+    "officeRoom": "Room 308, SSNIAB",
+    "researchInterests": "Metamaterials, Metamaterial-Based Absorbers, Antennas, Microwave",
+    "profile": "https://profile.duet.ac.bd/u/jakir",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammad-jakir-hossain-171023108685-475.jpg"
+  },
+  {
+    "name": "Dr. Md. Anwarul Abedin",
+    "designation": "Professor",
+    "email": "abedin@duet.ac.bd",
+    "phone": "+88-01712070009",
+    "officeRoom": "Room 303, SSNIAB",
+    "researchInterests": "Solid State Electronics, Industrial Electronics",
+    "profile": "https://profile.duet.ac.bd/u/abedin",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-anwarul-abedin-166698313764-571.jpg"
+  },
+  {
+    "name": "Dr. Md. Raju Ahmed",
+    "designation": "Professor",
+    "email": "mrahmed@duet.ac.bd",
+    "phone": "+8801712753656",
+    "officeRoom": "Room 304, SSNIAB",
+    "researchInterests": "High Voltage Engineering, Power Systems",
+    "profile": "https://profile.duet.ac.bd/u/mrahmed",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-raju-ahmed-175760628371-649.jpg"
+  },
+  {
+    "name": "Dr. Md. Sharafat Hossain",
+    "designation": "Professor",
+    "email": "sharafat@duet.ac.bd",
+    "phone": "01914878244",
+    "officeRoom": "Room 305, SSNIAB",
+    "researchInterests": "Renewable Energy: Solar Photovoltaic",
+    "profile": "https://profile.duet.ac.bd/u/sharafat",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-sharafat-hossain-166296189673-440.jpg"
+  },
+  {
+    "name": "Dr. Ruma",
+    "designation": "Professor",
+    "email": "ruma_duet@duet.ac.bd",
+    "phone": "IP (L): 3104, IP (D): 09666-327713",
+    "officeRoom": "Room 306, SSNIAB",
+    "researchInterests": "High Voltage, Discharge Plasma",
+    "profile": "https://profile.duet.ac.bd/u/ruma_duet",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-ruma-175981909576-740.jpg"
+  },
+  {
+    "name": "Dr. Md. Monirul Kabir",
+    "designation": "Professor",
+    "email": "munir@duet.ac.bd",
+    "phone": "+880-1939355012",
+    "officeRoom": "Room 307, SSNIAB",
+    "researchInterests": "Artificial Intelligence, Power System, Iot",
+    "profile": "https://profile.duet.ac.bd/u/munir",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-monirul-kabir-166296235379-274.jpg"
+  },
+  {
+    "name": "Dr. Md. Zakir Hossain",
+    "designation": "Professor",
+    "email": "mzakir@duet.ac.bd",
+    "phone": "+8801862648324",
+    "officeRoom": "Room 308, SSNIAB",
+    "researchInterests": "Power Electronics Converters, Inverters",
+    "profile": "https://profile.duet.ac.bd/u/mzakir",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-zakir-hossain-166296334788-557.jpg"
+  },
+  {
+    "name": "Dr. Utpal Kumar Das",
+    "designation": "Professor",
+    "email": "utpal@duet.ac.bd",
+    "phone": "+8801715113085",
+    "officeRoom": "Room 309, SSNIAB",
+    "researchInterests": "Renewable Energy, Energy Management, Iot",
+    "profile": "https://profile.duet.ac.bd/u/utpal",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-utpal-kumar-das-166296377292-277.jpg"
+  },
+  {
+    "name": "Dr. Ejarder Sabbir Hossain",
+    "designation": "Professor",
+    "email": "sabbir@duet.ac.bd",
+    "phone": "01731935003",
+    "officeRoom": "Room 310, SSNIAB",
+    "researchInterests": "Thin Film Solar Cells",
+    "profile": "https://profile.duet.ac.bd/u/sabbir",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-ejarder-sabbir-hossain-166296357990-941.jpg"
+  },
+  {
+    "name": "Dr. Kazi Rafiqul Islam",
+    "designation": "Professor",
+    "email": "rafiqul@duet.ac.bd",
+    "phone": "+8801320366789",
+    "officeRoom": "Room 311, SSNIAB",
+    "researchInterests": "Kazi Rafiqul Islam&#039, Biomedical Engineering",
+    "profile": "https://profile.duet.ac.bd/u/rafiqul",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-kazi-rafiqul-islam-1662964522101-135.jpg"
+  },
+  {
+    "name": "Dr. Md. Mahmudur Rahman",
+    "designation": "Professor",
+    "email": "m.rahman@duet.ac.bd",
+    "phone": "+8801308496660",
+    "officeRoom": "Room 312, SSNIAB",
+    "researchInterests": "Nanopores, Integrated Nanopore Devices, Nanotechnology",
+    "profile": "https://profile.duet.ac.bd/u/m.rahman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-mahmudur-rahman-1662964953106-833.jpg"
+  },
+  {
+    "name": "Dr. Md. Atiqur Rahman",
+    "designation": "Professor",
+    "email": "atiq_eee@duet.ac.bd",
+    "phone": "+8801608092290",
+    "officeRoom": "Room 313, SSNIAB",
+    "researchInterests": "Communication Engineering:, B, C",
+    "profile": "https://profile.duet.ac.bd/u/atiq_eee",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-atiqur-rahman-1757605907108-541.jpg"
+  },
+  {
+    "name": "Dr. S. M. Mahfuz Alam",
+    "designation": "Professor",
+    "email": "mahfuz@duet.ac.bd",
+    "phone": "+8801738223433",
+    "officeRoom": "Room 314, SSNIAB",
+    "researchInterests": "Advanced Machine Drives, Grids",
+    "profile": "https://profile.duet.ac.bd/u/mahfuz",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-s-m-mahfuz-alam-1704955688103-556.jpg"
+  },
+  {
+    "name": "Dr. Md. Mijanur Rahman",
+    "designation": "Associate Professor",
+    "email": "mijan.duet@duet.ac.bd",
+    "phone": "+8801724217996",
+    "officeRoom": "Room 315, SSNIAB",
+    "researchInterests": "Power System Stability Control, Dg",
+    "profile": "https://profile.duet.ac.bd/u/mijan.duet",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-mijanur-rahman-1662979416158-545.jpg"
+  },
+  {
+    "name": "Mr. Md. Mamun Sikder",
+    "designation": "Assistant Professor",
+    "email": "mms@duet.ac.bd",
+    "phone": "+88 01718307469",
+    "officeRoom": "Room 316, SSNIAB",
+    "researchInterests": "High Voltage Engineering, Measurement Instrumentation",
+    "profile": "https://profile.duet.ac.bd/u/mms",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-mamun-sikder-1662965312107-665.jpg"
+  },
+  {
+    "name": "Mr. Md. Kamal Hossain",
+    "designation": "Assistant Professor",
+    "email": "k.hossain@duet.ac.bd",
+    "phone": "IP (L): XXXX, IP (D): 09666-XXXXXX",
+    "officeRoom": "Room 317, SSNIAB",
+    "researchInterests": "Renewable Energy, Grid, Controls",
+    "profile": "https://profile.duet.ac.bd/u/k.hossain",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-kamal-hossain-1662965948109-920.jpg"
+  },
+  {
+    "name": "Mr. Md. Rashedul Islam",
+    "designation": "Assistant Professor",
+    "email": "mrislam@duet.ac.bd",
+    "phone": "IP (L): 3119, IP (D): 09666-327728",
+    "officeRoom": "Room 318, SSNIAB",
+    "researchInterests": "Artificial Intelligence, Biomedical Engineering, Nanotechnology",
+    "profile": "https://profile.duet.ac.bd/u/mrislam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-rashedul-islam-1662977848142-468.jpg"
+  },
+  {
+    "name": "Mr. Ashish Kumar Karmaker",
+    "designation": "Assistant Professor",
+    "email": "ashish@duet.ac.bd",
+    "phone": "+8801916184846",
+    "officeRoom": "Room 319, SSNIAB",
+    "researchInterests": "Power System Analysis, Electric Vehicles",
+    "profile": "https://profile.duet.ac.bd/u/ashish",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-ashish-kumar-karmaker-1757605524149-584.jpg"
+  },
+  {
+    "name": "Mr. Md. Jannatul Ferdous",
+    "designation": "Assistant Professor",
+    "email": "j.ferdous@duet.ac.bd",
+    "phone": "01706620428",
+    "officeRoom": "Room 320, SSNIAB",
+    "researchInterests": "Electrical Electronic Engineering",
+    "profile": "https://profile.duet.ac.bd/u/j.ferdous",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-jannatul-ferdous-1662979059154-198.jpg"
+  },
+  {
+    "name": "Mr. Alamgir Hossain",
+    "designation": "Assistant Professor",
+    "email": "eeealamgir@duet.ac.bd",
+    "phone": "IP (L): 3123, IP (D): 09666-327731",
+    "officeRoom": "Room 321, SSNIAB",
+    "researchInterests": "Renewable Energy, Grid, Controls",
+    "profile": "https://profile.duet.ac.bd/u/eeealamgir",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-alamgir-hossain-1662979248156-112.jpg"
+  },
+  {
+    "name": "Mr. Tanmoy Kumar Paul",
+    "designation": "Assistant Professor",
+    "email": "tanmoy@duet.ac.bd",
+    "phone": "IP (L): 3125, IP (D): 09666-327733",
+    "officeRoom": "Room 322, SSNIAB",
+    "researchInterests": "Renewable Energy, Grid, Controls",
+    "profile": "https://profile.duet.ac.bd/u/tanmoy",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-tanmoy-kumar-paul-1662979561160-519.jpg"
+  },
+  {
+    "name": "Mr. Md. Mazharul Islam",
+    "designation": "Assistant Professor",
+    "email": "mazharul_eee09@duet.ac.bd",
+    "phone": "+8801960240194",
+    "officeRoom": "Room 323, SSNIAB",
+    "researchInterests": "Electrical Power, Power Electronics, Grid",
+    "profile": "https://profile.duet.ac.bd/u/mazharul_eee09",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-mazharul-islam-1667127433162-922.jpg"
+  },
+  {
+    "name": "Mr. Md. Samzid Bin Hafiz",
+    "designation": "Assistant Professor",
+    "email": "samzid.eee@duet.ac.bd",
+    "phone": "01918567755",
+    "officeRoom": "Room 324, SSNIAB",
+    "researchInterests": "Electronics",
+    "profile": "https://profile.duet.ac.bd/u/samzid.eee",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-samzid-bin-hafiz-1662980173168-313.jpg"
+  },
+  {
+    "name": "Mr. Md. Rafidul Islam",
+    "designation": "Assistant Professor",
+    "email": "rafidul.eee@duet.ac.bd",
+    "phone": "+8801741 303483",
+    "officeRoom": "Room 325, SSNIAB",
+    "researchInterests": "Machine Learning | Digital",
+    "profile": "https://profile.duet.ac.bd/u/rafidul.eee",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-rafidul-islam-1757605581169-338.jpg"
+  },
+  {
+    "name": "Mr. Sanjid-E-Elahi",
+    "designation": "Assistant Professor",
+    "email": "sanjid@duet.ac.bd",
+    "phone": "01775911493",
+    "officeRoom": "Room 326, SSNIAB",
+    "researchInterests": "Nanopores Integrated Nanopore Devices, Optofluidics",
+    "profile": "https://profile.duet.ac.bd/u/sanjid",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-sanjid-e-elahi-1757605625170-964.jpg"
+  },
+  {
+    "name": "Mr. Md. Sohel Rana",
+    "designation": "Assistant Professor",
+    "email": "sohelrana.eee@duet.ac.bd",
+    "phone": "01965608203",
+    "officeRoom": "Room 327, SSNIAB",
+    "researchInterests": "Power Electronics, Vlsi Circuits Systems",
+    "profile": "https://profile.duet.ac.bd/u/sohelrana.eee",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-sohel-rana-1757605670172-282.jpg"
+  },
+  {
+    "name": "Mr. Md. Simul Hasan Talukder",
+    "designation": "Assistant Professor",
+    "email": "simul@duet.ac.bd",
+    "phone": "+8801521444345",
+    "officeRoom": "Room 328, SSNIAB",
+    "researchInterests": "Computer Vision, Deep Learning, Nlp",
+    "profile": "https://profile.duet.ac.bd/u/simul",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-simul-hasan-talukder-1757605816503-354.jpg"
+  },
+  {
+    "name": "Md. Sakib Salim",
+    "designation": "Lecturer",
+    "email": "sakibsalim192119@duet.ac.bd",
+    "phone": "01773859779",
+    "officeRoom": "Room 329, SSNIAB",
+    "researchInterests": "Agrivoltaics, Solar Energy, Tidal Energy",
+    "profile": "https://profile.duet.ac.bd/u/sakibsalim192119",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-sakib-salim-1762308588538-873.jpg"
+  },
+  {
+    "name": "Md. Mohin Uddin",
+    "designation": "Lecturer",
+    "email": "mohineee@duet.ac.bd",
+    "phone": "01571-501559",
+    "officeRoom": "Room 330, SSNIAB",
+    "researchInterests": "Metamaterials, Antenna Design, Wireless Communication",
+    "profile": "https://profile.duet.ac.bd/u/mohineee",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-mohin-uddin-1762308339537-696.jpg"
+  },
+  {
+    "name": "Mr. Md. Raihan Miah",
+    "designation": "Lecturer",
+    "email": "raihan@duet.ac.bd",
+    "phone": "01846187600",
+    "officeRoom": "Room 331, SSNIAB",
+    "researchInterests": "Control System, Plc, Antena Metamaterials",
+    "profile": "https://profile.duet.ac.bd/u/raihan",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-raihan-miah-1770626196559-910.jpg"
+  },
+  {
+    "name": "Mr. Md. Rofiqul Islam",
+    "designation": "Lecturer",
+    "email": "rofiqul@duet.ac.bd",
+    "phone": "01760885529",
+    "officeRoom": "Room 332, SSNIAB",
+    "researchInterests": "Telecommunication, Power System, Machines, Field",
+    "profile": "https://profile.duet.ac.bd/u/rofiqul",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-rofiqul-islam-1770696804562-103.jpg"
+  }
+]

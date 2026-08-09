@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8FAFC">
+    android:background="?android:attr/windowBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -63,7 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:text="Medical Center"
-                    android:textColor="@color/md_theme_light_onSurface"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-black" />
@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Dr. Md. Aminul Islam"
-                    android:textColor="@color/md_theme_light_onSurfaceVariant"
+                    android:textColor="?attr/colorOnSurfaceVariant"
                     android:textSize="18sp"
                     android:fontFamily="sans-serif-medium" />
             </LinearLayout>
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:strokeWidth="0dp">
 
                 <LinearLayout
@@ -107,7 +107,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Contact Information"
-                        android:textColor="@color/md_theme_light_onSurface"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:fontFamily="sans-serif-medium" />
@@ -141,7 +141,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="+8801711000001"
-                                android:textColor="@color/md_theme_light_onSurface"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
@@ -177,7 +177,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="medical@duet.ac.bd"
-                                android:textColor="@color/md_theme_light_onSurface"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
@@ -213,7 +213,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Near Central Mosque"
-                                android:textColor="@color/md_theme_light_onSurface"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
@@ -249,7 +249,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Regular: 8:00 AM – 4:00 PM\nEmergency: 24/7"
-                                android:textColor="@color/md_theme_light_onSurface"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
@@ -265,7 +265,7 @@
                 android:layout_marginTop="16dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:strokeWidth="0dp">
 
                 <LinearLayout
@@ -278,7 +278,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Facilities"
-                        android:textColor="@color/md_theme_light_onSurface"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:fontFamily="sans-serif-medium" />
@@ -295,7 +295,7 @@
                             android:drawablePadding="12dp"
                             android:gravity="center_vertical"
                             android:text="General Treatment"
-                            android:textColor="@color/md_theme_light_onSurfaceVariant"
+                            android:textColor="?attr/colorOnSurfaceVariant"
                             android:textSize="15sp"
                             app:drawableStartCompat="@drawable/ic_check"
                             app:drawableTint="#4CAF50" />
@@ -307,7 +307,7 @@
                             android:drawablePadding="12dp"
                             android:gravity="center_vertical"
                             android:text="First Aid"
-                            android:textColor="@color/md_theme_light_onSurfaceVariant"
+                            android:textColor="?attr/colorOnSurfaceVariant"
                             android:textSize="15sp"
                             app:drawableStartCompat="@drawable/ic_check"
                             app:drawableTint="#4CAF50" />
@@ -319,7 +319,7 @@
                             android:drawablePadding="12dp"
                             android:gravity="center_vertical"
                             android:text="Emergency Care"
-                            android:textColor="@color/md_theme_light_onSurfaceVariant"
+                            android:textColor="?attr/colorOnSurfaceVariant"
                             android:textSize="15sp"
                             app:drawableStartCompat="@drawable/ic_check"
                             app:drawableTint="#4CAF50" />
@@ -331,7 +331,7 @@
                             android:drawablePadding="12dp"
                             android:gravity="center_vertical"
                             android:text="Basic Medicine"
-                            android:textColor="@color/md_theme_light_onSurfaceVariant"
+                            android:textColor="?attr/colorOnSurfaceVariant"
                             android:textSize="15sp"
                             app:drawableStartCompat="@drawable/ic_check"
                             app:drawableTint="#4CAF50" />
@@ -343,7 +343,7 @@
                             android:drawablePadding="12dp"
                             android:gravity="center_vertical"
                             android:text="Health Consultation"
-                            android:textColor="@color/md_theme_light_onSurfaceVariant"
+                            android:textColor="?attr/colorOnSurfaceVariant"
                             android:textSize="15sp"
                             app:drawableStartCompat="@drawable/ic_check"
                             app:drawableTint="#4CAF50" />

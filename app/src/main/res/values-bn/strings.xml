@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">MyDUET</string>
+    <string name="welcome_back">স্বাগতম,</string>
+    <string name="student_name">সায়েদুল ইসলাম</string>
+    <string name="student_dept">কম্পিউটার সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং</string>
+    <string name="student_batch">২০২০ ব্যাচ</string>
+    <string name="student_id">১৯৪০০০</string>
+    <string name="student_id_prefix">আইডি • </string>
+    <string name="search_hint">খুঁজুন সেবা, নোটিশ...</string>
+    <string name="quick_services">দ্রুত সেবাসমূহ</string>
+
+    <!-- Service Names -->
+    <string name="service_notices">নোটিশ সমূহ</string>
+    <string name="service_library">লাইব্রেরি</string>
+    <string name="service_medical">মেডিকেল</string>
+    <string name="service_clubs">ক্লাব সমূহ</string>
+    <string name="service_ugr">স্নাতক তথ্য</string>
+    <string name="service_pgr">স্নাতকোত্তর তথ্য</string>
+    <string name="service_services">সেবা সমূহ</string>
+    <string name="service_routine">ক্লাস রুটিন</string>
+    <string name="service_emergency">জরুরি যোগাযোগ</string>
+    <string name="service_admission">ভর্তি পরীক্ষা</string>
+    <string name="service_teachers">শিক্ষক তালিকা</string>
+
+    <!-- Admission Module -->
+    <string name="admission_title">ভর্তি পরীক্ষা</string>
+    <string name="seat_plan_title">আসন বিন্যাস</string>
+    <string name="seat_plan_desc">আপনার পরীক্ষা কেন্দ্র, ভবন, কক্ষ এবং আসন খুঁজুন।</string>
+    <string name="admission_result_title">ভর্তি পরীক্ষার ফলাফল</string>
+    <string name="admission_result_desc">আপনার মেধা স্থান এবং ভর্তির যোগ্যতা পরীক্ষা করুন।</string>
+    <string name="action_search_now">এখনই খুঁজুন →</string>
+    <string name="action_view_result">ফলাফল দেখুন →</string>
+    <string name="chip_search_roll">রোল নম্বর দিয়ে খুঁজুন</string>
+    <string name="chip_view_result">ফলাফল দেখুন</string>
+    <string name="enter_roll_hint">ভর্তি পরীক্ষার রোল নম্বর লিখুন</string>
+    <string name="search">অনুসন্ধান</string>
+    <string name="exam_center">পরীক্ষা কেন্দ্র</string>
+    <string name="building">ভবন</string>
+    <string name="room">কক্ষ</string>
+    <string name="seat_number">আসন নম্বর</string>
+    <string name="exam_time">পরীক্ষার সময়</string>
+    <string name="merit_position">মেধা তালিকা</string>
+    <string name="status">অবস্থা</string>
+    <string name="department">বিভাগ</string>
+    <string name="status_selected">মনোনীত</string>
+    <string name="status_waiting">অপেক্ষমান</string>
+    <string name="status_not_selected">মনোনীত নন</string>
+    <string name="error_invalid_roll">ভুল রোল নম্বর</string>
+    <string name="error_no_internet">ইন্টারনেট সংযোগ নেই</string>
+    <string name="error_server">সার্ভারে সমস্যা হয়েছে</string>
+    <string name="error_empty">কোন তথ্য পাওয়া যায়নি</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">হোম</string>
+    <string name="nav_calendar">ক্যালেন্ডার</string>
+    <string name="nav_menu">মেনু</string>
+    <string name="nav_profile">প্রোফাইল</string>
+    <string name="desc_notifications">বিজ্ঞপ্তি</string>
+    <string name="desc_profile">প্রোফাইল</string>
+
+    <string name="login">লগইন</string>
+    <string name="username_hint">স্টুডেন্ট আইডি / ইমেইল</string>
+    <string name="password_hint">পাসওয়ার্ড</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="login_title">ডুয়েট স্টুডেন্ট পোর্টাল</string>
+    <string name="login_subtitle">এগিয়ে যেতে আপনার বিবরণ লিখুন</string>
+
+    <!-- Notice Module -->
+    <string name="notice_title">সর্বশেষ নোটিশ</string>
+    <string name="notice_search_hint">নোটিশ খুঁজুন...</string>
+    <string name="notice_read_full">সম্পূর্ণ নোটিশ পড়ুন</string>
+    <string name="notice_retry">পুনরায় চেষ্টা করুন</string>
+    <string name="notice_no_internet">কোন ইন্টারনেট সংযোগ নেই</string>
+    <string name="notice_empty">কোন নোটিশ নেই</string>
+
+    <!-- Official DUET Categories -->
+    <string name="category_all">সকল নোটিশ</string>
+    <string name="category_academic">একাডেমিক নোটিশ</string>
+    <string name="category_admission">ভর্তি নোটিশ</string>
+    <string name="category_career">ক্যারিয়ার নোটিশ</string>
+    <string name="category_noc_go">এনওসি/জিও নোটিশ</string>
+    <string name="category_tender">দরপত্র নোটিশ</string>
+    <string name="category_others">অন্যান্য</string>
+
+    <!-- Emergency Module -->
+    <string name="emergency_title">জরুরি যোগাযোগ</string>
+    <string name="emergency_medical">মেডিকেল সেবা</string>
+    <string name="emergency_security">নিরাপত্তা অফিস</string>
+    <string name="emergency_proctor">প্রক্টর অফিস</string>
+    <string name="emergency_transport">পরিবহন অফিস</string>
+    <string name="emergency_halls">হল অফিস সমূহ</string>
+    <string name="emergency_ict">আইসিটি সেল</string>
+
+    <string name="desc_medical">অ্যাম্বুলেন্স এবং মেডিকেল সেন্টার</string>
+    <string name="desc_security">ক্যাম্পাস নিরাপত্তা ও টহল</string>
+    <string name="desc_proctor">শৃঙ্খলা ও প্রক্টোরিয়াল বডি</string>
+    <string name="desc_transport">বাস রুটিন এবং সহায়তা</string>
+    <string name="desc_halls">প্রভোস্ট এবং হল প্রশাসন</string>
+    <string name="desc_ict">ইমেইল, নেটওয়ার্ক ও অ্যাকাউন্ট সহায়তা</string>
+
+    <string name="call_us">কল করুন</string>
+    <string name="email_us">ইমেইল করুন</string>
+    <string name="view_location">অবস্থান দেখুন</string>
+
+    <!-- Notice Placeholders -->
+    <string name="notice_placeholder_category">📢 একাডেমিক নোটিশ</string>
+    <string name="notice_placeholder_title">চূড়ান্ত পরীক্ষার রুটিন</string>
+    <string name="notice_placeholder_description">ডুয়েটের সকল বিভাগের জন্য লেভেল-৩ টার্ম-১ পরীক্ষার সময়সূচী প্রকাশিত হয়েছে।</string>
+    <string name="notice_placeholder_date">২৪ জুলাই ২০২৬</string>
+
+    <!-- Routine Module -->
+    <string name="routine_header_info">%1$s • %2$s</string>
+    <string name="routine_title_today">আজকের রুটিন</string>
+    <string name="routine_title_day">%1$s এর রুটিন</string>
+    <string name="routine_no_classes">কোন ক্লাস নেই</string>
+    <string name="routine_class_count">%1$d টি ক্লাস</string>
+    <string name="routine_next_countdown_h_m">%1$d ঘণ্টা %2$d মিনিটে শুরু হবে</string>
+    <string name="routine_next_countdown_m">%1$d মিনিটে শুরু হবে</string>
+
+    <!-- Photo Carousel -->
+    <string name="campus_main_gate">ডুয়েট প্রধান গেট</string>
+    <string name="campus_location">গাজীপুর, বাংলাদেশ</string>
+    <string name="campus_academic">একাডেমিক ভবন</string>
+    <string name="campus_innovation">উদ্ভাবনের সূতিকাগার</string>
+    <string name="campus_library">কেন্দ্রীয় লাইব্রেরি</string>
+    <string name="campus_knowledge">জ্ঞানের প্রবেশদ্বার</string>
+    <!-- Calendar Weekdays -->
+    <string name="weekday_sun">রবি</string>
+    <string name="weekday_mon">সোম</string>
+    <string name="weekday_tue">মঙ্গল</string>
+    <string name="weekday_wed">বুধ</string>
+    <string name="weekday_thu">বৃহঃ</string>
+    <string name="weekday_fri">শুক্র</string>
+    <string name="weekday_sat">শনি</string>
+
+    <!-- Menu Services Dashboard -->
+    <string name="menu_history">ডুয়েটের ইতিহাস</string>
+    <string name="menu_bus">বাসের সময়সূচী</string>
+    <string name="menu_route">ক্যাম্পাসে যাওয়ার উপায়</string>
+    <string name="menu_gallery">ছবি গ্যালারি</string>
+    <string name="menu_settings">সেটিংস</string>
+    <string name="menu_faq">জিজ্ঞাসিত প্রশ্নাবলী (FAQ)</string>
+    <string name="menu_contacts">জরুরি যোগাযোগ</string>
+    <string name="menu_about">আমাদের সম্পর্কে</string>
+    <string name="menu_privacy">গোপনীয়তা নীতি</string>
+    <string name="menu_update">হালনাগাদ পরীক্ষা করুন</string>
+    <string name="menu_bug">বাগ রিপোর্ট করুন</string>
+</resources>

@@ -16,16 +16,14 @@
 
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.MyDUET.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
 
         <activity
             android:name=".MainActivity"
@@ -71,6 +69,18 @@
             android:exported="false" />
 
         <activity
+            android:name=".OfficeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".InstituteActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ResearchCenterActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".LibraryHomeActivity"
             android:exported="false" />
 
@@ -90,6 +100,33 @@
             android:name=".AdmissionActivity"
             android:exported="false"
             android:label="@string/admission_title" />
+
+        <activity
+            android:name=".TeachersActivity"
+            android:exported="false"
+            android:label="Faculty Directory" />
+
+        <activity
+            android:name=".EventsActivity"
+            android:exported="false"
+            android:label="Events"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CalenderActivity"
+            android:exported="false"
+            android:label="Calender" />
+
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false"
+            android:label="Menu" />
+
+
 
     </application>
 

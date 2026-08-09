@@ -40,6 +40,14 @@ class RoutineHomeActivity : AppCompatActivity() {
         binding = ActivityRoutineHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+            window.statusBarColor = android.graphics.Color.parseColor("#1565C0")
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
+                window.decorView.systemUiVisibility =
+                    window.decorView.systemUiVisibility and android.view.View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR.inv()
+            }
+        }
+
         preferenceManager = PreferenceManager(this)
         
         adapter = RoutineAdapter(ArrayList())

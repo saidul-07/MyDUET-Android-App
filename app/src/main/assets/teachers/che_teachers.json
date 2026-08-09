@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Dr. Md. Mostaqur Rahman",
+    "designation": "Faculty Member",
+    "email": "head_che@duet.ac.bd",
+    "phone": "+8801818280312",
+    "officeRoom": "Room 10001, SASAB",
+    "researchInterests": "Carbon Capture, Energy, Two-Phase Flow",
+    "profile": "https://profile.duet.ac.bd/u/sumon",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-mostaqur-rahman-166699017474-814.jpg"
+  },
+  {
+    "name": "Mr. Mahmudul Hasan Khan Neon",
+    "designation": "Assistant Professor",
+    "email": "neon4khan@duet.ac.bd",
+    "phone": "(+88) - 01714086498",
+    "officeRoom": "Room 10002, SASAB",
+    "researchInterests": "Chemical Engineering, Environmental Engineering",
+    "profile": "https://profile.duet.ac.bd/u/neon4khan",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-mahmudul-hasan-khan-neon-1667054288277-323.jpg"
+  },
+  {
+    "name": "Mr. Akib Atique Khan Dhrubo",
+    "designation": "Assistant Professor",
+    "email": "akhandhrubo@duet.ac.bd",
+    "phone": "01521112143",
+    "officeRoom": "Room 10003, SASAB",
+    "researchInterests": "Wastewater Treatment Nutrient Recovery",
+    "profile": "https://profile.duet.ac.bd/u/akhandhrubo",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-akib-atique-khan-dhrubo-1667054414290-125.jpg"
+  },
+  {
+    "name": "Mr. Md. Shihabuzzaman Apon",
+    "designation": "Assistant Professor",
+    "email": "shihab79@duet.ac.bd",
+    "phone": "01811476820",
+    "officeRoom": "Room 10004, SASAB",
+    "researchInterests": "Computational Chemical Engineering",
+    "profile": "https://profile.duet.ac.bd/u/shihab79",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-shihabuzzaman-apon-1711785939295-806.jpg"
+  },
+  {
+    "name": "Mr. Md. Jahirul Islam",
+    "designation": "Assistant Professor",
+    "email": "jahirulislam@duet.ac.bd",
+    "phone": "01865033082",
+    "officeRoom": "Room 10005, SASAB",
+    "researchInterests": "Co2 Capture, Co2 Utilization, Bioenergy",
+    "profile": "https://profile.duet.ac.bd/u/jahirulislam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-jahirul-islam-1667747575294-964.jpg"
+  },
+  {
+    "name": "Mr. S. M. Akimus Salehin",
+    "designation": "Lecturer",
+    "email": "akimussalehin@duet.ac.bd",
+    "phone": "IP (L): XXXX, IP (D): 09666-XXXXXX",
+    "officeRoom": "Room 10006, SASAB",
+    "researchInterests": "Chemical Reaction Engineering, Polymers",
+    "profile": "https://profile.duet.ac.bd/u/akimussalehin",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/s-m-akimus-salehin-1757607526528-408.jpg"
+  },
+  {
+    "name": "Mr. Nuruzzaman",
+    "designation": "Lecturer",
+    "email": "nurzaman@duet.ac.bd",
+    "phone": "IP (L): XXXX, IP (D): 09666-XXXXXX",
+    "officeRoom": "Room 10007, SASAB",
+    "researchInterests": "Chemical Reaction Engineering, Polymers",
+    "profile": "https://profile.duet.ac.bd/u/nurzaman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/nuruzzaman-1757607552526-371.jpg"
+  },
+  {
+    "name": "Mr. Md. Rashedul Islam",
+    "designation": "Lecturer",
+    "email": "rashed.che@duet.ac.bd",
+    "phone": "01773580193",
+    "officeRoom": "Room 10008, SASAB",
+    "researchInterests": "Fuel Renewable Energy",
+    "profile": "https://profile.duet.ac.bd/u/rashed.che",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-rashedul-islam-1757607654527-765.jpg"
+  }
+]

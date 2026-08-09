@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Dr. Md. Abdul Hannan",
+    "designation": "Professor",
+    "email": "hmd77@duet.ac.bd",
+    "phone": "+8801796625684",
+    "officeRoom": "Room 105, TWB",
+    "researchInterests": "Chemical-Free Textile Wet Process",
+    "profile": "https://profile.duet.ac.bd/u/hmd77",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-abdul-hannan-1662977661139-819.jpg"
+  },
+  {
+    "name": "Dr. Md. Abdus Shahid",
+    "designation": "Professor",
+    "email": "shahid@duet.ac.bd",
+    "phone": "+8801711114602",
+    "officeRoom": "Room 102, TWB",
+    "researchInterests": "Research Areas Include Textile",
+    "profile": "https://profile.duet.ac.bd/u/shahid",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-abdus-shahid-1662977175135-714.jpg"
+  },
+  {
+    "name": "Dr. Shahjalal Khandaker",
+    "designation": "Professor",
+    "email": "s.khandaker@duet.ac.bd",
+    "phone": "01765866840",
+    "officeRoom": "Room 103, TWB",
+    "researchInterests": "Waste Wealth Conversion",
+    "profile": "https://profile.duet.ac.bd/u/s.khandaker",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-shahjalal-khandaker-1667025880137-867.jpg"
+  },
+  {
+    "name": "Dr. Mohammad Zakaria",
+    "designation": "Professor",
+    "email": "zakariate@duet.ac.bd",
+    "phone": "+8801719781698",
+    "officeRoom": "Room 104, TWB",
+    "researchInterests": "Electrospinning, Nanofiber, Polyolefins, Concrete Composites",
+    "profile": "https://profile.duet.ac.bd/u/zakariate",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammad-zakaria-1667025936145-779.jpg"
+  },
+  {
+    "name": "Dr. Muhammad Abdur Rahman Bhuiyan",
+    "designation": "Professor",
+    "email": "arahman@duet.ac.bd",
+    "phone": "+8801812602937",
+    "officeRoom": "Room 105, TWB",
+    "researchInterests": "Technical Textiles, Clothing Comfort, Electrospinning",
+    "profile": "https://profile.duet.ac.bd/u/arahman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-muhammad-abdur-rahman-bhuiyan-1723961939141-393.jpg"
+  },
+  {
+    "name": "Dr. Forkan Sarker",
+    "designation": "Professor",
+    "email": "forkan@duet.ac.bd",
+    "phone": "+8801312717271",
+    "officeRoom": "Room 106, TWB",
+    "researchInterests": "Dry Fibre Preforming Composite, Bio-Composites",
+    "profile": "https://profile.duet.ac.bd/u/forkan",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-forkan-sarker-1667025976147-695.jpg"
+  },
+  {
+    "name": "Dr. Muhammad Abdur Rashid",
+    "designation": "Professor",
+    "email": "rashid@duet.ac.bd",
+    "phone": "+8801906382887",
+    "officeRoom": "Room 107, TWB",
+    "researchInterests": "New-Generation Bio-Based Recyclable Epoxy",
+    "profile": "https://profile.duet.ac.bd/u/rashid",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-muhammad-abdur-rashid-1667026040150-824.jpg"
+  },
+  {
+    "name": "Dr. Shafiqul Islam",
+    "designation": "Professor",
+    "email": "shafiqul.islam@duet.ac.bd",
+    "phone": "+8801713527347",
+    "officeRoom": "Room 108, TWB",
+    "researchInterests": "Yarn Manufacturing, Fashion",
+    "profile": "https://profile.duet.ac.bd/u/shafiqul.islam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-shafiqul-islam-1667026226148-290.jpg"
+  },
+  {
+    "name": "Dr. Anamul Hoque Bhuiyan",
+    "designation": "Professor",
+    "email": "anamulhb@duet.ac.bd",
+    "phone": "01300485509",
+    "officeRoom": "Room 109, TWB",
+    "researchInterests": "Functional Electrospun Nanofiber, Environmental Sustainability",
+    "profile": "https://profile.duet.ac.bd/u/anamulhb",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-anamul-hoque-bhuiyan-1685884934151-226.jpg"
+  },
+  {
+    "name": "Dr. Md. Delwar Hossain",
+    "designation": "Associate Professor",
+    "email": "delwar@duet.ac.bd",
+    "phone": "IP (L): 5220, IP (D): 09666-327869",
+    "officeRoom": "Room 110, TWB",
+    "researchInterests": "Fire Testing Polymeric Composite Materials",
+    "profile": "https://profile.duet.ac.bd/u/delwar",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-delwar-hossain-1667026088152-896.jpg"
+  },
+  {
+    "name": "Tanushree Saha",
+    "designation": "Assistant Professor",
+    "email": "tanushree.saha@duet.ac.bd",
+    "phone": "IP (L): XXXX, IP (D): 09666-XXXXXX",
+    "officeRoom": "Room 111, TWB",
+    "researchInterests": "Yarn Manufacturing, Fashion",
+    "profile": "https://profile.duet.ac.bd/u/tanushree.saha",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/tanushree-saha-1667026813157-682.jpg"
+  },
+  {
+    "name": "Mr. Md. Sumon Miah",
+    "designation": "Assistant Professor",
+    "email": "sumon.tex@duet.ac.bd",
+    "phone": "+8801786311610",
+    "officeRoom": "Room 112, TWB",
+    "researchInterests": "Textile Composites, Electrospinning",
+    "profile": "https://profile.duet.ac.bd/u/sumon.tex",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-sumon-miah-1667026351153-903.jpg"
+  },
+  {
+    "name": "Dr. Shamsuzzaman Sheikh",
+    "designation": "Assistant Professor",
+    "email": "szaman@duet.ac.bd",
+    "phone": "01722248685",
+    "officeRoom": "Room 113, TWB",
+    "researchInterests": "Textile Composite, Nanocellulose Composite, Knitting",
+    "profile": "https://profile.duet.ac.bd/u/szaman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-shamsuzzaman-sheikh-1779171131155-809.jpg"
+  },
+  {
+    "name": "Mr. Abu Yousuf Mohammad Anwarul Azim",
+    "designation": "Assistant Professor",
+    "email": "azim_te@duet.ac.bd",
+    "phone": "+8801678620469",
+    "officeRoom": "Room 114, TWB",
+    "researchInterests": "Composite Materials, Fashion, Non-Woven, Fabric",
+    "profile": "https://profile.duet.ac.bd/u/azim_te",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-abu-yousuf-mohammad-anwarul-azim-1667026880161-814.jpg"
+  },
+  {
+    "name": "Mr. Ayub Ali",
+    "designation": "Assistant Professor",
+    "email": "ayubali@duet.ac.bd",
+    "phone": "+8801819822540",
+    "officeRoom": "Room 115, TWB",
+    "researchInterests": "Protective Textiles, Apparel Merchandising, Nanotechnology",
+    "profile": "https://profile.duet.ac.bd/u/ayubali",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-ayub-ali-1667026917163-360.jpg"
+  },
+  {
+    "name": "Md. Ashadujjaman",
+    "designation": "Assistant Professor",
+    "email": "ashadtex@duet.ac.bd",
+    "phone": "01767506750",
+    "officeRoom": "Room 116, TWB",
+    "researchInterests": "Composite, Sustainability, Intelligent Textiles, Compliance",
+    "profile": "https://profile.duet.ac.bd/u/ashadtex",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-ashadujjaman-1667027068167-696.jpg"
+  },
+  {
+    "name": "Mr. Md. Ariful Islam",
+    "designation": "Assistant Professor",
+    "email": "ariful@duet.ac.bd",
+    "phone": "+8801718442666",
+    "officeRoom": "Room 117, TWB",
+    "researchInterests": "Textile Engineering, Nanotechnology, Protective Textile",
+    "profile": "https://profile.duet.ac.bd/u/ariful",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-ariful-islam-1667027016166-249.jpg"
+  },
+  {
+    "name": "Mr. Ripon Kumar Prasad",
+    "designation": "Assistant Professor",
+    "email": "rkprasad@duet.ac.bd",
+    "phone": "+8801717787470",
+    "officeRoom": "Room 118, TWB",
+    "researchInterests": "Corporate Social Responsibility, Csr",
+    "profile": "https://profile.duet.ac.bd/u/rkprasad",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-ripon-kumar-prasad-1667026957164-899.jpg"
+  },
+  {
+    "name": "Mr. Md. Mehedi Hasan",
+    "designation": "Assistant Professor",
+    "email": "mehedi@duet.ac.bd",
+    "phone": "01773611267",
+    "officeRoom": "Room 119, TWB",
+    "researchInterests": "Nanotechnology, Textiles",
+    "profile": "https://profile.duet.ac.bd/u/mehedi",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-mehedi-hasan-1757606594496-157.jpg"
+  },
+  {
+    "name": "Mr. Md. Shablu Khan",
+    "designation": "Assistant Professor",
+    "email": "mskhan.te@duet.ac.bd",
+    "phone": "01747627440",
+    "officeRoom": "Room 120, TWB",
+    "researchInterests": "Fiber Reinforced Composite, Nanotechnology",
+    "profile": "https://profile.duet.ac.bd/u/mskhan.te",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-shablu-khan-1757606662497-461.jpg"
+  },
+  {
+    "name": "Mr. Md Rakibul Hasan",
+    "designation": "Lecturer",
+    "email": "rakibul33@duet.ac.bd",
+    "phone": "01734473068",
+    "officeRoom": "Room 121, TWB",
+    "researchInterests": "Dyeing, Natural Dye",
+    "profile": "https://profile.duet.ac.bd/u/rakibul33",
+    "image": "https://www.duet.ac.bd/storage/avatars/male.jpg"
+  },
+  {
+    "name": "Mr. Md Ahasan Habib",
+    "designation": "Lecturer",
+    "email": "habib32@duet.ac.bd",
+    "phone": "01715577334",
+    "officeRoom": "Room 122, TWB",
+    "researchInterests": "Fiber Recycling, Textile Composite Materials",
+    "profile": "https://profile.duet.ac.bd/u/habib32",
+    "image": "https://www.duet.ac.bd/storage/avatars/male.jpg"
+  }
+]

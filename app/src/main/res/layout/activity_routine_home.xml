@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/md_theme_light_background">
+    android:background="?android:attr/windowBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -196,7 +196,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-black"
                     android:text="Today's Routine"
-                    android:textColor="@color/md_theme_light_onSurface" />
+                    android:textColor="?attr/colorOnSurface" />
 
                 <TextView
                     android:id="@+id/tvClassCount"
@@ -204,7 +204,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4 Classes"
-                    android:textColor="@color/md_theme_light_onSurfaceVariant" />
+                    android:textColor="?attr/colorOnSurfaceVariant" />
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -239,7 +239,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="sans-serif-black"
                     android:text="No Classes Today"
-                    android:textColor="@color/md_theme_light_onSurface" />
+                    android:textColor="?attr/colorOnSurface" />
 
                 <TextView
                     style="@style/TextAppearance.Material3.BodyLarge"
@@ -247,7 +247,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Enjoy your day!"
-                    android:textColor="@color/md_theme_light_onSurfaceVariant" />
+                    android:textColor="?attr/colorOnSurfaceVariant" />
             </LinearLayout>
 
             <com.google.android.material.button.MaterialButton

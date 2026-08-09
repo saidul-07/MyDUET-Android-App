@@ -16,9 +16,12 @@
     <string name="service_clubs">Clubs</string>
     <string name="service_ugr">UGR Info</string>
     <string name="service_pgr">PGR Info</string>
+    <string name="service_services">Services</string>
     <string name="service_routine">Routine</string>
     <string name="service_emergency">Emergency</string>
     <string name="service_admission">Admission</string>
+    <string name="service_teachers">Directory</string>
+    <string name="service_events">Events</string>
 
     <!-- Admission Module -->
     <string name="admission_title">Admission</string>
@@ -50,8 +53,8 @@
 
     <!-- Navigation -->
     <string name="nav_home">Home</string>
-    <string name="nav_notices">Notices</string>
-    <string name="nav_services">Services</string>
+    <string name="nav_calendar">Calender</string>
+    <string name="nav_menu">Menu</string>
     <string name="nav_profile">Profile</string>
     <string name="desc_notifications">Notifications</string>
     <string name="desc_profile">Profile</string>
@@ -113,4 +116,33 @@
     <string name="routine_class_count">%1$d Classes</string>
     <string name="routine_next_countdown_h_m">Starts in %1$dh %2$dm</string>
     <string name="routine_next_countdown_m">Starts in %1$dm</string>
+
+    <!-- Photo Carousel -->
+    <string name="campus_main_gate">DUET Main Campus</string>
+    <string name="campus_location">Gazipur, Bangladesh</string>
+    <string name="campus_academic">Academic Building</string>
+    <string name="campus_innovation">Home of Innovation</string>
+    <string name="campus_library">Central Library</string>
+    <string name="campus_knowledge">Gateway to Knowledge</string>
+    <!-- Calendar Weekdays -->
+    <string name="weekday_sun">Sun</string>
+    <string name="weekday_mon">Mon</string>
+    <string name="weekday_tue">Tue</string>
+    <string name="weekday_wed">Wed</string>
+    <string name="weekday_thu">Thu</string>
+    <string name="weekday_fri">Fri</string>
+    <string name="weekday_sat">Sat</string>
+
+    <!-- Menu Services Dashboard -->
+    <string name="menu_history">History of DUET</string>
+    <string name="menu_bus">Bus Information</string>
+    <string name="menu_route">Way to go to campus</string>
+    <string name="menu_gallery">Image Gallery</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_faq">FAQs</string>
+    <string name="menu_contacts">Contacts</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_update">Check for Update</string>
+    <string name="menu_bug">Report any Bug</string>
 </resources>

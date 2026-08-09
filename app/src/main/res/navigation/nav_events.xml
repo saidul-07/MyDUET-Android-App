@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_events"
+    app:startDestination="@id/eventListFragment">
+
+    <fragment
+        android:id="@+id/eventListFragment"
+        android:name="com.example.myduet.EventListFragment"
+        android:label="DUET Events"
+        tools:layout="@layout/fragment_event_list">
+        <action
+            android:id="@+id/action_eventListFragment_to_eventDetailFragment"
+            app:destination="@id/eventDetailFragment" />
+        <action
+            android:id="@+id/action_eventListFragment_to_authorityLoginFragment"
+            app:destination="@id/authorityLoginFragment" />
+        <action
+            android:id="@+id/action_eventListFragment_to_authorityDashboardFragment"
+            app:destination="@id/authorityDashboardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/eventDetailFragment"
+        android:name="com.example.myduet.EventDetailFragment"
+        android:label="Event Details"
+        tools:layout="@layout/fragment_event_detail" />
+
+    <fragment
+        android:id="@+id/authorityLoginFragment"
+        android:name="com.example.myduet.AuthorityLoginFragment"
+        android:label="Authority Login"
+        tools:layout="@layout/fragment_authority_login">
+        <action
+            android:id="@+id/action_authorityLoginFragment_to_authorityDashboardFragment"
+            app:destination="@id/authorityDashboardFragment"
+            app:popUpTo="@id/eventListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/authorityDashboardFragment"
+        android:name="com.example.myduet.AuthorityDashboardFragment"
+        android:label="Authority Dashboard"
+        tools:layout="@layout/fragment_authority_dashboard">
+        <action
+            android:id="@+id/action_authorityDashboardFragment_to_createEditEventFragment"
+            app:destination="@id/createEditEventFragment" />
+        <action
+            android:id="@+id/action_authorityDashboardFragment_to_eventDetailFragment"
+            app:destination="@id/eventDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createEditEventFragment"
+        android:name="com.example.myduet.CreateEditEventFragment"
+        android:label="Publish Event"
+        tools:layout="@layout/fragment_create_edit_event" />
+
+</navigation>

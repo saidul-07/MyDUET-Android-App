@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Dr. Md. Arefin Kowser",
+    "designation": "Professor",
+    "email": "arefin@duet.ac.bd",
+    "phone": "+8801754262832",
+    "officeRoom": "Room 408, SSNIAB",
+    "researchInterests": "Interface Fracture Mechanics Stability",
+    "profile": "https://profile.duet.ac.bd/u/arefin",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-arefin-kowser-175576552863-774.jpg"
+  },
+  {
+    "name": "Mr. Md. Khaled Khalil",
+    "designation": "Professor",
+    "email": "khaled@duet.ac.bd",
+    "phone": "01777441055",
+    "officeRoom": "Room 402, SSNIAB",
+    "researchInterests": "Industrial & Production Engineering",
+    "profile": "https://profile.duet.ac.bd/u/khaled",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-khaled-khalil-166295897756-183.jpg"
+  },
+  {
+    "name": "Dr. Mohammad Asaduzzaman Chowdhury",
+    "designation": "Professor",
+    "email": "asad@duet.ac.bd",
+    "phone": "IP (L): 5103, IP (D): 09666-327812",
+    "officeRoom": "Room 403, SSNIAB",
+    "researchInterests": "Mechanical Engineering, Renewable Energy",
+    "profile": "https://profile.duet.ac.bd/u/asad",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/prof-dr-mohammad-asaduzzaman-chowdhury-166295956158-619.jpg"
+  },
+  {
+    "name": "Dr. Hasan Mohammad Mostofa Afroz",
+    "designation": "Professor",
+    "email": "hafroz@duet.ac.bd",
+    "phone": "IP (L): 5104, IP (D): 09666-327813",
+    "officeRoom": "Room 404, SSNIAB",
+    "researchInterests": "Energy, Carbon Capture, Thermal Engineering",
+    "profile": "https://profile.duet.ac.bd/u/hafroz",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-hasan-mohammad-mostofa-afroz-166705406159-829.jpg"
+  },
+  {
+    "name": "Dr. Mohammad Zoynal Abedin",
+    "designation": "Professor",
+    "email": "abedin.mzoynal@duet.ac.bd",
+    "phone": "+8801829311650",
+    "officeRoom": "Room 405, SSNIAB",
+    "researchInterests": "1, 2, Turbulence, 3, Sitvc",
+    "profile": "https://profile.duet.ac.bd/u/abedin.mzoynal",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammad-zoynal-abedin-172979184260-519.jpg"
+  },
+  {
+    "name": "Dr. Md. Kamruzzaman",
+    "designation": "Professor",
+    "email": "kamruzzaman@duet.ac.bd",
+    "phone": "01716993522",
+    "officeRoom": "Room 406, SSNIAB",
+    "researchInterests": "Machine Tools, Manufacturing, Auto",
+    "profile": "https://profile.duet.ac.bd/u/kamruzzaman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-kamruzzaman-166296022761-956.jpg"
+  },
+  {
+    "name": "Dr. Himangshu Bhowmik",
+    "designation": "Professor",
+    "email": "bhowmik@duet.ac.bd",
+    "phone": "+8801758434173",
+    "officeRoom": "Room 407, SSNIAB",
+    "researchInterests": "Thermo-Fluid Mechanics, Cfd Analyses",
+    "profile": "https://profile.duet.ac.bd/u/bhowmik",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-himangshu-bhowmik-166257001641-925.jpg"
+  },
+  {
+    "name": "Dr. Md. Anowar Hossain",
+    "designation": "Professor",
+    "email": "anowar96me@duet.ac.bd",
+    "phone": "+8801821769479",
+    "officeRoom": "Room 408, SSNIAB",
+    "researchInterests": "Refrigeration Air Conditioning, Heat Transfer",
+    "profile": "https://profile.duet.ac.bd/u/anowar96me",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-anowar-hossain-166698985065-364.jpg"
+  },
+  {
+    "name": "Dr. Nayeem Md. Lutful Huq",
+    "designation": "Professor",
+    "email": "lutful@duet.ac.bd",
+    "phone": "+880 1738 422616",
+    "officeRoom": "Room 409, SSNIAB",
+    "researchInterests": "Applied Mechanics, Biomechanics, Robotics, Mechatronics",
+    "profile": "https://profile.duet.ac.bd/u/lutful",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-nayeem-md-lutful-huq-166698998168-869.jpg"
+  },
+  {
+    "name": "Dr. A.N.M. Mominul Islam Mukut",
+    "designation": "Professor",
+    "email": "mukut@duet.ac.bd",
+    "phone": "IP (L): 5111  IP (D): 09666-327820",
+    "officeRoom": "Room 410, SSNIAB",
+    "researchInterests": "Renewable Energy, Biofuel, Flow Control",
+    "profile": "https://profile.duet.ac.bd/u/mukut",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-anm-mominul-islam-mukut-166699006369-342.jpg"
+  },
+  {
+    "name": "Dr. Mohammad Washim Dewan",
+    "designation": "Professor",
+    "email": "washim0179@duet.ac.bd",
+    "phone": "+8801531261380",
+    "officeRoom": "Room 411, SSNIAB",
+    "researchInterests": "Composite Materials, Ceramic Materials, Welding",
+    "profile": "https://profile.duet.ac.bd/u/washim0179",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-mohammad-washim-dewan-177511321670-362.jpg"
+  },
+  {
+    "name": "Dr. Khurshida Sharmin",
+    "designation": "Professor",
+    "email": "ksharmin1130@duet.ac.bd",
+    "phone": "+88 01531261381",
+    "officeRoom": "Room 412, SSNIAB",
+    "researchInterests": "Material Science, Ceramic Processing",
+    "profile": "https://profile.duet.ac.bd/u/ksharmin1130",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-khurshida-sharmin-166296159472-230.jpg"
+  },
+  {
+    "name": "Dr. Md. Mostaqur Rahman",
+    "designation": "Professor",
+    "email": "sumon@duet.ac.bd",
+    "phone": "+8801818280312",
+    "officeRoom": "Room 413, SSNIAB",
+    "researchInterests": "Carbon Capture, Energy, Two-Phase Flow",
+    "profile": "https://profile.duet.ac.bd/u/sumon",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-mostaqur-rahman-166699017474-814.jpg"
+  },
+  {
+    "name": "Dr. Md. Mostafizur Rahman",
+    "designation": "Professor",
+    "email": "mostafizme@duet.ac.bd",
+    "phone": "+8801713294768",
+    "officeRoom": "Room 414, SSNIAB",
+    "researchInterests": "Interfacial Engineering, Composite Materials",
+    "profile": "https://profile.duet.ac.bd/u/mostafizme",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-md-mostafizur-rahman-166296230278-106.jpg"
+  },
+  {
+    "name": "Dr. Mohammed Moinul Islam",
+    "designation": "Professor",
+    "email": "moinul.islam@duet.ac.bd",
+    "phone": "IP (L): 5116, IP (D): 09666-327825",
+    "officeRoom": "Room 415, SSNIAB",
+    "researchInterests": "Fluid Dynamics, Heat Transfer, Materials",
+    "profile": "https://profile.duet.ac.bd/u/moinul.islam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-mohammed-moinul-islam-166296202975-142.jpg"
+  },
+  {
+    "name": "Dr. Biplov Kumar Roy",
+    "designation": "Professor",
+    "email": "biplov@duet.ac.bd",
+    "phone": "01828650379",
+    "officeRoom": "Room 416, SSNIAB",
+    "researchInterests": "Advanced Manufacturing, Numerical Modeling",
+    "profile": "https://profile.duet.ac.bd/u/biplov",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/dr-biplov-kumar-roy-166296254880-260.jpg"
+  },
+  {
+    "name": "Dr. Md. Rashed Mia",
+    "designation": "Associate Professor",
+    "email": "rashed@duet.ac.bd",
+    "phone": "IP (L): 5123, IP (D): 09666-327832",
+    "officeRoom": "Room 417, SSNIAB",
+    "researchInterests": "Advance Manufacturing, Advance Materials",
+    "profile": "https://profile.duet.ac.bd/u/rashed",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-rashed-mia-on-study-leave-166296364891-292.jpg"
+  },
+  {
+    "name": "Mr. Md. Jahangir Alam",
+    "designation": "Assistant Professor",
+    "email": "jahangir@duet.ac.bd",
+    "phone": "01913-955356",
+    "officeRoom": "Room 418, SSNIAB",
+    "researchInterests": "Fluid Dynamics, Heat Transfer, Materials",
+    "profile": "https://profile.duet.ac.bd/u/jahangir",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-jahangir-alam-166296266782-944.jpg"
+  },
+  {
+    "name": "Mr. Md. Zahidul Sarkar",
+    "designation": "Assistant Professor",
+    "email": "zahid@duet.ac.bd",
+    "phone": "IP (L): 5120, IP (D): 09666-327829",
+    "officeRoom": "Room 419, SSNIAB",
+    "researchInterests": "Computational Mechanics, Crystal Plasticity",
+    "profile": "https://profile.duet.ac.bd/u/zahid",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-zahidul-sarkar-on-study-leave-166296289884-452.jpg"
+  },
+  {
+    "name": "Mr. Shaon Talukdar",
+    "designation": "Assistant Professor",
+    "email": "shaonme@duet.ac.bd",
+    "phone": "IP (L): 5121, IP (D): 09666-217830",
+    "officeRoom": "Room 420, SSNIAB",
+    "researchInterests": "Combustion, Cfd",
+    "profile": "https://profile.duet.ac.bd/u/shaonme",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-shaon-talukdar-on-study-leave-166296326486-879.jpg"
+  },
+  {
+    "name": "Ms. Sharmi Mazumder",
+    "designation": "Assistant Professor",
+    "email": "sharmi_me@duet.ac.bd",
+    "phone": "IP (L): 5122, IP (D): 09666-327831",
+    "officeRoom": "Room 421, SSNIAB",
+    "researchInterests": "Fluid Dynamics, Heat Transfer, Materials",
+    "profile": "https://profile.duet.ac.bd/u/sharmi_me",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/ms-sharmi-mazumder-on-study-leave-166296344289-580.jpg"
+  },
+  {
+    "name": "Mr. Md. Monir Hossain",
+    "designation": "Assistant Professor",
+    "email": "monir@duet.ac.bd",
+    "phone": "IP (L): 5124, IP (D): 09666-327833",
+    "officeRoom": "Room 422, SSNIAB",
+    "researchInterests": "Simulation, Microkinetic Modelling, Energy Engineering",
+    "profile": "https://profile.duet.ac.bd/u/monir",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-monir-hossain-166699029393-796.jpg"
+  },
+  {
+    "name": "Mr. Md. Mahbubur Rahman",
+    "designation": "Assistant Professor",
+    "email": "mmrahman@duet.ac.bd",
+    "phone": "+88 01729178312",
+    "officeRoom": "Room 423, SSNIAB",
+    "researchInterests": "Engineering Mechanics, Mechanical Vibration",
+    "profile": "https://profile.duet.ac.bd/u/mmrahman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-mahbubur-rahman-166699034794-870.jpg"
+  },
+  {
+    "name": "Mr. Amit Sutradhar",
+    "designation": "Assistant Professor",
+    "email": "amitsutradhar@duet.ac.bd",
+    "phone": "+8801743488652",
+    "officeRoom": "Room 424, SSNIAB",
+    "researchInterests": "Solid Mechanics, Engineering Design, Ai",
+    "profile": "https://profile.duet.ac.bd/u/amitsutradhar",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/amit-sutradhar-166699039496-911.jpg"
+  },
+  {
+    "name": "Mr. Md. Ramjan Ali",
+    "designation": "Assistant Professor",
+    "email": "ramjan@duet.ac.bd",
+    "phone": "+1(515)-441-3118",
+    "officeRoom": "Room 425, SSNIAB",
+    "researchInterests": "Printed Electronics || Advanced",
+    "profile": "https://profile.duet.ac.bd/u/ramjan",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-ramjan-ali-169951009897-705.jpg"
+  },
+  {
+    "name": "Mr. Md. Akibul Islam",
+    "designation": "Assistant Professor",
+    "email": "akib@duet.ac.bd",
+    "phone": "+1 207 735 9486",
+    "officeRoom": "Room 426, SSNIAB",
+    "researchInterests": "Applied Mechanics, Fluid Mechanics, Auto",
+    "profile": "https://profile.duet.ac.bd/u/akib",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-akibul-islam-166699049099-686.jpg"
+  },
+  {
+    "name": "Mr. Saddam Hossen",
+    "designation": "Assistant Professor",
+    "email": "saddam@duet.ac.bd",
+    "phone": "+8801770033521",
+    "officeRoom": "Room 427, SSNIAB",
+    "researchInterests": "Heating, Ventilation, Air Conditioning, Hvac",
+    "profile": "https://profile.duet.ac.bd/u/saddam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-saddam-hossen-1666990530100-695.jpg"
+  },
+  {
+    "name": "Mr. Md. Osman Ali",
+    "designation": "Assistant Professor",
+    "email": "osman@duet.ac.bd",
+    "phone": "01921404152",
+    "officeRoom": "Room 428, SSNIAB",
+    "researchInterests": "Nanotechnology, Applied Mechanics, Biopolymer Composites",
+    "profile": "https://profile.duet.ac.bd/u/osman",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-md-osman-ali-1662964856105-279.jpg"
+  },
+  {
+    "name": "Mr. Md. Shariful Alam Emon",
+    "designation": "Assistant Professor",
+    "email": "sharif.me@duet.ac.bd",
+    "phone": "IP (L): 5132, IP (D): 09666-327841",
+    "officeRoom": "Room 429, SSNIAB",
+    "researchInterests": "Machine Learning Modelling, Molecular Dynamics",
+    "profile": "https://profile.duet.ac.bd/u/sharif.me",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-shariful-alam-emon-1662964736104-918.jpg"
+  },
+  {
+    "name": "Saifullah Mahmud",
+    "designation": "Assistant Professor",
+    "email": "saifullah@duet.ac.bd",
+    "phone": "09666-327842",
+    "officeRoom": "Room 430, SSNIAB",
+    "researchInterests": "Biomedical Engineering, Biomaterials, Lithium-Ion Battery",
+    "profile": "https://profile.duet.ac.bd/u/saifullah",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/saifullah-mahmud-1757605314475-363.jpg"
+  },
+  {
+    "name": "Mr. Rahat Mahmud Khan",
+    "designation": "Lecturer",
+    "email": "rahatmahmud@duet.ac.bd",
+    "phone": "+880 1793 256918",
+    "officeRoom": "Room 431, SSNIAB",
+    "researchInterests": "Heat Transfer Thermo-Fluids Fire",
+    "profile": "https://profile.duet.ac.bd/u/rahatmahmud",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/mr-rahat-mahmud-khan-1662964604102-704.jpg"
+  },
+  {
+    "name": "Jahirul Islam",
+    "designation": "Lecturer",
+    "email": "jahirul.islam@duet.ac.bd",
+    "phone": "01840591143",
+    "officeRoom": "Room 432, SSNIAB",
+    "researchInterests": "Materials Science, Biomedical Engineering, Cfd",
+    "profile": "https://profile.duet.ac.bd/u/jahirul.islam",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/jahirul-islam-1762322583539-402.jpg"
+  },
+  {
+    "name": "Mr. Md. Zihan Babu",
+    "designation": "Lecturer",
+    "email": "zihanbabu@duet.ac.bd",
+    "phone": "+8801707972011",
+    "officeRoom": "Room 433, SSNIAB",
+    "researchInterests": "Aerodynamics, Biomedical Engineering, Solar Energy",
+    "profile": "https://profile.duet.ac.bd/u/zihanbabu",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-zihan-babu-1762322715540-731.jpg"
+  },
+  {
+    "name": "Mr. Md. Faruque Hossain",
+    "designation": "Lecturer",
+    "email": "faruque_me@duet.ac.bd",
+    "phone": "+8801717152521",
+    "officeRoom": "Room 434, SSNIAB",
+    "researchInterests": "Composite Materials, Biomaterials, Li-Ion Battery",
+    "profile": "https://profile.duet.ac.bd/u/faruque_me",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-faruque-hossain-1770700493565-379.jpg"
+  },
+  {
+    "name": "Mr. Md. Shohel Rana",
+    "designation": "Lecturer",
+    "email": "shohel_me@duet.ac.bd",
+    "phone": "01577367101",
+    "officeRoom": "Room 435, SSNIAB",
+    "researchInterests": "Computional Materials Science Renewable",
+    "profile": "https://profile.duet.ac.bd/u/shohel_me",
+    "image": "https://www.duet.ac.bd/storage/profile_photo/md-shohel-rana-1770701270566-562.jpg"
+  }
+]
