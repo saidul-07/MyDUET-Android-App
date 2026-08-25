@@ -46,6 +46,11 @@ public class TeacherDeptFragment extends Fragment {
         });
         binding.rvDepartments.setAdapter(adapter);
 
+        binding.cardFacultyOverview.setOnClickListener(v -> {
+            android.content.Intent intent = new android.content.Intent(getActivity(), FacultyActivity.class);
+            startActivity(intent);
+        });
+
         // Observe departments list
         viewModel.getDepartments().observe(getViewLifecycleOwner(), list -> {
             if (list != null) {

@@ -41,7 +41,7 @@ class RoutineHomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-            window.statusBarColor = android.graphics.Color.parseColor("#1565C0")
+            window.statusBarColor = android.graphics.Color.parseColor("#444A72")
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
                 window.decorView.systemUiVisibility =
                     window.decorView.systemUiVisibility and android.view.View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR.inv()

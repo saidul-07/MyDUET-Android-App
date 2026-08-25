@@ -29,11 +29,16 @@ public class TeacherRepository {
         List<Teacher> list = new ArrayList<>();
         String fileName = "teachers/" + deptKey + "_teachers.json";
         Gson gson = new Gson();
-        InputStream is = null;
+        java.io.InputStream is = null;
         try {
-            is = context.getAssets().open(fileName);
-            Type listType = new TypeToken<List<Teacher>>() {}.getType();
-            list = gson.fromJson(new InputStreamReader(is), listType);
+            java.io.File localFile = new java.io.File(context.getFilesDir(), fileName);
+            if (localFile.exists()) {
+                is = new java.io.FileInputStream(localFile);
+            } else {
+                is = context.getAssets().open(fileName);
+            }
+            java.lang.reflect.Type listType = new com.google.gson.reflect.TypeToken<List<Teacher>>() {}.getType();
+            list = gson.fromJson(new java.io.InputStreamReader(is), listType);
             if (list == null) {
                 list = new ArrayList<>();
             }

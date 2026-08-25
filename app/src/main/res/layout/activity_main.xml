@@ -11,7 +11,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#005FB0"
+        android:background="?attr/colorPrimary"
         app:elevation="4dp"
         app:liftOnScroll="false">
 
@@ -19,8 +19,10 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#005FB0"
-            android:paddingHorizontal="8dp">
+            android:background="?attr/colorPrimary"
+            android:paddingHorizontal="8dp"
+            app:navigationIconTint="?attr/colorOnPrimary"
+            app:titleTextColor="?attr/colorOnPrimary">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -71,6 +73,8 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingBottom="100dp"
+        android:clipToPadding="false"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
@@ -80,166 +84,33 @@
             android:padding="20dp">
 
             <!-- DUET Photo Carousel -->
-            <HorizontalScrollView
+            <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:scrollbars="none"
-                android:clipToPadding="false"
-                android:paddingEnd="20dp">
+                app:cardCornerRadius="24dp"
+                app:cardElevation="4dp"
+                app:strokeWidth="0dp">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                    <!-- Photo Card 1: DUET Main Gate -->
-                    <com.google.android.material.card.MaterialCardView
-                        android:layout_width="320dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="16dp"
-                        app:cardCornerRadius="24dp"
-                        app:cardElevation="4dp"
-                        app:strokeWidth="0dp">
+                    <androidx.viewpager2.widget.ViewPager2
+                        android:id="@+id/viewPagerCarousel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
 
-                        <FrameLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/duet_gate" />
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:background="#66000000" />
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom"
-                                android:orientation="vertical"
-                                android:padding="16dp">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/campus_main_gate"
-                                    android:textColor="@color/white_text"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/campus_location"
-                                    android:textColor="@color/white_text_secondary"
-                                    android:textSize="13sp" />
-                            </LinearLayout>
-                        </FrameLayout>
-                    </com.google.android.material.card.MaterialCardView>
-
-                    <!-- Photo Card 2: Academic Building -->
-                    <com.google.android.material.card.MaterialCardView
-                        android:layout_width="320dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="16dp"
-                        app:cardCornerRadius="24dp"
-                        app:cardElevation="4dp"
-                        app:strokeWidth="0dp">
-
-                        <FrameLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/duet_campus" />
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:background="#66000000" />
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom"
-                                android:orientation="vertical"
-                                android:padding="16dp">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/campus_academic"
-                                    android:textColor="@color/white_text"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/campus_innovation"
-                                    android:textColor="@color/white_text_secondary"
-                                    android:textSize="13sp" />
-                            </LinearLayout>
-                        </FrameLayout>
-                    </com.google.android.material.card.MaterialCardView>
-
-                    <!-- Photo Card 3: Central Library -->
-                    <com.google.android.material.card.MaterialCardView
-                        android:layout_width="320dp"
-                        android:layout_height="match_parent"
-                        app:cardCornerRadius="24dp"
-                        app:cardElevation="4dp"
-                        app:strokeWidth="0dp">
-
-                        <FrameLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/duet_towers" />
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:background="#66000000" />
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom"
-                                android:orientation="vertical"
-                                android:padding="16dp">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/campus_library"
-                                    android:textColor="@color/white_text"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/campus_knowledge"
-                                    android:textColor="@color/white_text_secondary"
-                                    android:textSize="13sp" />
-                            </LinearLayout>
-                        </FrameLayout>
-                    </com.google.android.material.card.MaterialCardView>
-
-                </LinearLayout>
-            </HorizontalScrollView>
+                    <!-- Dots Indicator -->
+                    <LinearLayout
+                        android:id="@+id/dotsContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="horizontal"
+                        android:gravity="center" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -320,7 +191,7 @@
                                 android:layout_height="28dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_services"
-                                app:tint="#3F51B5" />
+                                app:tint="?attr/colorPrimary" />
                         </com.google.android.material.card.MaterialCardView>
                         <TextView
                             android:layout_width="wrap_content"
@@ -356,7 +227,7 @@
                                 android:layout_height="28dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_services"
-                                app:tint="#00838F" />
+                                app:tint="?attr/colorSecondary" />
                         </com.google.android.material.card.MaterialCardView>
                         <TextView
                             android:layout_width="wrap_content"
@@ -428,7 +299,7 @@
                                 android:layout_height="28dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_emergency"
-                                app:tint="#D84315" />
+                                app:tint="?attr/colorSecondary" />
                         </com.google.android.material.card.MaterialCardView>
                         <TextView
                             android:layout_width="wrap_content"
@@ -514,36 +385,17 @@
                 </com.google.android.material.card.MaterialCardView>
             </GridLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="100dp" />
-
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
-    <!-- Premium Floating Bottom Navigation Effect -->
-    <com.google.android.material.card.MaterialCardView
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_margin="16dp"
-        app:cardCornerRadius="32dp"
-        app:cardElevation="8dp"
-        app:cardBackgroundColor="?attr/colorSurface"
-        app:strokeWidth="0dp">
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottom_navigation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            app:elevation="0dp"
-            app:menu="@menu/bottom_nav_menu"
-            app:labelVisibilityMode="labeled"
-            app:itemIconTint="?attr/colorPrimary"
-            app:itemTextColor="?attr/colorPrimary"
-            app:itemRippleColor="?attr/colorPrimaryContainer" />
-
-    </com.google.android.material.card.MaterialCardView>
+        android:layout_gravity="bottom"
+        android:background="?attr/colorSurface"
+        app:elevation="8dp"
+        app:menu="@menu/bottom_nav_menu"
+        app:labelVisibilityMode="labeled" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

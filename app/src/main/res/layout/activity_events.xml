@@ -8,7 +8,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#0D47A1"
+        android:background="?attr/colorPrimary"
         app:elevation="4dp"
         app:liftOnScroll="false">
 
@@ -16,11 +16,11 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#0D47A1"
+            android:background="?attr/colorPrimary"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="#FFFFFF"
+            app:navigationIconTint="?attr/colorOnPrimary"
             app:title="DUET Events"
-            app:titleTextColor="#FFFFFF"
+            app:titleTextColor="?attr/colorOnPrimary"
             android:fontFamily="sans-serif-medium" />
 
     </com.google.android.material.appbar.AppBarLayout>

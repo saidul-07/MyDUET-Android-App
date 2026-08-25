@@ -139,24 +139,24 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventViewHol
 
             switch (status) {
                 case "Ongoing":
-                    bgColor = Color.parseColor("#E8F5E9"); // Light green
-                    textColor = Color.parseColor("#2E7D32"); // Dark green
+                    bgColor = Color.parseColor("#DCF6F2"); // Light green tint -> Mint green
+                    textColor = Color.parseColor("#206E62");
                     binding.tvEventStatus.setText("🟢 ONGOING");
                     break;
                 case "Upcoming":
-                    bgColor = Color.parseColor("#E3F2FD"); // Light blue
-                    textColor = Color.parseColor("#1565C0"); // Dark blue
+                    bgColor = Color.parseColor("#D7EFF7"); // Light blue tint -> Ocean Blue
+                    textColor = Color.parseColor("#044D63");
                     binding.tvEventStatus.setText("🔵 UPCOMING");
                     break;
                 case "Completed":
-                    bgColor = Color.parseColor("#F5F5F5"); // Light gray
-                    textColor = Color.parseColor("#616161"); // Dark gray
+                    bgColor = Color.parseColor("#DCE0EE"); // Light gray tint -> Slate Blue tint
+                    textColor = Color.parseColor("#444A72");
                     binding.tvEventStatus.setText("⚪ COMPLETED");
                     break;
                 case "Cancelled":
                 default:
-                    bgColor = Color.parseColor("#FFEBEE"); // Light red
-                    textColor = Color.parseColor("#C62828"); // Dark red
+                    bgColor = Color.parseColor("#DCE0EE"); // Light red tint -> Slate Blue tint
+                    textColor = Color.parseColor("#444A72");
                     binding.tvEventStatus.setText("🔴 EVENT CANCELLED");
                     break;
             }

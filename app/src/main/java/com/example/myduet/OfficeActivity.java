@@ -7,7 +7,7 @@ import java.util.List;
 public class OfficeActivity extends BaseContactActivity {
     @Override
     protected String getToolbarTitle() {
-        return "Office Directory";
+        return "Offices";
     }
 
     @Override

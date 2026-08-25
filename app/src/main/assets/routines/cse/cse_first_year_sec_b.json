@@ -61,13 +61,6 @@
         "type": "Theory",
         "time": "11:30 AM - 12:20 PM",
         "room": "TWB - 520"
-      },
-      {
-        "courseCode": "CSE-1824 / HSS-1428",
-        "courseName": "Basic Electrical Engineering Sessional / Technical and Public Speaking Sessional",
-        "type": "Lab",
-        "time": "02:00 PM - 04:30 PM",
-        "room": "TWB 313 / 318"
       }
     ],
     "Tuesday": [
@@ -136,28 +129,28 @@
         "courseName": "Technical and Public Speaking Sessional / Basic Electrical Engineering Sessional",
         "type": "Lab",
         "time": "08:00 AM - 10:30 AM",
-        "room": "Digital Lab / 11010"
-      },
-      {
-        "courseCode": "CSE-1823",
-        "courseName": "Basic Electrical Engineering",
-        "type": "Theory",
-        "time": "10:40 AM - 11:30 AM",
-        "room": "TWB - 520"
+        "room": "11010 / 7020"
       },
       {
         "courseCode": "Phy-1423",
         "courseName": "Physics",
         "type": "Theory",
-        "time": "11:30 AM - 12:20 PM",
+        "time": "10:40 AM - 11:30 AM",
         "room": "TWB - 520"
       },
       {
         "courseCode": "Math-1421",
         "courseName": "Coordinate Geometry and Vector Analysis",
         "type": "Theory",
-        "time": "12:20 PM - 01:10 PM",
+        "time": "11:30 AM - 12:20 PM",
         "room": "TWB - 520"
+      },
+      {
+        "courseCode": "HSS-1428",
+        "courseName": "Technical and Public Speaking Sessional",
+        "type": "Lab",
+        "time": "02:00 PM - 04:30 PM",
+        "room": "11010"
       }
     ]
   }

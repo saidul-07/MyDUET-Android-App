@@ -29,20 +29,20 @@ public class CalendarEventAdapter extends RecyclerView.Adapter<CalendarEventAdap
     @Override
     public void onBindViewHolder(@NonNull EventViewHolder holder, int position) {
         CalenderActivity.CalendarEvent event = eventList.get(position);
-        holder.tvEventTitle.setText(event.title);
-        holder.tvEventDurationBadge.setText(String.format(Locale.getDefault(), "%d", event.duration));
         
-        String startFormatted = formatDate(event.startDate);
+        String dateFormatted;
         boolean isBangla = Locale.getDefault().getLanguage().equals("bn");
-        String prefix = isBangla ? "ছুটির পরিমাণঃ " : "Duration: ";
-        String toText = isBangla ? " থেকে " : " to ";
-
-        if (event.duration == 1) {
-            holder.tvEventRange.setText(prefix + startFormatted);
+        if (event.duration > 1) {
+            String startFormatted = formatEventDate(event.startDate);
+            String endFormatted = formatEventDate(event.endDate);
+            String toText = isBangla ? " থেকে " : " to ";
+            dateFormatted = startFormatted + toText + endFormatted;
         } else {
-            String endFormatted = formatDate(event.endDate);
-            holder.tvEventRange.setText(prefix + startFormatted + toText + endFormatted);
+            dateFormatted = formatEventDate(event.startDate);
         }
+        
+        String eventText = "⊙ " + dateFormatted + " - " + event.title;
+        holder.tvEventText.setText(eventText);
     }
 
     @Override
@@ -50,10 +50,10 @@ public class CalendarEventAdapter extends RecyclerView.Adapter<CalendarEventAdap
         return eventList.size();
     }
 
-    private String formatDate(String dateStr) {
+    private String formatEventDate(String dateStr) {
         try {
             SimpleDateFormat fromUser = new SimpleDateFormat("yyyy-MM-dd", Locale.US);
-            SimpleDateFormat myFormat = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
+            SimpleDateFormat myFormat = new SimpleDateFormat("d MMMM", Locale.getDefault());
             Date date = fromUser.parse(dateStr);
             if (date != null) {
                 return myFormat.format(date);
@@ -65,15 +65,11 @@ public class CalendarEventAdapter extends RecyclerView.Adapter<CalendarEventAdap
     }
 
     static class EventViewHolder extends RecyclerView.ViewHolder {
-        TextView tvEventDurationBadge;
-        TextView tvEventTitle;
-        TextView tvEventRange;
+        TextView tvEventText;
 
         EventViewHolder(@NonNull View itemView) {
             super(itemView);
-            tvEventDurationBadge = itemView.findViewById(R.id.tvEventDurationBadge);
-            tvEventTitle = itemView.findViewById(R.id.tvEventTitle);
-            tvEventRange = itemView.findViewById(R.id.tvEventRange);
+            tvEventText = itemView.findViewById(R.id.tvEventText);
         }
     }
 }

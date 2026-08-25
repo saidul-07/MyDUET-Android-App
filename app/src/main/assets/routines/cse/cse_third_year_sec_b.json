@@ -5,8 +5,8 @@
   "days": {
     "Sunday": [
       {
-        "courseCode": "CSE-3721",
-        "courseName": "Information System Analysis and Design",
+        "courseCode": "CSE-3421",
+        "courseName": "Computer Networks",
         "type": "Theory",
         "time": "08:30 AM - 09:20 AM",
         "room": "TWB - 519"
@@ -26,8 +26,8 @@
         "room": "TWB - 519"
       },
       {
-        "courseCode": "CSE-3421",
-        "courseName": "Computer Networks",
+        "courseCode": "CSE-3721",
+        "courseName": "Information System Analysis and Design",
         "type": "Theory",
         "time": "11:30 AM - 12:20 PM",
         "room": "TWB - 519"
@@ -52,7 +52,7 @@
         "courseCode": "CSE-3621",
         "courseName": "Artificial Intelligence",
         "type": "Theory",
-        "time": "10:40 AM - 11:30 AM",
+        "time": "11:30 AM - 12:20 PM",
         "room": "TWB - 519"
       },
       {
@@ -109,15 +109,15 @@
         "room": "7020"
       },
       {
-        "courseCode": "CSE-3721",
-        "courseName": "Information System Analysis and Design",
+        "courseCode": "CSE-3421",
+        "courseName": "Computer Networks",
         "type": "Theory",
         "time": "10:40 AM - 11:30 AM",
         "room": "TWB - 519"
       },
       {
-        "courseCode": "CSE-3421",
-        "courseName": "Computer Networks",
+        "courseCode": "CSE-3721",
+        "courseName": "Information System Analysis and Design",
         "type": "Theory",
         "time": "11:30 AM - 12:20 PM",
         "room": "TWB - 519"

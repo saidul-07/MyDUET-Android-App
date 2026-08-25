@@ -90,6 +90,10 @@
                     android:background="@color/divider" />
 
                 <include
+                    android:id="@+id/rowFatherName"
+                    layout="@layout/layout_info_row" />
+
+                <include
                     android:id="@+id/rowCenter"
                     layout="@layout/layout_info_row" />
 

@@ -11,17 +11,18 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:elevation="0dp">
+        android:background="?attr/colorPrimary"
+        app:elevation="4dp">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbarWebView"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorSurface"
+            android:background="?attr/colorPrimary"
             app:title="Faculty Profile"
-            app:titleTextColor="?attr/colorOnSurface"
+            app:titleTextColor="?attr/colorOnPrimary"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="?attr/colorOnSurface"
+            app:navigationIconTint="?attr/colorOnPrimary"
             app:titleCentered="true" />
     </com.google.android.material.appbar.AppBarLayout>
 

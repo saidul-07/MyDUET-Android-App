@@ -83,7 +83,7 @@
         "courseName": "Structured Programming Language Sessional",
         "type": "Lab",
         "time": "10:40 AM - 01:10 PM",
-        "room": "7010"
+        "room": "7020"
       }
     ],
     "Wednesday": [
@@ -129,7 +129,7 @@
         "courseName": "Basic Electrical Engineering Sessional / Technical and Public Speaking Sessional",
         "type": "Lab",
         "time": "08:00 AM - 10:30 AM",
-        "room": "Digital Lab / 11010"
+        "room": "7020 / 11010"
       },
       {
         "courseCode": "Math-1421",
@@ -146,8 +146,8 @@
         "room": "TWB - 518"
       },
       {
-        "courseCode": "HSS-1428 / CSE-1824",
-        "courseName": "Technical and Public Speaking Sessional / Basic Electrical Engineering Sessional",
+        "courseCode": "HSS-1428",
+        "courseName": "Technical and Public Speaking Sessional",
         "type": "Lab",
         "time": "02:00 PM - 04:30 PM",
         "room": "11010"

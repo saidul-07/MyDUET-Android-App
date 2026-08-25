@@ -28,8 +28,6 @@ public class SplashActivity extends AppCompatActivity {
         MaterialCardView logoContainer = findViewById(R.id.logo_container);
         View dotsContainer = findViewById(R.id.loading_dots_container);
         TextView appNameText = findViewById(R.id.app_name_text);
-        TextView deptText = findViewById(R.id.dept_text);
-        TextView universityText = findViewById(R.id.university_text);
         TextView versionText = findViewById(R.id.version_text);
 
         // Staggered entry animations
@@ -65,36 +63,14 @@ public class SplashActivity extends AppCompatActivity {
                 .setInterpolator(new DecelerateInterpolator())
                 .start();
 
-        // 4. Department Text (Dept. of CSE): Fade Up (starts at 550ms, duration 700ms)
-        deptText.setAlpha(0f);
-        deptText.setTranslationY(40f);
-        deptText.animate()
-                .alpha(1f)
-                .translationY(0f)
-                .setDuration(700)
-                .setStartDelay(550)
-                .setInterpolator(new DecelerateInterpolator())
-                .start();
-
-        // 5. University Text: Fade Up (starts at 700ms, duration 700ms)
-        universityText.setAlpha(0f);
-        universityText.setTranslationY(40f);
-        universityText.animate()
-                .alpha(1f)
-                .translationY(0f)
-                .setDuration(700)
-                .setStartDelay(700)
-                .setInterpolator(new DecelerateInterpolator())
-                .start();
-
-        // 6. Version Text (Version 26.0.0): Fade Up (starts at 850ms, duration 700ms)
+        // 4. Version Text (Version 1.0.0): Fade Up (starts at 550ms, duration 700ms)
         versionText.setAlpha(0f);
         versionText.setTranslationY(40f);
         versionText.animate()
                 .alpha(1f)
                 .translationY(0f)
                 .setDuration(700)
-                .setStartDelay(850)
+                .setStartDelay(550)
                 .setInterpolator(new DecelerateInterpolator())
                 .start();
 
@@ -115,8 +91,8 @@ public class SplashActivity extends AppCompatActivity {
             findViewById(R.id.dot3)
         };
         
-        final int activeColor = Color.WHITE;
-        final int inactiveColor = Color.parseColor("#CCCCCC");
+        final int activeColor = Color.parseColor("#444A72");
+        final int inactiveColor = Color.parseColor("#DCE0EE");
 
         dotRunnable = new Runnable() {
             @Override

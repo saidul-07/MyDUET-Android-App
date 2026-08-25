@@ -18,6 +18,14 @@ public class WebViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setStatusBarColor(android.graphics.Color.parseColor("#444A72"));
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
+                getWindow().getDecorView().setSystemUiVisibility(
+                    getWindow().getDecorView().getSystemUiVisibility() & ~android.view.View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+                );
+            }
+        }
         binding = ActivityWebviewBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
@@ -97,6 +105,17 @@ public class WebViewActivity extends AppCompatActivity {
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
                 binding.progressBarWeb.setVisibility(View.GONE);
+                if (url != null && url.contains("service-and-utility-contact")) {
+                    view.evaluateJavascript(
+                        "(function() { " +
+                        "   var style = document.createElement('style'); " +
+                        "   style.type = 'text/css'; " +
+                        "   style.innerHTML = '#header, .page-header { display: none !important; }'; " +
+                        "   document.head.appendChild(style); " +
+                        "})()",
+                        null
+                    );
+                }
             }
         });
 

@@ -20,6 +20,13 @@
             android:background="@drawable/bg_selected_day"
             android:visibility="gone" />
 
+        <View
+            android:id="@+id/vHolidayBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_holiday_day"
+            android:visibility="gone" />
+
         <TextView
             android:id="@+id/tvDayNumber"
             android:layout_width="wrap_content"

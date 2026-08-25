@@ -21,7 +21,7 @@ public class RoutineRepository {
         Log.d(TAG, "Loading routine from: " + assetPath);
 
         try {
-            String json = loadJsonFromAsset(context, assetPath);
+            String json = loadJsonFromStorageOrAsset(context, assetPath);
             if (json == null) return new ArrayList<>();
 
             RoutineData data = new Gson().fromJson(json, RoutineData.class);
@@ -35,7 +35,23 @@ public class RoutineRepository {
         return new ArrayList<>();
     }
 
-    private String loadJsonFromAsset(Context context, String path) {
+    private String loadJsonFromStorageOrAsset(Context context, String path) {
+        try {
+            java.io.File localFile = new java.io.File(context.getFilesDir(), path);
+            if (localFile.exists()) {
+                java.io.FileInputStream fis = new java.io.FileInputStream(localFile);
+                int size = fis.available();
+                byte[] buffer = new byte[size];
+                int read = fis.read(buffer);
+                fis.close();
+                if (read > 0) {
+                    return new String(buffer, StandardCharsets.UTF_8);
+                }
+            }
+        } catch (IOException e) {
+            Log.e(TAG, "Local file not read: " + path, e);
+        }
+
         try {
             InputStream is = context.getAssets().open(path);
             int size = is.available();

@@ -21,7 +21,7 @@ public class EventsActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setStatusBarColor(android.graphics.Color.parseColor("#0B3D91"));
+            getWindow().setStatusBarColor(android.graphics.Color.parseColor("#444A72"));
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
                 getWindow().getDecorView().setSystemUiVisibility(
                     getWindow().getDecorView().getSystemUiVisibility() & ~android.view.View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR

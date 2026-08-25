@@ -19,37 +19,19 @@ public abstract class BaseContactActivity extends AppCompatActivity {
 
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle(getToolbarTitle());
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle(getToolbarTitle());
+        }
         toolbar.setNavigationOnClickListener(v -> finish());
 
-        String bgColor = "#005FB0";
-        String statusBarColor = "#004F90";
+        String bgColor = "#444A72";
         String activityName = this.getClass().getSimpleName();
         if (activityName.contains("Medical")) {
-            bgColor = "#D32F2F";
-            statusBarColor = "#B71C1C";
-        } else if (activityName.contains("Security")) {
-            bgColor = "#1565C0";
-            statusBarColor = "#0D47A1";
-        } else if (activityName.contains("Proctor")) {
-            bgColor = "#7B1FA2";
-            statusBarColor = "#4A148C";
-        } else if (activityName.contains("Transport")) {
-            bgColor = "#2E7D32";
-            statusBarColor = "#1B5E20";
-        } else if (activityName.contains("ICT")) {
-            bgColor = "#00838F";
-            statusBarColor = "#006064";
-        } else if (activityName.contains("Office")) {
-            bgColor = "#1E88E5";
-            statusBarColor = "#1565C0";
-        } else if (activityName.contains("Institute")) {
-            bgColor = "#2E7D32";
-            statusBarColor = "#1B5E20";
-        } else if (activityName.contains("ResearchCenter")) {
-            bgColor = "#7B1FA2";
-            statusBarColor = "#4A148C";
+            bgColor = "#7DD6C8";
+        } else if (activityName.contains("Transport") || activityName.contains("ICT") || activityName.contains("Institute") || activityName.contains("ResearchCenter")) {
+            bgColor = "#088BB3";
         }
+        String statusBarColor = bgColor;
         LocaleHelper.styleAppBar(this, toolbar, bgColor, statusBarColor);
 
         RecyclerView rv = findViewById(R.id.rvContacts);

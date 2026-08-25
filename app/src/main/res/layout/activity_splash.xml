@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_welcome_gradient">
+    android:background="@drawable/bg_premium_gradient">
 
     <!-- Abstract Background Circle 1 (Top Left) -->
     <View
@@ -116,33 +116,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="MyDUET"
-            android:textColor="#FFFFFF"
+            android:textColor="?attr/colorPrimary"
             android:textSize="36sp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-black" />
-
-        <!-- 4. Subtitle: Dept. of CSE -->
-        <TextView
-            android:id="@+id/dept_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Dept. of CSE"
-            android:textColor="#E3F2FD"
-            android:textSize="18sp"
-            android:fontFamily="sans-serif-medium" />
-
-        <!-- 5. Footer: Dhaka University of Engineering & Technology -->
-        <TextView
-            android:id="@+id/university_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:text="Dhaka University of Engineering &amp; Technology"
-            android:textColor="#BBDEFB"
-            android:textSize="15sp"
-            android:gravity="center"
-            android:fontFamily="sans-serif" />
 
     </LinearLayout>
 
@@ -152,8 +129,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="Version 26.0.0"
-        android:textColor="#BBDEFB"
+        android:text="Version 1.0.0"
+        android:textColor="?attr/colorOnSurfaceVariant"
         android:textSize="14sp"
         android:fontFamily="sans-serif"
         app:layout_constraintBottom_toBottomOf="parent"

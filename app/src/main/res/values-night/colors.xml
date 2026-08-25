@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Dark Mode Material Color Overrides -->
+    <!-- Dark Mode Material Color Overrides -->
     <color name="white">#1A1C1E</color>
     <color name="background">#121314</color>
     <color name="black">#FFFFFF</color>
@@ -9,51 +10,51 @@
     <color name="gray_text">#C4C6D0</color>
 
     <!-- Dark Theme Service Card Accent Backgrounds -->
-    <color name="accent_blue">#1F2E3D</color>
-    <color name="accent_purple">#2E1F3D</color>
-    <color name="accent_red">#3D1F21</color>
-    <color name="accent_green">#1F3D24</color>
-    <color name="accent_orange">#3D2E1F</color>
-    <color name="accent_teal">#1F3D3C</color>
+    <color name="accent_blue">#132430</color>
+    <color name="accent_purple">#1D1E30</color>
+    <color name="accent_red">#1D1E30</color>
+    <color name="accent_green">#102E28</color>
+    <color name="accent_orange">#132430</color>
+    <color name="accent_teal">#102E28</color>
 
     <!-- Dynamic Category Backgrounds -->
-    <color name="notice_bg">#1F2E3D</color>
-    <color name="library_bg">#2E1F3D</color>
-    <color name="medical_bg">#3D1F21</color>
-    <color name="club_bg">#1F3D24</color>
-    <color name="ugr_bg">#3D2E1F</color>
-    <color name="pgr_bg">#26331A</color>
-    <color name="routine_bg">#1F3D3C</color>
-    <color name="emergency_bg">#3D231F</color>
+    <color name="notice_bg">#132430</color>
+    <color name="library_bg">#1D1E30</color>
+    <color name="medical_bg">#102E28</color>
+    <color name="club_bg">#102E28</color>
+    <color name="ugr_bg">#1D1E30</color>
+    <color name="pgr_bg">#132430</color>
+    <color name="routine_bg">#102E28</color>
+    <color name="emergency_bg">#1D1E30</color>
 
     <!-- Admission Screen Dark Backgrounds -->
-    <color name="seat_plan_bg">#152332</color>
-    <color name="seat_plan_icon_container">#20354C</color>
-    <color name="admission_result_bg">#302216</color>
-    <color name="admission_result_icon_container">#463120</color>
-    <color name="admission_bg">#303016</color>
-    <color name="admission_accent">#FBC02D</color>
+    <color name="seat_plan_bg">#132430</color>
+    <color name="seat_plan_icon_container">#1A3545</color>
+    <color name="admission_result_bg">#102E28</color>
+    <color name="admission_result_icon_container">#163F37</color>
+    <color name="admission_bg">#1D1E30</color>
+    <color name="admission_accent">#7DD6C8</color>
 
-    <color name="icon_accent_blue">#004786</color>
-    <color name="icon_accent_purple">#4A0072</color>
-    <color name="icon_accent_red">#7F0000</color>
-    <color name="icon_accent_green">#004D40</color>
-    <color name="icon_accent_orange">#BF360C</color>
-    <color name="icon_accent_teal">#004D40</color>
-    <color name="icon_accent_brown">#3E2723</color>
-    <color name="icon_accent_indigo">#1A237E</color>
+    <color name="icon_accent_blue">#088BB3</color>
+    <color name="icon_accent_purple">#444A72</color>
+    <color name="icon_accent_red">#444A72</color>
+    <color name="icon_accent_green">#7DD6C8</color>
+    <color name="icon_accent_orange">#088BB3</color>
+    <color name="icon_accent_teal">#7DD6C8</color>
+    <color name="icon_accent_brown">#444A72</color>
+    <color name="icon_accent_indigo">#444A72</color>
 
-    <color name="calendar_primary">#A6C8FF</color>
-    <color name="calendar_weekend">#FFB4AB</color>
+    <color name="calendar_primary">#7DD6C8</color>
+    <color name="calendar_weekend">#088BB3</color>
 
     <!-- Emergency/Ambulance Dark Theme -->
-    <color name="emergency_primary">#FFB4AB</color>
-    <color name="emergency_secondary">#FFDAD6</color>
-    <color name="emergency_accent">#FF897D</color>
-    <color name="emergency_bg_tint">#3D1F21</color>
-    <color name="emergency_card_bg">#410002</color>
-    <color name="emergency_card_stroke">#93000A</color>
-    <color name="emergency_tips_bg">#1C1B1F</color>
+    <color name="emergency_primary">#7DD6C8</color>
+    <color name="emergency_secondary">#088BB3</color>
+    <color name="emergency_accent">#444A72</color>
+    <color name="emergency_bg_tint">#1D1E30</color>
+    <color name="emergency_card_bg">#1A1C1E</color>
+    <color name="emergency_card_stroke">#2A2C30</color>
+    <color name="emergency_tips_bg">#121314</color>
 
     <color name="white_text">#FFFFFF</color>
     <color name="white_text_secondary">#CCFFFFFF</color>

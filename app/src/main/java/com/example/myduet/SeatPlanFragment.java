@@ -60,9 +60,21 @@ public class SeatPlanFragment extends Fragment {
     }
 
     private void displaySeatPlan(SeatPlan seatPlan) {
-        binding.tvName.setText("Seat Plan Details");
-        binding.tvRoll.setText("Admission Roll: " + binding.etRollNumber.getText().toString());
+        if (seatPlan.getCandidateName() != null && !seatPlan.getCandidateName().trim().isEmpty()) {
+            binding.tvName.setText(seatPlan.getCandidateName());
+        } else {
+            binding.tvName.setText("Seat Plan Details");
+        }
+        binding.tvRoll.setText("Admission Roll: " + seatPlan.getSearchedRoll());
         
+        if (seatPlan.getCandidateFatherName() != null && !seatPlan.getCandidateFatherName().trim().isEmpty()) {
+            binding.rowFatherName.tvLabel.setText("Father's Name");
+            binding.rowFatherName.tvValue.setText(seatPlan.getCandidateFatherName());
+            binding.rowFatherName.getRoot().setVisibility(View.VISIBLE);
+        } else {
+            binding.rowFatherName.getRoot().setVisibility(View.GONE);
+        }
+
         binding.rowCenter.tvLabel.setText("Department");
         binding.rowCenter.tvValue.setText(seatPlan.getDepartment());
 

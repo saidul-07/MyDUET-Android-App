@@ -8,36 +8,36 @@
         "courseCode": "Math-2421",
         "courseName": "Linear Algebra and Complex Variables",
         "type": "Theory",
-        "time": "08:30 AM - 09:20 AM",
-        "room": "TWB - 517"
+        "time": "09:20 AM - 10:10 AM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "CSE-2321",
         "courseName": "Object Oriented Programming",
         "type": "Theory",
-        "time": "09:20 AM - 10:10 AM",
-        "room": "TWB - 517"
+        "time": "10:40 AM - 11:30 AM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "EEE-2823",
         "courseName": "Digital Electronics",
         "type": "Theory",
-        "time": "10:40 AM - 11:30 AM",
-        "room": "TWB - 517"
+        "time": "11:30 AM - 12:20 PM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "Math-2421",
         "courseName": "Linear Algebra and Complex Variables",
         "type": "Theory",
-        "time": "11:30 AM - 12:20 PM",
-        "room": "TWB - 517"
+        "time": "12:20 PM - 01:10 PM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "EEE-2824",
         "courseName": "Digital Electronics Sessional",
         "type": "Lab",
         "time": "02:00 PM - 04:30 PM",
-        "room": "TWB 313 / 318"
+        "room": "TWB 313 / 315"
       }
     ],
     "Monday": [
@@ -45,22 +45,22 @@
         "courseCode": "CSE-2521",
         "courseName": "Data Structures and Algorithms",
         "type": "Theory",
-        "time": "08:30 AM - 09:20 AM",
-        "room": "TWB - 517"
+        "time": "10:40 AM - 11:30 AM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "EEE-2823",
         "courseName": "Digital Electronics",
         "type": "Theory",
-        "time": "09:20 AM - 10:10 AM",
-        "room": "TWB - 517"
+        "time": "11:30 AM - 12:20 PM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "CSE-2124",
         "courseName": "Numerical Methods Sessional",
         "type": "Lab",
-        "time": "10:40 AM - 01:10 PM",
-        "room": "7020"
+        "time": "02:00 PM - 04:30 PM",
+        "room": "7010"
       }
     ],
     "Tuesday": [
@@ -68,29 +68,22 @@
         "courseCode": "Math-2421",
         "courseName": "Linear Algebra and Complex Variables",
         "type": "Theory",
-        "time": "08:30 AM - 09:20 AM",
-        "room": "TWB - 517"
+        "time": "09:20 AM - 10:10 AM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "CSE-2823",
         "courseName": "Digital Electronics",
         "type": "Theory",
-        "time": "09:20 AM - 10:10 AM",
-        "room": "TWB - 517"
+        "time": "10:40 AM - 11:30 AM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "CSE-2321",
         "courseName": "Object Oriented Programming",
         "type": "Theory",
-        "time": "10:40 AM - 11:30 AM",
-        "room": "TWB - 517"
-      },
-      {
-        "courseCode": "CSE-2823",
-        "courseName": "Digital Electronics",
-        "type": "Theory",
         "time": "11:30 AM - 12:20 PM",
-        "room": "TWB - 517"
+        "room": "TWB - 516"
       },
       {
         "courseCode": "CSE-2322",
@@ -102,39 +95,39 @@
     ],
     "Wednesday": [
       {
+        "courseCode": "CSE-2823",
+        "courseName": "Digital Electronics",
+        "type": "Theory",
+        "time": "08:30 AM - 09:20 AM",
+        "room": "TWB - 516"
+      },
+      {
         "courseCode": "Math-2421",
         "courseName": "Linear Algebra and Complex Variables",
         "type": "Theory",
-        "time": "08:30 AM - 09:20 AM",
-        "room": "TWB - 517"
+        "time": "09:20 AM - 10:10 AM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "CSE-2521",
         "courseName": "Data Structures and Algorithms",
         "type": "Theory",
-        "time": "09:20 AM - 10:10 AM",
-        "room": "TWB - 517"
+        "time": "10:40 AM - 11:30 AM",
+        "room": "TWB - 516"
       },
       {
         "courseCode": "CSE-2321",
         "courseName": "Object Oriented Programming",
         "type": "Theory",
-        "time": "10:40 AM - 11:30 AM",
-        "room": "TWB - 517"
-      },
-      {
-        "courseCode": "CSE-2521",
-        "courseName": "Data Structures and Algorithms",
-        "type": "Theory",
         "time": "11:30 AM - 12:20 PM",
-        "room": "TWB - 517"
+        "room": "TWB - 516"
       },
       {
         "courseCode": "CSE-2122 / CSE-2522",
         "courseName": "Assembly Sessional / Data Structures Sessional",
         "type": "Lab",
         "time": "02:00 PM - 04:30 PM",
-        "room": "7010 / 11010"
+        "room": "11010 / 7010"
       }
     ],
     "Thursday": [
@@ -143,28 +136,21 @@
         "courseName": "Data Structures and Algorithms",
         "type": "Theory",
         "time": "08:30 AM - 09:20 AM",
-        "room": "TWB - 517"
+        "room": "TWB - 516"
       },
       {
-        "courseCode": "EEE-2823",
-        "courseName": "Digital Electronics",
-        "type": "Theory",
-        "time": "09:20 AM - 10:10 AM",
-        "room": "TWB - 517"
-      },
-      {
-        "courseCode": "EEE-2823",
+        "courseCode": "CSE-2823",
         "courseName": "Digital Electronics",
         "type": "Theory",
         "time": "10:40 AM - 11:30 AM",
-        "room": "TWB - 517"
+        "room": "TWB - 516"
       },
       {
         "courseCode": "EEE-2823",
         "courseName": "Digital Electronics",
         "type": "Theory",
         "time": "11:30 AM - 12:20 PM",
-        "room": "TWB - 517"
+        "room": "TWB - 516"
       }
     ]
   }

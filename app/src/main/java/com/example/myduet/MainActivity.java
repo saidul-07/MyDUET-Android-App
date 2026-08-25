@@ -14,6 +14,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private androidx.viewpager2.widget.ViewPager2 viewPagerCarousel;
+    private android.widget.LinearLayout dotsContainer;
+    private final android.os.Handler sliderHandler = new android.os.Handler(android.os.Looper.getMainLooper());
+    private Runnable sliderRunnable;
+
     private final List<SearchItem> databaseIndex = java.util.Collections.synchronizedList(new ArrayList<>());
     private final List<AdmissionResult> admissionResultsList = java.util.Collections.synchronizedList(new ArrayList<>());
     private final List<SeatPlan> seatPlansList = java.util.Collections.synchronizedList(new ArrayList<>());
@@ -25,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setStatusBarColor(android.graphics.Color.parseColor("#004F90"));
+            getWindow().setStatusBarColor(android.graphics.Color.parseColor("#444A72"));
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
                 getWindow().getDecorView().setSystemUiVisibility(
                     getWindow().getDecorView().getSystemUiVisibility() & ~android.view.View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
@@ -33,6 +38,53 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         initializeSearchIndex();
+        setupNoticeSyncWork();
+        setupDataSyncWork();
+
+        viewPagerCarousel = findViewById(R.id.viewPagerCarousel);
+        dotsContainer = findViewById(R.id.dotsContainer);
+        CarouselAdapter carouselAdapter = new CarouselAdapter();
+        viewPagerCarousel.setAdapter(carouselAdapter);
+
+        int dotCount = carouselAdapter.getItemCount();
+        android.view.View[] dots = new android.view.View[dotCount];
+        android.widget.LinearLayout.LayoutParams params = new android.widget.LinearLayout.LayoutParams(
+            (int) android.util.TypedValue.applyDimension(android.util.TypedValue.COMPLEX_UNIT_DIP, 8, getResources().getDisplayMetrics()),
+            (int) android.util.TypedValue.applyDimension(android.util.TypedValue.COMPLEX_UNIT_DIP, 8, getResources().getDisplayMetrics())
+        );
+        params.setMargins(8, 0, 8, 0);
+
+        for (int i = 0; i < dotCount; i++) {
+            dots[i] = new android.view.View(this);
+            dots[i].setLayoutParams(params);
+            dots[i].setBackgroundResource(R.drawable.bg_circle);
+            dots[i].setAlpha(i == 0 ? 1.0f : 0.4f);
+            dots[i].setScaleX(i == 0 ? 1.2f : 1.0f);
+            dots[i].setScaleY(i == 0 ? 1.2f : 1.0f);
+            dots[i].setBackgroundTintList(android.content.res.ColorStateList.valueOf(android.graphics.Color.WHITE));
+            dotsContainer.addView(dots[i]);
+        }
+
+        viewPagerCarousel.registerOnPageChangeCallback(new androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageSelected(int position) {
+                for (int i = 0; i < dotCount; i++) {
+                    dots[i].setAlpha(i == position ? 1.0f : 0.4f);
+                    dots[i].setScaleX(i == position ? 1.2f : 1.0f);
+                    dots[i].setScaleY(i == position ? 1.2f : 1.0f);
+                }
+            }
+        });
+
+        sliderRunnable = new Runnable() {
+            @Override
+            public void run() {
+                int currentItem = viewPagerCarousel.getCurrentItem();
+                int nextItem = (currentItem + 1) % dotCount;
+                viewPagerCarousel.setCurrentItem(nextItem, true);
+                sliderHandler.postDelayed(this, 3000);
+            }
+        };
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setSelectedItemId(R.id.nav_home);
@@ -81,9 +133,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         findViewById(R.id.cardServices).setOnClickListener(v -> {
-            Intent intent = new Intent(this, WebViewActivity.class);
-            intent.putExtra("url", "https://www.duet.ac.bd/services");
-            intent.putExtra("title", getString(R.string.service_services));
+            Intent intent = new Intent(this, ServicesActivity.class);
             startActivity(intent);
         });
 
@@ -227,20 +277,37 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
 
-                // 2. Search Admission Seat Plans by Roll Number range
+                // 2. Search Admission Seat Plans by Roll Number
                 if (query.matches("\\d+")) {
                     int roll = Integer.parseInt(query);
                     for (SeatPlan sp : seatPlansList) {
-                        if (roll >= sp.startRoll && roll <= sp.endRoll) {
+                        if (roll == sp.roll) {
+                            String title = (sp.name != null && !sp.name.trim().isEmpty()) ? "Seat Plan: " + sp.name : "Seat Plan: Room " + sp.room + " (" + sp.building + ")";
+                            String desc = "Roll " + roll + " -> Room " + sp.room + " (" + sp.building + ")";
+                            
                             matches.add(new SearchItem(
-                                "Seat Plan: Room " + sp.room + " (" + sp.building + ")",
-                                "For Roll " + roll + " (Range: " + sp.startRoll + " - " + sp.endRoll + ")",
+                                title,
+                                desc,
                                 "SEAT PLAN",
                                 "",
                                 () -> {
+                                    StringBuilder msg = new StringBuilder();
+                                    if (sp.name != null && !sp.name.trim().isEmpty()) {
+                                        msg.append("Name: ").append(sp.name).append("\n");
+                                    }
+                                    if (sp.fatherName != null && !sp.fatherName.trim().isEmpty()) {
+                                        msg.append("Father's Name: ").append(sp.fatherName).append("\n\n");
+                                    }
+                                    msg.append("Your Roll: ").append(roll).append("\n");
+                                    msg.append("Department: ").append(sp.department).append("\n\n");
+                                    msg.append("Building: ").append(sp.building).append("\n");
+                                    msg.append("Room: ").append(sp.room).append("\n\n");
+                                    msg.append("Exam Date: ").append(sp.date).append("\n");
+                                    msg.append("Shift: ").append(sp.shift);
+
                                     new androidx.appcompat.app.AlertDialog.Builder(MainActivity.this)
                                         .setTitle("Seat Plan Details")
-                                        .setMessage("Your Roll: " + roll + "\nDepartment: " + sp.department + "\n\nBuilding: " + sp.building + "\nRoom: " + sp.room + "\n\nExam Date: " + sp.date + "\nShift: " + sp.shift)
+                                        .setMessage(msg.toString())
                                         .setPositiveButton("Close", null)
                                         .show();
                                 }
@@ -480,7 +547,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadSeatPlans() {
         try {
-            java.io.InputStream is = getAssets().open("seat_plan/seat_plan_2026.json");
+            java.io.InputStream is;
+            java.io.File cacheFile = new java.io.File(getCacheDir(), "latest_seat_plan.json");
+            if (cacheFile.exists()) {
+                is = new java.io.FileInputStream(cacheFile);
+            } else {
+                is = getAssets().open("seat_plan/2026/seat_plan_2026.json");
+            }
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
@@ -491,8 +564,9 @@ public class MainActivity extends AppCompatActivity {
                 org.json.JSONObject obj = arr.optJSONObject(i);
                 if (obj != null) {
                     SeatPlan sp = new SeatPlan();
-                    sp.startRoll = obj.optInt("startRoll");
-                    sp.endRoll = obj.optInt("endRoll");
+                    sp.roll = obj.optInt("roll");
+                    sp.name = obj.optString("name");
+                    sp.fatherName = obj.optString("fatherName");
                     sp.building = obj.optString("building");
                     sp.room = obj.optString("room");
                     sp.department = obj.optString("department");
@@ -538,6 +612,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
     private static class SearchItem {
         String title;
         String description;
@@ -563,8 +638,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private static class SeatPlan {
-        int startRoll;
-        int endRoll;
+        int roll;
+        String name;
+        String fatherName;
         String building;
         String room;
         String department;
@@ -700,5 +776,103 @@ public class MainActivity extends AppCompatActivity {
         }
 
         notificationDialog.show();
+    }
+
+    private void setupNoticeSyncWork() {
+        try {
+            androidx.work.Constraints constraints = new androidx.work.Constraints.Builder()
+                    .setRequiredNetworkType(androidx.work.NetworkType.CONNECTED)
+                    .build();
+
+            androidx.work.PeriodicWorkRequest syncRequest =
+                    new androidx.work.PeriodicWorkRequest.Builder(
+                            com.example.myduet.workers.NoticeSyncWorker.class,
+                            6, java.util.concurrent.TimeUnit.HOURS)
+                            .setConstraints(constraints)
+                            .build();
+
+            androidx.work.WorkManager.getInstance(this).enqueueUniquePeriodicWork(
+                    "NoticeSyncWork",
+                    androidx.work.ExistingPeriodicWorkPolicy.KEEP,
+                    syncRequest);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void setupDataSyncWork() {
+        try {
+            androidx.work.Constraints constraints = new androidx.work.Constraints.Builder()
+                    .setRequiredNetworkType(androidx.work.NetworkType.CONNECTED)
+                    .build();
+
+            androidx.work.PeriodicWorkRequest syncRequest =
+                    new androidx.work.PeriodicWorkRequest.Builder(
+                            com.example.myduet.workers.DataSyncWorker.class,
+                            24, java.util.concurrent.TimeUnit.HOURS)
+                            .setConstraints(constraints)
+                            .build();
+
+            androidx.work.WorkManager.getInstance(this).enqueueUniquePeriodicWork(
+                    "DataSyncWork",
+                    androidx.work.ExistingPeriodicWorkPolicy.KEEP,
+                    syncRequest);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (sliderRunnable != null) {
+            sliderHandler.postDelayed(sliderRunnable, 3000);
+        }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (sliderRunnable != null) {
+            sliderHandler.removeCallbacks(sliderRunnable);
+        }
+    }
+
+    static class CarouselAdapter extends androidx.recyclerview.widget.RecyclerView.Adapter<CarouselAdapter.ViewHolder> {
+        private final int[] images = {
+            R.drawable.duet_gate,
+            R.drawable.duet_campus,
+            R.drawable.duet_towers
+        };
+
+        @androidx.annotation.NonNull
+        @Override
+        public ViewHolder onCreateViewHolder(@androidx.annotation.NonNull android.view.ViewGroup parent, int viewType) {
+            android.widget.ImageView imageView = new android.widget.ImageView(parent.getContext());
+            imageView.setLayoutParams(new android.view.ViewGroup.LayoutParams(
+                android.view.ViewGroup.LayoutParams.MATCH_PARENT,
+                android.view.ViewGroup.LayoutParams.MATCH_PARENT
+            ));
+            imageView.setScaleType(android.widget.ImageView.ScaleType.CENTER_CROP);
+            return new ViewHolder(imageView);
+        }
+
+        @Override
+        public void onBindViewHolder(@androidx.annotation.NonNull ViewHolder holder, int position) {
+            holder.imageView.setImageResource(images[position]);
+        }
+
+        @Override
+        public int getItemCount() {
+            return images.length;
+        }
+
+        static class ViewHolder extends androidx.recyclerview.widget.RecyclerView.ViewHolder {
+            android.widget.ImageView imageView;
+            ViewHolder(android.widget.ImageView itemView) {
+                super(itemView);
+                imageView = itemView;
+            }
+        }
     }
 }

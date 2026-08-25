@@ -158,24 +158,24 @@ public class EventDetailFragment extends Fragment {
 
         switch (status) {
             case "Ongoing":
-                bgColor = Color.parseColor("#E8F5E9");
-                textColor = Color.parseColor("#2E7D32");
+                bgColor = Color.parseColor("#DCF6F2");
+                textColor = Color.parseColor("#206E62");
                 binding.tvDetailStatus.setText("🟢 ONGOING");
                 break;
             case "Upcoming":
-                bgColor = Color.parseColor("#E3F2FD");
-                textColor = Color.parseColor("#1565C0");
+                bgColor = Color.parseColor("#D7EFF7");
+                textColor = Color.parseColor("#044D63");
                 binding.tvDetailStatus.setText("🔵 UPCOMING");
                 break;
             case "Completed":
-                bgColor = Color.parseColor("#F5F5F5");
-                textColor = Color.parseColor("#616161");
+                bgColor = Color.parseColor("#DCE0EE");
+                textColor = Color.parseColor("#444A72");
                 binding.tvDetailStatus.setText("⚪ COMPLETED");
                 break;
             case "Cancelled":
             default:
-                bgColor = Color.parseColor("#FFEBEE");
-                textColor = Color.parseColor("#C62828");
+                bgColor = Color.parseColor("#DCE0EE");
+                textColor = Color.parseColor("#444A72");
                 binding.tvDetailStatus.setText("🔴 EVENT CANCELLED");
                 break;
         }
@@ -189,7 +189,7 @@ public class EventDetailFragment extends Fragment {
             binding.btnDetailRegister.setVisibility(View.VISIBLE);
             binding.btnDetailRegister.setEnabled(false);
             binding.btnDetailRegister.setText("Event Cancelled");
-            binding.btnDetailRegister.setBackgroundColor(Color.parseColor("#C62828"));
+            binding.btnDetailRegister.setBackgroundColor(Color.parseColor("#444A72"));
             return;
         }
 
@@ -204,7 +204,7 @@ public class EventDetailFragment extends Fragment {
         if (isClosed) {
             binding.btnDetailRegister.setText("Registration Closed");
             binding.btnDetailRegister.setEnabled(false);
-            binding.btnDetailRegister.setBackgroundColor(Color.parseColor("#B0B0B0"));
+            binding.btnDetailRegister.setBackgroundColor(Color.parseColor("#444A72"));
         } else {
             binding.btnDetailRegister.setText("Register Now →");
             binding.btnDetailRegister.setEnabled(true);

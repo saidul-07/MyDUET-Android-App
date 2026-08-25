@@ -9,20 +9,21 @@
 
     <!-- Material AppBar and Toolbar -->
     <com.google.android.material.appbar.AppBarLayout
+        android:background="?attr/colorPrimary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:elevation="0dp">
+        app:elevation="4dp">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbarTeachers"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorSurface"
+            android:background="?attr/colorPrimary"
             app:title="Faculty Directory"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="?attr/colorPrimary"
+            app:navigationIconTint="?attr/colorOnPrimary"
             app:titleCentered="false"
-            app:titleTextColor="?attr/colorOnSurface" />
+            app:titleTextColor="?attr/colorOnPrimary" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <!-- Child Fragment Container -->

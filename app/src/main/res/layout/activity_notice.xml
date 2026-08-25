@@ -8,17 +8,18 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        app:elevation="0dp">
+        android:background="?attr/colorPrimary"
+        app:elevation="4dp">
 
         <com.google.android.material.appbar.MaterialToolbar
+            android:background="?attr/colorPrimary"
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="?attr/colorPrimary"
+            app:navigationIconTint="?attr/colorOnPrimary"
             app:title="@string/notice_title"
-            app:titleTextColor="?attr/colorOnSurface"
+            app:titleTextColor="?attr/colorOnPrimary"
             android:fontFamily="sans-serif-medium">
 
             <LinearLayout
@@ -35,7 +36,7 @@
                     android:layout_marginEnd="16dp"
                     android:src="@drawable/ic_refresh"
                     app:tint="?attr/colorPrimary"
-                    android:contentDescription="@null" />
+                    android:contentDescription="Refresh Notices" />
             </LinearLayout>
 
         </com.google.android.material.appbar.MaterialToolbar>
@@ -66,6 +67,60 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Offline Banner -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardOfflineBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/primary"
+            app:cardBackgroundColor="@color/emergency_bg_tint"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚠️"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="8dp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Offline Mode"
+                        android:textColor="@color/primary"
+                        android:textSize="13sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/tvLastSyncTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Showing previously downloaded notices."
+                        android:textColor="@color/primary"
+                        android:textSize="11sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -156,6 +211,19 @@
                     android:layout_height="match_parent"
                     android:clipToPadding="false"
                     android:paddingBottom="24dp" />
+
+                <!-- Skeleton Loading -->
+                <LinearLayout
+                    android:id="@+id/skeletonLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+                    <include layout="@layout/notice_skeleton_item"/>
+                    <include layout="@layout/notice_skeleton_item"/>
+                    <include layout="@layout/notice_skeleton_item"/>
+                    <include layout="@layout/notice_skeleton_item"/>
+                </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/emptyState"

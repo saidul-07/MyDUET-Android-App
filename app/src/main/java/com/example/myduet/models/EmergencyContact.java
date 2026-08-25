@@ -9,6 +9,8 @@ public class EmergencyContact {
     private String email;
     private String location;
     private String hours;
+    private int iconResId;
+    private String iconResName;
 
     public EmergencyContact(String id, String name, String personName, String assistantName, 
                             String phone, String email, String location, String hours) {
@@ -20,6 +22,13 @@ public class EmergencyContact {
         this.email = email;
         this.location = location;
         this.hours = hours;
+        this.iconResId = 0;
+    }
+
+    public EmergencyContact(String id, String name, String personName, String assistantName, 
+                            String phone, String email, String location, String hours, int iconResId) {
+        this(id, name, personName, assistantName, phone, email, location, hours);
+        this.iconResId = iconResId;
     }
 
     public String getId() { return id; }
@@ -30,4 +39,7 @@ public class EmergencyContact {
     public String getEmail() { return email; }
     public String getLocation() { return location; }
     public String getHours() { return hours; }
+    public int getIconResId() { return iconResId; }
+    public void setIconResId(int iconResId) { this.iconResId = iconResId; }
+    public String getIconResName() { return iconResName; }
 }

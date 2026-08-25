@@ -66,13 +66,13 @@ public class MenuActivity extends AppCompatActivity {
         MenuServiceAdapter adapter = new MenuServiceAdapter(serviceItems, item -> {
             String title = item.title;
             if (title.equals(getString(R.string.menu_history))) {
-                openWebView("History of DUET", "https://www.duet.ac.bd/about/history");
+                startActivity(new Intent(this, HistoryActivity.class));
             } else if (title.equals(getString(R.string.menu_bus))) {
                 openWebView("Bus Information", "https://www.duet.ac.bd/page/transportation");
             } else if (title.equals(getString(R.string.menu_route))) {
-                showWayToCampusDialog();
+                startActivity(new Intent(this, RouteActivity.class));
             } else if (title.equals(getString(R.string.menu_gallery))) {
-                openWebView("Image Gallery", "https://www.duet.ac.bd/gallery");
+                startActivity(new Intent(this, GalleryActivity.class));
             } else if (title.equals(getString(R.string.menu_settings))) {
                 showSettingsDialog();
             } else if (title.equals(getString(R.string.menu_faq))) {

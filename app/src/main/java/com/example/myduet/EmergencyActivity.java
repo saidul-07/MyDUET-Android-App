@@ -19,7 +19,7 @@ public class EmergencyActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
-        LocaleHelper.styleAppBar(this, toolbar, "#D32F2F", "#B71C1C");
+        LocaleHelper.styleAppBar(this, toolbar, "#444A72", "#444A72");
 
         RecyclerView rv = findViewById(R.id.rvEmergencyCategories);
         rv.setLayoutManager(new LinearLayoutManager(this));
@@ -45,6 +45,9 @@ public class EmergencyActivity extends AppCompatActivity {
                     break;
                 case "6":
                     intent = new Intent(this, ICTActivity.class);
+                    break;
+                case "7":
+                    intent = new Intent(this, FacultyActivity.class);
                     break;
                 default:
                     return;

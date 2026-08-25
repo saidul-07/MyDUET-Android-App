@@ -36,6 +36,22 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
         EmergencyContact contact = list.get(position);
         holder.tvName.setText(contact.getName());
         holder.tvPhone.setText(contact.getPhone());
+        
+        if (holder.ivIcon != null) {
+            int iconRes = contact.getIconResId();
+            if (iconRes != 0) {
+                holder.ivIcon.setImageResource(iconRes);
+                if (holder.cardIcon != null) {
+                    holder.cardIcon.setVisibility(View.VISIBLE);
+                }
+            } else {
+                holder.ivIcon.setImageResource(R.drawable.ic_office);
+                if (holder.cardIcon != null) {
+                    holder.cardIcon.setVisibility(View.VISIBLE);
+                }
+            }
+        }
+        
         holder.itemView.setOnClickListener(v -> listener.onItemClick(contact));
     }
 
@@ -46,11 +62,15 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
 
     static class ViewHolder extends RecyclerView.ViewHolder {
         TextView tvName, tvPhone;
+        android.widget.ImageView ivIcon;
+        com.google.android.material.card.MaterialCardView cardIcon;
 
         ViewHolder(View view) {
             super(view);
             tvName = view.findViewById(R.id.tvContactName);
             tvPhone = view.findViewById(R.id.tvContactPhone);
+            ivIcon = view.findViewById(R.id.ivContactIcon);
+            cardIcon = view.findViewById(R.id.cardIcon);
         }
     }
 }

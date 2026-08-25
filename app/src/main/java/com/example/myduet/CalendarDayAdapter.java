@@ -37,6 +37,7 @@ public class CalendarDayAdapter extends RecyclerView.Adapter<CalendarDayAdapter.
         if (cell.dayNumber == 0) {
             holder.tvDayNumber.setText("");
             holder.vSelectedBg.setVisibility(View.GONE);
+            holder.vHolidayBg.setVisibility(View.GONE);
             holder.vHolidayDot.setVisibility(View.GONE);
             holder.itemView.setClickable(false);
         } else {
@@ -44,24 +45,26 @@ public class CalendarDayAdapter extends RecyclerView.Adapter<CalendarDayAdapter.
             holder.itemView.setClickable(true);
             
             int dayOfWeek = position % 7;
-            if (dayOfWeek == 5 || dayOfWeek == 6) {
-                holder.tvDayNumber.setTextColor(Color.parseColor("#E53935")); // Red for Fri/Sat
-            } else {
-                holder.tvDayNumber.setTextColor(androidx.core.content.ContextCompat.getColor(holder.itemView.getContext(), R.color.calendar_day_text));
-            }
             
             if (cell.isSelected) {
                 holder.vSelectedBg.setVisibility(View.VISIBLE);
+                holder.vHolidayBg.setVisibility(View.GONE);
+                holder.tvDayNumber.setTextColor(Color.WHITE);
+            } else if (cell.isHoliday) {
+                holder.vSelectedBg.setVisibility(View.GONE);
+                holder.vHolidayBg.setVisibility(View.VISIBLE);
                 holder.tvDayNumber.setTextColor(Color.WHITE);
             } else {
                 holder.vSelectedBg.setVisibility(View.GONE);
+                holder.vHolidayBg.setVisibility(View.GONE);
+                if (dayOfWeek == 5 || dayOfWeek == 6) {
+                    holder.tvDayNumber.setTextColor(Color.parseColor("#E53935")); // Red for Fri/Sat
+                } else {
+                    holder.tvDayNumber.setTextColor(androidx.core.content.ContextCompat.getColor(holder.itemView.getContext(), R.color.calendar_day_text));
+                }
             }
             
-            if (cell.isHoliday) {
-                holder.vHolidayDot.setVisibility(View.VISIBLE);
-            } else {
-                holder.vHolidayDot.setVisibility(View.GONE);
-            }
+            holder.vHolidayDot.setVisibility(View.GONE); // No dot, we use red background circle
             
             holder.itemView.setOnClickListener(v -> {
                 if (listener != null) {
@@ -90,12 +93,14 @@ public class CalendarDayAdapter extends RecyclerView.Adapter<CalendarDayAdapter.
 
     static class DayViewHolder extends RecyclerView.ViewHolder {
         View vSelectedBg;
+        View vHolidayBg;
         TextView tvDayNumber;
         View vHolidayDot;
 
         DayViewHolder(@NonNull View itemView) {
             super(itemView);
             vSelectedBg = itemView.findViewById(R.id.vSelectedBg);
+            vHolidayBg = itemView.findViewById(R.id.vHolidayBg);
             tvDayNumber = itemView.findViewById(R.id.tvDayNumber);
             vHolidayDot = itemView.findViewById(R.id.vHolidayDot);
         }

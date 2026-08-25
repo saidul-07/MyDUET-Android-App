@@ -93,68 +93,68 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentAdapter.Vi
             switch (key) {
                 case "cse":
                     emoji = "💻";
-                    accentColorHex = "#005FB0"; // Blue
-                    bgTintHex = "#E3F2FD";
+                    accentColorHex = "#088BB3";
+                    bgTintHex = "#D7EFF7";
                     break;
                 case "eee":
                     emoji = "⚡";
-                    accentColorHex = "#7B1FA2"; // Purple
-                    bgTintHex = "#F3E5F5";
+                    accentColorHex = "#444A72";
+                    bgTintHex = "#DCE0EE";
                     break;
                 case "ce":
                     emoji = "🏗️";
-                    accentColorHex = "#E65100"; // Orange
-                    bgTintHex = "#FFF3E0";
+                    accentColorHex = "#088BB3";
+                    bgTintHex = "#D7EFF7";
                     break;
                 case "me":
                     emoji = "⚙️";
-                    accentColorHex = "#C62828"; // Red
-                    bgTintHex = "#FFEBEE";
+                    accentColorHex = "#7DD6C8";
+                    bgTintHex = "#DCF6F2";
                     break;
                 case "te":
                     emoji = "🧵";
-                    accentColorHex = "#2E7D32"; // Green
-                    bgTintHex = "#E8F5E9";
+                    accentColorHex = "#444A72";
+                    bgTintHex = "#DCE0EE";
                     break;
                 case "arch":
                     emoji = "📐";
-                    accentColorHex = "#C2185B"; // Pink
-                    bgTintHex = "#FCE4EC";
+                    accentColorHex = "#444A72";
+                    bgTintHex = "#DCE0EE";
                     break;
                 case "ipe":
                     emoji = "🏭";
-                    accentColorHex = "#FF8F00"; // Amber
-                    bgTintHex = "#FFF8E1";
+                    accentColorHex = "#7DD6C8";
+                    bgTintHex = "#DCF6F2";
                     break;
                 case "fe":
                     emoji = "🌾";
-                    accentColorHex = "#00695C"; // Emerald
-                    bgTintHex = "#E0F2F1";
+                    accentColorHex = "#7DD6C8";
+                    bgTintHex = "#DCF6F2";
                     break;
                 case "che":
                     emoji = "🧪";
-                    accentColorHex = "#00838F"; // Cyan
-                    bgTintHex = "#E0F7FA";
+                    accentColorHex = "#088BB3";
+                    bgTintHex = "#D7EFF7";
                     break;
                 case "math":
                     emoji = "🧮";
-                    accentColorHex = "#D32F2F"; // Red
-                    bgTintHex = "#FFEBEE";
+                    accentColorHex = "#444A72";
+                    bgTintHex = "#DCE0EE";
                     break;
                 case "chem":
                     emoji = "⚗️";
-                    accentColorHex = "#388E3C"; // Green
-                    bgTintHex = "#E8F5E9";
+                    accentColorHex = "#7DD6C8";
+                    bgTintHex = "#DCF6F2";
                     break;
                 case "phy":
                     emoji = "⚛️";
-                    accentColorHex = "#0288D1"; // Light Blue
-                    bgTintHex = "#E1F5FE";
+                    accentColorHex = "#088BB3";
+                    bgTintHex = "#D7EFF7";
                     break;
                 case "hss":
                     emoji = "📚";
-                    accentColorHex = "#8E24AA"; // Purple
-                    bgTintHex = "#F3E5F5";
+                    accentColorHex = "#444A72";
+                    bgTintHex = "#DCE0EE";
                     break;
             }
 

@@ -20,8 +20,8 @@
         <item name="colorOutline">@color/md_theme_light_outline</item>
 
         <!-- Status Bar -->
-        <item name="android:statusBarColor">@color/md_theme_light_background</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
 
         <!-- Typography -->
         <item name="textAppearanceHeadlineLarge">@style/TextAppearance.MyDUET.HeadlineLarge</item>

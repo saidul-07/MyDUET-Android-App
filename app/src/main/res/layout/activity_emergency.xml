@@ -8,19 +8,20 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_emergency_appbar_gradient"
+        android:background="?attr/colorPrimary"
         android:fitsSystemWindows="true"
         app:elevation="4dp">
 
         <com.google.android.material.appbar.MaterialToolbar
+            android:background="?attr/colorPrimary"
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:paddingHorizontal="16dp"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="@color/white_text"
+            app:navigationIconTint="?attr/colorOnPrimary"
             app:title="Emergency"
-            app:titleTextColor="@color/white_text"
+            app:titleTextColor="?attr/colorOnPrimary"
             app:titleCentered="false"
             app:contentInsetStartWithNavigation="0dp" />
     </com.google.android.material.appbar.AppBarLayout>

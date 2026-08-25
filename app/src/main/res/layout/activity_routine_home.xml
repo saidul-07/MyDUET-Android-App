@@ -10,7 +10,8 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent">
+        android:background="?attr/colorPrimary"
+        app:elevation="4dp">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
@@ -24,13 +25,14 @@
                 android:orientation="vertical">
 
                 <com.google.android.material.appbar.MaterialToolbar
+            android:background="?attr/colorPrimary"
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
                     app:navigationIcon="@drawable/ic_back"
-                    app:navigationIconTint="@color/white"
+                    app:navigationIconTint="?attr/colorOnPrimary"
                     app:title="Class Routine"
-                    app:titleTextColor="@color/white">
+                    app:titleTextColor="?attr/colorOnPrimary">
 
                     <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/btnChangeProfile"

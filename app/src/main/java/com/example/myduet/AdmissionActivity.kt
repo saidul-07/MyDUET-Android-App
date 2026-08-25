@@ -28,7 +28,7 @@ class AdmissionActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar)
-        LocaleHelper.styleAppBar(this, toolbar, "#F57C00", "#E65100")
+        LocaleHelper.styleAppBar(this, toolbar, "#444A72", "#444A72")
         toolbar.setNavigationOnClickListener {
             if (!navController.navigateUp(appBarConfiguration)) {
                 finish()

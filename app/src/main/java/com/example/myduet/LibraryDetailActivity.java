@@ -18,7 +18,7 @@ public class LibraryDetailActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
         toolbar.setTitle(title);
-        LocaleHelper.styleAppBar(this, toolbar, "#8E24AA", "#7B1FA2");
+        LocaleHelper.styleAppBar(this, toolbar, "#444A72", "#444A72");
 
         TextView tvTitle = findViewById(R.id.tvDetailTitle);
         tvTitle.setText(title);

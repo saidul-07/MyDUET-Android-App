@@ -57,10 +57,8 @@ public class CalenderActivity extends AppCompatActivity {
         loadCalendarEvents();
 
         currentDisplayCalendar = Calendar.getInstance();
-        currentDisplayCalendar.set(Calendar.YEAR, 2026);
-        currentDisplayCalendar.set(Calendar.MONTH, Calendar.AUGUST);
+        selectedDay = currentDisplayCalendar.get(Calendar.DAY_OF_MONTH);
         currentDisplayCalendar.set(Calendar.DAY_OF_MONTH, 1);
-        selectedDay = 1;
 
         tvMonthYear = findViewById(R.id.tvMonthYear);
         ImageButton btnPrevMonth = findViewById(R.id.btnPrevMonth);
@@ -113,7 +111,7 @@ public class CalenderActivity extends AppCompatActivity {
 
         com.google.android.material.appbar.MaterialToolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setNavigationOnClickListener(v -> onBackPressed());
-        LocaleHelper.styleAppBar(this, toolbar, "#0D47A1", "#0B3D91");
+        LocaleHelper.styleAppBar(this, toolbar, "#444A72", "#444A72");
     }
 
     private void loadCalendarEvents() {
