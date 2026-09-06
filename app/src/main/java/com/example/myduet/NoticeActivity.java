@@ -29,8 +29,6 @@ import com.example.myduet.workers.NoticeSyncWorker;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
-import com.google.android.material.search.SearchBar;
-import com.google.android.material.search.SearchView;
 import com.google.android.material.snackbar.Snackbar;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -54,7 +52,6 @@ public class NoticeActivity extends AppCompatActivity {
         setupToolbar();
         setupRecyclerView();
         setupCategoryFilter();
-        setupSearch();
         setupViewModel();
         setupWorkManager();
     }
@@ -74,7 +71,7 @@ public class NoticeActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> onBackPressed());
-        LocaleHelper.styleAppBar(this, toolbar, "#444A72", "#444A72");
+        LocaleHelper.styleAppBar(this, toolbar, "#76C457", "#4A8C34");
 
         ImageView btnRefresh = findViewById(R.id.btnRefresh);
         if (btnRefresh != null) {
@@ -97,7 +94,8 @@ public class NoticeActivity extends AppCompatActivity {
                 url = "https://docs.google.com/gview?embedded=true&url=" + url;
             }
             intent.putExtra("url", url);
-            intent.putExtra("title", notice.getTitle());
+            intent.putExtra("title", "Notice Preview");
+            intent.putExtra("isNotice", true);
             startActivity(intent);
         });
         rvNotices.setAdapter(adapter);
@@ -110,30 +108,6 @@ public class NoticeActivity extends AppCompatActivity {
                 Chip chip = findViewById(checkedIds.get(0));
                 viewModel.setCategory(chip.getText().toString());
             }
-        });
-    }
-
-    private void setupSearch() {
-        SearchBar searchBar = findViewById(R.id.search_bar);
-        SearchView searchView = findViewById(R.id.search_view);
-
-        searchView.getEditText().setOnEditorActionListener((v, actionId, event) -> {
-            String query = searchView.getText().toString();
-            searchBar.setText(query);
-            viewModel.setSearchQuery(query);
-            searchView.hide();
-            return false;
-        });
-
-        searchView.getEditText().addTextChangedListener(new android.text.TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                viewModel.setSearchQuery(s.toString());
-            }
-            @Override
-            public void afterTextChanged(android.text.Editable s) {}
         });
     }
 

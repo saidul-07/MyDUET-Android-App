@@ -24,14 +24,8 @@ public abstract class BaseContactActivity extends AppCompatActivity {
         }
         toolbar.setNavigationOnClickListener(v -> finish());
 
-        String bgColor = "#444A72";
-        String activityName = this.getClass().getSimpleName();
-        if (activityName.contains("Medical")) {
-            bgColor = "#7DD6C8";
-        } else if (activityName.contains("Transport") || activityName.contains("ICT") || activityName.contains("Institute") || activityName.contains("ResearchCenter")) {
-            bgColor = "#088BB3";
-        }
-        String statusBarColor = bgColor;
+        String bgColor = "#76C457";
+        String statusBarColor = "#4A8C34";
         LocaleHelper.styleAppBar(this, toolbar, bgColor, statusBarColor);
 
         RecyclerView rv = findViewById(R.id.rvContacts);

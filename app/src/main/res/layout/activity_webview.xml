@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="?android:attr/windowBackground">
+    android:background="@color/background">
 
-    <!-- Web App Bar -->
+    <!-- Material AppBar -->
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,27 +19,87 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Faculty Profile"
+            app:title="Notice Preview"
             app:titleTextColor="?attr/colorOnPrimary"
             app:navigationIcon="@drawable/ic_back"
             app:navigationIconTint="?attr/colorOnPrimary"
-            app:titleCentered="true" />
+            app:titleCentered="false" />
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!-- Horizontal Loading Progress Bar -->
-    <com.google.android.material.progressindicator.LinearProgressIndicator
-        android:id="@+id/progressBarWeb"
+    <!-- Main Container Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingHorizontal="14dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp">
+
+        <!-- Rounded Document Preview Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardPreviewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/white"
+            app:strokeWidth="0.5dp"
+            app:strokeColor="@color/divider">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- In-App Document WebView -->
+                <android.webkit.WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <!-- Loading Indicator -->
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/progressBarWeb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:indeterminate="false"
+                    app:trackThickness="3dp"
+                    app:indicatorColor="@color/primary"
+                    app:trackColor="@color/primary_light" />
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <!-- Bottom Action Container -->
+    <LinearLayout
+        android:id="@+id/layoutBottomAction"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:indeterminate="false"
-        app:trackThickness="3dp"
-        app:indicatorColor="@color/primary"
-        app:trackColor="@color/divider" />
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:background="@color/white"
+        android:elevation="6dp">
 
-    <!-- In-App WebView -->
-    <android.webkit.WebView
-        android:id="@+id/webView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDownloadNotice"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Download PDF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_download"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            app:iconTint="@color/white"
+            app:cornerRadius="14dp"
+            app:backgroundTint="@color/primary" />
+
+    </LinearLayout>
 
 </LinearLayout>

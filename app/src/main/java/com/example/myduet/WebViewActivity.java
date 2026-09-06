@@ -29,6 +29,8 @@ public class WebViewActivity extends AppCompatActivity {
         binding = ActivityWebviewBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        LocaleHelper.styleAppBar(this, binding.toolbarWebView, "#76C457", "#4A8C34");
+
         String url = getIntent().getStringExtra("url");
         String title = getIntent().getStringExtra("title");
 
@@ -40,30 +42,26 @@ public class WebViewActivity extends AppCompatActivity {
             }
         }
 
-        if (title != null && !title.isEmpty()) {
+        boolean isNotice = getIntent().getBooleanExtra("isNotice", false);
+        if (isNotice || (url != null && url.contains("docs.google.com/gview")) || title == null || title.isEmpty() || title.equalsIgnoreCase("Notice Preview")) {
+            binding.toolbarWebView.setTitle("Notice Preview");
+        } else {
             binding.toolbarWebView.setTitle(title);
         }
 
+        binding.toolbarWebView.setNavigationIcon(R.drawable.ic_back);
         binding.toolbarWebView.setNavigationOnClickListener(v -> finish());
 
-        // Inflate action menu programmatically for downloading/opening externally
-        binding.toolbarWebView.getMenu().add(0, 1, 0, "Download")
-                .setIcon(R.drawable.ic_download)
-                .setShowAsAction(android.view.MenuItem.SHOW_AS_ACTION_ALWAYS);
-
-        binding.toolbarWebView.setOnMenuItemClickListener(item -> {
-            if (item.getItemId() == 1) {
-                if (originalUrl != null && !originalUrl.isEmpty()) {
-                    try {
-                        android.content.Intent intent = new android.content.Intent(android.content.Intent.ACTION_VIEW, android.net.Uri.parse(originalUrl));
-                        startActivity(intent);
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
+        // Setup Bottom Download Button
+        binding.btnDownloadNotice.setOnClickListener(v -> {
+            if (originalUrl != null && !originalUrl.isEmpty()) {
+                try {
+                    android.content.Intent intent = new android.content.Intent(android.content.Intent.ACTION_VIEW, android.net.Uri.parse(originalUrl));
+                    startActivity(intent);
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
-                return true;
             }
-            return false;
         });
 
         setupWebView();

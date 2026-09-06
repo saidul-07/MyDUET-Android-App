@@ -111,7 +111,7 @@ public class CalenderActivity extends AppCompatActivity {
 
         com.google.android.material.appbar.MaterialToolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setNavigationOnClickListener(v -> onBackPressed());
-        LocaleHelper.styleAppBar(this, toolbar, "#444A72", "#444A72");
+        LocaleHelper.styleAppBar(this, toolbar, "#76C457", "#4A8C34");
     }
 
     private void loadCalendarEvents() {

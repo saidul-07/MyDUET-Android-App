@@ -204,6 +204,8 @@
         android:background="?attr/colorSurface"
         app:elevation="8dp"
         app:menu="@menu/bottom_nav_menu"
-        app:labelVisibilityMode="labeled" />
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/bottom_nav_color_selector"
+        app:itemTextColor="@color/bottom_nav_color_selector" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

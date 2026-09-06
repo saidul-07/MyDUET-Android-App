@@ -4,30 +4,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F4F8"
+    android:background="@drawable/bg_premium_gradient"
     android:fitsSystemWindows="true">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        app:elevation="4dp">
+        android:background="@color/primary"
+        app:elevation="2dp">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/primary"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="?attr/colorOnPrimary"
-            app:title="Services"
-            app:titleTextColor="?attr/colorOnPrimary" />
+            app:navigationIconTint="@color/white"
+            app:title="DUET Services"
+            app:titleTextColor="@color/white" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingBottom="100dp"
+        android:paddingBottom="40dp"
         android:clipToPadding="false"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
@@ -42,12 +42,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Academic &amp; Student Services"
-                android:textColor="#1565C0"
+                android:textColor="@color/primary_dark"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-medium"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="4dp"
                 android:layout_marginBottom="8dp" />
 
             <!-- Row 1: UGR & PGR -->
@@ -60,15 +60,11 @@
                 <!-- UGR Card -->
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_ugr"
+                    style="@style/Widget.MyDUET.PremiumCard"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_margin="6dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="2dp"
-                    app:strokeWidth="0dp"
-                    app:cardBackgroundColor="#F8FAFC"
-                    app:rippleColor="?attr/colorControlHighlight"
                     android:clickable="true"
                     android:focusable="true">
 
@@ -77,30 +73,27 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:gravity="center"
-                        android:padding="20dp">
+                        android:padding="18dp"
+                        android:background="?attr/selectableItemBackground">
 
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="28dp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp"
-                            app:cardBackgroundColor="#E8EAF6">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/primary_light">
 
                             <ImageView
                                 android:layout_width="26dp"
                                 android:layout_height="26dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_school"
-                                app:tint="#444A72" />
+                                app:tint="@color/primary_dark" />
                         </com.google.android.material.card.MaterialCardView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
+                            android:layout_marginTop="10dp"
                             android:text="UGR"
-                            android:textColor="#1A237E"
+                            android:textColor="@color/text_primary"
                             android:textSize="14sp"
                             android:textStyle="bold"
                             android:fontFamily="sans-serif-medium"
@@ -111,15 +104,11 @@
                 <!-- PGR Card -->
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_pgr"
+                    style="@style/Widget.MyDUET.PremiumCard"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_margin="6dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="2dp"
-                    app:strokeWidth="0dp"
-                    app:cardBackgroundColor="#F8FAFC"
-                    app:rippleColor="?attr/colorControlHighlight"
                     android:clickable="true"
                     android:focusable="true">
 
@@ -128,30 +117,27 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:gravity="center"
-                        android:padding="20dp">
+                        android:padding="18dp"
+                        android:background="?attr/selectableItemBackground">
 
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="28dp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp"
-                            app:cardBackgroundColor="#E8EAF6">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/primary_light">
 
                             <ImageView
                                 android:layout_width="26dp"
                                 android:layout_height="26dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_research"
-                                app:tint="#444A72" />
+                                app:tint="@color/primary_dark" />
                         </com.google.android.material.card.MaterialCardView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
+                            android:layout_marginTop="10dp"
                             android:text="PGR"
-                            android:textColor="#1A237E"
+                            android:textColor="@color/text_primary"
                             android:textSize="14sp"
                             android:textStyle="bold"
                             android:fontFamily="sans-serif-medium"
@@ -171,15 +157,11 @@
                 <!-- E-Learning Card -->
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_elearning"
+                    style="@style/Widget.MyDUET.PremiumCard"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_margin="6dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="2dp"
-                    app:strokeWidth="0dp"
-                    app:cardBackgroundColor="#F8FAFC"
-                    app:rippleColor="?attr/colorControlHighlight"
                     android:clickable="true"
                     android:focusable="true">
 
@@ -188,30 +170,27 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:gravity="center"
-                        android:padding="20dp">
+                        android:padding="18dp"
+                        android:background="?attr/selectableItemBackground">
 
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="28dp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp"
-                            app:cardBackgroundColor="#E8EAF6">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/primary_light">
 
                             <ImageView
                                 android:layout_width="26dp"
                                 android:layout_height="26dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_book"
-                                app:tint="#444A72" />
+                                app:tint="@color/primary_dark" />
                         </com.google.android.material.card.MaterialCardView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
+                            android:layout_marginTop="10dp"
                             android:text="E-Learning"
-                            android:textColor="#1A237E"
+                            android:textColor="@color/text_primary"
                             android:textSize="14sp"
                             android:textStyle="bold"
                             android:fontFamily="sans-serif-medium"
@@ -222,15 +201,11 @@
                 <!-- Question Bank Card -->
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_question_bank"
+                    style="@style/Widget.MyDUET.PremiumCard"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_margin="6dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="2dp"
-                    app:strokeWidth="0dp"
-                    app:cardBackgroundColor="#F8FAFC"
-                    app:rippleColor="?attr/colorControlHighlight"
                     android:clickable="true"
                     android:focusable="true">
 
@@ -239,30 +214,27 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:gravity="center"
-                        android:padding="20dp">
+                        android:padding="18dp"
+                        android:background="?attr/selectableItemBackground">
 
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="28dp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp"
-                            app:cardBackgroundColor="#E8EAF6">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/primary_light">
 
                             <ImageView
                                 android:layout_width="26dp"
                                 android:layout_height="26dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_library"
-                                app:tint="#444A72" />
+                                app:tint="@color/primary_dark" />
                         </com.google.android.material.card.MaterialCardView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
+                            android:layout_marginTop="10dp"
                             android:text="Question Bank"
-                            android:textColor="#1A237E"
+                            android:textColor="@color/text_primary"
                             android:textSize="14sp"
                             android:textStyle="bold"
                             android:fontFamily="sans-serif-medium"
@@ -272,21 +244,17 @@
 
             </LinearLayout>
 
-            <!-- Spacer -->
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
             <!-- Administrative Services Category -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Administrative Services"
-                android:textColor="#1565C0"
+                android:textColor="@color/primary_dark"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-medium"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp" />
 
             <!-- Row 1: Clearance System & Payroll -->
@@ -299,15 +267,11 @@
                 <!-- Clearance System Card -->
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_clearance"
+                    style="@style/Widget.MyDUET.PremiumCard"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_margin="6dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="2dp"
-                    app:strokeWidth="0dp"
-                    app:cardBackgroundColor="#F8FAFC"
-                    app:rippleColor="?attr/colorControlHighlight"
                     android:clickable="true"
                     android:focusable="true">
 
@@ -316,30 +280,27 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:gravity="center"
-                        android:padding="20dp">
+                        android:padding="18dp"
+                        android:background="?attr/selectableItemBackground">
 
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="28dp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp"
-                            app:cardBackgroundColor="#E8EAF6">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/primary_light">
 
                             <ImageView
                                 android:layout_width="26dp"
                                 android:layout_height="26dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_check"
-                                app:tint="#444A72" />
+                                app:tint="@color/primary_dark" />
                         </com.google.android.material.card.MaterialCardView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
+                            android:layout_marginTop="10dp"
                             android:text="Clearance System"
-                            android:textColor="#1A237E"
+                            android:textColor="@color/text_primary"
                             android:textSize="14sp"
                             android:textStyle="bold"
                             android:fontFamily="sans-serif-medium"
@@ -350,15 +311,11 @@
                 <!-- Payroll Card -->
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_payroll"
+                    style="@style/Widget.MyDUET.PremiumCard"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_margin="6dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="2dp"
-                    app:strokeWidth="0dp"
-                    app:cardBackgroundColor="#F8FAFC"
-                    app:rippleColor="?attr/colorControlHighlight"
                     android:clickable="true"
                     android:focusable="true">
 
@@ -367,30 +324,27 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:gravity="center"
-                        android:padding="20dp">
+                        android:padding="18dp"
+                        android:background="?attr/selectableItemBackground">
 
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="28dp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp"
-                            app:cardBackgroundColor="#E8EAF6">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/primary_light">
 
                             <ImageView
                                 android:layout_width="26dp"
                                 android:layout_height="26dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_update"
-                                app:tint="#444A72" />
+                                app:tint="@color/primary_dark" />
                         </com.google.android.material.card.MaterialCardView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
+                            android:layout_marginTop="10dp"
                             android:text="Payroll"
-                            android:textColor="#1A237E"
+                            android:textColor="@color/text_primary"
                             android:textSize="14sp"
                             android:textStyle="bold"
                             android:fontFamily="sans-serif-medium"
@@ -410,15 +364,11 @@
                 <!-- Utility Contact Card -->
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_utility"
+                    style="@style/Widget.MyDUET.PremiumCard"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_margin="6dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="2dp"
-                    app:strokeWidth="0dp"
-                    app:cardBackgroundColor="#F8FAFC"
-                    app:rippleColor="?attr/colorControlHighlight"
                     android:clickable="true"
                     android:focusable="true">
 
@@ -427,30 +377,27 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:gravity="center"
-                        android:padding="20dp">
+                        android:padding="18dp"
+                        android:background="?attr/selectableItemBackground">
 
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="28dp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp"
-                            app:cardBackgroundColor="#E8EAF6">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/primary_light">
 
                             <ImageView
                                 android:layout_width="26dp"
                                 android:layout_height="26dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_contacts"
-                                app:tint="#444A72" />
+                                app:tint="@color/primary_dark" />
                         </com.google.android.material.card.MaterialCardView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
+                            android:layout_marginTop="10dp"
                             android:text="Utility Contact"
-                            android:textColor="#1A237E"
+                            android:textColor="@color/text_primary"
                             android:textSize="14sp"
                             android:textStyle="bold"
                             android:fontFamily="sans-serif-medium"
@@ -461,15 +408,11 @@
                 <!-- Vehicle Requisition Card -->
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_vehicle"
+                    style="@style/Widget.MyDUET.PremiumCard"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_margin="6dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="2dp"
-                    app:strokeWidth="0dp"
-                    app:cardBackgroundColor="#F8FAFC"
-                    app:rippleColor="?attr/colorControlHighlight"
                     android:clickable="true"
                     android:focusable="true">
 
@@ -478,30 +421,27 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:gravity="center"
-                        android:padding="20dp">
+                        android:padding="18dp"
+                        android:background="?attr/selectableItemBackground">
 
                         <com.google.android.material.card.MaterialCardView
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
-                            app:cardCornerRadius="28dp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp"
-                            app:cardBackgroundColor="#E8EAF6">
+                            style="@style/Widget.MyDUET.QuickServiceIcon"
+                            app:cardBackgroundColor="@color/primary_light">
 
                             <ImageView
                                 android:layout_width="26dp"
                                 android:layout_height="26dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/ic_bus"
-                                app:tint="#444A72" />
+                                app:tint="@color/primary_dark" />
                         </com.google.android.material.card.MaterialCardView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
+                            android:layout_marginTop="10dp"
                             android:text="Vehicle Requisition"
-                            android:textColor="#1A237E"
+                            android:textColor="@color/text_primary"
                             android:textSize="14sp"
                             android:textStyle="bold"
                             android:fontFamily="sans-serif-medium"

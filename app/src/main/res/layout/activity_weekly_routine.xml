@@ -3,23 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?android:attr/windowBackground">
+    android:background="@drawable/bg_premium_gradient"
+    android:fitsSystemWindows="true">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        app:elevation="4dp">
+        android:background="@color/primary"
+        app:elevation="2dp">
 
         <com.google.android.material.appbar.MaterialToolbar
-            android:background="?attr/colorPrimary"
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:background="@color/primary"
             app:navigationIcon="@drawable/ic_back"
-            app:navigationIconTint="?attr/colorOnPrimary"
+            app:navigationIconTint="@color/white"
             app:title="Weekly Routine"
-            app:titleTextColor="?attr/colorOnPrimary" />
+            app:titleTextColor="@color/white" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"

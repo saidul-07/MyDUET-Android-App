@@ -29,7 +29,7 @@ class WeeklyRoutineActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
         binding.toolbar.setNavigationOnClickListener { finish() }
-        LocaleHelper.styleAppBar(this, binding.toolbar, "#444A72", "#444A72")
+        LocaleHelper.styleAppBar(this, binding.toolbar, "#76C457", "#4A8C34")
 
         binding.chipGroupDays.setOnCheckedStateChangeListener { _, checkedIds ->
             if (checkedIds.isNotEmpty()) {

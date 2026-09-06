@@ -149,6 +149,9 @@
                         style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        app:chipBackgroundColor="@color/chip_background_selector"
+                        app:chipStrokeWidth="0dp"
+                        android:textColor="@color/chip_text_selector"
                         android:text="Sunday" />
 
                     <com.google.android.material.chip.Chip
@@ -156,6 +159,9 @@
                         style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        app:chipBackgroundColor="@color/chip_background_selector"
+                        app:chipStrokeWidth="0dp"
+                        android:textColor="@color/chip_text_selector"
                         android:text="Monday" />
 
                     <com.google.android.material.chip.Chip
@@ -163,6 +169,9 @@
                         style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        app:chipBackgroundColor="@color/chip_background_selector"
+                        app:chipStrokeWidth="0dp"
+                        android:textColor="@color/chip_text_selector"
                         android:text="Tuesday" />
 
                     <com.google.android.material.chip.Chip
@@ -170,6 +179,9 @@
                         style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        app:chipBackgroundColor="@color/chip_background_selector"
+                        app:chipStrokeWidth="0dp"
+                        android:textColor="@color/chip_text_selector"
                         android:text="Wednesday" />
 
                     <com.google.android.material.chip.Chip
@@ -177,6 +189,9 @@
                         style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        app:chipBackgroundColor="@color/chip_background_selector"
+                        app:chipStrokeWidth="0dp"
+                        android:textColor="@color/chip_text_selector"
                         android:text="Thursday" />
 
                 </com.google.android.material.chip.ChipGroup>
@@ -196,9 +211,9 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:fontFamily="sans-serif-black"
+                    android:fontFamily="sans-serif-medium"
                     android:text="Today's Routine"
-                    android:textColor="?attr/colorOnSurface" />
+                    android:textColor="@color/text_primary" />
 
                 <TextView
                     android:id="@+id/tvClassCount"
@@ -206,7 +221,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4 Classes"
-                    android:textColor="?attr/colorOnSurfaceVariant" />
+                    android:textColor="@color/text_secondary" />
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -239,9 +254,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:fontFamily="sans-serif-black"
+                    android:fontFamily="sans-serif-bold"
                     android:text="No Classes Today"
-                    android:textColor="?attr/colorOnSurface" />
+                    android:textColor="@color/text_primary" />
 
                 <TextView
                     style="@style/TextAppearance.Material3.BodyLarge"
@@ -249,21 +264,22 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Enjoy your day!"
-                    android:textColor="?attr/colorOnSurfaceVariant" />
+                    android:textColor="@color/text_secondary" />
             </LinearLayout>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnViewWeekly"
-                style="@style/Widget.Material3.Button.TonalButton"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="56dp"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="32dp"
+                android:backgroundTint="@color/primary"
+                android:textColor="@color/white"
                 android:text="View Full Weekly Routine"
                 android:textAllCaps="false"
                 android:textStyle="bold"
-                app:cornerRadius="18dp" />
+                app:cornerRadius="16dp" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

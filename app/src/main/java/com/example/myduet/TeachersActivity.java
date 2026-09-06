@@ -19,7 +19,7 @@ public class TeachersActivity extends AppCompatActivity {
 
         // Setup Toolbar back navigation
         binding.toolbarTeachers.setNavigationOnClickListener(v -> onBackPressed());
-        LocaleHelper.styleAppBar(this, binding.toolbarTeachers, "#444A72", "#444A72");
+        LocaleHelper.styleAppBar(this, binding.toolbarTeachers, "#76C457", "#4A8C34");
 
         // Show default fragment (Directory Home)
         if (savedInstanceState == null) {

@@ -91,8 +91,8 @@ public class SplashActivity extends AppCompatActivity {
             findViewById(R.id.dot3)
         };
         
-        final int activeColor = Color.parseColor("#444A72");
-        final int inactiveColor = Color.parseColor("#DCE0EE");
+        final int activeColor = Color.parseColor("#FFFFFF");
+        final int inactiveColor = Color.parseColor("#66FFFFFF");
 
         dotRunnable = new Runnable() {
             @Override

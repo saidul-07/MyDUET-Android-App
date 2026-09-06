@@ -1,114 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Premium UI Palette -->
-    <color name="md_theme_light_primary">#444A72</color>
+    <!-- Brand Green Theme Palette -->
+    <color name="primary">#76C457</color>
+    <color name="primary_dark">#4A8C34</color>
+    <color name="primary_darker">#386E28</color>
+    <color name="primary_light">#E8F5E4</color>
+    <color name="primary_container">#E8F5E4</color>
+    <color name="on_primary_container">#1A4310</color>
+
+    <!-- Material 3 Color Tokens -->
+    <color name="md_theme_light_primary">#76C457</color>
     <color name="md_theme_light_onPrimary">#FFFFFF</color>
-    <color name="calendar_day_text">#212121</color>
-    <color name="md_theme_light_primaryContainer">#DCE0EE</color>
-    <color name="md_theme_light_onPrimaryContainer">#14182B</color>
+    <color name="md_theme_light_primaryContainer">#E8F5E4</color>
+    <color name="md_theme_light_onPrimaryContainer">#1A4310</color>
 
-    <color name="md_theme_light_secondary">#088BB3</color>
+    <color name="md_theme_light_secondary">#539937</color>
     <color name="md_theme_light_onSecondary">#FFFFFF</color>
-    <color name="md_theme_light_secondaryContainer">#D7EFF7</color>
-    <color name="md_theme_light_onSecondaryContainer">#00202C</color>
+    <color name="md_theme_light_secondaryContainer">#DDF2D8</color>
+    <color name="md_theme_light_onSecondaryContainer">#13380C</color>
 
-    <color name="md_theme_light_background">#FFFFFF</color> <!-- Clean white background -->
-    <color name="md_theme_light_onBackground">#1A1C1E</color>
+    <color name="md_theme_light_background">#F5FAF3</color>
+    <color name="md_theme_light_onBackground">#191D18</color>
     <color name="md_theme_light_surface">#FFFFFF</color>
-    <color name="md_theme_light_onSurface">#1A1C1E</color>
-    <color name="md_theme_light_surfaceVariant">#E2E4EE</color>
-    <color name="md_theme_light_onSurfaceVariant">#44474E</color>
-    <color name="md_theme_light_outline">#74777F</color>
+    <color name="md_theme_light_onSurface">#191D18</color>
+    <color name="md_theme_light_surfaceVariant">#E2ECE0</color>
+    <color name="md_theme_light_onSurfaceVariant">#495447</color>
+    <color name="md_theme_light_outline">#D2E0D1</color>
+    <color name="md_theme_light_outlineVariant">#E6EFE5</color>
 
+    <!-- Text Colors -->
+    <color name="white">#FFFFFF</color>
     <color name="white_text">#FFFFFF</color>
-    <color name="white_text_secondary">#CCFFFFFF</color>
+    <color name="white_text_secondary">#E6FFFFFF</color>
+    <color name="black">#191D18</color>
+    <color name="text_primary">#191D18</color>
+    <color name="gray_text">#5F6B5E</color>
+    <color name="text_secondary">#5F6B5E</color>
+    <color name="text_muted">#8A9688</color>
+    <color name="calendar_day_text">#191D18</color>
+
+    <!-- Backgrounds & Borders -->
+    <color name="background">#F5FAF3</color>
+    <color name="card_surface">#FFFFFF</color>
+    <color name="card_border">#E5ECE4</color>
+    <color name="divider">#E8EFE7</color>
 
     <!-- Glassmorphism & Overlay Colors -->
-    <color name="glass_white">#BCFFFFFF</color>
-    <color name="glass_blue">#B0DCE0EE</color>
-    <color name="surface_overlay">#0D000000</color>
+    <color name="glass_white">#D9FFFFFF</color>
+    <color name="glass_green">#C8E8F5E4</color>
+    <color name="surface_overlay">#0A000000</color>
 
-    <!-- Refined Original Colors -->
-    <color name="primary">#444A72</color>
-    <color name="background">#FFFFFF</color>
-    <color name="white">#FFFFFF</color>
-    <color name="black">#1A1C1E</color>
-    <color name="gray_text">#44474E</color>
-    <color name="divider">#F1F3F9</color>
+    <!-- Unified Soft Card & Icon Accents -->
+    <color name="accent_green">#E8F5E4</color>
+    <color name="accent_blue">#E4F2E6</color>
+    <color name="accent_purple">#EBF5EA</color>
+    <color name="accent_red">#FCE8E6</color>
+    <color name="accent_orange">#FBF0E4</color>
+    <color name="accent_teal">#E2F5EE</color>
 
-    <!-- Service Card Accents -->
-    <color name="accent_blue">#D7EFF7</color>
-    <color name="accent_purple">#DCE0EE</color>
-    <color name="accent_red">#DCE0EE</color>
-    <color name="accent_green">#DCF6F2</color>
-    <color name="accent_orange">#D7EFF7</color>
-    <color name="accent_teal">#DCF6F2</color>
+    <!-- Service Badges / Icons (Light Green-tinted Containers) -->
+    <color name="icon_accent_blue">#E8F5E4</color>
+    <color name="icon_accent_purple">#E8F5E4</color>
+    <color name="icon_accent_red">#E8F5E4</color>
+    <color name="icon_accent_green">#E8F5E4</color>
+    <color name="icon_accent_orange">#E8F5E4</color>
+    <color name="icon_accent_teal">#E8F5E4</color>
+    <color name="icon_accent_brown">#E8F5E4</color>
+    <color name="icon_accent_indigo">#E8F5E4</color>
 
-    <!-- Maintain old names for backward compatibility if needed, but updated to match theme -->
-    <color name="notice_bg">#D7EFF7</color>
-    <color name="library_bg">#DCE0EE</color>
-    <color name="medical_bg">#DCF6F2</color>
-    <color name="club_bg">#DCF6F2</color>
-    <color name="ugr_bg">#DCE0EE</color>
-    <color name="pgr_bg">#D7EFF7</color>
-    <color name="routine_bg">#DCF6F2</color>
-    <color name="emergency_bg">#DCE0EE</color>
-    <color name="routine_primary">#444A72</color>
-    <color name="routine_secondary">#088BB3</color>
-    <color name="routine_bg_light">#F5F7FC</color>
-    <color name="routine_theory_bg">#D7EFF7</color>
-    <color name="routine_theory_accent">#088BB3</color>
-    <color name="routine_lab_bg">#DCF6F2</color>
-    <color name="routine_lab_accent">#7DD6C8</color>
+    <!-- Module Colors (Unified to Green Identity) -->
+    <color name="notice_bg">#E8F5E4</color>
+    <color name="library_bg">#E8F5E4</color>
+    <color name="medical_bg">#E8F5E4</color>
+    <color name="club_bg">#E8F5E4</color>
+    <color name="ugr_bg">#E8F5E4</color>
+    <color name="pgr_bg">#E8F5E4</color>
+    <color name="routine_bg">#E8F5E4</color>
+    <color name="emergency_bg">#E8F5E4</color>
 
-    <!-- Redesigned Admission Module Palette -->
-    <color name="seat_plan_bg">#D7EFF7</color>
-    <color name="seat_plan_icon_container">#C4EBF5</color>
-    <color name="seat_plan_primary">#088BB3</color>
+    <!-- Routine -->
+    <color name="routine_primary">#76C457</color>
+    <color name="routine_secondary">#4A8C34</color>
+    <color name="routine_bg_light">#F5FAF3</color>
+    <color name="routine_theory_bg">#E8F5E4</color>
+    <color name="routine_theory_accent">#4A8C34</color>
+    <color name="routine_lab_bg">#E0F4DE</color>
+    <color name="routine_lab_accent">#388E3C</color>
 
-    <color name="admission_result_bg">#DCF6F2</color>
-    <color name="admission_result_icon_container">#C4F2EA</color>
-    <color name="admission_result_primary">#7DD6C8</color>
+    <!-- Admission Module -->
+    <color name="seat_plan_bg">#E8F5E4</color>
+    <color name="seat_plan_icon_container">#DCF3D5</color>
+    <color name="seat_plan_primary">#4A8C34</color>
+    <color name="admission_result_bg">#E8F5E4</color>
+    <color name="admission_result_icon_container">#DCF3D5</color>
+    <color name="admission_result_primary">#4A8C34</color>
+    <color name="admission_bg">#E8F5E4</color>
+    <color name="admission_accent">#4A8C34</color>
 
-    <color name="admission_bg">#DCE0EE</color>
-    <color name="admission_accent">#444A72</color>
+    <!-- Calendar -->
+    <color name="calendar_primary">#76C457</color>
+    <color name="calendar_primary_dark">#4A8C34</color>
+    <color name="calendar_weekend">#D32F2F</color>
 
-    <color name="icon_accent_blue">#D7EFF7</color>
-    <color name="icon_accent_purple">#DCE0EE</color>
-    <color name="icon_accent_red">#DCE0EE</color>
-    <color name="icon_accent_green">#DCF6F2</color>
-    <color name="icon_accent_orange">#D7EFF7</color>
-    <color name="icon_accent_teal">#DCF6F2</color>
-    <color name="icon_accent_brown">#DCE0EE</color>
-    <color name="icon_accent_indigo">#DCE0EE</color>
-
-    <color name="calendar_primary">#444A72</color>
-    <color name="calendar_weekend">#088BB3</color>
-
-    <!-- Emergency/Ambulance Theme -->
-    <color name="emergency_primary">#444A72</color>
-    <color name="emergency_secondary">#088BB3</color>
-    <color name="emergency_accent">#7DD6C8</color>
-    <color name="emergency_bg_tint">#DCE0EE</color>
+    <!-- Emergency / High Priority Alerts -->
+    <color name="emergency_primary">#76C457</color>
+    <color name="emergency_secondary">#4A8C34</color>
+    <color name="emergency_accent">#4A8C34</color>
+    <color name="emergency_bg_tint">#E8F5E4</color>
     <color name="emergency_card_bg">#FFFFFF</color>
-    <color name="emergency_card_stroke">#DCE0EE</color>
-    <color name="emergency_tips_bg">#F2F2EE</color>
+    <color name="emergency_card_stroke">#E5ECE4</color>
+    <color name="emergency_tips_bg">#F5FAF3</color>
+    <color name="emergency_red">#D32F2F</color>
+    <color name="emergency_red_container">#FDEDEC</color>
+    <color name="error">#D32F2F</color>
 
-    <color name="error">#444A72</color>
-    <!-- Dark Theme Palette -->
-    <color name="md_theme_dark_primary">#7DD6C8</color>
-    <color name="md_theme_dark_onPrimary">#14182B</color>
-    <color name="md_theme_dark_primaryContainer">#444A72</color>
-    <color name="md_theme_dark_onPrimaryContainer">#DCE0EE</color>
-    <color name="md_theme_dark_secondary">#088BB3</color>
-    <color name="md_theme_dark_onSecondary">#FFFFFF</color>
-    <color name="md_theme_dark_secondaryContainer">#1A2830</color>
-    <color name="md_theme_dark_onSecondaryContainer">#D7EFF7</color>
-    <color name="md_theme_dark_background">#121314</color>
-    <color name="md_theme_dark_onBackground">#E2E2E6</color>
-    <color name="md_theme_dark_surface">#1A1C1E</color>
-    <color name="md_theme_dark_onSurface">#E2E2E6</color>
-    <color name="md_theme_dark_surfaceVariant">#44474E</color>
-    <color name="md_theme_dark_onSurfaceVariant">#C4C6D0</color>
-    <color name="md_theme_dark_outline">#8E9099</color>
+    <!-- Dark Theme Support -->
+    <color name="md_theme_dark_primary">#76C457</color>
+    <color name="md_theme_dark_onPrimary">#122A0A</color>
+    <color name="md_theme_dark_primaryContainer">#2D5C1E</color>
+    <color name="md_theme_dark_onPrimaryContainer">#E8F5E4</color>
+    <color name="md_theme_dark_secondary">#91D877</color>
+    <color name="md_theme_dark_onSecondary">#19380D</color>
+    <color name="md_theme_dark_secondaryContainer">#355F27</color>
+    <color name="md_theme_dark_onSecondaryContainer">#DDF2D8</color>
+    <color name="md_theme_dark_background">#121511</color>
+    <color name="md_theme_dark_onBackground">#E2E5E0</color>
+    <color name="md_theme_dark_surface">#191C18</color>
+    <color name="md_theme_dark_onSurface">#E2E5E0</color>
+    <color name="md_theme_dark_surfaceVariant">#434A41</color>
+    <color name="md_theme_dark_onSurfaceVariant">#C2CAC0</color>
+    <color name="md_theme_dark_outline">#8C948B</color>
 </resources>

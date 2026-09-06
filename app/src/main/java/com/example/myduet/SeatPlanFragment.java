@@ -1,9 +1,12 @@
 package com.example.myduet;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -29,34 +32,68 @@ public class SeatPlanFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         viewModel = new ViewModelProvider(this).get(SeatPlanViewModel.class);
 
-        binding.btnSearch.setOnClickListener(v -> {
-            String roll = binding.etRollNumber.getText().toString();
-            viewModel.search(roll);
+        binding.btnSearch.setOnClickListener(v -> performSearch());
+
+        binding.etRollNumber.setOnEditorActionListener((v, actionId, event) -> {
+            if (actionId == EditorInfo.IME_ACTION_SEARCH || actionId == EditorInfo.IME_ACTION_DONE) {
+                performSearch();
+                return true;
+            }
+            return false;
         });
 
         viewModel.getIsLoading().observe(getViewLifecycleOwner(), isLoading -> {
-            binding.progressBar.setVisibility(isLoading ? View.VISIBLE : View.GONE);
-            if (isLoading) {
+            if (isLoading != null && isLoading) {
+                binding.progressBar.setVisibility(View.VISIBLE);
                 binding.cardResult.setVisibility(View.GONE);
-                binding.tvError.setVisibility(View.GONE);
+                binding.layoutError.setVisibility(View.GONE);
+            } else {
+                binding.progressBar.setVisibility(View.GONE);
             }
         });
 
         viewModel.getSeatPlanResult().observe(getViewLifecycleOwner(), seatPlan -> {
             if (seatPlan != null) {
+                binding.layoutEmptyState.setVisibility(View.GONE);
+                binding.layoutError.setVisibility(View.GONE);
                 binding.cardResult.setVisibility(View.VISIBLE);
-                binding.tvError.setVisibility(View.GONE);
                 displaySeatPlan(seatPlan);
             }
         });
 
         viewModel.getErrorMessage().observe(getViewLifecycleOwner(), error -> {
-            if (error != null) {
-                binding.tvError.setVisibility(View.VISIBLE);
-                binding.tvError.setText(error);
+            if (error != null && !error.isEmpty()) {
+                binding.layoutEmptyState.setVisibility(View.GONE);
                 binding.cardResult.setVisibility(View.GONE);
+                binding.layoutError.setVisibility(View.VISIBLE);
+                if (error.equalsIgnoreCase("Seat Plan Not Found")) {
+                    binding.tvErrorTitle.setText("No Seat Plan Found");
+                    binding.tvErrorSubtitle.setText("Please check the roll number and try again.");
+                } else {
+                    binding.tvErrorTitle.setText("No Seat Plan Found");
+                    binding.tvErrorSubtitle.setText(error);
+                }
             }
         });
+    }
+
+    private void performSearch() {
+        hideKeyboard();
+        binding.layoutError.setVisibility(View.GONE);
+        String roll = "";
+        if (binding.etRollNumber.getText() != null) {
+            roll = binding.etRollNumber.getText().toString().trim();
+        }
+        viewModel.search(roll);
+    }
+
+    private void hideKeyboard() {
+        if (getActivity() != null && getView() != null) {
+            InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+            if (imm != null) {
+                imm.hideSoftInputFromWindow(getView().getWindowToken(), 0);
+            }
+        }
     }
 
     private void displaySeatPlan(SeatPlan seatPlan) {
@@ -65,30 +102,21 @@ public class SeatPlanFragment extends Fragment {
         } else {
             binding.tvName.setText("Seat Plan Details");
         }
-        binding.tvRoll.setText("Admission Roll: " + seatPlan.getSearchedRoll());
-        
+
+        binding.tvRoll.setText("Roll: " + seatPlan.getSearchedRoll());
+
         if (seatPlan.getCandidateFatherName() != null && !seatPlan.getCandidateFatherName().trim().isEmpty()) {
-            binding.rowFatherName.tvLabel.setText("Father's Name");
-            binding.rowFatherName.tvValue.setText(seatPlan.getCandidateFatherName());
-            binding.rowFatherName.getRoot().setVisibility(View.VISIBLE);
+            binding.tvFatherName.setText(seatPlan.getCandidateFatherName());
+            binding.rowFatherName.setVisibility(View.VISIBLE);
         } else {
-            binding.rowFatherName.getRoot().setVisibility(View.GONE);
+            binding.rowFatherName.setVisibility(View.GONE);
         }
 
-        binding.rowCenter.tvLabel.setText("Department");
-        binding.rowCenter.tvValue.setText(seatPlan.getDepartment());
-
-        binding.rowBuilding.tvLabel.setText("Building");
-        binding.rowBuilding.tvValue.setText(seatPlan.getBuilding());
-
-        binding.rowRoom.tvLabel.setText("Room / Details");
-        binding.rowRoom.tvValue.setText(seatPlan.getRoom());
-
-        binding.rowSeat.tvLabel.setText("Exam Date");
-        binding.rowSeat.tvValue.setText(seatPlan.getExamDate());
-
-        binding.rowTime.tvLabel.setText("Exam Shift");
-        binding.rowTime.tvValue.setText(seatPlan.getShift());
+        binding.tvDepartment.setText(seatPlan.getDepartment() != null ? seatPlan.getDepartment() : "N/A");
+        binding.tvBuilding.setText(seatPlan.getBuilding() != null ? seatPlan.getBuilding() : "N/A");
+        binding.tvRoom.setText(seatPlan.getRoom() != null ? "Room: " + seatPlan.getRoom() : "N/A");
+        binding.tvExamDate.setText(seatPlan.getExamDate() != null ? seatPlan.getExamDate() : "N/A");
+        binding.tvShift.setText(seatPlan.getShift() != null ? seatPlan.getShift() : "N/A");
     }
 
     @Override

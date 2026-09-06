@@ -4,27 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="16dp">
 
     <!-- Card 1 – Seat Plan -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardSeatPlan"
+        style="@style/Widget.MyDUET.PremiumCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="12dp"
         android:clickable="true"
-        android:focusable="true"
-        android:stateListAnimator="@animator/card_scale"
-        app:cardBackgroundColor="@color/seat_plan_bg"
-        app:cardCornerRadius="24dp"
-        app:cardElevation="3dp"
-        app:strokeWidth="0dp">
+        android:focusable="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="18dp"
+            android:background="?attr/selectableItemBackground">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -33,58 +30,55 @@
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/iconContainerSeat"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    app:cardBackgroundColor="@color/seat_plan_icon_container"
-                    app:cardCornerRadius="18dp"
-                    app:cardElevation="0dp">
+                    style="@style/Widget.MyDUET.QuickServiceIcon"
+                    app:cardBackgroundColor="@color/primary_light">
 
                     <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_services"
-                        app:tint="@color/seat_plan_primary" />
+                        android:src="@drawable/ic_search"
+                        app:tint="@color/primary_dark" />
                 </com.google.android.material.card.MaterialCardView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginStart="14dp"
                     android:layout_toEndOf="@id/iconContainerSeat"
                     android:layout_toStartOf="@+id/chevronSeat"
-                    android:fontFamily="sans-serif-black"
+                    android:fontFamily="sans-serif-medium"
                     android:text="@string/seat_plan_title"
-                    android:textColor="@color/seat_plan_primary"
-                    android:textSize="20sp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/chevronSeat"
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:src="@drawable/ic_arrow_right"
-                    app:tint="@color/seat_plan_primary" />
+                    app:tint="@color/text_secondary" />
             </RelativeLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/seat_plan_desc"
-                android:textColor="?attr/colorOnSurfaceVariant"
-                android:textSize="14sp" />
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="14dp"
                 android:text="@string/action_search_now"
-                android:textColor="@color/seat_plan_primary"
-                android:textSize="14sp"
+                android:textColor="@color/primary_dark"
+                android:textSize="13sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -93,21 +87,18 @@
     <!-- Card 2 – Admission Result -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardAdmissionResult"
+        style="@style/Widget.MyDUET.PremiumCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:focusable="true"
-        android:stateListAnimator="@animator/card_scale"
-        app:cardBackgroundColor="@color/admission_result_bg"
-        app:cardCornerRadius="24dp"
-        app:cardElevation="3dp"
-        app:strokeWidth="0dp">
+        android:focusable="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="18dp"
+            android:background="?attr/selectableItemBackground">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -116,58 +107,55 @@
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/iconContainerResult"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    app:cardBackgroundColor="@color/admission_result_icon_container"
-                    app:cardCornerRadius="18dp"
-                    app:cardElevation="0dp">
+                    style="@style/Widget.MyDUET.QuickServiceIcon"
+                    app:cardBackgroundColor="@color/primary_light">
 
                     <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_school"
-                        app:tint="@color/admission_result_primary" />
+                        app:tint="@color/primary_dark" />
                 </com.google.android.material.card.MaterialCardView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginStart="14dp"
                     android:layout_toEndOf="@id/iconContainerResult"
                     android:layout_toStartOf="@+id/chevronResult"
-                    android:fontFamily="sans-serif-black"
+                    android:fontFamily="sans-serif-medium"
                     android:text="@string/admission_result_title"
-                    android:textColor="@color/admission_result_primary"
-                    android:textSize="20sp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/chevronResult"
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:src="@drawable/ic_arrow_right"
-                    app:tint="@color/admission_result_primary" />
+                    app:tint="@color/text_secondary" />
             </RelativeLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/admission_result_desc"
-                android:textColor="?attr/colorOnSurfaceVariant"
-                android:textSize="14sp" />
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="14dp"
                 android:text="@string/action_view_result"
-                android:textColor="@color/admission_result_primary"
-                android:textSize="14sp"
+                android:textColor="@color/primary_dark"
+                android:textSize="13sp"
                 android:textStyle="bold" />
 
         </LinearLayout>

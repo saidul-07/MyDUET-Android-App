@@ -29,7 +29,7 @@
                 android:layout_height="96dp"
                 app:cardCornerRadius="48dp"
                 app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/accent_blue"
+                app:cardBackgroundColor="@color/primary_light"
                 app:strokeWidth="2dp"
                 app:strokeColor="@color/white">
 
@@ -39,7 +39,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="M"
-                    android:textColor="@color/primary"
+                    android:textColor="@color/primary_dark"
                     android:textSize="36sp"
                     android:textStyle="bold" />
 

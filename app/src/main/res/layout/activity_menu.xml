@@ -64,9 +64,9 @@
             app:elevation="0dp"
             app:menu="@menu/bottom_nav_menu"
             app:labelVisibilityMode="labeled"
-            app:itemIconTint="@color/primary"
-            app:itemTextColor="@color/primary"
-            app:itemRippleColor="@color/md_theme_light_primaryContainer" />
+            app:itemIconTint="@color/bottom_nav_color_selector"
+            app:itemTextColor="@color/bottom_nav_color_selector"
+            app:itemRippleColor="@color/primary_light" />
 
     </com.google.android.material.card.MaterialCardView>
 
