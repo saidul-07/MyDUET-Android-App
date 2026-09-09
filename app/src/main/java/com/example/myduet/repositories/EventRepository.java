@@ -1,100 +1,147 @@
 package com.example.myduet.repositories;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Handler;
+import android.os.Looper;
+import android.util.Log;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
+import com.example.myduet.models.AuthRequest;
+import com.example.myduet.models.AuthResponse;
 import com.example.myduet.models.Event;
+import com.example.myduet.models.Profile;
 import com.example.myduet.models.User;
+import com.example.myduet.network.SupabaseApiService;
+import com.example.myduet.network.SupabaseClient;
+import com.example.myduet.network.SupabaseConfig;
+import com.example.myduet.network.SupabaseRealtimeClient;
 import com.example.myduet.storage.EventDbHelper;
+import com.example.myduet.storage.SessionManager;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class EventRepository {
+public class EventRepository implements SupabaseRealtimeClient.OnRealtimeEventListener {
 
+    private static final String TAG = "EventRepository";
+
+    private final Context context;
     private final EventDbHelper dbHelper;
+    private final SessionManager sessionManager;
+    private final SupabaseApiService apiService;
+    private final SupabaseRealtimeClient realtimeClient;
     private final ExecutorService executor = Executors.newSingleThreadExecutor();
+    private final Handler mainHandler = new Handler(Looper.getMainLooper());
+
+    private final MutableLiveData<List<Event>> allEventsLiveData = new MutableLiveData<>();
+    private final MutableLiveData<Boolean> isSyncing = new MutableLiveData<>(false);
+    private final MutableLiveData<Boolean> isRealtimeConnected = new MutableLiveData<>(false);
+
+    public interface AuthCallback {
+        void onSuccess(User user);
+        void onError(String message);
+    }
+
+    public interface ActionCallback {
+        void onSuccess();
+        void onError(String message);
+    }
 
     public EventRepository(Context context) {
-        this.dbHelper = new EventDbHelper(context);
+        this.context = context.getApplicationContext();
+        this.dbHelper = new EventDbHelper(this.context);
+        this.sessionManager = new SessionManager(this.context);
+        this.apiService = SupabaseClient.getApiService(this.context);
+        this.realtimeClient = new SupabaseRealtimeClient();
+        this.realtimeClient.setListener(this);
     }
 
-    /**
-     * Authenticates an authority user.
-     */
-    public boolean authenticate(String userId, String password) {
-        SQLiteDatabase db = dbHelper.getReadableDatabase();
-        String hashedPassword = EventDbHelper.hashPassword(password);
-
-        Cursor cursor = db.query(
-                EventDbHelper.TABLE_USERS,
-                new String[]{EventDbHelper.KEY_USER_ID},
-                EventDbHelper.KEY_USER_ID + " = ? AND " + EventDbHelper.KEY_PASSWORD_HASH + " = ?",
-                new String[]{userId, hashedPassword},
-                null, null, null
-        );
-
-        boolean authenticated = cursor.getCount() > 0;
-        cursor.close();
-        return authenticated;
+    public LiveData<Boolean> getIsSyncing() {
+        return isSyncing;
     }
 
-    /**
-     * Retrieves user profile details.
-     */
-    public User getUser(String userId) {
-        SQLiteDatabase db = dbHelper.getReadableDatabase();
-        Cursor cursor = db.query(
-                EventDbHelper.TABLE_USERS,
-                new String[]{EventDbHelper.KEY_USER_ID, EventDbHelper.KEY_ROLE, EventDbHelper.KEY_DISPLAY_NAME},
-                EventDbHelper.KEY_USER_ID + " = ?",
-                new String[]{userId},
-                null, null, null
-        );
-
-        User user = null;
-        if (cursor.moveToFirst()) {
-            user = new User(
-                    cursor.getString(0),
-                    cursor.getString(1),
-                    cursor.getString(2)
-            );
-        }
-        cursor.close();
-        return user;
+    public LiveData<Boolean> getIsRealtimeConnected() {
+        return isRealtimeConnected;
     }
 
-    /**
-     * Fetches all events from the database.
-     */
+    public SessionManager getSessionManager() {
+        return sessionManager;
+    }
+
+    public void startRealtimeSync() {
+        realtimeClient.start();
+    }
+
+    public void stopRealtimeSync() {
+        realtimeClient.stop();
+    }
+
+    @Override
+    public void onEventChange(String eventType, String rawPayload) {
+        Log.d(TAG, "Realtime update received from Supabase. Refreshing events...");
+        syncEventsFromCloud(null);
+    }
+
+    @Override
+    public void onConnectionStateChange(boolean isConnected) {
+        isRealtimeConnected.postValue(isConnected);
+    }
+
     public LiveData<List<Event>> getAllEvents() {
-        MutableLiveData<List<Event>> data = new MutableLiveData<>();
         executor.execute(() -> {
-            List<Event> list = new ArrayList<>();
-            SQLiteDatabase db = dbHelper.getReadableDatabase();
-            Cursor cursor = db.rawQuery("SELECT * FROM " + EventDbHelper.TABLE_EVENTS + " ORDER BY " + EventDbHelper.KEY_CREATED_AT + " DESC", null);
-
-            if (cursor.moveToFirst()) {
-                do {
-                    list.add(cursorToEvent(cursor));
-                } while (cursor.moveToNext());
-            }
-            cursor.close();
-            data.postValue(list);
+            List<Event> cached = dbHelper.getAllEventsFromCache();
+            allEventsLiveData.postValue(cached);
         });
-        return data;
+
+        syncEventsFromCloud(null);
+        return allEventsLiveData;
     }
 
-    /**
-     * Fetches events created by a specific user.
-     */
+    public void syncEventsFromCloud(Runnable onComplete) {
+        if (!SupabaseConfig.isConfigured()) {
+            if (onComplete != null) mainHandler.post(onComplete);
+            return;
+        }
+
+        isSyncing.postValue(true);
+        apiService.getAllEvents().enqueue(new Callback<List<Event>>() {
+            @Override
+            public void onResponse(Call<List<Event>> call, Response<List<Event>> response) {
+                isSyncing.postValue(false);
+                if (response.isSuccessful() && response.body() != null) {
+                    List<Event> cloudEvents = response.body();
+                    executor.execute(() -> {
+                        dbHelper.replaceAllEvents(cloudEvents);
+                        allEventsLiveData.postValue(cloudEvents);
+                        if (onComplete != null) {
+                            mainHandler.post(onComplete);
+                        }
+                    });
+                } else {
+                    if (onComplete != null) mainHandler.post(onComplete);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<Event>> call, Throwable t) {
+                isSyncing.postValue(false);
+                Log.w(TAG, "Failed to sync events from Supabase: " + t.getMessage());
+                if (onComplete != null) mainHandler.post(onComplete);
+            }
+        });
+    }
+
     public LiveData<List<Event>> getEventsByAuthor(String userId) {
-        MutableLiveData<List<Event>> data = new MutableLiveData<>();
+        MutableLiveData<List<Event>> authorEvents = new MutableLiveData<>();
         executor.execute(() -> {
             List<Event> list = new ArrayList<>();
             SQLiteDatabase db = dbHelper.getReadableDatabase();
@@ -109,149 +156,213 @@ public class EventRepository {
 
             if (cursor.moveToFirst()) {
                 do {
-                    list.add(cursorToEvent(cursor));
+                    list.add(EventDbHelper.cursorToEvent(cursor));
                 } while (cursor.moveToNext());
             }
             cursor.close();
-            data.postValue(list);
+            authorEvents.postValue(list);
         });
-        return data;
+        return authorEvents;
     }
 
-    /**
-     * Inserts a new event.
-     */
-    public void insertEvent(Event event, Runnable callback) {
-        executor.execute(() -> {
-            SQLiteDatabase db = dbHelper.getWritableDatabase();
-            ContentValues values = getEventContentValues(event);
-            values.put(EventDbHelper.KEY_CREATED_AT, System.currentTimeMillis());
-            values.put(EventDbHelper.KEY_UPDATED_AT, System.currentTimeMillis());
-            db.insert(EventDbHelper.TABLE_EVENTS, null, values);
-            if (callback != null) {
-                callback.run();
-            }
-        });
-    }
+    public void authenticate(String userIdOrEmail, String password, AuthCallback callback) {
+        if (SupabaseConfig.isConfigured()) {
+            String email = userIdOrEmail.contains("@") ? userIdOrEmail : userIdOrEmail + "@duet.ac.bd";
+            AuthRequest req = new AuthRequest(email, password);
 
-    /**
-     * Updates an existing event.
-     */
-    public void updateEvent(Event event, Runnable callback) {
-        executor.execute(() -> {
-            SQLiteDatabase db = dbHelper.getWritableDatabase();
-            ContentValues values = getEventContentValues(event);
-            values.put(EventDbHelper.KEY_UPDATED_AT, System.currentTimeMillis());
-            db.update(
-                    EventDbHelper.TABLE_EVENTS,
-                    values,
-                    EventDbHelper.KEY_EVENT_ID + " = ?",
-                    new String[]{String.valueOf(event.getEventId())}
-            );
-            if (callback != null) {
-                callback.run();
-            }
-        });
-    }
+            apiService.login(req).enqueue(new Callback<AuthResponse>() {
+                @Override
+                public void onResponse(Call<AuthResponse> call, Response<AuthResponse> response) {
+                    if (response.isSuccessful() && response.body() != null) {
+                        AuthResponse auth = response.body();
+                        String uid = auth.getUser() != null ? auth.getUser().getId() : "";
+                        fetchProfile(uid, auth.getAccessToken(), auth.getRefreshToken(), userIdOrEmail, callback);
+                    } else {
+                        authenticateLocally(userIdOrEmail, password, callback);
+                    }
+                }
 
-    /**
-     * Cancels an event by updating its status to "Cancelled".
-     */
-    public void cancelEvent(int eventId, Runnable callback) {
-        executor.execute(() -> {
-            SQLiteDatabase db = dbHelper.getWritableDatabase();
-            ContentValues values = new ContentValues();
-            values.put(EventDbHelper.KEY_STATUS, "Cancelled");
-            values.put(EventDbHelper.KEY_UPDATED_AT, System.currentTimeMillis());
-            db.update(
-                    EventDbHelper.TABLE_EVENTS,
-                    values,
-                    EventDbHelper.KEY_EVENT_ID + " = ?",
-                    new String[]{String.valueOf(eventId)}
-            );
-            if (callback != null) {
-                callback.run();
-            }
-        });
-    }
-
-    /**
-     * Deletes an event.
-     */
-    public void deleteEvent(int eventId, Runnable callback) {
-        executor.execute(() -> {
-            SQLiteDatabase db = dbHelper.getWritableDatabase();
-            db.delete(
-                    EventDbHelper.TABLE_EVENTS,
-                    EventDbHelper.KEY_EVENT_ID + " = ?",
-                    new String[]{String.valueOf(eventId)}
-            );
-            if (callback != null) {
-                callback.run();
-            }
-        });
-    }
-
-    // Helper to map cursor row to Event object
-    private Event cursorToEvent(Cursor cursor) {
-        Event event = new Event();
-        event.setEventId(cursor.getInt(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_EVENT_ID)));
-        event.setTitle(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_TITLE)));
-        event.setDescription(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_DESCRIPTION)));
-        event.setType(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_TYPE)));
-        event.setClubName(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_CLUB_NAME)));
-        event.setOrganizerName(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_ORGANIZER_NAME)));
-        event.setBannerUrl(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_BANNER_URL)));
-        event.setEventDate(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_EVENT_DATE)));
-        event.setStartTime(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_START_TIME)));
-        event.setEndTime(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_END_TIME)));
-        event.setVenue(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_VENUE)));
-        event.setRegistrationRequired(cursor.getInt(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_REG_REQUIRED)) == 1);
-        event.setRegistrationDeadline(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_REG_DEADLINE)));
-        event.setRegistrationUrl(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_REG_URL)));
-        event.setContactName(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_CONTACT_NAME)));
-        event.setContactEmail(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_CONTACT_EMAIL)));
-        event.setContactPhone(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_CONTACT_PHONE)));
-
-        // optional columns
-        int maxPartCol = cursor.getColumnIndexOrThrow(EventDbHelper.KEY_MAX_PARTICIPANTS);
-        if (!cursor.isNull(maxPartCol)) {
-            event.setMaxParticipants(cursor.getInt(maxPartCol));
+                @Override
+                public void onFailure(Call<AuthResponse> call, Throwable t) {
+                    authenticateLocally(userIdOrEmail, password, callback);
+                }
+            });
+        } else {
+            authenticateLocally(userIdOrEmail, password, callback);
         }
-        event.setSocialMediaUrl(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_SOCIAL_MEDIA_URL)));
-        event.setAdditionalInfo(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_ADDITIONAL_INFO)));
-
-        event.setStatus(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_STATUS)));
-        event.setCreatedBy(cursor.getString(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_CREATED_BY)));
-        event.setCreatedAt(cursor.getLong(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_CREATED_AT)));
-        event.setUpdatedAt(cursor.getLong(cursor.getColumnIndexOrThrow(EventDbHelper.KEY_UPDATED_AT)));
-        return event;
     }
 
-    // Helper to wrap Event in ContentValues
-    private ContentValues getEventContentValues(Event event) {
-        ContentValues values = new ContentValues();
-        values.put(EventDbHelper.KEY_TITLE, event.getTitle());
-        values.put(EventDbHelper.KEY_DESCRIPTION, event.getDescription());
-        values.put(EventDbHelper.KEY_TYPE, event.getType());
-        values.put(EventDbHelper.KEY_CLUB_NAME, event.getClubName());
-        values.put(EventDbHelper.KEY_ORGANIZER_NAME, event.getOrganizerName());
-        values.put(EventDbHelper.KEY_BANNER_URL, event.getBannerUrl());
-        values.put(EventDbHelper.KEY_EVENT_DATE, event.getEventDate());
-        values.put(EventDbHelper.KEY_START_TIME, event.getStartTime());
-        values.put(EventDbHelper.KEY_END_TIME, event.getEndTime());
-        values.put(EventDbHelper.KEY_VENUE, event.getVenue());
-        values.put(EventDbHelper.KEY_REG_REQUIRED, event.isRegistrationRequired() ? 1 : 0);
-        values.put(EventDbHelper.KEY_REG_DEADLINE, event.getRegistrationDeadline());
-        values.put(EventDbHelper.KEY_REG_URL, event.getRegistrationUrl());
-        values.put(EventDbHelper.KEY_CONTACT_NAME, event.getContactName());
-        values.put(EventDbHelper.KEY_CONTACT_EMAIL, event.getContactEmail());
-        values.put(EventDbHelper.KEY_CONTACT_PHONE, event.getContactPhone());
-        values.put(EventDbHelper.KEY_MAX_PARTICIPANTS, event.getMaxParticipants());
-        values.put(EventDbHelper.KEY_SOCIAL_MEDIA_URL, event.getSocialMediaUrl());
-        values.put(EventDbHelper.KEY_ADDITIONAL_INFO, event.getAdditionalInfo());
-        values.put(EventDbHelper.KEY_STATUS, event.getStatus());
-        values.put(EventDbHelper.KEY_CREATED_BY, event.getCreatedBy());
-        return values;
+    private void fetchProfile(String uid, String accessToken, String refreshToken, String fallbackUserId, AuthCallback callback) {
+        apiService.getProfileById("eq." + uid).enqueue(new Callback<List<Profile>>() {
+            @Override
+            public void onResponse(Call<List<Profile>> call, Response<List<Profile>> response) {
+                Profile profile;
+                if (response.isSuccessful() && response.body() != null && !response.body().isEmpty()) {
+                    profile = response.body().get(0);
+                } else {
+                    profile = new Profile(uid, fallbackUserId + "@duet.ac.bd", fallbackUserId, "CLUB_AUTHORITY", fallbackUserId);
+                }
+
+                sessionManager.saveSession(accessToken, refreshToken, profile);
+                SupabaseClient.resetClient();
+
+                User user = new User(profile.getUserId(), profile.getRole(), profile.getDisplayName());
+                callback.onSuccess(user);
+            }
+
+            @Override
+            public void onFailure(Call<List<Profile>> call, Throwable t) {
+                Profile profile = new Profile(uid, fallbackUserId + "@duet.ac.bd", fallbackUserId, "CLUB_AUTHORITY", fallbackUserId);
+                sessionManager.saveSession(accessToken, refreshToken, profile);
+                SupabaseClient.resetClient();
+                callback.onSuccess(new User(profile.getUserId(), profile.getRole(), profile.getDisplayName()));
+            }
+        });
+    }
+
+    private void authenticateLocally(String userId, String password, AuthCallback callback) {
+        executor.execute(() -> {
+            SQLiteDatabase db = dbHelper.getReadableDatabase();
+            String hashedPassword = EventDbHelper.hashPassword(password);
+
+            Cursor cursor = db.query(
+                    EventDbHelper.TABLE_USERS,
+                    new String[]{EventDbHelper.KEY_USER_ID, EventDbHelper.KEY_ROLE, EventDbHelper.KEY_DISPLAY_NAME},
+                    EventDbHelper.KEY_USER_ID + " = ? AND " + EventDbHelper.KEY_PASSWORD_HASH + " = ?",
+                    new String[]{userId, hashedPassword},
+                    null, null, null
+            );
+
+            if (cursor.moveToFirst()) {
+                User user = new User(cursor.getString(0), cursor.getString(1), cursor.getString(2));
+                cursor.close();
+                sessionManager.saveLocalSession(user);
+                mainHandler.post(() -> callback.onSuccess(user));
+            } else {
+                cursor.close();
+                mainHandler.post(() -> callback.onError("Invalid credentials. Please check your User ID / Email and password."));
+            }
+        });
+    }
+
+    public void logout() {
+        sessionManager.clearSession();
+        SupabaseClient.resetClient();
+    }
+
+    public User getCachedUser() {
+        return sessionManager.getLoggedInUser();
+    }
+
+    public void insertEvent(Event event, ActionCallback callback) {
+        executor.execute(() -> {
+            dbHelper.upsertEvent(event);
+            allEventsLiveData.postValue(dbHelper.getAllEventsFromCache());
+        });
+
+        if (SupabaseConfig.isConfigured()) {
+            apiService.createEvent("return=representation", event).enqueue(new Callback<List<Event>>() {
+                @Override
+                public void onResponse(Call<List<Event>> call, Response<List<Event>> response) {
+                    if (response.isSuccessful() && response.body() != null && !response.body().isEmpty()) {
+                        Event created = response.body().get(0);
+                        executor.execute(() -> {
+                            dbHelper.upsertEvent(created);
+                            allEventsLiveData.postValue(dbHelper.getAllEventsFromCache());
+                        });
+                    }
+                    if (callback != null) callback.onSuccess();
+                }
+
+                @Override
+                public void onFailure(Call<List<Event>> call, Throwable t) {
+                    Log.w(TAG, "Cloud create failed, saved locally: " + t.getMessage());
+                    if (callback != null) callback.onSuccess();
+                }
+            });
+        } else {
+            if (callback != null) mainHandler.post(callback::onSuccess);
+        }
+    }
+
+    public void updateEvent(Event event, ActionCallback callback) {
+        executor.execute(() -> {
+            dbHelper.upsertEvent(event);
+            allEventsLiveData.postValue(dbHelper.getAllEventsFromCache());
+        });
+
+        if (SupabaseConfig.isConfigured()) {
+            apiService.updateEvent("eq." + event.getEventId(), "return=representation", event).enqueue(new Callback<List<Event>>() {
+                @Override
+                public void onResponse(Call<List<Event>> call, Response<List<Event>> response) {
+                    if (callback != null) callback.onSuccess();
+                }
+
+                @Override
+                public void onFailure(Call<List<Event>> call, Throwable t) {
+                    Log.w(TAG, "Cloud update failed, saved locally: " + t.getMessage());
+                    if (callback != null) callback.onSuccess();
+                }
+            });
+        } else {
+            if (callback != null) mainHandler.post(callback::onSuccess);
+        }
+    }
+
+    public void cancelEvent(int eventId, ActionCallback callback) {
+        executor.execute(() -> {
+            List<Event> list = dbHelper.getAllEventsFromCache();
+            for (Event e : list) {
+                if (e.getEventId() == eventId) {
+                    e.setStatus("Cancelled");
+                    dbHelper.upsertEvent(e);
+                    break;
+                }
+            }
+            allEventsLiveData.postValue(dbHelper.getAllEventsFromCache());
+        });
+
+        if (SupabaseConfig.isConfigured()) {
+            Map<String, Object> fields = new HashMap<>();
+            fields.put("status", "Cancelled");
+            fields.put("updated_at", System.currentTimeMillis());
+
+            apiService.updateEventPartial("eq." + eventId, "return=representation", fields).enqueue(new Callback<List<Event>>() {
+                @Override
+                public void onResponse(Call<List<Event>> call, Response<List<Event>> response) {
+                    if (callback != null) callback.onSuccess();
+                }
+
+                @Override
+                public void onFailure(Call<List<Event>> call, Throwable t) {
+                    if (callback != null) callback.onSuccess();
+                }
+            });
+        } else {
+            if (callback != null) mainHandler.post(callback::onSuccess);
+        }
+    }
+
+    public void deleteEvent(int eventId, ActionCallback callback) {
+        executor.execute(() -> {
+            dbHelper.deleteEventById(eventId);
+            allEventsLiveData.postValue(dbHelper.getAllEventsFromCache());
+        });
+
+        if (SupabaseConfig.isConfigured()) {
+            apiService.deleteEvent("eq." + eventId).enqueue(new Callback<Void>() {
+                @Override
+                public void onResponse(Call<Void> call, Response<Void> response) {
+                    if (callback != null) callback.onSuccess();
+                }
+
+                @Override
+                public void onFailure(Call<Void> call, Throwable t) {
+                    if (callback != null) callback.onSuccess();
+                }
+            });
+        } else {
+            if (callback != null) mainHandler.post(callback::onSuccess);
+        }
     }
 }

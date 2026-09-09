@@ -1,5 +1,6 @@
 package com.example.myduet;
 
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -13,6 +14,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 import com.example.myduet.databinding.FragmentAuthorityLoginBinding;
+import com.example.myduet.models.User;
+import com.example.myduet.repositories.EventRepository;
 import com.example.myduet.viewmodels.EventViewModel;
 
 public class AuthorityLoginFragment extends Fragment {
@@ -51,7 +54,7 @@ public class AuthorityLoginFragment extends Fragment {
         binding.tilPassword.setError(null);
 
         if (userId.isEmpty()) {
-            binding.tilUserId.setError("User ID is required");
+            binding.tilUserId.setError("User ID or Email is required");
             isValid = false;
         }
 
@@ -62,17 +65,41 @@ public class AuthorityLoginFragment extends Fragment {
 
         if (!isValid) return;
 
-        // Perform login
-        boolean success = viewModel.login(userId, password);
-        if (success) {
-            Toast.makeText(getContext(), "Authentication Successful!", Toast.LENGTH_SHORT).show();
-            // Redirect to dashboard
-            Navigation.findNavController(view).navigate(
-                    R.id.action_authorityLoginFragment_to_authorityDashboardFragment
-            );
-        } else {
-            Toast.makeText(getContext(), "Invalid User ID or Password", Toast.LENGTH_LONG).show();
-        }
+        ProgressDialog progressDialog = new ProgressDialog(requireContext());
+        progressDialog.setMessage("Authenticating authority account...");
+        progressDialog.setCancelable(false);
+        progressDialog.show();
+
+        binding.btnLogin.setEnabled(false);
+
+        viewModel.login(userId, password, new EventRepository.AuthCallback() {
+            @Override
+            public void onSuccess(User user) {
+                if (getActivity() != null) {
+                    getActivity().runOnUiThread(() -> {
+                        if (progressDialog.isShowing()) progressDialog.dismiss();
+                        if (binding != null) binding.btnLogin.setEnabled(true);
+                        Toast.makeText(getContext(), "Welcome, " + user.getName() + "!", Toast.LENGTH_SHORT).show();
+                        if (getView() != null) {
+                            Navigation.findNavController(getView()).navigate(
+                                    R.id.action_authorityLoginFragment_to_authorityDashboardFragment
+                            );
+                        }
+                    });
+                }
+            }
+
+            @Override
+            public void onError(String message) {
+                if (getActivity() != null) {
+                    getActivity().runOnUiThread(() -> {
+                        if (progressDialog.isShowing()) progressDialog.dismiss();
+                        if (binding != null) binding.btnLogin.setEnabled(true);
+                        Toast.makeText(getContext(), message != null ? message : "Invalid credentials", Toast.LENGTH_LONG).show();
+                    });
+                }
+            }
+        });
     }
 
     private void setupTextWatchers() {

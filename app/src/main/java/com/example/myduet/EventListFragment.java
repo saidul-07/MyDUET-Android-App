@@ -63,8 +63,21 @@ public class EventListFragment extends Fragment implements EventAdapter.OnEventC
             adapter.notifyDataSetChanged();
         });
 
+        viewModel.getIsSyncing().observe(getViewLifecycleOwner(), isSyncing -> {
+            if (isSyncing != null && isSyncing) {
+                binding.swipeRefresh.setRefreshing(true);
+            }
+        });
+
         // Swipe Refresh
         binding.swipeRefresh.setOnRefreshListener(() -> viewModel.loadEvents());
+        binding.swipeRefresh.setOnRefreshListener(() -> {
+            viewModel.refreshEvents(() -> {
+                if (binding != null) {
+                    binding.swipeRefresh.setRefreshing(false);
+                }
+            });
+        });
 
         // Search text watcher
         binding.etSearch.addTextChangedListener(new TextWatcher() {
@@ -109,6 +122,24 @@ public class EventListFragment extends Fragment implements EventAdapter.OnEventC
                 binding.fabPortal.setText("Authority Portal");
             }
         });
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        // Start Supabase Realtime WebSocket synchronization
+        if (viewModel != null) {
+            viewModel.startRealtimeSync();
+        }
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        // Stop Realtime connection when not on screen to conserve battery
+        if (viewModel != null) {
+            viewModel.stopRealtimeSync();
+        }
     }
 
     @Override

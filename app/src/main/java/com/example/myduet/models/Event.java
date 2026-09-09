@@ -1,35 +1,83 @@
 package com.example.myduet.models;
 
+import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 public class Event implements Serializable {
+
+    @SerializedName("id")
     private int eventId;
+
+    @SerializedName("title")
     private String title;
+
+    @SerializedName("description")
     private String description;
+
+    @SerializedName("type")
     private String type; // "University" or "Club"
+
+    @SerializedName("club_name")
     private String clubName;
+
+    @SerializedName("organizer_name")
     private String organizerName;
+
+    @SerializedName("banner_url")
     private String bannerUrl;
+
+    @SerializedName("event_date")
     private String eventDate; // YYYY-MM-DD
+
+    @SerializedName("start_time")
     private String startTime; // HH:MM
+
+    @SerializedName("end_time")
     private String endTime; // HH:MM
+
+    @SerializedName("venue")
     private String venue;
+
+    @SerializedName("registration_required")
     private boolean registrationRequired;
+
+    @SerializedName("registration_deadline")
     private String registrationDeadline; // YYYY-MM-DD HH:MM
+
+    @SerializedName("registration_url")
     private String registrationUrl;
+
+    @SerializedName("contact_name")
     private String contactName;
+
+    @SerializedName("contact_email")
     private String contactEmail;
+
+    @SerializedName("contact_phone")
     private String contactPhone;
     
+
     // Optional
+    @SerializedName("max_participants")
     private Integer maxParticipants;
+
+    @SerializedName("social_media_url")
     private String socialMediaUrl;
+
+    @SerializedName("additional_info")
     private String additionalInfo;
 
     // Control fields
+    @SerializedName("status")
     private String status; // "Upcoming", "Ongoing", "Completed", "Cancelled"
+
+    @SerializedName("created_by")
     private String createdBy;
+
+    @SerializedName("created_at")
     private long createdAt;
+
+    @SerializedName("updated_at")
     private long updatedAt;
 
     public Event() {}

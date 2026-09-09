@@ -21,13 +21,19 @@ public class EventViewModel extends AndroidViewModel {
     private final MutableLiveData<List<Event>> filteredEvents = new MutableLiveData<>();
     private final MutableLiveData<User> loggedInUser = new MutableLiveData<>(null);
     private List<Event> allEvents = new ArrayList<>();
-    
-    private String currentCategory = "All"; // All, Upcoming, Ongoing, University, Clubs
+
+    private String currentCategory = "All";
     private String currentSearchQuery = "";
 
     public EventViewModel(@NonNull Application application) {
         super(application);
         this.repository = new EventRepository(application.getApplicationContext());
+
+        User cached = repository.getCachedUser();
+        if (cached != null) {
+            loggedInUser.setValue(cached);
+        }
+
         loadEvents();
     }
 
@@ -38,6 +44,26 @@ public class EventViewModel extends AndroidViewModel {
                 applyFilter();
             }
         });
+    }
+
+    public void refreshEvents(Runnable onComplete) {
+        repository.syncEventsFromCloud(onComplete);
+    }
+
+    public void startRealtimeSync() {
+        repository.startRealtimeSync();
+    }
+
+    public void stopRealtimeSync() {
+        repository.stopRealtimeSync();
+    }
+
+    public LiveData<Boolean> getIsSyncing() {
+        return repository.getIsSyncing();
+    }
+
+    public LiveData<Boolean> getIsRealtimeConnected() {
+        return repository.getIsRealtimeConnected();
     }
 
     public LiveData<List<Event>> getEvents() {
@@ -62,45 +88,83 @@ public class EventViewModel extends AndroidViewModel {
         return repository.getEventsByAuthor(userId);
     }
 
-    public boolean login(String userId, String password) {
-        boolean authenticated = repository.authenticate(userId, password);
-        if (authenticated) {
-            User user = repository.getUser(userId);
-            loggedInUser.setValue(user);
-            return true;
-        }
-        return false;
+    public void login(String userId, String password, EventRepository.AuthCallback callback) {
+        repository.authenticate(userId, password, new EventRepository.AuthCallback() {
+            @Override
+            public void onSuccess(User user) {
+                loggedInUser.postValue(user);
+                if (callback != null) callback.onSuccess(user);
+            }
+
+            @Override
+            public void onError(String message) {
+                if (callback != null) callback.onError(message);
+            }
+        });
     }
 
     public void logout() {
+        repository.logout();
         loggedInUser.setValue(null);
     }
 
     public void createEvent(Event event, Runnable callback) {
-        repository.insertEvent(event, () -> {
-            loadEvents();
-            if (callback != null) callback.run();
+        repository.insertEvent(event, new EventRepository.ActionCallback() {
+            @Override
+            public void onSuccess() {
+                loadEvents();
+                if (callback != null) callback.run();
+            }
+
+            @Override
+            public void onError(String message) {
+                if (callback != null) callback.run();
+            }
         });
     }
 
     public void updateEvent(Event event, Runnable callback) {
-        repository.updateEvent(event, () -> {
-            loadEvents();
-            if (callback != null) callback.run();
+        repository.updateEvent(event, new EventRepository.ActionCallback() {
+            @Override
+            public void onSuccess() {
+                loadEvents();
+                if (callback != null) callback.run();
+            }
+
+            @Override
+            public void onError(String message) {
+                if (callback != null) callback.run();
+            }
         });
     }
 
     public void cancelEvent(int eventId, Runnable callback) {
-        repository.cancelEvent(eventId, () -> {
-            loadEvents();
-            if (callback != null) callback.run();
+        repository.cancelEvent(eventId, new EventRepository.ActionCallback() {
+            @Override
+            public void onSuccess() {
+                loadEvents();
+                if (callback != null) callback.run();
+            }
+
+            @Override
+            public void onError(String message) {
+                if (callback != null) callback.run();
+            }
         });
     }
 
     public void deleteEvent(int eventId, Runnable callback) {
-        repository.deleteEvent(eventId, () -> {
-            loadEvents();
-            if (callback != null) callback.run();
+        repository.deleteEvent(eventId, new EventRepository.ActionCallback() {
+            @Override
+            public void onSuccess() {
+                loadEvents();
+                if (callback != null) callback.run();
+            }
+
+            @Override
+            public void onError(String message) {
+                if (callback != null) callback.run();
+            }
         });
     }
 
@@ -109,7 +173,6 @@ public class EventViewModel extends AndroidViewModel {
         for (Event event : allEvents) {
             String status = calculateEventStatus(event);
 
-            // Filter by Category
             boolean matchesCategory = false;
             switch (currentCategory) {
                 case "All":
@@ -129,7 +192,6 @@ public class EventViewModel extends AndroidViewModel {
                     break;
             }
 
-            // Filter by Search Query
             boolean matchesSearch = currentSearchQuery.isEmpty()
                     || (event.getTitle() != null && event.getTitle().toLowerCase().contains(currentSearchQuery))
                     || (event.getClubName() != null && event.getClubName().toLowerCase().contains(currentSearchQuery))
@@ -140,12 +202,9 @@ public class EventViewModel extends AndroidViewModel {
                 result.add(event);
             }
         }
-        filteredEvents.setValue(result);
+        filteredEvents.postValue(result);
     }
 
-    /**
-     * Dynamically calculates current status from event date and times.
-     */
     public static String calculateEventStatus(Event event) {
         if ("Cancelled".equalsIgnoreCase(event.getStatus())) {
             return "Cancelled";
@@ -162,12 +221,9 @@ public class EventViewModel extends AndroidViewModel {
         } else if (end != null && now.after(end)) {
             return "Completed";
         }
-        return "Upcoming"; // Fallback
+        return "Upcoming";
     }
 
-    /**
-     * Determines whether registration is open, closed, or not required.
-     */
     public static boolean isRegistrationClosed(Event event) {
         if (!event.isRegistrationRequired()) {
             return false;
