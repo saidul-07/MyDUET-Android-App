@@ -193,21 +193,40 @@ public class EventRepository implements SupabaseRealtimeClient.OnRealtimeEventLi
     }
 
     private void fetchProfile(String uid, String accessToken, String refreshToken, String fallbackUserId, AuthCallback callback) {
-        apiService.getProfileById("eq." + uid).enqueue(new Callback<List<Profile>>() {
+        // Try to fetch by user_id or id
+        apiService.getProfileByUserId("eq." + fallbackUserId).enqueue(new Callback<List<Profile>>() {
             @Override
             public void onResponse(Call<List<Profile>> call, Response<List<Profile>> response) {
-                Profile profile;
                 if (response.isSuccessful() && response.body() != null && !response.body().isEmpty()) {
-                    profile = response.body().get(0);
+                    Profile profile = response.body().get(0);
+                    sessionManager.saveSession(accessToken, refreshToken, profile);
+                    SupabaseClient.resetClient();
+                    callback.onSuccess(new User(profile.getUserId(), profile.getRole(), profile.getDisplayName()));
                 } else {
-                    profile = new Profile(uid, fallbackUserId + "@duet.ac.bd", fallbackUserId, "CLUB_AUTHORITY", fallbackUserId);
+                    // Fallback to query by UUID
+                    apiService.getProfileById("eq." + uid).enqueue(new Callback<List<Profile>>() {
+                        @Override
+                        public void onResponse(Call<List<Profile>> call2, Response<List<Profile>> response2) {
+                            Profile profile;
+                            if (response2.isSuccessful() && response2.body() != null && !response2.body().isEmpty()) {
+                                profile = response2.body().get(0);
+                            } else {
+                                profile = new Profile(uid, fallbackUserId + "@duet.ac.bd", fallbackUserId, "CLUB_AUTHORITY", fallbackUserId);
+                            }
+                            sessionManager.saveSession(accessToken, refreshToken, profile);
+                            SupabaseClient.resetClient();
+                            callback.onSuccess(new User(profile.getUserId(), profile.getRole(), profile.getDisplayName()));
+                        }
+
+                        @Override
+                        public void onFailure(Call<List<Profile>> call2, Throwable t) {
+                            Profile profile = new Profile(uid, fallbackUserId + "@duet.ac.bd", fallbackUserId, "CLUB_AUTHORITY", fallbackUserId);
+                            sessionManager.saveSession(accessToken, refreshToken, profile);
+                            SupabaseClient.resetClient();
+                            callback.onSuccess(new User(profile.getUserId(), profile.getRole(), profile.getDisplayName()));
+                        }
+                    });
                 }
-
-                sessionManager.saveSession(accessToken, refreshToken, profile);
-                SupabaseClient.resetClient();
-
-                User user = new User(profile.getUserId(), profile.getRole(), profile.getDisplayName());
-                callback.onSuccess(user);
             }
 
             @Override
@@ -216,6 +235,27 @@ public class EventRepository implements SupabaseRealtimeClient.OnRealtimeEventLi
                 sessionManager.saveSession(accessToken, refreshToken, profile);
                 SupabaseClient.resetClient();
                 callback.onSuccess(new User(profile.getUserId(), profile.getRole(), profile.getDisplayName()));
+            }
+        });
+    }
+
+    public void refreshUserProfile(User currentUser, AuthCallback callback) {
+        if (!SupabaseConfig.isConfigured() || currentUser == null) return;
+
+        apiService.getProfileByUserId("eq." + currentUser.getUserId()).enqueue(new Callback<List<Profile>>() {
+            @Override
+            public void onResponse(Call<List<Profile>> call, Response<List<Profile>> response) {
+                if (response.isSuccessful() && response.body() != null && !response.body().isEmpty()) {
+                    Profile p = response.body().get(0);
+                    sessionManager.saveSession(sessionManager.getAccessToken(), "", p);
+                    User updated = new User(p.getUserId(), p.getRole(), p.getDisplayName());
+                    if (callback != null) mainHandler.post(() -> callback.onSuccess(updated));
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<Profile>> call, Throwable t) {
+                Log.w(TAG, "Profile refresh failed: " + t.getMessage());
             }
         });
     }
@@ -255,6 +295,17 @@ public class EventRepository implements SupabaseRealtimeClient.OnRealtimeEventLi
     }
 
     public void insertEvent(Event event, ActionCallback callback) {
+        if (event.getEventId() <= 0) {
+            event.setEventId(null);
+        }
+        if (event.getCreatedAt() <= 0) {
+            event.setCreatedAt(System.currentTimeMillis());
+        }
+        if (event.getUpdatedAt() <= 0) {
+            event.setUpdatedAt(System.currentTimeMillis());
+        }
+
+        // Local cache first
         executor.execute(() -> {
             dbHelper.upsertEvent(event);
             allEventsLiveData.postValue(dbHelper.getAllEventsFromCache());
@@ -270,6 +321,9 @@ public class EventRepository implements SupabaseRealtimeClient.OnRealtimeEventLi
                             dbHelper.upsertEvent(created);
                             allEventsLiveData.postValue(dbHelper.getAllEventsFromCache());
                         });
+                        Log.d(TAG, "Event inserted into Supabase successfully with ID: " + created.getEventId());
+                    } else {
+                        Log.w(TAG, "Supabase insert error: code=" + response.code() + ", error=" + response.message());
                     }
                     if (callback != null) callback.onSuccess();
                 }
@@ -286,6 +340,7 @@ public class EventRepository implements SupabaseRealtimeClient.OnRealtimeEventLi
     }
 
     public void updateEvent(Event event, ActionCallback callback) {
+        event.setUpdatedAt(System.currentTimeMillis());
         executor.execute(() -> {
             dbHelper.upsertEvent(event);
             allEventsLiveData.postValue(dbHelper.getAllEventsFromCache());

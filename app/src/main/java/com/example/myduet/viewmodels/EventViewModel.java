@@ -50,6 +50,21 @@ public class EventViewModel extends AndroidViewModel {
         repository.syncEventsFromCloud(onComplete);
     }
 
+    public void refreshUserProfile() {
+        User current = loggedInUser.getValue();
+        if (current != null) {
+            repository.refreshUserProfile(current, new EventRepository.AuthCallback() {
+                @Override
+                public void onSuccess(User user) {
+                    loggedInUser.postValue(user);
+                }
+
+                @Override
+                public void onError(String message) {}
+            });
+        }
+    }
+
     public void startRealtimeSync() {
         repository.startRealtimeSync();
     }

@@ -50,9 +50,21 @@ public class AuthorityDashboardFragment extends Fragment implements EventAdapter
             return;
         }
 
+        // Observe user changes dynamically
+        viewModel.getLoggedInUser().observe(getViewLifecycleOwner(), user -> {
+            if (user != null) {
+                currentUser = user;
+                binding.tvAuthName.setText(user.getName());
+                binding.tvAuthRole.setText("Role: " + user.getRole());
+            }
+        });
+
         // Setup UI Header
         binding.tvAuthName.setText(currentUser.getName());
         binding.tvAuthRole.setText("Role: " + currentUser.getRole());
+
+        // Refresh profile from Supabase
+        viewModel.refreshUserProfile();
 
         // Setup RecyclerView
         binding.rvAuthEvents.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -75,6 +87,14 @@ public class AuthorityDashboardFragment extends Fragment implements EventAdapter
                     R.id.action_authorityDashboardFragment_to_createEditEventFragment
             );
         });
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (viewModel != null) {
+            viewModel.refreshUserProfile();
+        }
     }
 
     private void observeEvents(View view) {

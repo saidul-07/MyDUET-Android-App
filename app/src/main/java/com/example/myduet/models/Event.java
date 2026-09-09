@@ -6,7 +6,7 @@ import java.io.Serializable;
 public class Event implements Serializable {
 
     @SerializedName("id")
-    private int eventId;
+    private Integer eventId;
 
     @SerializedName("title")
     private String title;
@@ -55,7 +55,6 @@ public class Event implements Serializable {
 
     @SerializedName("contact_phone")
     private String contactPhone;
-    
 
     // Optional
     @SerializedName("max_participants")
@@ -83,8 +82,9 @@ public class Event implements Serializable {
     public Event() {}
 
     // Getters and Setters
-    public int getEventId() { return eventId; }
-    public void setEventId(int eventId) { this.eventId = eventId; }
+    public int getEventId() { return eventId != null ? eventId : 0; }
+    public Integer getId() { return eventId; }
+    public void setEventId(Integer eventId) { this.eventId = (eventId != null && eventId > 0) ? eventId : null; }
 
     public String getTitle() { return title; }
     public void setTitle(String title) { this.title = title; }

@@ -113,6 +113,10 @@ public class CreateEditEventFragment extends Fragment {
             }
             binding.etSocialMediaUrl.setText(editEvent.getSocialMediaUrl());
             binding.etAdditionalInfo.setText(editEvent.getAdditionalInfo());
+        } else {
+            if (currentUser != null && currentUser.getName() != null && !currentUser.getName().isEmpty()) {
+                binding.etOrganizerName.setText(currentUser.getName());
+            }
         }
 
         // Handle publish button click
