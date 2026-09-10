@@ -80,7 +80,7 @@ public class MenuActivity extends AppCompatActivity {
             } else if (title.equals(getString(R.string.menu_contacts))) {
                 startActivity(new Intent(this, EmergencyActivity.class));
             } else if (title.equals(getString(R.string.menu_about))) {
-                showAboutUsDialog();
+                startActivity(new Intent(this, AboutUsActivity.class));
             } else if (title.equals(getString(R.string.menu_privacy))) {
                 showPrivacyPolicyDialog();
             } else if (title.equals(getString(R.string.menu_update))) {
@@ -203,15 +203,6 @@ public class MenuActivity extends AppCompatActivity {
             .show();
     }
 
-    private void showAboutUsDialog() {
-        new AlertDialog.Builder(this)
-            .setTitle("About MyDUET")
-            .setMessage("MyDUET is the official companion app designed for students, faculty, and visitors of Dhaka University of Engineering & Technology, Gazipur.\n\n" +
-                        "Developed to offer seamless access to directories, transport info, academic calendars, seat plans, and admission notices in real-time.\n\n" +
-                        "Version: 1.0.0\n© 2026 DUET Gazipur")
-            .setPositiveButton("OK", null)
-            .show();
-    }
 
     private void showPrivacyPolicyDialog() {
         new AlertDialog.Builder(this)

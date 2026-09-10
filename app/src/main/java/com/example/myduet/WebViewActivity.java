@@ -13,7 +13,6 @@ import com.example.myduet.databinding.ActivityWebviewBinding;
 public class WebViewActivity extends AppCompatActivity {
 
     private ActivityWebviewBinding binding;
-    private String originalUrl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,14 +33,6 @@ public class WebViewActivity extends AppCompatActivity {
         String url = getIntent().getStringExtra("url");
         String title = getIntent().getStringExtra("title");
 
-        originalUrl = url;
-        if (url != null && url.contains("docs.google.com/gview")) {
-            int index = url.indexOf("url=");
-            if (index != -1) {
-                originalUrl = url.substring(index + 4);
-            }
-        }
-
         boolean isNotice = getIntent().getBooleanExtra("isNotice", false);
         if (isNotice || (url != null && url.contains("docs.google.com/gview")) || title == null || title.isEmpty() || title.equalsIgnoreCase("Notice Preview")) {
             binding.toolbarWebView.setTitle("Notice Preview");
@@ -51,18 +42,6 @@ public class WebViewActivity extends AppCompatActivity {
 
         binding.toolbarWebView.setNavigationIcon(R.drawable.ic_back);
         binding.toolbarWebView.setNavigationOnClickListener(v -> finish());
-
-        // Setup Bottom Download Button
-        binding.btnDownloadNotice.setOnClickListener(v -> {
-            if (originalUrl != null && !originalUrl.isEmpty()) {
-                try {
-                    android.content.Intent intent = new android.content.Intent(android.content.Intent.ACTION_VIEW, android.net.Uri.parse(originalUrl));
-                    startActivity(intent);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
 
         setupWebView();
 

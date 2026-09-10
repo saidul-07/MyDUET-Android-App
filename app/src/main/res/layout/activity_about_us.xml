@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8FAFC">
+
+    <!-- Top AppBar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:elevation="1dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:navigationIcon="@drawable/ic_back"
+            app:navigationIconTint="#0A2540"
+            app:title="About Us"
+            app:titleTextColor="#0A2540"
+            app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="40dp">
+
+            <!-- App Overview Description -->
+            <TextView
+                android:id="@+id/tvAboutDesc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MyDUET is a community-driven mobile application for Dhaka University of Engineering &amp; Technology (DUET) students, providing easy access to academic updates, news, events, and essential campus information. Developed and maintained by a dedicated team of alumni and current students, the app aims to enhance communication, improve the campus experience, and deliver reliable digital solutions inspired by user feedback."
+                android:textColor="#1E293B"
+                android:textSize="15sp"
+                android:lineSpacingExtra="5dp" />
+
+            <!-- Disclaimer -->
+            <TextView
+                android:id="@+id/tvAboutDesc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Please note that MyDUET is an independent initiative and is not managed by the university authorities."
+                android:textColor="#1E293B"
+                android:textSize="15sp"
+                android:lineSpacingExtra="5dp" />
+
+            <!-- Version Meta Info -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="18dp">
+
+                <TextView
+                    android:id="@+id/tvCurrentVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current Version: 1.0.0"
+                    android:textColor="#94A3B8"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvLatestVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Latest Version: 1.0.0"
+                    android:textColor="#94A3B8"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvReleaseDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Release Date: 2026-09-10"
+                    android:textColor="#94A3B8"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <!-- Contributors List Section -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvAboutMembers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:nestedScrollingEnabled="false" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
