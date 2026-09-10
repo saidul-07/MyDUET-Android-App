@@ -40,6 +40,7 @@ public class MenuActivity extends AppCompatActivity {
         serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_contacts), R.drawable.ic_contacts));
         serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_about), R.drawable.ic_info));
         serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_privacy), R.drawable.ic_shield));
+        serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_bug), R.drawable.ic_bug));
         serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_update), R.drawable.ic_update));
         serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_bug), R.drawable.ic_bug));
 
@@ -63,6 +64,8 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(new Intent(this, AboutUsActivity.class));
             } else if (title.equals(getString(R.string.menu_privacy))) {
                 showPrivacyPolicyDialog();
+            } else if (title.equals(getString(R.string.menu_bug))) {
+                startActivity(new Intent(this, ReportBugActivity.class));
             } else if (title.equals(getString(R.string.menu_update))) {
                 checkForUpdates();
             } else if (title.equals(getString(R.string.menu_bug))) {

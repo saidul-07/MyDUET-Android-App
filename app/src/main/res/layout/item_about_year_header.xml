@@ -6,8 +6,6 @@
     android:paddingTop="20dp"
     android:paddingBottom="8dp"
     android:paddingHorizontal="4dp"
-    android:text="2025"
-    android:textColor="#0284C7"
     android:text="2026"
     android:textColor="@color/primary_dark"
     android:textSize="20sp"

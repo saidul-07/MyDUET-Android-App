@@ -65,6 +65,10 @@
             android:exported="false" />
 
         <activity
+            android:name=".ReportBugActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".MedicalActivity"
             android:exported="false" />
 

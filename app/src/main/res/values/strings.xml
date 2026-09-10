@@ -145,4 +145,6 @@
     <string name="menu_privacy">Privacy Policy</string>
     <string name="menu_update">Check for Update</string>
     <string name="menu_bug">Report any Bug</string>
+    <string name="report_bug_title">Report any Bug</string>
+    <string name="back_to_app">Back to App</string>
 </resources>

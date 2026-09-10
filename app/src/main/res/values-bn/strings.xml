@@ -145,4 +145,6 @@
     <string name="menu_privacy">গোপনীয়তা নীতি</string>
     <string name="menu_update">হালনাগাদ পরীক্ষা করুন</string>
     <string name="menu_bug">বাগ রিপোর্ট করুন</string>
+    <string name="report_bug_title">বাগ রিপোর্ট করুন</string>
+    <string name="back_to_app">অ্যাপে ফিরে যান</string>
 </resources>
