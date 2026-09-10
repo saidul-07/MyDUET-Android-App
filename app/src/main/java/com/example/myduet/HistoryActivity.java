@@ -23,5 +23,6 @@ public class HistoryActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
+        LocaleHelper.styleAppBar(this, toolbar, "#76C457", "#4A8C34");
     }
 }

@@ -33,6 +33,7 @@ public class ServicesActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
+        LocaleHelper.styleAppBar(this, toolbar, "#76C457", "#4A8C34");
     }
 
     private void openWebView(String title, String url) {

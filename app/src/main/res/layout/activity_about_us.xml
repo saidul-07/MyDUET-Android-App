@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#F8FAFC">
+    android:background="@color/background">
 
     <!-- Top AppBar -->
     <com.google.android.material.appbar.AppBarLayout
@@ -12,17 +13,22 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         app:elevation="1dp">
+        android:background="?attr/colorPrimary"
+        app:elevation="4dp">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbarAboutUs"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/white"
+            android:background="?attr/colorPrimary"
             app:navigationIcon="@drawable/ic_back"
             app:navigationIconTint="#0A2540"
+            app:navigationIconTint="?attr/colorOnPrimary"
             app:title="About Us"
             app:titleTextColor="#0A2540"
             app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge" />
+            app:titleTextColor="?attr/colorOnPrimary" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView

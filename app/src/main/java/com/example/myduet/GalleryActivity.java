@@ -28,6 +28,7 @@ public class GalleryActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
+        LocaleHelper.styleAppBar(this, toolbar, "#76C457", "#4A8C34");
 
         // Setup Video Card click listener to open inside in-app WebView
         findViewById(R.id.card_video).setOnClickListener(v -> {

@@ -58,7 +58,7 @@ public class MenuActivity extends AppCompatActivity {
             } else if (title.equals(getString(R.string.menu_faq))) {
                 showFaqDialog();
             } else if (title.equals(getString(R.string.menu_contacts))) {
-                startActivity(new Intent(this, EmergencyActivity.class));
+                startActivity(new Intent(this, ContactsActivity.class));
             } else if (title.equals(getString(R.string.menu_about))) {
                 startActivity(new Intent(this, AboutUsActivity.class));
             } else if (title.equals(getString(R.string.menu_privacy))) {
@@ -74,6 +74,7 @@ public class MenuActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
+        LocaleHelper.styleAppBar(this, toolbar, "#76C457", "#4A8C34");
     }
 
     private void openWebView(String title, String url) {

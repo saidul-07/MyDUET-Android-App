@@ -26,6 +26,7 @@ public class RouteActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
+        LocaleHelper.styleAppBar(this, toolbar, "#76C457", "#4A8C34");
 
         WebView webViewMap = findViewById(R.id.webViewMap);
         WebSettings settings = webViewMap.getSettings();

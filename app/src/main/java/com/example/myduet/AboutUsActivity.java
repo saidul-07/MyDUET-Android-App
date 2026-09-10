@@ -35,6 +35,8 @@ public class AboutUsActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         // Setup Toolbar
+        // Setup Toolbar & System Color
+        LocaleHelper.styleAppBar(this, binding.toolbarAboutUs, "#76C457", "#4A8C34");
         binding.toolbarAboutUs.setNavigationOnClickListener(v -> finish());
 
         // Dynamic Versioning
