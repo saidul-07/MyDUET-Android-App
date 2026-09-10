@@ -51,6 +51,7 @@ dependencies {
     implementation(libs.navigation.fragment.ktx)
     implementation(libs.navigation.ui.ktx)
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation("androidx.browser:browser:1.8.0")
 
     // Room Database
     implementation("androidx.room:room-runtime:2.6.1")

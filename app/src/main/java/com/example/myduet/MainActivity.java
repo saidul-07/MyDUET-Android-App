@@ -839,7 +839,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     static class CarouselAdapter extends androidx.recyclerview.widget.RecyclerView.Adapter<CarouselAdapter.ViewHolder> {
-        private final int[] images = {
+        private static final String SUPABASE_STORAGE_BASE = com.example.myduet.network.SupabaseConfig.SUPABASE_URL + "/storage/v1/object/public/myduet/";
+
+        private final String[] imageUrls = {
+            SUPABASE_STORAGE_BASE + "duet_gate.jpg",
+            SUPABASE_STORAGE_BASE + "duet_campus.jpg",
+            SUPABASE_STORAGE_BASE + "duet_towers.jpg"
+        };
+
+        private final int[] fallbackImages = {
             R.drawable.duet_gate,
             R.drawable.duet_campus,
             R.drawable.duet_towers
@@ -859,12 +867,18 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(@androidx.annotation.NonNull ViewHolder holder, int position) {
-            holder.imageView.setImageResource(images[position]);
+            com.bumptech.glide.Glide.with(holder.imageView.getContext())
+                .load(imageUrls[position])
+                .placeholder(fallbackImages[position])
+                .error(fallbackImages[position])
+                .diskCacheStrategy(com.bumptech.glide.load.engine.DiskCacheStrategy.ALL)
+                .centerCrop()
+                .into(holder.imageView);
         }
 
         @Override
         public int getItemCount() {
-            return images.length;
+            return imageUrls.length;
         }
 
         static class ViewHolder extends androidx.recyclerview.widget.RecyclerView.ViewHolder {

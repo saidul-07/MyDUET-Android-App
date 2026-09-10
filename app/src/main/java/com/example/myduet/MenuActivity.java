@@ -64,12 +64,11 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(new Intent(this, AboutUsActivity.class));
             } else if (title.equals(getString(R.string.menu_privacy))) {
                 showPrivacyPolicyDialog();
+                openPrivacyPolicy();
             } else if (title.equals(getString(R.string.menu_bug))) {
-                startActivity(new Intent(this, ReportBugActivity.class));
+                openBugReportForm();
             } else if (title.equals(getString(R.string.menu_update))) {
                 checkForUpdates();
-            } else if (title.equals(getString(R.string.menu_bug))) {
-                Toast.makeText(this, "Thank you for reporting. Our developers will look into this.", Toast.LENGTH_LONG).show();
             }
         });
         rvMenuServices.setAdapter(adapter);
@@ -78,6 +77,32 @@ public class MenuActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         toolbar.setNavigationOnClickListener(v -> finish());
         LocaleHelper.styleAppBar(this, toolbar, "#76C457", "#4A8C34");
+    }
+
+    private void openPrivacyPolicy() {
+        String url = "https://docs.google.com/document/d/1ECzGkQvucXJA4hRxxqs8suGLG3HTTamMdalLdY92O8I/edit?usp=sharing";
+        try {
+            androidx.browser.customtabs.CustomTabsIntent.Builder builder = new androidx.browser.customtabs.CustomTabsIntent.Builder();
+            builder.setShowTitle(true);
+            androidx.browser.customtabs.CustomTabsIntent customTabsIntent = builder.build();
+            customTabsIntent.launchUrl(this, android.net.Uri.parse(url));
+        } catch (Exception e) {
+            Intent intent = new Intent(Intent.ACTION_VIEW, android.net.Uri.parse(url));
+            startActivity(intent);
+        }
+    }
+
+    private void openBugReportForm() {
+        String url = "https://forms.gle/RpSCj1VT7ZSssPQb6";
+        try {
+            androidx.browser.customtabs.CustomTabsIntent.Builder builder = new androidx.browser.customtabs.CustomTabsIntent.Builder();
+            builder.setShowTitle(true);
+            androidx.browser.customtabs.CustomTabsIntent customTabsIntent = builder.build();
+            customTabsIntent.launchUrl(this, android.net.Uri.parse(url));
+        } catch (Exception e) {
+            Intent intent = new Intent(Intent.ACTION_VIEW, android.net.Uri.parse(url));
+            startActivity(intent);
+        }
     }
 
     private void openWebView(String title, String url) {
