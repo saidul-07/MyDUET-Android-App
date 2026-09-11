@@ -20,6 +20,8 @@ class WeeklyRoutineActivity : AppCompatActivity() {
     private lateinit var preferenceManager: PreferenceManager
     private val repository = RoutineRepository()
 
+    private var adapter = RoutineAdapter(ArrayList())
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityWeeklyRoutineBinding.inflate(layoutInflater)
@@ -30,6 +32,14 @@ class WeeklyRoutineActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
         binding.toolbar.setNavigationOnClickListener { finish() }
         LocaleHelper.styleAppBar(this, binding.toolbar, "#76C457", "#4A8C34")
+
+        binding.rvWeeklyRoutine.layoutManager = LinearLayoutManager(this)
+        binding.rvWeeklyRoutine.adapter = adapter
+
+        binding.swipeRefreshLayout.setColorSchemeResources(R.color.primary)
+        binding.swipeRefreshLayout.setOnRefreshListener {
+            loadRoutineForDay(getCurrentSelectedDay(), isSwipe = true)
+        }
 
         binding.chipGroupDays.setOnCheckedStateChangeListener { _, checkedIds ->
             if (checkedIds.isNotEmpty()) {
@@ -65,15 +75,38 @@ class WeeklyRoutineActivity : AppCompatActivity() {
         loadRoutineForDay(initialDay)
     }
 
-    private fun loadRoutineForDay(day: String) {
+    private fun getCurrentSelectedDay(): String {
+        return when (binding.chipGroupDays.checkedChipId) {
+            R.id.chipSunday -> "Sunday"
+            R.id.chipMonday -> "Monday"
+            R.id.chipTuesday -> "Tuesday"
+            R.id.chipWednesday -> "Wednesday"
+            R.id.chipThursday -> "Thursday"
+            else -> "Sunday"
+        }
+    }
+
+    private fun loadRoutineForDay(day: String, isSwipe: Boolean = false) {
         lifecycleScope.launch {
             val dept = preferenceManager.department.first() ?: "CSE"
             val year = preferenceManager.year.first() ?: "3rd Year"
             val section = preferenceManager.section.first() ?: "Section A"
 
+            // Step 1: Load instantly from local storage cache or bundled assets
             val routine = repository.getRoutine(this@WeeklyRoutineActivity, dept, year, section, day)
-            binding.rvWeeklyRoutine.layoutManager = LinearLayoutManager(this@WeeklyRoutineActivity)
-            binding.rvWeeklyRoutine.adapter = RoutineAdapter(routine)
+            adapter.updateData(routine)
+
+            // Step 2: Sync in background from Supabase Storage
+            repository.syncRoutineFromSupabase(this@WeeklyRoutineActivity, dept, year, section, day) { isUpdated, updatedRoutine ->
+                if (!isFinishing && !isDestroyed) {
+                    binding.swipeRefreshLayout.isRefreshing = false
+                    if (isUpdated || isSwipe) {
+                        if (getCurrentSelectedDay().equals(day, ignoreCase = true)) {
+                            adapter.updateData(updatedRoutine)
+                        }
+                    }
+                }
+            }
         }
     }
 }

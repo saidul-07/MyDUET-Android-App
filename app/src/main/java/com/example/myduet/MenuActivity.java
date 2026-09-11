@@ -42,7 +42,6 @@ public class MenuActivity extends AppCompatActivity {
         serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_privacy), R.drawable.ic_shield));
         serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_bug), R.drawable.ic_bug));
         serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_update), R.drawable.ic_update));
-        serviceItems.add(new MenuServiceAdapter.MenuServiceItem(getString(R.string.menu_bug), R.drawable.ic_bug));
 
         MenuServiceAdapter adapter = new MenuServiceAdapter(serviceItems, item -> {
             String title = item.title;
@@ -63,7 +62,6 @@ public class MenuActivity extends AppCompatActivity {
             } else if (title.equals(getString(R.string.menu_about))) {
                 startActivity(new Intent(this, AboutUsActivity.class));
             } else if (title.equals(getString(R.string.menu_privacy))) {
-                showPrivacyPolicyDialog();
                 openPrivacyPolicy();
             } else if (title.equals(getString(R.string.menu_bug))) {
                 openBugReportForm();

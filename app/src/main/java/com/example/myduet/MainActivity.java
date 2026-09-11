@@ -839,7 +839,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     static class CarouselAdapter extends androidx.recyclerview.widget.RecyclerView.Adapter<CarouselAdapter.ViewHolder> {
-        private static final String SUPABASE_STORAGE_BASE = com.example.myduet.network.SupabaseConfig.SUPABASE_URL + "/storage/v1/object/public/myduet/";
+        private static final String SUPABASE_STORAGE_BASE = com.example.myduet.network.SupabaseConfig.SUPABASE_URL + "/storage/v1/object/public/myduet/media/";
 
         private final String[] imageUrls = {
             SUPABASE_STORAGE_BASE + "duet_gate.jpg",

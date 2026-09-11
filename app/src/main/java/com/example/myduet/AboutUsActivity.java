@@ -56,7 +56,7 @@ public class AboutUsActivity extends AppCompatActivity {
         List<AboutMember> members = new ArrayList<>();
 
         // Supabase Storage bucket URL for profile photos (myduet bucket)
-        String supabaseStorageBase = SupabaseConfig.SUPABASE_URL + "/storage/v1/object/public/myduet/";
+        String supabaseStorageBase = SupabaseConfig.SUPABASE_URL + "/storage/v1/object/public/myduet/media/";
 
         // 2026 Team Header
         members.add(new AboutMember("2026"));
@@ -67,7 +67,7 @@ public class AboutUsActivity extends AppCompatActivity {
                 "Md Sayedul Islam",
                 "App Role: Backend developer",
                 "CSE 22 Series",
-                supabaseStorageBase + "sayedul_islam.jpg"
+                supabaseStorageBase + "sayedul_islam.jpg?v=2"
         ));
 
         // 2. Md Alamin
@@ -76,7 +76,7 @@ public class AboutUsActivity extends AppCompatActivity {
                 "Md Alamin",
                 "App Role: UI Designer",
                 "CSE 22 Series",
-                supabaseStorageBase + "alamin.jpg"
+                supabaseStorageBase + "alamin.jpg?v=2"
         ));
 
         // 3. Md Musabbir
@@ -85,7 +85,7 @@ public class AboutUsActivity extends AppCompatActivity {
                 "Md Musabbir",
                 "App Role: Data Entry Operator",
                 "CSE 22 Series",
-                supabaseStorageBase + "musabbir.jpg"
+                ""
         ));
 
         binding.rvAboutMembers.setLayoutManager(new LinearLayoutManager(this));

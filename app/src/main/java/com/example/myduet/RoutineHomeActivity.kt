@@ -57,6 +57,11 @@ class RoutineHomeActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
         binding.toolbar.setNavigationOnClickListener { finish() }
 
+        binding.swipeRefreshLayout.setColorSchemeResources(R.color.primary)
+        binding.swipeRefreshLayout.setOnRefreshListener {
+            loadRoutineForDay(getCurrentSelectedDay(), isSwipe = true)
+        }
+
         setupDaySelector()
         checkProfile()
 
@@ -169,7 +174,7 @@ class RoutineHomeActivity : AppCompatActivity() {
         }
     }
 
-    private fun loadRoutineForDay(day: String) {
+    private fun loadRoutineForDay(day: String, isSwipe: Boolean = false) {
         lifecycleScope.launch {
             val dept = preferenceManager.department.first() ?: "CSE"
             val year = preferenceManager.year.first() ?: "3rd Year"
@@ -196,9 +201,22 @@ class RoutineHomeActivity : AppCompatActivity() {
             val sdfDate = SimpleDateFormat("dd MMM yyyy", Locale.getDefault())
             binding.tvCurrentDate.text = sdfDate.format(calendar.time)
 
+            // Step 1: Instant load from local cache/asset
             val routine = repository.getRoutine(this@RoutineHomeActivity, dept, year, section, day)
             
             updateUI(routine, day)
+
+            // Step 2: Background sync from Supabase Storage
+            repository.syncRoutineFromSupabase(this@RoutineHomeActivity, dept, year, section, day) { isUpdated, updatedRoutine ->
+                if (!isFinishing && !isDestroyed) {
+                    binding.swipeRefreshLayout.isRefreshing = false
+                    if (isUpdated || isSwipe) {
+                        if (getCurrentSelectedDay().equals(day, ignoreCase = true)) {
+                            updateUI(updatedRoutine, day)
+                        }
+                    }
+                }
+            }
         }
     }
 

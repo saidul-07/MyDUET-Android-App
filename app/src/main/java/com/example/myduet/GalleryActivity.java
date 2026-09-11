@@ -39,7 +39,7 @@ public class GalleryActivity extends AppCompatActivity {
         });
 
         // Supabase Storage Public Base URL
-        String supabaseStorageBase = SupabaseConfig.SUPABASE_URL + "/storage/v1/object/public/myduet/";
+        String supabaseStorageBase = SupabaseConfig.SUPABASE_URL + "/storage/v1/object/public/myduet/media/";
 
         String imgUrl1 = supabaseStorageBase + "gallery_campus_1.jpg";
         String imgUrl2 = supabaseStorageBase + "gallery_campus_2.jpg";
