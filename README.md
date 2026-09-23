@@ -47,4 +47,8 @@ This is an **unofficial** application and is **not affiliated with or endorsed b
 Department of Computer Science and Engineering   
 Dhaka University of Engineering & Technology, Gazipur
 
+**Md Abdul Musabbir**  
+Department of Computer Science and Engineering   
+Dhaka University of Engineering & Technology, Gazipur
+
 ⭐ If you find this project useful, please consider giving it a star on GitHub.
